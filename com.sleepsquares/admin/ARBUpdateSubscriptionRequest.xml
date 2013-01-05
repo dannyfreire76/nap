@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ARBUpdateSubscriptionRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+    <merchantAuthentication>
+        <name>{merchant_acct[$_username]}</name>
+        <transactionKey>{merchant_acct[$_password]}</transactionKey>
+    </merchantAuthentication>
+    <refId>{request[$_order_number]}</refId>
+    <subscriptionId>{schedules[$_subscription_id]}</subscriptionId>
+    <subscription>
+        <name>{request[$_subscription_name]}</name>
+        <paymentSchedule>
+            <startDate>{request[$_start]}</startDate>
+            <totalOccurrences>{request[$_totalOccurrences]}</totalOccurrences>
+        </paymentSchedule>
+        <amount>{receipts[$_total]}</amount>
+        <payment>
+            <creditCard>
+                <cardNumber>{request[$_cc_num]}</cardNumber>
+                <expirationDate>{request[$_cc_exp_y]}-{request[$_cc_exp_m]}-</expirationDate>
+            </creditCard>
+        </payment>
+        <billTo>
+            <firstName>{members[$_first_name]}</firstName>
+            <lastName>{members[$_last_name]}</lastName>
+            <address>{members[$_bill_address1]} {members[$_bill_address2]}</address>
+            <city>{members[$_bill_city]}</city>
+            <state>{members[$_bill_state]}</state>
+            <zip>{members[$_bill_zip]}</zip>
+            <country>{members[$_bill_country]}</country>
+        </billTo>
+        <shipTo>
+            <firstName>{members[$_first_name]}</firstName>
+            <lastName>{members[$_last_name]}</lastName>
+            <address>{members[$_ship_address1]} {members[$_ship_address2]}</address>
+            <city>{members[$_ship_city]}</city>
+            <state>{members[$_ship_state]}</state>
+            <zip>{members[$_ship_zip]}</zip>
+            <country>{members[$_ship_country]}</country>
+        </shipTo>
+    </subscription>
+</ARBUpdateSubscriptionRequest>

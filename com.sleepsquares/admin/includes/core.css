@@ -1,0 +1,133 @@
+/*	BME WMS
+	Page: Core StyleSheet
+	Path/File: /includes/core.css
+	Version: 1.8
+	Build: 1801
+	Date: 01-31-2007
+*/
+
+body {
+	padding: 0 0px;
+	font: normal 12px "Lucida Grande", "Trebuchet MS", Helvetica, Verdana, Arial;
+	}
+	
+p { margin: 10px 0; }
+	
+.sr {
+	position: absolute;
+	left: -9999em;
+	top: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	}
+	
+/* MAIN TABLE */
+
+.maintable {
+font-size: inherit;
+line-height: 1.6em;
+border-bottom: 1px solid #aaa;
+border-collapse: collapse;
+}
+
+.maintable th, .maintable td { padding: 0 .3em; }
+
+.maintable th {
+color: #222;
+line-height: 1.8em;
+background-color: #d5dae0;
+border: 1px solid #222;
+}
+
+.maintable th a { color: #222; }
+
+.maintable tr.d { background-color: #f0f1f2; }
+
+.maintable tr:hover, .maintable tr.hovered {
+background-color: #d0d7e2;
+}
+
+.maintable .n { font-weight: bold; }
+
+.maintable td {
+border-left: 1px solid #aaa;
+border-right: 1px solid #aaa;
+}
+
+.maintable td a {
+color: #000;
+text-decoration: none;
+}
+
+.maintable td a:hover { text-decoration: underline; }
+
+.maintable img {
+float: left;
+margin: .45em .3em 0 0;
+}
+
+.maintable img.ir { float: right; }
+
+.maintablenone {
+font-size: inherit;
+line-height: 0em;
+border-bottom: 0px solid #aaa;
+border-collapse: collapse;
+}
+
+.maintablenone th, .maintablenone td { padding: 0 0em; }
+
+.maintablenone th {
+color: none;
+line-height: 0em;
+background-color: none;
+border: 0px solid #222;
+}
+
+.maintablenone td {
+border-left: 0px solid #aaa;
+border-right: 0px solid #aaa;
+}
+
+.maintablenone td a {
+color: none;
+text-decoration: none;
+}
+
+.maintablenone td a:hover { text-decoration: none; }
+
+.style1 {
+	FONT: 12px "Times New Roman", Times, serif; TEXT-TRANSFORM: none; COLOR: #000000
+}
+.style2 {
+	FONT: 14px Arial; TEXT-TRANSFORM: none; COLOR: #000000
+}
+.style3 {
+	FONT: bold 14px Arial; TEXT-TRANSFORM: none; COLOR: #000000
+}
+.style4 {
+	FONT: bold 18px Arial; TEXT-TRANSFORM: none; COLOR: #000000
+}
+.style17 {
+	BORDER-RIGHT: thin solid; BORDER-TOP: thin solid; BORDER-LEFT: thin solid; BORDER-BOTTOM: thin solid; TOP: 0px; HEIGHT: 0px
+}
+
+P.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"
+}
+.style13 {
+	COLOR: #0099ff
+}
+
+IMG.article-left {
+	float: left;
+	margin-right: 2em;
+	margin-bottom: 2em;
+}
+
+IMG.article-right {
+	float: right;
+	margin-left: 2em;
+	margin-bottom: 2em;
+}

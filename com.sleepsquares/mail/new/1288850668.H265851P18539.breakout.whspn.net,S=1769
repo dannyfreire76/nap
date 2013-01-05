@@ -1,0 +1,42 @@
+Return-path: <>
+Envelope-to: sleepsqu@breakout.whspn.net
+Delivery-date: Thu, 04 Nov 2010 00:04:28 -0600
+Received: from mailnull by breakout.whspn.net with local (Exim 4.69)
+	id 1PDsw0-0004ox-8C
+	for sleepsqu@breakout.whspn.net; Thu, 04 Nov 2010 00:04:28 -0600
+X-Failed-Recipients: yjpdgz@wevofm.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@breakout.whspn.net>
+To: sleepsqu@breakout.whspn.net
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1PDsw0-0004ox-8C@breakout.whspn.net>
+Date: Thu, 04 Nov 2010 00:04:28 -0600
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  yjpdgz@wevofm.com
+    The mail server could not deliver mail to yjpdgz@wevofm.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <sleepsqu@breakout.whspn.net>
+Received: from sleepsqu by breakout.whspn.net with local (Exim 4.69)
+	(envelope-from <sleepsqu@breakout.whspn.net>)
+	id 1PDsw0-0004ov-5Q
+	for yjpdgz@wevofm.com; Thu, 04 Nov 2010 00:04:28 -0600
+To: yjpdgz@wevofm.com
+Subject: Confirming Your Newsletter Subscription
+X-PHP-Script: sleepsquares.com/newsletters/index.php for 195.89.37.91
+FROM: info@sleepsquares.com
+Message-Id: <E1PDsw0-0004ov-5Q@breakout.whspn.net>
+Date: Thu, 04 Nov 2010 00:04:28 -0600
+
+Thank you for subscribing to our email newsletter. We appreciate your interest. Please simply click the link below to confirm your subscription to our newsletter.
+
+http://sleepsquares.com/newsletters/index2.php?confirm=1&member_id=8
+
+
+

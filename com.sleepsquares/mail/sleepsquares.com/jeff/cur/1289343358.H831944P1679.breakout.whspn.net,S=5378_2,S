@@ -1,0 +1,64 @@
+Return-path: <D-2-1735916-97942981-2-262-US1-E93AAA80@xmr3.com>
+Envelope-to: jeff@sleepsquares.com
+Delivery-date: Tue, 09 Nov 2010 15:55:58 -0700
+Received: from memailout23.messagereach.com ([205.183.255.209])
+	by breakout.whspn.net with esmtp (Exim 4.69)
+	(envelope-from <D-2-1735916-97942981-2-262-US1-E93AAA80@xmr3.com>)
+	id 1PFx6c-0000QN-Mv
+	for jeff@sleepsquares.com; Tue, 09 Nov 2010 15:55:58 -0700
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=dkxmr3; d=xmr3.com;
+	h=DKIM-Signature:Received:Date:To:From:Subject:Mime-Version:Message-Id:Content-Type:Content-Transfer-Encoding:X-xsi-job:X-xsi-user-id:X-xsi-domain;
+	b=op/Ce7v0bmXBjgjoKiKzZWYqiBD/2QF4C0mwMDiBpQxRGC7PdVVRo2M+hDefIoBP
+	ONV4M5Dy8oZaFxch+kOHtqe2akybQDRNkSw3w/Id79Ci+T1o4IWs0lKBxAWi75zI
+	IIo7HxYUnNfl6Z3Y+2zYK983qwNOT6owEFycY2tF3VU=
+DKIM-Signature: v=1; a=rsa-sha1; d=xmr3.com; s=xmr3; c=relaxed/simple;
+	q=dns/txt; i=@xmr3.com; t=1289343348;
+	h=From:Reply-To:Subject:To:Message-Id;
+	bh=jdBvflyByl8qiEeA114aEIO/Dyc=;
+	b=rgDbhERUQEk4zPQ5WA6+862oD5ehohZ7SFq9iuStUOA9GLuNOJl6cNoQkAAcVNTZ
+	gPBhWcfZEY5Jp5WytahnLP2ZEfOURQAuV68cHwsCAnUJlTk3pmyrAbEVB+pxWuvS
+	UA6g+kjriYRS1AqiNEQTDwugKrN3dnnSPlJevF87JpA=;
+Received: from [137.236.214.182] ([137.236.214.182:35187] helo=vmmet3outr5.messagereach.com)
+	by mrmailout2.xpedite.com (envelope-from <D-2-1735916-97942981-2-262-US1-E93AAA80@xmr3.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ESMTP
+	id 23/18-05337-471D9DC4; Tue, 09 Nov 2010 17:55:48 -0500
+Date: Tue, 09 Nov 2010 17:55:47 -0500
+To: jeff@sleepsquares.com
+From: IHMRS <IHMRS@xmr3.com>
+Subject: Update your listing for the International Hotel, Motel + Restaurant
+ Show Online Buyers' Guide
+Mime-Version: 1.0 
+Message-Id: <I-5-1735916-97942981-2-262-US1-DFFC08FC@xmr3.com>
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-xsi-job: 97942981 
+X-xsi-user-id: ihmrs 
+X-xsi-domain: usme 
+
+<!DOCTYPE -//w3c//dtd 4.0 html public transitional//en> <HTML><HEAD><TITLE>Hotel Motel Buyers Guide DC Blast</TITLE> <META content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+ <meta content="messageREACH intelliSEND Wizard 3.4.1.20" name=GENERATOR>
+ <meta content="intelliSEND_Wizard.Editor.Document" name=ProgId>
+</HEAD> <BODY style="FONT-FAMILY: ; COLOR: #000000; FONT-SIZE: 8pt"> 
+<P align="center"><FONT face="Arial, Helvetica, sans-serif"><!--messageREACH-object-start--><IMG alt="Hotel Motel Buyers Guide DC Blast" height="175" src="http://ihmrs-365.ascendeventmedia.com/assets/hotelmotel/images/ihmrs_Process376_logo.jpg" width="250" mreach_id="picture1" text_body_alt="Hotel Motel Buyers Guide DC Blast"><!--messageREACH-object-end--></FONT></P> 
+<P><FONT face="Arial, Helvetica, sans-serif">The International Hotel, Motel + Restaurant Show online Buyers' Guide will connect your company and new products with decision makers while they research companies before, during and after the show.<BR>
+
+<P><FONT face="Arial, Helvetica, sans-serif">Though it's too late to be included in the print directory, you have the opportunity to update your listing for the online Buyers' Guide anytime throughout the year. Your listing is <STRONG>COMPLIMENTARY</STRONG>, but only <STRONG>YOU</STRONG> can ensure your listing is included and correct. Simply:</FONT></P> <UL type="disc"> 
+<LI><FONT face="Arial, Helvetica, sans-serif"><STRONG>GO TO:</STRONG> <!--messageREACH-object-start--><A href="http://pull.xmr3.com/p/262-1243/55517137/clickto1_hGuide.aspx-p=32-Static=1_742.html" mreach_id="clickto1" text_body_alt>http://ihmrs-365.ascendeventmedia.com/ExhGuide.aspx?p=32&amp;Static=1#742</A><!--messageREACH-object-end--></FONT> </LI></UL> <UL type="disc"> 
+<LI><FONT face="Arial, Helvetica, sans-serif"><STRONG>INPUT</STRONG> your personalized login: User ID HM96351 and Password CDHD4R</FONT> </LI></UL> <UL type="disc"> 
+<LI><FONT face="Arial, Helvetica, sans-serif"><STRONG>VERIFY</STRONG> or complete your information.</FONT> </LI></UL> <UL type="disc"> 
+<LI><FONT face="Arial, Helvetica, sans-serif"><STRONG>APPROVE</STRONG> the listing.</FONT> </LI></UL> <UL type="disc"> 
+<LI><FONT face="Arial, Helvetica, sans-serif"><STRONG>PRINT</STRONG> a copy for reference.</FONT> </LI></UL> 
+<P><FONT face="Arial, Helvetica, sans-serif">Once you have approved your listing, the process is complete and you will not be contacted again.</FONT></P> 
+<P><FONT face="Arial, Helvetica, sans-serif">Have questions regarding the process? Call 913-344-1341 or email <!--messageREACH-object-start--><A href="mailto:listing_support@ascendmedia.com?subject=International Hotel, Motel + Restaurant Show Listing Support" mreach_id="mailto2" text_body_alt>International Hotel, Motel + Restaurant Show Listing</A><!--messageREACH-object-end-->.</FONT></P><FONT face="Arial, Helvetica, sans-serif"><BR>
+<BR>
+</FONT></FONT><br><br><font face="arial">
+Ascend Integrated Media, 7015 College Blvd., Suite 600, Overland Park, KS 66211
+<br><br>
+<hr>
+If you would prefer not to receive further messages from this sender, please
+click on the following Internet link and confirm your request:<br>
+<a href=http://www.xmr3.com/rm/1735916-97942981-2-262-US1-AB75/jeff@sleepsquares.com/HCS8B6F>Click here for www link</a> <br>
+You will receive one additional e-mail message confirming your removal.
+<img src="http://pull.xmr3.com/p/CG-1735916-97942981-2-262-US1-AB75/0/" width="1" height="1" border="0"></BODY></HTML> 
+

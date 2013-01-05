@@ -1,0 +1,34 @@
+Return-path: <nancymurray2525@yahoo.com>
+Envelope-to: nancy@sleepsquares.com
+Delivery-date: Fri, 04 Feb 2011 08:59:37 -0700
+Received: from web80201.mail.mud.yahoo.com ([68.142.201.106])
+	by breakout.whspn.net with smtp (Exim 4.69)
+	(envelope-from <nancymurray2525@yahoo.com>)
+	id 1PlO4P-00061n-C0
+	for nancy@sleepsquares.com; Fri, 04 Feb 2011 08:59:37 -0700
+Received: (qmail 98009 invoked by uid 60001); 4 Feb 2011 15:59:34 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1296835174; bh=g3zLYH4xKxcPrHOD18z9YfpQcnk/GaJedfustWU5uGs=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type; b=2/XYc5lcy8gJkTwdDxE/qsOwxzJgHDL8Lq99w4uOMoWEwSKUpUBET0arOyWhXUlkeOQWVpcRntSv2v34wuerpXu/izH/WUqBHJSa9N/5MBt+tvFl00dMY0WS3plAMM/BRRVhtukBpxL3/rC0qRP6/xp442ojkuj8JsMkbXOd6/k=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type;
+  b=fC12s3t1p28BEwaTjWDluPmtj+rMBHtcm73BSp9jGbXTco0bpo1Y9YI8QjUT9zznXREN0axp5hYdvq4rPJXqd2KnVyGqWvzdusZtIf9JJGH9+a3Pj4dCiSeyvBVf2kWqllHkMIuig3nhmECjNwRo12VXKi06ASqI/49niwCjjbs=;
+Message-ID: <984981.96647.qm@web80201.mail.mud.yahoo.com>
+X-YMail-OSG: A1bwXwYVM1mPCAcvy9vIFup4wz95PW68mrvAaTlglviKMy0
+ xXIoXupH.iR2KJRlupEfxSTQRt5Nu1iV7jatHqFwWkTuZturPpWpq35c7DiS
+ j6hypBqrBToiMC9mZZuh214WFUVxkWdMIih10BXk4G.BhJkDePrDdkzElij7
+ 8IUahAWrPkr1M.nKO4XTeTrPOQaXjETF3D_AwusJPWFUUBtaIUsf8XUH4wo2
+ XrECJBJharIJZshq5M_MocxBOSGfCKiRGcUVdEMqoWKxsoO5ZcusRYTP1Pnn
+ bMX5PoZWVMmhr
+Received: from [173.45.181.106] by web80201.mail.mud.yahoo.com via HTTP; Fri, 04 Feb 2011 07:59:33 PST
+X-Mailer: YahooMailClassic/11.4.20 YahooMailWebService/0.8.107.285259
+Date: Fri, 4 Feb 2011 07:59:33 -0800 (PST)
+From: Nancy Murray <nancymurray2525@yahoo.com>
+Subject: test
+To: nancy@sleepsquares.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+test
+
+
+      

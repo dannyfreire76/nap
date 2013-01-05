@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ARBCreateSubscriptionResponse xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+    <refId>{order_number}</refId>
+    <messages>
+        <resultCode>{resultCode}</resultCode>
+        <message>
+            <code>{code}</code>
+            <text>{text}</text>
+        </message>
+    </messages>
+    <subscriptionId>{schedules['subscription_id']}</subscriptionId>
+</ARBCreateSubscriptionResponse>

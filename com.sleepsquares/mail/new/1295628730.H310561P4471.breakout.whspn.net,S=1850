@@ -1,0 +1,52 @@
+Return-path: <>
+Envelope-to: sleepsqu@breakout.whspn.net
+Delivery-date: Fri, 21 Jan 2011 09:52:10 -0700
+Received: from mailnull by breakout.whspn.net with local (Exim 4.69)
+	id 1PgKDa-0001A4-9d
+	for sleepsqu@breakout.whspn.net; Fri, 21 Jan 2011 09:52:10 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@breakout.whspn.net>
+To: sleepsqu@breakout.whspn.net
+Subject: Mail failure - no recipient addresses
+Message-Id: <E1PgKDa-0001A4-9d@breakout.whspn.net>
+Date: Fri, 21 Jan 2011 09:52:10 -0700
+
+A message that you sent contained no recipient addresses, and therefore no
+delivery could be attempted.
+
+------ This is a copy of your message, including all the headers. ------
+
+To: 
+Subject: Your SleepSquares.com Wholesale Catalog Order
+X-PHP-Script: sleepsquares.com/admin/retailers_admin11.php for 173.45.181.106
+FROM: info@sleepsquares.com
+Message-Id: <E1PgKDa-0001A3-9N@breakout.whspn.net>
+Date: Fri, 21 Jan 2011 09:52:10 -0700
+
+Dear Country Sun - Attn: Attn: Richard,
+
+Thank you for your SleepSquares.com Wholesale order. Your Order Confirmation Number and Order Number is 5000011.  Please keep a copy of this email for your records. If you have any questions please call us toll free at 1-888-725-9664.
+
+Bill To:
+Country Sun - Attn: Attn: Richard
+440 California Ave.
+Palo Alto, CA
+94306, US
+
+Ship To:
+Country Sun - Attn: Attn: Richard
+440 California Ave.
+Palo Alto, CA
+94306, US
+
+Unit price(s) reflect a 15% discount
+Carton / Sleep Squares Original - 7 Piece Box SKU: 0111                     1 x $30.09                     Subtotal: $30.09
+Carton / Sleep Squares Raspberry - 7 Piece Box SKU: 0112                     1 x $30.09                     Subtotal: $30.09
+Sub-Total: $60.18
+Shipping: $0.00
+Total: $60.18
+
+Note: All charges will appear as Upstate Dream Institute, LLC, the company that produces Sleep Squares.
+
+
+

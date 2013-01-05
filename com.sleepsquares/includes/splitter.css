@@ -1,0 +1,64 @@
+
+#ui-splitter {
+	border: 1px solid #666666;
+	/* No padding allowed */
+	margin-bottom:1px;
+}
+/*
+ Top element of the splitter. Use pixel units for the
+ min-height and max-height; the splitter plugin parses them to
+ determine the splitter movement limits. Set the height to
+ the desired initial height of the element; the plugin changes
+ the height of this element dynamically.
+ */
+#grid-container {
+	background: #fff;
+	overflow: auto;
+    height: 300px;
+
+	/* Initial/min/max height for this pane */
+	min-height: 25px;
+
+	/* No margin or border allowed */
+}
+/*
+Bottom element of the splitter; the plugin changes the top
+position and height of this element dynamically.
+*/
+#form-container {
+
+    text-align: left;
+	background: #fff;
+	overflow: auto;
+    height: 300px;
+
+	/* Initial/min/max height for this pane */
+    min-height: 25px;
+
+	/* No margin or border allowed */
+}
+
+#ui-splitter .hsplitbar 
+{
+	border-top: solid 1px #666666;
+	border-bottom: solid 1px #666666;
+	height: 4px;
+	background: silver url(../images/splitter/hgrabber.gif) no-repeat center;
+	/* No margin, border, or padding allowed */
+}
+#ui-splitter .hsplitbar.active, #ui-splitter .hsplitbar:hover {
+	background: #666 url(../images/splitter/hgrabber.gif) no-repeat center;
+}
+
+#ui-splitter .vsplitbar {
+	width: 2px;
+	cursor: e-resize;	/* in case others aren't supported */
+	cursor: col-resize;
+	background: silver url(../images/splitter/vgrabber2-active.gif) no-repeat center;
+}
+#ui-splitter .vsplitbar.active, #ui-splitter .vsplitbar:hover {
+	background: silver url(../images/splitter/vgrabber2-normal.gif) no-repeat center;
+}
+
+
+

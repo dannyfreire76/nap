@@ -1,0 +1,71 @@
+/* DREAM BOOST STYLES -- DreamBoost.com */
+
+/* GLOBAL REDEFINE TAGS */
+html, body { font: 100% Verdana, Arial, Helvetica, sans-serif; background: #c3c5ee; margin:0; padding:0; text-align:center; color: #2d285e; }
+td, p, li { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; }
+h2 { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:18px; line-height:24px; color:#020935; }
+h3 { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:16px; line-height:21px; color:#2d285e; }
+h4 { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; line-height:18px; color:#2d285e; }
+a { color:#2d285e; }
+a:hover { color:#7a6fe5; text-decoration:none; }
+
+/* LAYOUT */
+#container { width: 970px; background: #ffffff; margin: 0 auto; border-left: 2px solid #07196b; border-right: 2px solid #07196b; text-align: left; }
+#header { height: 180px; background: #ffffff; padding: 0; background: url(/staging/images/bg/header.jpg) no-repeat; }
+#header h1 { margin: 0; padding: 9px 0; }
+#sidebar { float: left; width: 190px; background: #ffffff; padding:9px 0 18px 0; margin:0 6px 18px 6px; border: 1px solid #08061b; }
+#sidebar h3, #sidebar p { margin: 0 9px; }
+#sidebar h6 { background:url(/staging/images/bg/sidebar_titlebg.png) no-repeat; width:180px; height:21px; font:Verdana, Arial, Helvetica, sans-serif 13px bold; color:#c3c5ee; padding:6px 0 0 6px; margin:0; }
+#mainContent { margin: 0 9px 0 210px; }
+#footer { padding: 0 9px; background:#3d1202; height: 110px; background: url(/staging/images/bg/footer.jpg) no-repeat; vertical-align:bottom; color:#f2f1f6; }
+#footer a { margin: 0; padding: 9px 0; font-size:11px ; font-weight:bold; color:#f2f1f6; text-decoration:none; }
+#footer a:hover { color:#ce8d57; text-decoration:underline; }
+
+#logo { margin: 0; padding: 0; left:18px; top:0px; }
+#tagline { margin: 0px; padding: 3px; left:6px; top:0px; }
+#spcloffer { margin: 6px; padding: 3px; width: 225px; left:720px; position:relative; text-align:right; border: 0px dashed #07196b; }
+
+/* NAV MENU BOX TOP-RIGHT */
+#navMenu {  width: 180px; border-bottom: 1px solid #7a6fe5; padding: 0; margin-bottom: 6px; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #f2f1f6; color: #32375c; text-align:left; font-weight:bold; }
+#navMenu  ul { list-style: none; margin: 0; padding: 0; border: none; font-size:11px; }
+#navMenu  li { border-bottom: 1px solid #7a6fe5; margin: 0; }
+#navMenu li a { display: block; padding: 4px 4px 4px 6px; border-left: 2px solid #7a6fe5; border-right: 0px solid #7a6fe5; background-color: #f2f1f6; color: #32375c; text-decoration: none; width: 100%;  font-size:11px;}
+html>body #navMenu li a { width: auto; }
+#navMenu li a:hover { padding-left:8px ; border-left: 4px solid #4b517f; border-right: 0px solid #4b517f; background-color: #07196b; color: #f2f1f6; }
+
+/* STYLES */
+#sidebar a { font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#08061b; font-weight:bold; }
+#sidebar a:hover { color:#373ca6; text-decoration:none }
+#sidebar ul { list-style: none; margin: 0 0 18px 0; padding: 0; border: none; }
+#sidebar li { list-style-image:url(/staging/images/bg/bullet_nav.png); margin:0px 0px 6px 27px; padding:0; }
+#sidebar li:hover { list-style-image:url(/staging/images/bg/bullet_nav-over.png); }
+.categoryName { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:16px; line-height:18px; color:#2d285e; }
+.articleName { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#2d285e; font-weight:bold; }
+.article { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; color:#2d285e; }
+.style2 { font-family: Verdana, Arial; font-size: 13px; font-weight: normal; color: #000040; }
+.style3 { font-family: Verdana, Arial; font-size: 13px; font-weight: normal; color: #000080; }
+.style4 { font-size:18px; color: #000080; font-weight: normal; }
+hr { border: 0px #f2f1f6; border-style: none none solid; }
+.hrBlue { color: #32375c; background-color: #32375c; }
+.hrGold { color: #958f45; background-color: #958f45; }
+
+.copy { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#f2f1f6; text-decoration:none; padding: 9px; }
+.terms { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#f2f1f6; text-decoration:none; padding: 9px; }
+.boxContent { margin:9px 0; padding:3px 12px; background:#ffffff; border:#2d285d 2px solid; border-radius: 12px; -moz-border-radius: 12px; line-height:18px; }
+.boxItem { margin:9px 18px; padding:3px 12px; background:#e4e4f6 url(/staging/images/bg/div_item.jpg); border:#2d285d 2px solid; border-radius: 12px; -moz-border-radius: 12px; line-height:18px; }
+.titleItem{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:18px; color:#2d285e; margin:0; padding:0; }
+.txtGold { color:#958f45; }
+.txtMagenta { color:#a90c7d; }
+
+.fltrt { float: right; margin-left: 8px; }
+.fltlft { float: left; margin-right: 8px; }
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px; }
+
+.testimonials { width:90%; margin:9px; padding:9px 18px; border-radius: 18px; -moz-border-radius: 18px; }
+.testimonial { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#2d285e; text-decoration:none; padding: 9px 9px; text-indent:18px; border-top: 1px dashed #c3c5ee; }
+#supplement-table{ background-color:white; border-collapse: collapse; border: 2px solid #958f45;}
+#supplement-table td{font-size:10px;vertical-align:top; border-bottom: 1px solid #958f45; padding: 2px; }
+#product-table td { vertical-align: top; padding: 9px 6px; border-top: 2px dotted #32375c; }
+
+img.article-left { float:left; margin-right:15px; }
+img.article-right { float:right; margin-left:15px; }

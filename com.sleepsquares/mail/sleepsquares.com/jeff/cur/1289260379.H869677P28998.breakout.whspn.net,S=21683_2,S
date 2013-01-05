@@ -1,0 +1,277 @@
+Return-path: <andy.piness@cision.com>
+Envelope-to: jeff@sleepsquares.com
+Delivery-date: Mon, 08 Nov 2010 16:52:59 -0700
+Received: from multivision2.multivisioninc.com ([69.31.4.144] helo=multivision2.int.dvlabs.com)
+	by breakout.whspn.net with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69)
+	(envelope-from <andy.piness@cision.com>)
+	id 1PFbWF-0007XF-Ky
+	for jeff@sleepsquares.com; Mon, 08 Nov 2010 16:52:59 -0700
+Received: from multivision2.int.dvlabs.com (multivision2.int.dvlabs.com [127.0.0.1])
+	by multivision2.int.dvlabs.com (8.13.1/8.13.1) with ESMTP id oA8NqlD8023299
+	for <jeff@sleepsquares.com>; Mon, 8 Nov 2010 18:52:47 -0500
+Date: Mon, 8 Nov 2010 18:52:47 -0500
+Message-ID: <4047440.1289260367237.JavaMail.root@multivision2.int.dvlabs.com>
+From: andy.piness@cision.com
+To: jeff@sleepsquares.com
+Subject: Your digital clip from Cision is ready!
+MIME-Version: 1.0
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+<title>Cision</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+<!--
+body{font-size: 11px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;scrollbar-base-color: #3A73CC;scrollbar-face-color: default;scrollbar-track-color: default;scrollbar-arrow-color: #F2F5F8;scrollbar-3dlight-color: default;scrollbar-darkshadow-color: default;scrollbar-highlight-color: default;scrollbar-shadow-color: default;}
+td   { font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.account-nav          { font-size: 10px; color: #78797B; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:link.account-nav    { font-size: 10px; color: #78797B; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:visited.account-nav { font-size: 10px; color: #78797B; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:hover.account-nav   { font-size: 10px; color: #333399; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:active.account-nav  { font-size: 10px; color: #78797B; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+.list-titles { font-size: 11px; color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.paginationDisabled  { font-size: 11px; color: #CCCCCC; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+.pagination          { font-size: 11px; color: #333399; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:link.pagination    { font-size: 11px; color: #333399; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:visited.pagination { font-size: 11px; color: #333399; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:hover.pagination   { font-size: 11px; color: #333399; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: underline; }
+a:active.pagination  { font-size: 11px; color: #333399; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+.top-links          { font-size: 9px; color: #999999; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:link.top-links    { font-size: 9px; color: #999999; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:visited.top-links { font-size: 9px; color: #999999; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:hover.top-links   { font-size: 9px; color: #FF9933; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: underline; }
+a:active.top-links  { font-size: 9px; color: #999999; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+.white-links          { font-size: 9px; color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:link.white-links    { font-size: 9px; color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:visited.white-links { font-size: 9px; color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:hover.white-links   { font-size: 9px; color: #FF9933; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: underline; }
+a:active.white-links  { font-size: 9px; color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+.summary { font-size: 9px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.clip-subject      { font-size: 12px; color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.clip-group-titles { font-size: 11px; color: #333399; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.clip-meta-title   { font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; }
+.clip-meta-data    { font-size: 10px; color: #666666; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; }
+.metadata-link            { font-size: 9px; color: #FF9933; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:link.metadata-link      { font-size: 9px; color: #FF9933; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:visited.metadata-link   { font-size: 9px; color: #FF9933; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+a:hover.metadata-link     { font-size: 9px; color: #FF9933; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: underline; }
+a:active.metadata-link    { font-size: 9px; color: #FF9933; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
+.large-form-titles { font-size: 14px; color: #333399; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.large-form-disabled { font-size: 14px; color: #CCCCCC; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.verdana-8  { font-size: 8px;  color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.verdana-9  { font-size: 9px;  color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.verdana-10 { font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.verdana-11 { font-size: 11px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.verdana-12 { font-size: 12px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.verdana-18 { font-size: 18px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.red { color: #CC0000; }
+.orange { color: #FF9933; }
+.gray { color: #666666; }
+-->
+</style>
+</head>
+<body bgcolor="#F2F5F8" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<center>
+  <table width="950" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="5" align="right"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="6"></td>
+          </tr>
+          <tr>
+            <td colspan="5" align="right"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="6"></td>
+          </tr>
+          <tr>
+            <td width="31" height="6"><img src="http://showroom.multivisioninc.com/images/frame/shim1.gif" width="31" height="6"></td>
+            <td width="200" height="6"><img src="http://showroom.multivisioninc.com/images/frame/shim2.gif" width="200" height="6"></td>
+            <td width="1" height="6"><img src="http://showroom.multivisioninc.com/images/frame/shim3.gif" width="1" height="6"></td>
+            <td><img src="http://showroom.multivisioninc.com/images/frame/shim4.gif" width="685" height="6"></td>
+            <td width="33" height="6"><img src="http://showroom.multivisioninc.com/images/frame/shim5.gif" width="33" height="6"></td>
+          </tr>
+          <tr align="left" valign="bottom">
+            <td width="31" height="52"><img src="http://showroom.multivisioninc.com/images/frame/top_left_1.gif" width="31" height="52"></td>
+            <td width="200" height="52" background="http://showroom.multivisioninc.com/images/frame/top_bg.gif"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="1"></td>
+            <td background="http://showroom.multivisioninc.com/images/frame/top_bg.gif"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="1"></td>
+            <td align="center" valign="bottom" background="http://showroom.multivisioninc.com/images/frame/top_bg.gif">&nbsp;</td>
+            <td width="33" height="52"><img src="http://showroom.multivisioninc.com/images/frame/top_right_1.gif" width="33" height="52"></td>
+          </tr>
+          <tr>
+            <td width="31" height="23"><img src="http://showroom.multivisioninc.com/images/frame/top_left_2.gif" width="31" height="23"></td>
+            <td width="200" height="23" background="http://showroom.multivisioninc.com/images/frame/top_bg_2.gif"><img src="http://showroom.multivisioninc.com/images/frame/top_left_3.gif" width="17" height="23"></td>
+            <td width="1" height="23"><img src="http://showroom.multivisioninc.com/images/frame/shim6.gif" width="1" height="23"></td>
+            <td align="right" background="http://showroom.multivisioninc.com/images/frame/top_bg_3.gif"><img src="http://showroom.multivisioninc.com/images/frame/top_right_3.gif" width="17" height="23"></td>
+            <td width="33" height="23"><img src="http://showroom.multivisioninc.com/images/frame/top_right_2.gif" width="33" height="23"></td>
+          </tr>
+          <tr>
+            <td width="31" background="http://showroom.multivisioninc.com/images/frame/left_bg.gif"><img src="http://showroom.multivisioninc.com/images/frame/left_bg.gif" width="31" height="20"></td>
+            <td width="200" align="center" valign="top" bgcolor="#F2F5F8"> <table width="200" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="center" bgcolor="#FFFFFF"><img src="http://showroom.multivisioninc.com/logos/clientside-cision.gif"></td>
+                </tr>
+                <tr>
+                  <td height="17" bgcolor="#FFFFFF"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="17"></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#E5E5E5"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="1"></td>
+                </tr>
+                <tr>
+                  <td height="10" bgcolor="#FFFFFF"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="10"></td>
+                </tr>
+                <tr>
+                  <td align="center" bgcolor="#FFFFFF"><table width="90%"  border="0">
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td background="http://showroom.multivisioninc.com/images/frame/fade.gif" height="66"><img src="http://showroom.multivisioninc.com/images/frame/fade.gif"></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              </table></td>
+            <td width="1" bgcolor="#CCCCCC"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td background="http://showroom.multivisioninc.com/images/frame/title_bg.gif"><img src="http://showroom.multivisioninc.com/images/titles/account_info.gif" width="685" height="45"></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center"><table width="650" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="10"><img src="http://showroom.multivisioninc.com/images/bluebox/topleft.gif" width="10" height="10"></td>
+                        <td width="630"><img src="http://showroom.multivisioninc.com/images/bluebox/shim650.gif" width="630" height="10"></td>
+                        <td width="10"><img src="http://showroom.multivisioninc.com/images/bluebox/topright.gif" width="10" height="10"></td>
+                      </tr>
+                      <tr bgcolor="#F1F7FD">
+                        <td width="10"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="1"></td>
+                        <td width="630"><table width="630" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="579" valign="top" class="verdana-18"><b><span class="orange">Your order is ready </span></b></td>
+                              <td width="51" rowspan="3">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td valign="top"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="7"></td>
+                            </tr>
+                            <tr>
+                              <td valign="top">Your digital clip is ready for streaming, downloading or sharing.</td>
+                            </tr>
+                          </table></td>
+                        <td width="10"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="1"></td>
+                      </tr>
+                      <tr>
+                        <td width="10"><img src="http://showroom.multivisioninc.com/images/bluebox/bottomleft.gif" width="10" height="10"></td>
+                        <td width="630"><img src="http://showroom.multivisioninc.com/images/bluebox/shim650.gif" width="630" height="10"></td>
+                        <td width="10"><img src="http://showroom.multivisioninc.com/images/bluebox/bottomright.gif" width="10" height="10"></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top"><table width="90%"  border="0">
+                    <tr>
+                      <td><div align="left">
+                          <table>
+                            <tr>
+                              <td colspan="3" class="top-links">Here is your login information:</td>
+                            </tr>
+                            <tr>
+                              <td colspan="3">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                              <td align="right"><b>Username:</b></td>
+                              <td>sleepsquares</td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                              <td align="right"><b>Password:</b></td>
+                              <td>dream</td>
+                            </tr>
+                          </table>
+                          <p>Click the link below to go to the login page:<br>
+                              <a href="http://us.cision.com/logins/broadcast_login.asp">http://us.cision.com/logins/broadcast_login.asp<br>
+                              </a><br>
+  </p>
+                          </div>
+                        <p align="left">
+                        <hr size="1" noshade class="orange">
+                        <p align="left">&nbsp;</p>
+                        <div align="center">
+                          <div align="right"></div>
+                        </div>
+                        <table width="90%"  border="0">
+                          <tr>
+                            <td width="3%" height="21" valign="top">&nbsp;</td>
+                            <td width="45%" height="21" valign="top">&nbsp;</td>
+                            <td width="4%" height="21" valign="top">&nbsp;</td>
+                            <td width="48%" height="21" valign="top">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="21" valign="top">&nbsp;</td>
+                            <td height="21" colspan="3" valign="top"><p><span class="verdana-10"><strong>Recommended Browsers</strong><br>
+  This site is best viewed in Internet Explorer v 5.5 or later for PC, or Safari v 1.3.1 or later for Mac.  (Visit the <a href="http://www.microsoft.com/windows/ie/default.mspx">Microsoft Internet Explorer</a> or <a href="http://www.apple.com/support/downloads/safari.html">Apple Safari</a> download pages for the latest versions.) </span>
+                              <p><span class="verdana-10">While viewing this site please disable any pop-up suppression programs that prevent the opening of new windows. (New windows are opened in this site only for site functionality and not for any commercial advertising.)
+                                </span>
+                              <p><span class="verdana-10">Session Cookies and JavaScript must be enabled on your browser for a continuous and consistent experience as you navigate to different sections of the site. </span>
+                              <p class="verdana-10"><strong class="verdana-10">Help</strong><br>
+  For more information, go to <a href="http://broadcast.us.cision.com/mvdigitalshowroomFAQ.asp">http://broadcast.us.cision.com/mvdigitalshowroomFAQ.asp</a> or call us at 800.588.3827.
+                              <p class="verdana-10"><strong class="verdana-10">Disclaimer</strong><br>
+  Material provided by Cision may be used for Internal Review, Analysis and Research Only. Any editing, reproduction, publication, rebroadcast, public showing, public display or placement on any website is forbidden & may violate copyright laws.</td>
+                            </tr>
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td colspan="3">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <p>&nbsp;</p>
+                        <p align="left">&nbsp;</p>
+                        <p align="left">&nbsp;</p>
+                        <p align="left">
+                        <p align="left"></td>
+                    </tr>
+                  </table>
+                    <p align="left">&nbsp;</p>
+                  </td>
+                </tr>
+              </table>
+            <td width="33" background="http://showroom.multivisioninc.com/images/frame/right_bg.gif"><img src="http://showroom.multivisioninc.com/images/frame/right_bg.gif" width="33" height="20"></td>
+          </tr>
+          <tr>
+            <td width="31" height="23"><img src="http://showroom.multivisioninc.com/images/frame/bottom_left_2.gif" width="31" height="23"></td>
+            <td width="200" height="23" background="http://showroom.multivisioninc.com/images/frame/bottom_nav_footer.gif"><img src="http://showroom.multivisioninc.com/images/frame/bottom_left_3.gif" width="17" height="23"></td>
+            <td width="1" height="23" background="http://showroom.multivisioninc.com/images/frame/bottom_bg_2.gif"><img src="http://showroom.multivisioninc.com/images/frame/shim7.gif" width="1" height="23"></td>
+            <td align="right" background="http://showroom.multivisioninc.com/images/frame/bottom_bg_2.gif"><img src="http://showroom.multivisioninc.com/images/frame/bottom_right_3.gif" width="17" height="23"></td>
+            <td width="33" height="23"><img src="http://showroom.multivisioninc.com/images/frame/bottom_right_2.gif" width="33" height="23"></td>
+          </tr>
+          <tr>
+            <td width="31" height="57"><img src="http://showroom.multivisioninc.com/images/frame/bottom_left_1.gif" width="31" height="57"></td>
+            <td width="200" height="57" background="http://showroom.multivisioninc.com/images/frame/bottom_bg.gif"><img src="http://showroom.multivisioninc.com/images/frame/bottom_bg.gif" width="17" height="57"></td>
+            <td width="1" height="57" background="http://showroom.multivisioninc.com/images/frame/bottom_bg.gif"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="1"></td>
+            <td background="http://showroom.multivisioninc.com/images/frame/bottom_bg.gif"><img src="http://showroom.multivisioninc.com/images/shim.gif" width="1" height="1"></td>
+            <td width="33" height="57"><img src="http://showroom.multivisioninc.com/images/frame/bottom_right_1.gif" width="33" height="57"></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</center>
+</body>
+</html>
+

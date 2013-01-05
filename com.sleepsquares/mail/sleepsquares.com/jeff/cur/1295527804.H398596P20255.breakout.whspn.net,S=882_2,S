@@ -1,0 +1,26 @@
+Return-path: <jeff@salviazone.com>
+Envelope-to: jeff@sleepsquares.com
+Delivery-date: Thu, 20 Jan 2011 05:50:06 -0700
+Received: from localhost.localdomain ([127.0.0.1] helo=localhost)
+	by breakout.whspn.net with esmtpa (Exim 4.69)
+	(envelope-from <jeff@salviazone.com>)
+	id 1Pftxj-0005GC-Gp
+	for jeff@sleepsquares.com; Thu, 20 Jan 2011 05:50:04 -0700
+Received: from 173.45.181.106 ([173.45.181.106]) by www.salviazone.com
+ (Horde Framework) with HTTP; Thu, 20 Jan 2011 05:50:03 -0700
+Message-ID: <20110120055003.18803pta640jeagr@www.salviazone.com>
+Date: Thu, 20 Jan 2011 05:50:03 -0700
+From: jeff@salviazone.com
+To: jeff@sleepsquares.com
+Subject: Test
+MIME-Version: 1.0
+Content-Type: text/plain;
+ charset=ISO-8859-1;
+ DelSp="Yes";
+ format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+User-Agent: Internet Messaging Program (IMP) H3 (4.3.9)
+
+This is a test.
+

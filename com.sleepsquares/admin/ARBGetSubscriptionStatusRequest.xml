@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ARBGetSubscriptionStatusRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+    <merchantAuthentication>
+        <name>{merchant_acct['username']}</name>
+        <transactionKey>{merchant_acct['password']}</transactionKey>
+    </merchantAuthentication>
+    <refId>{order_number}</refId>
+    <subscriptionId>{schedules['subscription_id']}</subscriptionId>
+</ARBGetSubscriptionStatusRequest>

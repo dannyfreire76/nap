@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+    <title>Groovy Chews</title>
+    <style type="text/css">
+* {font:50pt sans-serif;
+    color:white;
+    text-align:center;
+    vertical-align:middle;}
+    .mint {background-image:url(http://www.dreamrevolution.org/GChews/28/mint_opstretch.jpg)}
+    .orange {background-image:url(http://www.dreamrevolution.org/GChews/28/orange_opstretch.jpg)}
+    .raspberry {background-image:url(http://www.dreamrevolution.org/GChews/28/rasp_opstretch.jpg)}
+    </style>
+    <script type="application/x-javascript" src="includes/jquery.js">
+</script>
+</head>
+
+<body>
+    <!-- Insert your content here -->
+
+    <form>
+	<input class="mint" style="display:none"> <input class="orange" style="display:none"> <input class="raspberry" style="display:none"> <script type="application/x-javascript">
+setInterval(function(){$('body').removeClass('mint').removeClass('orange').removeClass('raspberry').addClass('mint orange raspberry'.split(' ')[Math.floor(Math.random()*2.9)])},1000);
+	</script>
+	<blink>UNDER CONSTRUCTION...</blink>
+    </form>
+</body>
+</html>

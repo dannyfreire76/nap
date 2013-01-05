@@ -1,0 +1,449 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201011 will be lost/reset.
+# Last config file used to build this data file was /home/sleepsqu/tmp/awstats/ssl/awstats.sleepsquares.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1980                
+POS_TIME 2652                
+POS_VISITOR 6929                
+POS_DAY 11893               
+POS_DOMAIN 3300                
+POS_LOGIN 3598                
+POS_ROBOT 3753                
+POS_WORMS 3986                
+POS_EMAILSENDER 4117                
+POS_EMAILRECEIVER 4260                
+POS_SESSION 12587               
+POS_SIDER 12778               
+POS_FILETYPES 4395                
+POS_OS 4566                
+POS_BROWSER 4654                
+POS_SCREENSIZE 5077                
+POS_UNKNOWNREFERER 5151                
+POS_UNKNOWNREFERERBROWSER 5238                
+POS_ORIGIN 5320                
+POS_SEREFERRALS 5459                
+POS_PAGEREFS 5603                
+POS_SEARCHWORDS 5958                
+POS_KEYWORDS 6110                
+POS_MISC 2316                
+POS_ERRORS 6169                
+POS_CLUSTER 3454                
+POS_SIDER_404 6264                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20101201062753 1 0 22603588279782
+FirstTime 20101101084323
+LastTime 20101130081509
+LastUpdate 20101202054438 1 0 0 0 0
+TotalVisits 201                 
+TotalUnique 131                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 131                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 4035 2 2 1614
+1 6 6 4842 2 2 807
+2 2 2 1614 7 7 3228
+3 1 1 807 3 3 1614
+4 0 0 0 5 5 1614
+5 10 17 469653 3 4 1649
+6 4 4 3228 1 1 807
+7 12 12 9684 3 3 2421
+8 7 18 389126 3 5 807
+9 20 60 825763 4 15 923
+10 30 64 941846 3 32 174
+11 17 17 43063 3 7 865
+12 16 41 254557 8 12 3228
+13 17 17 13719 3 3 1614
+14 9 20 230263 4 6 807
+15 17 28 237013 3 3 807
+16 6 6 4842 0 0 0
+17 7 7 5649 5 5 1614
+18 11 11 8877 2 2 807
+19 8 8 6456 6 6 3228
+20 14 14 11298 4 4 1614
+21 14 14 11298 1 1 807
+22 6 6 4842 1 1 807
+23 3 3 2421 3 3 1614
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 226 365 3471984
+ca 9 9 7263
+gb 3 3 2421
+il 1 1 807
+tr 1 1 807
+sg 1 1 807
+cz 1 1 807
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+googlebot 41 33087 20101130053708 0
+no_user_agent 2 0 20101105041701 0
+netcraft 2 0 20101117205408 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 25 47091 0 0
+php 241 1750476 0 0
+png 27 859140 0 0
+html 1 9703 0 0
+js 32 357319 0 0
+jpg 1 237407 0 0
+gif 54 223760 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 91
+winlong 122
+winxp 31
+psp 2
+win2008 135
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 26
+msie6.0 1
+safari5.0.3 5
+firefox3.6 1
+chrome 10
+firefox3.6.11 2
+firefox3.6.6 1
+safari4.0.5 2
+safari5.0 1
+firefox3.5.15 1
+chrome7.0.517.44 20
+chrome7.0.517.41 1
+safari5.0.2 42
+msie8.0 162
+iphone 1
+firefox3.0.3 1
+safari4.0 1
+netscape5.0 2
+msie7.0 24
+safari4.1.2 8
+firefox3.6.12 32
+firefox3.6.3 2
+firefox3.6.10 14
+chrome8.0.552.200 1
+firefox3.0.19 26
+safari 19
+firefox3.6.8 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 14 14
+From1 0 0
+From2 0 0
+From3 196 196
+From4 32 171
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://salviazone.com/store/confirm.php 174 174
+https://dreamboost.com/store/confirm.php 9 9
+https://salviazone.com/store/step1.php 9 9
+https://salviazone.com/store/step2.php 3 3
+https://dreamboost.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 13 383
+404 62 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 7
+/ 2 -
+/images/button_view_now_over.gif 10 https://sleepsquares.com/store/step2.php
+/robots.txt 18 -
+/manager/html 1 -
+/images/button_subscribe_over.gif 10 https://sleepsquares.com/store/step2.php
+/images/button_update_cart_over.gif 10 https://sleepsquares.com/store/step2.php
+/images/button_add_to_cart_over.gif 11 https://sleepsquares.com/store/step2.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 131
+173.73.155.37 45 45 36315 20101123100739
+67.251.69.56 16 70 695858 20101129123342
+173.45.181.106 13 64 1514146 20101130081509
+72.230.165.163 11 25 517457 20101119101020
+68.194.226.78 8 8 6456 20101121052144
+75.97.200.14 5 5 4035 20101116123910
+71.202.247.226 4 4 3228 20101129071604
+74.89.32.179 3 3 2421 20101108050558
+76.65.58.191 3 3 2421 20101105135617
+68.84.179.183 2 2 1614 20101105113837
+99.70.107.246 2 2 1614 20101110202636
+71.236.101.216 2 2 1614 20101121053610
+173.63.111.89 2 2 1614 20101111124556
+173.27.214.245 2 2 1614 20101114130110
+174.59.212.33 2 2 1614 20101123134137
+68.201.64.180 2 2 1614 20101115175630
+75.71.213.83 2 2 1614 20101119070520
+99.89.17.96 2 16 357445 20101114100810
+71.206.223.64 2 2 1614 20101119100949
+98.15.143.206 2 2 1614 20101118132628
+76.67.188.21 2 2 1614 20101107151527
+69.59.79.58 1 1 807 20101105184510
+82.33.157.95 1 1 807 20101114174047
+24.73.163.2 1 1 807 20101122063303
+142.68.100.43 1 1 807 20101111184744
+98.250.154.145 1 1 807 20101115201759
+24.130.190.127 1 1 807 20101119171846
+69.171.160.39 1 1 807 20101101165647
+76.30.232.89 1 1 807 20101103075148
+173.166.41.167 1 1 807 20101122185802
+75.206.41.185 1 1 807 20101122071414
+76.30.195.159 1 1 807 20101101210914
+64.13.24.132 1 1 807 20101110032009
+24.17.32.119 1 1 807 20101128021616
+96.50.71.211 1 1 807 20101122072142
+75.100.60.10 1 1 807 20101110230756
+76.119.201.129 1 1 807 20101124155916
+81.129.220.110 1 1 807 20101102183300
+24.143.99.32 1 1 807 20101122015049
+24.4.233.83 1 1 807 20101107232829
+70.161.147.157 1 1 807 20101109213739
+129.44.56.116 1 1 807 20101116201223
+24.188.109.166 1 1 807 20101116005027
+68.43.21.194 1 1 807 20101127093522
+71.162.16.30 1 1 807 20101122105634
+146.115.189.54 1 1 807 20101120145444
+24.243.160.54 1 1 807 20101102124036
+173.174.88.235 1 1 807 20101119193309
+68.33.109.108 1 1 807 20101121210924
+68.194.46.246 1 1 807 20101107173308
+204.15.64.153 1 1 807 20101102152044
+173.45.181.97 1 1 807 20101102101601
+173.20.176.91 1 1 807 20101101084323
+67.185.184.209 1 1 807 20101122230654
+174.28.199.153 1 1 807 20101118002355
+108.16.25.135 1 1 807 20101110114413
+70.124.9.91 1 1 807 20101129162926
+99.27.73.251 1 1 807 20101108224514
+199.107.212.53 1 1 807 20101119133204
+24.17.48.87 1 1 807 20101112130821
+208.185.201.194 1 1 807 20101116181735
+71.199.114.118 1 1 807 20101120073915
+71.234.121.72 1 1 807 20101108163129
+69.114.17.186 1 1 807 20101101155108
+72.197.9.122 1 1 807 20101109054220
+218.186.197.145 1 1 807 20101105012525
+68.61.204.228 1 1 807 20101109154801
+167.236.220.11 1 1 807 20101124142429
+76.28.229.127 1 1 807 20101107190801
+68.114.70.172 1 1 807 20101120225951
+128.97.245.185 1 1 807 20101109010447
+70.57.41.103 1 1 807 20101120100213
+24.177.13.180 1 1 807 20101127204036
+82.81.132.119 1 1 807 20101119072401
+173.56.124.196 1 1 807 20101109115238
+68.2.223.201 1 1 807 20101125111701
+74.133.33.153 1 1 807 20101111165847
+71.182.129.127 1 1 807 20101123202751
+75.211.21.38 1 1 807 20101115115922
+129.173.185.234 1 1 807 20101121121239
+69.117.182.94 1 1 807 20101112004412
+174.69.148.204 1 1 807 20101124164515
+71.218.107.138 1 1 807 20101125152906
+12.169.199.162 1 1 807 20101101130302
+173.3.104.5 1 1 807 20101108200418
+65.89.172.177 1 1 807 20101114083102
+88.234.99.147 1 1 807 20101118083710
+64.231.161.53 1 1 807 20101110222355
+216.227.89.83 1 1 807 20101109061810
+76.104.217.128 1 1 807 20101110135041
+71.194.164.129 1 1 807 20101104142436
+71.174.170.122 1 1 807 20101128175248
+67.191.203.47 1 1 807 20101108200325
+199.94.84.212 1 1 807 20101114213753
+24.34.97.138 1 7 239397 20101120094930
+24.11.224.192 1 1 807 20101101194744
+174.44.155.218 1 1 807 20101118202528
+166.164.71.234 1 1 807 20101101194642
+206.255.189.102 1 1 807 20101106150027
+98.119.1.86 1 1 807 20101118213619
+67.180.128.173 1 1 807 20101107184939
+216.195.89.159 1 1 807 20101105122216
+64.130.106.206 1 1 807 20101112200228
+98.119.82.242 1 1 807 20101106162902
+68.110.116.242 1 1 807 20101111004239
+98.117.116.56 1 1 807 20101121213628
+24.253.94.235 1 1 807 20101115113853
+81.155.11.159 1 1 807 20101127141404
+76.19.82.59 1 1 807 20101124150602
+165.123.225.52 1 1 807 20101110180804
+24.2.149.189 1 1 807 20101111091339
+71.171.123.60 1 1 807 20101104142043
+75.88.158.1 1 1 807 20101106005516
+74.8.52.57 1 1 807 20101105134834
+173.69.173.130 1 1 807 20101116092749
+63.121.18.110 1 1 807 20101111050955
+99.50.134.174 1 1 807 20101118214437
+71.189.208.202 1 1 807 20101109085650
+75.214.222.104 1 1 807 20101115122459
+74.99.72.173 1 1 807 20101106070748
+94.113.181.47 1 1 807 20101106114449
+71.224.165.253 1 1 807 20101108183302
+67.169.159.104 1 1 807 20101107224748
+70.173.216.72 1 1 807 20101102154029
+71.234.214.121 1 1 807 20101122213837
+74.218.126.218 1 1 807 20101124101054
+74.243.236.205 1 1 807 20101118135302
+71.235.90.9 1 1 807 20101107015741
+76.23.137.160 1 1 807 20101115151002
+96.57.171.66 1 1 807 20101106113720
+24.9.95.129 1 1 807 20101106182250
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20101101 10 10 8070 10
+20101102 10 10 8070 10
+20101103 3 3 2421 3
+20101104 5 5 4035 5
+20101105 13 13 10491 10
+20101106 9 9 7263 9
+20101107 9 9 7263 8
+20101108 11 11 8877 9
+20101109 10 10 8070 10
+20101110 13 20 472074 12
+20101111 12 12 9684 11
+20101112 9 20 219564 6
+20101113 2 2 1614 2
+20101114 8 22 362287 6
+20101115 13 13 10491 13
+20101116 8 8 6456 8
+20101117 3 3 2421 3
+20101118 13 24 233491 12
+20101119 18 32 523106 8
+20101120 5 11 242625 5
+20101121 6 6 4842 6
+20101122 13 24 233785 12
+20101123 3 3 2421 3
+20101124 5 5 4035 5
+20101125 2 2 1614 2
+20101127 3 3 2421 3
+20101128 3 3 2421 3
+20101129 20 74 699086 6
+20101130 3 14 385898 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 3
+15mn-30mn 1
+30s-2mn 5
+2mn-5mn 2
+0s-30s 190
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/includes/cookie_control.php 202 163014 190 191
+/store/step1.php 14 340389 4 2
+/store/step2.php 11 307911 2 3
+/admin/retailers_admin10.php 5 756856 4 0
+/admin/retailers_admin11.php 3 117374 0 3
+/admin/products_admin.php 2 16333 0 1
+/login.php 2 22736 0 0
+/ 1 9703 1 1
+/admin/products_admin4.php 1 13365 0 0
+/store/confirm.php 1 12498 0 0
+END_SIDER

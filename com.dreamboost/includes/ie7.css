@@ -1,0 +1,44 @@
+#loading_dialog {
+	filter:alpha(opacity=70);
+}
+
+#button_add_to_cart {
+    width: 101px !important;
+    height: 31px !important;
+}
+
+.update_cart {
+    width: 114px !important;
+    height: 31px !important;
+}
+
+.secure_checkout {
+    height: 31px !important;
+}
+
+.beach {
+	left: 2px !important;
+    position: relative;
+}
+
+
+.window_content {
+	background: #C5C5FF none repeat scroll 0% !important;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+#test_submit {
+	width: 622px !important;
+}
+
+#cartImg {
+    top: 8px;
+    position: relative;
+}
+
+.img-shadow img {
+    margin:-6px 6px 6px 3px !important;
+
+/* utility classes */
+.hand {cursor:hand}

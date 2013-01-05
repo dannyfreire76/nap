@@ -1,0 +1,6 @@
+# /robots.txt file for http://www.dreamboost.com/
+# email webmaster@dreamboost.com with constructive criticism
+
+User-agent: *
+Disallow: /admin/
+Disallow: /beta/

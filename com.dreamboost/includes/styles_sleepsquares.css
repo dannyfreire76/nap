@@ -1,0 +1,116 @@
+/* SLEEP SQUARES STYLES -- SleepSquares.com */
+
+/* GLOBAL REDEFINE TAGS */
+html,body { font: 100% Verdana, Arial, Helvetica, sans-serif; background-image: url("../images/night-sky.jpg") repeat; /*background: #ffffff;*/ margin:0; padding:0; text-align:center; /*color: #2d285e;*/ }
+td, p, li { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; }
+a { color:#2d285e; }
+a:hover { color:#7a6fe5; text-decoration:none; }
+
+/* LAYOUT */
+div#container { width: 970px; /*background: #ffffff;*/ margin: 0 auto; border-left: 2px solid #70361c; border-right: 2px solid #70361c; text-align: left; height: 100%; }
+#header { height: 180px; /*background: #ffffff;*/ padding: 0; background: url("../images/header.jpg")/*tpa=http://sleepsquares.brighteyedesign.com/images/bg/header.jpg*/ no-repeat; }
+#header h1 { margin: 0; padding: 9px 0; }
+#sidebar { float: left; width: 190px; /*background: #ffffff;*/ padding:9px 0 18px 0; margin:0 6px 18px 6px; border: 1px solid #08061b; }
+#sidebar h3, #sidebar p { margin: 0 9px; }
+#sidebar h6 { background: url("../images/sidebar_titlebg.png") /*tpa=http://sleepsquares.brighteyedesign.com/images/bg/sidebar_titlebg.png*/ no-repeat; width:180px; height:21px; font:Verdana, Arial, Helvetica, sans-serif 13px bold; color:#c3c5ee; padding:6px 0 0 6px; margin:0; }
+#mainContent { margin: 0 9px 0 210px; }
+#footer { padding: 0 9px; background: #3d1202; height: 110px; background: url("../images/footer.jpg")/*tpa=http://sleepsquares.brighteyedesign.com/images/bg/footer.jpg*/ no-repeat; vertical-align:bottom; color:#f4dfc1; }
+#footer a { margin: 0; padding: 9px 0; font-size:11px ; font-weight:bold; color:#f4dfc1; text-decoration:none; }
+#footer a:hover { color:#ce8d57; text-decoration:underline; }
+/*div#footer { position: absolute; width: 970px; bottom: 0px;}*/
+
+#logo { margin: 0; padding: 0; left:0px; top:0px; }
+#tagline { margin: 0px 18px; padding: 9px; left:36px; top:0px; }
+#spcloffer { margin: 6px; padding: 3px; width: 225px; left:720px; position:relative; text-align:right; border: 0px dashed #70361c; }
+
+/* NAV MENU BOX TOP-RIGHT */
+#navMenu {  width: 180px; border-bottom: 1px solid #70361c; padding: 0; margin-bottom: 6px; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #f4dfc1; color: #451c0d; text-align:left; font-weight:bold; }
+#navMenu  ul { list-style: none; margin: 0; padding: 0; border: none; font-size:11px; }
+#navMenu  li { border-bottom: 1px solid #70361c; margin: 0; }
+#navMenu li a { display: block; padding: 4px 4px 4px 2px; border-left: 2px solid #ac6d44; border-right: 0px solid #ac6d44; background-color: #f4dfc1; color: #451c0d; text-decoration: none; width: 100%; }
+html>body #navMenu li a { width: auto; }
+#navMenu li a:hover { padding-left:4px ; border-left: 4px solid #270e0a; border-right: 0px solid #5ba3e0; background-color: #70361c; color: #f4dfc1; }
+
+/* STYLES */
+#sidebar a { font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#08061b; font-weight:bold; }
+#sidebar a:hover { color:#373ca6; text-decoration:none }
+#sidebar ul { list-style: none; margin: 0 0 18px 0; padding: 0; border: none; }
+#sidebar li { list-style-image:url("../images/bullet_nav.png")/*tpa=http://sleepsquares.brighteyedesign.com/images/bg/bullet_nav.png*/; margin:0px 0px 6px 27px; padding:0; }
+#sidebar li:hover { list-style-image:url("../images/bullet_nav-over.png")/*tpa=http://sleepsquares.brighteyedesign.com/images/bg/bullet_nav-over.png*/; }
+
+hr { border: 0px #f4dfc1; border-style: none none solid; }
+.hrBrown { color: #451c0d; background-color: #451c0d; }
+
+.testimonial { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; line-height:24px; color:#2d285e; text-decoration:none; padding: 18px 9px; text-indent:18px; border-top: 1px dashed #c3c5ee; }
+.copy { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#f4dfc1; text-decoration:none; padding: 9px; }
+.terms { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#f4dfc1; text-decoration:none; padding: 9px; }
+.boxContent { margin:9px 0; padding:3px 12px; background:#ffffff; border:#2d285d 2px solid; border-radius: 12px; -moz-border-radius: 12px; line-height:18px; }
+.boxItem { margin:9px 18px; padding:3px 12px; background:#e4e4f6 url("../images/div_item.jpg")/*tpa=http://sleepsquares.brighteyedesign.com/images/bg/div_item.jpg*/; border:#2d285d 2px solid; border-radius: 12px; -moz-border-radius: 12px; line-height:18px; }
+.titleItem{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:18px; color:#2d285e; margin:0; padding:0; }
+
+.fltrt { float: right; margin-left: 8px; }
+.fltlft { float: left; margin-right: 8px; }
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px; }
+
+#supplement-table{ /*background-color:white; */border-collapse: collapse; border: 2px solid black;}
+#supplement-table td{font-size:10px;vertical-align:top; border-bottom: 1px solid black; padding: 2px; }
+#product-table td { vertical-align: top; padding: 9px 6px; border-top: 2px dotted #451c0d; }
+
+img.article-left {
+    float:left;
+    margin-right:15px;
+}
+img.article-right {
+    float:right;
+    margin-left:15px;
+}
+.hidden {
+    display: none;
+}
+.no_display {
+    display: none;
+}
+.two {
+	font-size: 18px;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.right {
+    float: right;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+#cart_table  {
+	width: 740px;
+}
+
+#cart_table tr td {
+    padding: 5px;
+}
+
+.cid_pop, #floating_msg {
+    background-color: #70361C;
+    border: 1px solid #F4DFC1;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 300px;
+}

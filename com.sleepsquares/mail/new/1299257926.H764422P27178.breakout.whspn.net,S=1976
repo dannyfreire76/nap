@@ -1,0 +1,53 @@
+Return-path: <>
+Envelope-to: sleepsqu@breakout.whspn.net
+Delivery-date: Fri, 04 Mar 2011 09:58:46 -0700
+Received: from mailnull by breakout.whspn.net with local (Exim 4.69)
+	id 1PvYL0-00074J-N2
+	for sleepsqu@breakout.whspn.net; Fri, 04 Mar 2011 09:58:46 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@breakout.whspn.net>
+To: sleepsqu@breakout.whspn.net
+Subject: Mail failure - no recipient addresses
+Message-Id: <E1PvYL0-00074J-N2@breakout.whspn.net>
+Date: Fri, 04 Mar 2011 09:58:46 -0700
+
+A message that you sent contained no recipient addresses, and therefore no
+delivery could be attempted.
+
+------ This is a copy of your message, including all the headers. ------
+
+To: 
+Subject: Your SleepSquares.com Wholesale Catalog Order
+X-PHP-Script: sleepsquares.com/admin/retailers_admin11.php for 173.45.177.186
+FROM: info@sleepsquares.com
+Message-Id: <E1PvYL0-00074I-Mm@breakout.whspn.net>
+Date: Fri, 04 Mar 2011 09:58:46 -0700
+
+Dear Amerimark Direct LLC - Attn: Staci Allison,
+
+Thank you for your SleepSquares.com Wholesale order. Your Order Confirmation Number and Order Number is 5000013.  Please keep a copy of this email for your records. If you have any questions please call us toll free at 1-888-725-9664.
+
+Bill To:
+Amerimark Direct LLC - Attn: Staci Allison
+6864 Engle Road
+Cleveland, OH
+44130, US
+
+Ship To:
+Amerimark Direct LLC - Attn: Time For Me/Receiving
+244 Sheldon Road
+Berea, OH
+44017, US
+
+Unit price(s) reflect a 0% discount
+Sleep Squares Original - 30 Piece Box SKU: 0021                     24 x $7.96                     Subtotal: $191.04
+Sleep Squares Orange - 30 Piece Box SKU: 0023                     24 x $7.96                     Subtotal: $191.04
+Sleep Squares Raspberry - 30 piece box SKU: 0022                     24 x $7.96                     Subtotal: $191.04
+Sub-Total: $573.12
+Shipping: $0.00
+Total: $573.12
+
+Note: All charges will appear as Upstate Dream Institute, LLC, the company that produces Sleep Squares.
+
+
+

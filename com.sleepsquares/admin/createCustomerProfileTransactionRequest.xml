@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<createCustomerProfileTransactionRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+    <merchantAuthentication>
+        <name>{merchant_name}</name>
+        <transactionKey>{merchant_transactionKey}</transactionKey>
+    </merchantAuthentication>
+    <refId>{refId}</refId>
+  <transaction>
+    <profileTransAuthCapture>
+      <amount>{amount}</amount>
+      <tax>
+        <amount>{tax_amount}</amount>
+        <name></name>
+        <description>This is our first customer</description>
+      </tax>
+      <shipping>
+        <amount>19.95</amount>
+        <name></name>
+        <description>This is our first customer</description>
+      </shipping>
+      <duty>
+        <amount>19.95</amount>
+        <name></name>
+        <description>This is our first customer</description>
+      </duty>
+      <lineItems>
+        <itemId></itemId>
+        <name></name>
+        <description>This is our first customer</description>
+        <quantity></quantity>
+        <unitPrice></unitPrice>
+        <taxable></taxable>
+      </lineItems>
+      <lineItems>
+        <itemId></itemId>
+        <name></name>
+        <description>This is our first customer</description>
+        <quantity></quantity>
+        <unitPrice></unitPrice>
+        <taxable></taxable>
+      </lineItems>
+      <customerProfileId></customerProfileId>
+      <customerPaymentProfileId></customerPaymentProfileId>
+      <customerShippingAddressId></customerShippingAddressId>
+      <order>
+        <invoiceNumber></invoiceNumber>
+        <description>This is our first customer</description>
+        <purchaseOrderNumber></purchaseOrderNumber>
+      </order>
+      <taxExempt></taxExempt>
+      <recurringBilling></recurringBilling>
+      <cardCode></cardCode>
+    </profileTransAuthCapture>
+  </transaction>
+  <extraOptions></extraOptions>
+</createCustomerProfileTransactionRequest>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<updateCustomerProfileRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>28YF5q4pFUr</name>
+    <transactionKey>67qhe99TBP6769rA</transactionKey>
+  </merchantAuthentication>
+  <customerProfileId></customerProfileId>
+  <profile>
+    <merchantCustomerId>customer001</merchantCustomerId>
+    <description>This is our first customer</description>
+    <email>john.doe@somedomain.com</email>
+  </profile>
+</updateCustomerProfileRequest>

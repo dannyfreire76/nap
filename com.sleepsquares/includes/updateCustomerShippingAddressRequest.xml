@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<updateCustomerShippingAddressRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>28YF5q4pFUr</name>
+    <transactionKey>67qhe99TBP6769rA</transactionKey>
+  </merchantAuthentication>
+  <customerProfileId></customerProfileId>
+  <address>
+    <firstName>John</firstName>
+    <lastName>Doe</lastName>
+    <company>Some Company</company>
+    <address>123 Some Street</address>
+    <city>Some City</city>
+    <state>WA</state>
+    <zip>98033</zip>
+    <country>United States</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+    <customerAddressId></customerAddressId>
+  </address>
+</updateCustomerShippingAddressRequest>

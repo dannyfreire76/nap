@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<updateCustomerShippingAddressRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+    <merchantAuthentication>
+        <name>{merchant_name}</name>
+        <transactionKey>{merchant_transactionKey}</transactionKey>
+    </merchantAuthentication>
+  <customerProfileId></customerProfileId>
+        <address>
+            <firstName>{firstName}</firstName>
+            <lastName>{lastName}</lastName>
+            <address>{address}</address>
+            <city>{city}</city>
+            <state>{state}</state>
+            <zip>{zip}</zip>
+            <country>{country}</country>
+            <phoneNumber>{phoneNumber}</phoneNumber>
+        </address>
+</updateCustomerShippingAddressRequest>

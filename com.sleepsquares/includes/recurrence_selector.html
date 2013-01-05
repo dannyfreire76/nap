@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Recurrence Selection</title>
+    <style type="text/css">
+/*<![CDATA[*/
+    .inset {
+    width: 50px;
+    height: 25px;
+    border: 0;
+    text-align: center;
+	cursor: default;
+    }
+    .sq {
+    width: 25px;
+    }
+    .odd {
+    background-color: silver;
+    }
+    .selected {
+    background-color: red;
+    color: white;
+	font-weight: bold;
+    }
+    .deselected {
+    background-color: gray;
+    color: black;
+	font-weight: bold;
+    }
+    .today {
+	background-color: cyan;
+    }
+    /*]]>*/
+    </style>
+    <script type="text/javascript" src="../includes/jquery.js">
+</script>
+    <script type="text/javascript" src="../includes/_.jquery.js">
+</script>
+    <script type="application/x-javascript" src="../includes/_.date.js"></script>
+
+    <script type="text/javascript">
+//<![CDATA[
+
+    Date.prototype.w=Date.prototype.getDay;
+    Date.prototype.d=Date.prototype.getDate;
+    Date.prototype.m=Date.prototype.getMonth;
+    Date.prototype.y=Date.prototype.getFullYear;
+    Date.prototype.mdy=function(){return this._("m/d/yyyy")};
+    Date.prototype.ymd=function(){return this._("yyyy-mm-dd hh:ii:ss")};
+
+    function populate(start) {
+    var selectedDates = [];
+    $("#schedule option").each(function() {
+	selectedDates.push(this.value)
+    });
+    if (!start) start = new Date();
+    var D = start.add(-start.w());
+    var today=(new Date()).mdy();
+    with($("#cal").get(0)) {
+	var w = 0;
+	for (var i = 0; i < day.length; i++) {
+	    day[i].value = D.d();
+	    day[i].title = D.mdy();
+	    if (D.m() % /**/ 2) {
+		$(day[i]).addClass("odd");
+	    } else {
+		$(day[i]).removeClass("odd");
+	    }
+	    if ($.inArray(day[i].title, selectedDates) > -1) {
+		$(day[i]).addClass("selected");
+	    } else {
+		$(day[i]).removeClass("selected");
+		$(day[i]).removeClass("deselected");
+	    }
+	    if (i % 7 == 6) {
+		if (day[i].value < 8) {
+		    week[w].value = D._("mmm"); // month abbr.
+		} else if (day[i].value < 15) {
+		    week[w].value = D.y(); // 4-digit year
+		} else {
+		    week[w].value = "";
+		}
+		if (D.m() % /**/ 2) {
+		    $(week[w]).addClass("odd");
+		} else {
+		    $(week[w]).removeClass("odd");
+		}
+		w++;
+	    }
+	    D = D.add(1);
+	}
+    }
+    }
+
+    function clickDay(elem) {
+	if (!$(elem).attr("class").match(/selected\b/)) {
+	    var x = -1;
+	    var choose = [];
+	    with($("#cal").get(0)) {
+		for (var i = 0; i < day.length; i++) {
+		    if ($(day[i]).attr("class").match(/\bselected\b/)) {
+			choose.push(i);
+		    }
+		    if (elem === day[i]) {
+			x = i;
+		    }
+		}
+		choose.sort(function(a, b) {
+		    return ((b - x) * (b - x)) - ((a - x) * (a - x))
+		}); // sort by proximity to clicked element.
+		var chosen = choose.pop();
+		var start = new Date((new Date()).mdy()); // midnight
+		var after = eval("start.add(" + $("#after").get(0).value + ")");
+		var picking = new Date(elem.title);
+		if (picking >= after) {
+		    $(day[chosen]).toggleClass("selected");
+		    $(elem).toggleClass("selected");
+		}
+	    }
+	}else{
+	    $(elem).toggleClass("deselected");
+	    $(elem).toggleClass("selected");
+	}
+    }
+
+    function clickWeekday(elem) {
+    var start = new Date((new Date()).mdy()); // midnight
+    var after = eval("start.add(" + $("#after").get(0).value + ")");
+    var x = -1;
+    var choose = [];
+    with($("#cal").get(0)) {
+	for (var i = 0; i < weekday.length; i++) {
+	    if (elem === weekday[i]) {
+		x = i;
+	    }
+	}
+	x = x % /**/
+	7;
+	var selectedDates = [];
+	$("#schedule option").each(function() {
+	    selectedDates.push(this.value)
+	});
+	for (var i = 0; i < selectedDates.length; i++) {
+	    selectedDates[i] = new Date(selectedDates[i]);
+	    var d = x - selectedDates[i].w();
+	    selectedDates[i] = selectedDates[i].add(d);
+	    if (selectedDates[i] < after) selectedDates[i] = selectedDates[i].add(7);
+	    selectedDates[i] = selectedDates[i].mdy();
+	}
+	$("#schedule").empty().append(_("option", "value", selectedDates, selectedDates)); // record chosen dates as options of select#schedule .
+	populate(start);
+    }
+    }
+
+    function calendar(weeks, start) {
+    if (!start) start = new Date();
+    if (!weeks) weeks = 28;
+    var rePropercase = /[A-Z][a-z]*/g; // Propercase
+    var weekdays = "SuMTuWThFrSa".match(rePropercase);
+    var ro = {
+	readonly: "readonly"
+    };
+    var da = {
+	disabled: "disabled"
+    };
+    weekdays = _("input", ro, {
+	name: "weekday",
+	'class': "inset sq",
+	onclick: "clickWeekday(this)"
+    }, "value", weekdays)._; //keep as array
+    weekdays = _("td", weekdays);
+    var lbl = _("input", da, ro, {
+	name: "week",
+	'class': "inset"
+    });
+    var day = _("input", ro, {
+	name: "day",
+	'class': "inset sq",
+	ondblclick: "dblClickDay(this)",
+	onclick: "clickDay(this)"
+    });
+    var week = [day, day, day, day, day, day, day, lbl];
+    var html = [weekdays];
+    for (var i = 0; i < weeks; i++)
+    html.push(_("td", {
+	'class': "sq"
+    }, week));
+    html.push(weekdays);
+    html = _("tr", html);
+    html = _("table", {
+	cellpadding: 0,
+	cellspacing: 0
+    }, html);
+    html = _("form", {
+	name: "cal",
+	id: "cal"
+    }, html); //TODO: may omit this statement, if entire widget is already in a form.
+    $("#recurring").append(html); //TODO: may locate this widget somewhere else.
+    populate(start);
+    }
+
+    function setSchedule(elem) {
+    var start = new Date();
+    var after = eval("start.add(" + $(elem).get(0).form.after.value + ")");
+    $("#schedule").html("");
+    var last = new Date($("#cal").get(0).day[$("#cal").get(0).day.length - 1].title);
+    var schedule = [];
+    while (after.valueOf() <= last.valueOf()) {
+	schedule.push(after);
+	after = eval("schedule[schedule.length-1].add(" + $(elem).get(0).form.every.value + ")");
+    }
+    for (var i = 0; i < schedule.length; i++) {
+	schedule[i] = schedule[i].mdy();
+    }
+    setSchedule.length=schedule.length;
+    schedule = _("option", "value", schedule, schedule);
+    $("#schedule").append(schedule); // build new options list of chosen dates.
+    populate(start);
+    }
+    $(document).ready(function() {
+	calendar(28); // weeks to display.
+	setSchedule($("#every").get(0));
+	$('#repeating').click(function(){
+	    if(this.checked){
+		$('#cal').show();
+	    }else{
+		$('#cal').hide();
+	    }
+	});
+	$('#every').change(function(){
+	    setSchedule(this);
+	    $('#repeating').get(0).checked=true;
+	    $('#cal').show();
+	});
+	$('#direct').click(function(){
+	    $('#recurring').toggle();
+	})
+    });
+    //]]>
+    </script>
+</head>
+
+<body>
+    <table>
+	<tr>
+	    <td>
+		<img id="direct" src="../images/recur.png" style="cursor:help; border:0; float:left !important" />
+	<form method="post" action="#" id="recurring">
+		    <input type="hidden" name="after" id="after" value="14,0,0" />
+		    <label for="repeating">
+		    <input type="checkbox" name="repeating" id="repeating" checked="checked" />
+		     Repeat every</label>
+		    <select name="every" id="every">
+			<option value="14,0,0">2 weeks</option>
+			<option value="-7,1,0">month-week</option>
+		<option value="30,0,0" selected="selected">30 days</option>
+	<option value="0,1,0">month</option>
+	<option value="6*7,0,0">6 weeks</option>
+	<option value="60,0,0">60 days</option>
+	<option value="0,2,0">2 months</option>
+	<option value="0,3,0">quarter</option>
+	<option value="0,0,1">year</option>
+		    </select>  <select id="schedule" name="schedule" style="display:none;">
+			</select>
+		</form>
+	    </td>
+	</tr>
+
+	<tr>
+	    <td></td>
+	</tr>
+    </table>
+</body>
+</html>

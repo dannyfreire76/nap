@@ -1,0 +1,108 @@
+/*
+2/25/2009: add error styles
+*/
+
+#floating_msg {
+	background-color:#050C35;
+	border:1px solid #A5087B;
+	color:#FFFFFF;
+	padding:5px;
+	width:300px;
+	font-size: 11px;
+}
+
+td.mybwmshead {
+	background-color: #6699CC;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.no_display {
+	display: none;
+}
+
+.funds_owed,
+.error {
+	color: #FF0000;
+}
+
+.white {
+	color: #fff;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.text_right {
+	text-align: right;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.top {
+	vertical-align: top;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.error2 {
+    font-weight: bold;
+    color: #FFFF00;
+}
+.error3 {
+    font-weight: bold;
+    color: #A5087B;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.even {
+    background-color: #E5FFFF;
+}
+
+.even2 {
+    background-color: #EBEBEB;
+}
+
+.odd {
+    background-color: #fff;
+}
+
+.smaller {
+    font-size: 10px;
+}
+
+.hand {
+    cursor: pointer !important;
+    cursor: hand;
+}
+
+.ul {
+    text-decoration:underline;
+}
+
+.expedite {
+	color: green;
+}

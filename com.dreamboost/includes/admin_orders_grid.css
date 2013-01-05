@@ -1,0 +1,138 @@
+
+.grid{
+	empty-cells:show;
+	border-collapse: collapse;
+	border-color: silver;
+	border-left: 1px solid silver;
+	width: 100%;
+}
+.grid thead th{
+	font-size: 11px;
+	text-align: center;
+	white-space:nowrap;
+	height:16px;
+	cursor:hand;
+	cursor:pointer;
+
+	background-color: #eee;
+	background-image:url('../images/grid/grid.header.background.png');
+	background-repeat: repeat-x;
+	background-position: 0 2;
+
+	border-left: solid 1px #404040;
+	border-right: solid 1px #404040;
+	border-top: solid 0px #BBB;
+	border-bottom: solid 1px #404040;
+
+	padding-top: 2px;
+	padding-right: 10px;
+}
+
+
+.grid th.headerSortUp {
+	background-image: url('../images/grid/small_asc.gif');
+	background-color: #BBB;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+.grid th.headerSortDown {
+	background-image: url('../images/grid/small_desc.gif');
+	background-color: #BBB;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+.grid tbody tr:hover{
+	background-color: #F0E68C;
+	cursor:hand;
+	cursor:pointer;
+}
+.grid tbody td{
+	font-size: 12px;
+	white-space:nowrap;
+	border-color: #bbb;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.odd{
+	background-color: #DDD;
+}
+.even {
+	background-color: #FFF;
+}
+
+.rowHighlight
+{
+	background-color: yellow;
+	cursor:hand;
+	cursor:pointer;
+}
+
+.highlight{
+	background-color: yellow;
+	font-weight: bold;
+	color: maroon;
+}
+
+.center_column{
+	text-align: center;
+	border: 1px solid #000;
+}
+
+.centeredImage{
+    text-align:center;
+    display: block;
+    width: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.master_grid{
+	empty-cells: show;
+	border-collapse: collapse;
+	border-color: black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	width: 99%;
+}
+.master_grid thead th{
+	font-size: 11px;
+	text-align: left;
+	white-space:nowrap;
+	background-color: #F0E68C;
+	border-color: black;
+	color: black;
+}
+.master_grid tbody td{
+	font-size: 11px;
+	white-space:nowrap;
+	border-color: #bbb;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.detail_grid{
+	empty-cells: show;
+	border-collapse: collapse;
+	border-color: black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin: 10px;
+}
+.detail_grid thead th{
+	font-size: 11px;
+	text-align: left;
+	white-space:nowrap;
+	background-color: silver;
+	border-color: black;
+	color:Black;
+}
+.detail_grid tbody td{
+	font-size: 10px;
+	text-align: left;
+	white-space: nowrap;
+}
+.hidden_detail{
+	/*padding-left: 15px;	*/
+}

@@ -1,0 +1,24 @@
+/* Would have deleted this, but some files still have references to it and may mess up document ready functions
+BME WMS
+	Page: Core StyleSheet
+	Path/File: /includes/core.css
+	Version: 1.1
+	Build: 1100
+	Date: 11-14-2006
+
+body {
+	padding: 0 10px;
+	font: normal 62.5% "Lucida Grande", Helvetica, Verdana, Arial;
+	}
+	
+p { margin: 10px 0; }
+	
+.sr {
+	position: absolute;
+	left: -9999em;
+	top: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	}
+*/

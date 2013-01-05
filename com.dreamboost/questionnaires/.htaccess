@@ -1,0 +1,2 @@
+AuthName "questionairre"
+AuthUserFile "/home/dreamboo/.htpasswds/public_html/questionnaires/passwd"

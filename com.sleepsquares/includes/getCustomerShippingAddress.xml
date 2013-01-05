@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<getCustomerShippingAddress xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>28YF5q4pFUr</name>
+    <transactionKey>67qhe99TBP6769rA</transactionKey>
+  </merchantAuthentication>
+  <customerProfileId></customerProfileId>
+  <customerAddressId></customerAddressId>
+</getCustomerShippingAddress>

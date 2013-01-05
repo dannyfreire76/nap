@@ -1,0 +1,54 @@
+p {
+	position: relative;/*IE6 is stupid*/
+}
+
+#loading_dialog {
+	filter:alpha(opacity=70);
+}
+
+#button_add_to_cart {
+    width: 101px !important;
+    height: 31px !important;
+}
+
+.update_cart {
+    width: 114px !important;
+    height: 31px !important;
+}
+
+.secure_checkout {
+    height: 31px !important;
+}
+
+.beach {
+	right: -20px;
+}
+
+.home_order {
+	padding-top: 0px;
+}
+
+.form_tip {
+	width: 120px !important;
+}
+
+.window_content {
+	background: #C5C5FF none repeat scroll 0% !important;
+	border-top: 1px solid #C5C5FF;
+	border-bottom: 1px solid #C5C5FF;
+}
+
+.window_bottom_content {
+    line-height: 14px;
+}
+
+#test_submit {
+	width: 622px !important;
+}
+
+#cartImg {
+	padding-top: 7px;
+}
+
+/* utility classes */
+.hand {cursor:hand}

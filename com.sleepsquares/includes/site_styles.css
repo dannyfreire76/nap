@@ -1,0 +1,540 @@
+/*
+2/22/2009: Changed cid_pop from an id to a class
+8/20/2009: Added gray style
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+}
+
+#container,
+.footer_links {
+    width: 677px;
+}
+
+#orderForm .style2 {
+    font-size:11px;
+}
+
+#orderForm .style2.text_right {
+    font-weight:bold;
+}
+
+#container {
+    background-color: #fff;
+	margin: auto;
+}
+
+body,
+table,
+font {
+    font-family: Arial;
+	font-size: 14px;
+}
+
+.style3 {
+	color: #004000;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+label {
+    cursor: pointer !important;
+    cursor: hand;
+}
+
+.header {
+    background-image: url('../images/nav_head_blank1.jpg');
+    margin: auto;
+    /*text-align: center;*/
+}
+
+.header_nav {
+	background-image: url('../images/header_nav_bg.gif');
+	text-align: center;
+	margin: auto;
+	padding: 8px 0px 7px 0px;
+	font-size: 20px;
+}
+
+.header_nav a {
+	color: #1E1200;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.nav_div {
+	color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    border-right: 2px solid #041053;
+    overflow: hidden;
+	position: relative;
+	background: url("../images/header_nav_bg.gif");
+padding-left:5px;
+padding-right:5px;
+}
+
+.logo_link {
+	padding: 4px 0px;
+}
+
+.hd1 {
+    height: 31px;
+}
+
+.hd2	{ background-image: url('https://occp5.ocservers.net/~salviazo/images/nav_head_blank1.jpg'); }
+
+.two {
+    font-size: 18px;
+}
+
+.four {
+    font-size: 20px;
+}
+
+.five {
+    font-size: 22px;
+}
+
+.smaller {
+    font-size: 11px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+#sub_menu {
+    text-align: center;
+}
+
+#sub_menu a {
+    color: #004000;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: none;
+    text-decoration: underline;
+}
+
+/* same as above but must be own class for jquery animate */
+.sub_menua {
+    color: #004000;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: underline;
+}
+
+#sub_menu a.on:link {
+    color: #ffffff;
+    text-decoration: none;
+    background: #A9A003;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* same as above but must be own class for jquery animate */
+.sub_menuaonlink {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*************/
+
+#sub_menu .nav_form a {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.window_top {
+    background: transparent url(/images/roundBG_r.gif) no-repeat scroll right top;
+    min-height: 12px;
+}
+
+.window_bottom {
+    background: transparent url(/images/roundBG_r.gif) no-repeat scroll right bottom;
+    min-height: 12px;
+}
+
+.window_bottom_content {
+    background: transparent url(/images/roundBG_l.gif) no-repeat scroll left bottom;
+    font-weight: bold;
+    line-height: 20px;
+    margin-right: 13px;
+    min-height: 12px;
+    padding-left: 13px;
+}
+
+.window_top_content {
+    background: transparent url(/images/roundBG_l.gif) no-repeat scroll left top;
+    font-weight: bold;
+    line-height: 20px;
+    margin-right: 13px;
+    min-height: 12px;
+    padding-left: 13px;
+}
+
+.window_content {
+    background: #A9A003 none repeat scroll 0% 50%;
+    padding: 0px 13px;
+}
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    color: #004000;
+    padding: 14px 0px 5px 0px;
+}
+
+.footer a {
+    font-size: 12px;
+    color: #004000;
+}
+
+.footer_nav {
+    background-image: url('../images/footer_nav_bg.jpg');
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 4px 0px;
+}
+
+.footer_nav a {
+	color: #1E1200;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.nav_form {
+	padding: 10px;
+	font-size: 11px;
+	font-weight: normal;
+    background: #A9A003;
+}
+
+.nav_form li {
+    list-style-position: outside;
+}
+
+.nav_form_wrapper {
+	width: 200px;
+    z-index: 100;
+}
+
+.nav_form table {
+	font-size: 12px;
+    color: #fff;
+}
+
+.nav_form a {
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.nav_form input {
+	width: 100px;
+    font-size: 10px;
+}
+
+.nav_form .loading {
+	height: 18px;
+}
+
+.footer_nav a:hover,
+.header_nav a:hover,
+.footer_nav a.hover{
+	color: #e0e0e0;
+}
+
+.footer_nav a.on:link,
+.footer_nav a.on:visited,
+.footer_nav a.on:active,
+.header_nav a.on:link,
+.header_nav a.on:visited,
+.header_nav a.on:active,
+.footer_nav a.on {
+	color: #fff;
+}
+
+.banned_states {
+    font-size: 11px;
+    padding-top: 10px;
+}
+
+.bs_legend {
+    background-color: #A0A0A0;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+    padding: 0px;
+    margin-right: 4px;
+    line-height: 10px;
+
+}
+
+.logo_small {
+	margin-right: 10px;
+	border: 2px solid #ACA000;
+}
+
+.prod_thumbs img {
+	margin: 0px 5px;
+}
+
+.steps {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.error_text {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.retailer {
+	margin-left: 180px;
+	line-height: 18px;
+}
+
+.retailer tr td {
+	padding: 6px;
+}
+
+.geo {
+    padding-left: 11px;
+}
+
+#fr_form .loading {
+    width: 50%;
+    padding: 0px 0px 0px 20px;
+}
+
+#f_retailer #loading2 {
+	width: auto;
+    padding: 0px 0px 0px 20px;
+}
+
+#zip_form_div {
+	padding-bottom: 10px;
+}
+
+.distance {
+    color:#00C000;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* store */
+.prod_name {
+	padding-bottom: 0px;
+}
+
+.prod_name_link {
+	font-weight: bold;
+}
+
+.prods_in_cat {
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.other_thumbs {
+	padding-right: 50px;
+}
+
+.store_name {
+	font-weight: bold;
+}
+
+.order_now {
+    padding-top: 10px;
+	border: none;
+}
+
+.prod_list {
+	font-size:12px;
+	padding: 15px 15px 20px 0px;
+	background: transparent url('/images/shadowAlpha.png') no-repeat scroll left bottom !important;
+	background: url(../images/shadow.gif) no-repeat scroll -10px bottom;
+	width: 100%;
+}
+
+.prod_list_last {
+	background: none !important;
+}
+
+.prod_list img {
+    padding-right: 10px;
+}
+
+.prod_list table {
+	font-size:12px;
+}
+
+.prod_cat_wrapper {
+	padding-bottom: 20px;
+}
+
+.view_all {
+	width: 100%;
+	padding-bottom: 20px;
+	background: transparent url('/images/shadowAlpha.png') no-repeat scroll left bottom !important;
+	background: url(../images/shadow.gif) no-repeat scroll -10px bottom;
+}
+
+.prod_cat_last {
+	background: none !important;
+}
+
+.view_all a:link,
+.view_all a:visited,
+.view_all a:hover,
+.view_all a:active {
+	color: #004000;
+	font-size: 14px;
+}
+
+.view_all a:link img,
+.view_all a:visited img,
+.view_all a:hover img,
+.view_all a:active img{
+	border: none;
+}
+
+.price_chart {
+	font-size: 11px;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+#more_ship_options {
+	font-size: 12px;
+}
+
+#more_ship_options img {
+	border: 0px;
+}
+
+.cid_pop,
+#floating_msg {
+	width: 300px;
+	color: #fff;
+	border: 1px solid #000;
+	background-color: #004000;
+	padding: 5px;
+}
+
+.testimonial td {
+    border-bottom: 2px solid #008000;
+    padding-bottom: 10px;
+}
+
+#shipQuotesLoad {
+	background: url("/images/icons/iconIndicatorDkGreenBG.gif") no-repeat left bottom !important;
+	width: 240px;
+}
+
+#checkout_table {
+	width: 100%;
+}
+
+#ad {
+	width: 300px;
+	height: 300px;
+    background:transparent url(/images/new_products.gif) no-repeat scroll center center !important;
+}
+
+#game_questions {
+	width: 400px;
+	height: 500px;
+}
+
+#special {
+    top: 0px;
+    left: 0px;
+}
+
+/*utility classes*/
+.right  {float: right; }
+.left   {float: left; }
+.clear { clear: both; }
+.bold { font-weight: bold; }
+.hand {
+    cursor: pointer !important;
+    cursor: hand;
+}
+.error {
+    font-weight: bold;
+    color: #FF0000;
+}
+.error2 {
+    font-weight: bold;
+    color: #fff;
+}
+.error3 {
+    font-weight: bold;
+    color: #004000;
+}
+.error_field {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FF0000;
+}
+.text_left {text-align:left}
+.text_right { text-align: right; }
+.text_center { text-align: center; }
+.no_display { display:none }
+.hidden { visibility: hidden; }
+.odd { background-color: #FFF5A5; }
+.even { background-color: #ffffff; }
+.absolute { position: absolute; }
+.prod_name .img-shadow {
+    background:transparent url(../images/shadowAlpha2.png) no-repeat scroll left bottom !important;
+	background: url(../images/shadow.gif) no-repeat scroll left bottom;
+	margin: 6px 10pt 0pt 0px !important;
+    margin: 6px 10pt 0pt 0px;
+    width: 257px;
+}
+
+.prod_name .img-shadow img {
+    background-color:#FFFFFF;
+    display:block;
+    margin:-6px -6px 6px 6px;
+    position:relative;
+	border: 1px solid #004000;
+}
+.highlighted {
+	color: #008000;
+}
+
+.bg_highlighted {
+    background-color: #008000
+}
+
+.black {
+	color: #000000;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.gray {
+    color: #9E9E9E;
+}

@@ -1,0 +1,35 @@
+Return-path: <>
+Envelope-to: sleepsqu@breakout.whspn.net
+Delivery-date: Mon, 25 Oct 2010 20:04:18 -0600
+Received: from mailnull by breakout.whspn.net with local (Exim 4.69)
+	id 1PAYte-0000JR-Sk
+	for sleepsqu@breakout.whspn.net; Mon, 25 Oct 2010 20:04:18 -0600
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@breakout.whspn.net>
+To: sleepsqu@breakout.whspn.net
+Subject: Mail failure - no recipient addresses
+Message-Id: <E1PAYte-0000JR-Sk@breakout.whspn.net>
+Date: Mon, 25 Oct 2010 20:04:18 -0600
+
+A message that you sent contained no recipient addresses, and therefore no
+delivery could be attempted.
+
+------ This is a copy of your message, including all the headers. ------
+
+To: 
+Subject: Your SleepSquares.com Order has Shipped
+X-PHP-Script: sleepsquares.com/includes/invoice.php for 207.189.121.46
+FROM: info@sleepsquares.com
+Message-Id: <E1PAYte-0000JQ-SW@breakout.whspn.net>
+Date: Mon, 25 Oct 2010 20:04:18 -0600
+
+Subtotal $0.00
+Shipping 1
+Total $0.00
+
+
+
+Note: All charges will appear as Upstate Dream Institute, LLC, the company that produces Sleep Squares.
+
+
+

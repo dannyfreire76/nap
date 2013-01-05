@@ -1,0 +1,148 @@
+<?php
+// BME MyBWMS
+// Page: WMS Login page
+// Path/File: /admin/index.php
+// Version: 1.8
+// Build: 1801
+// Date: 01-19-2007
+
+header('Content-type: text/html; charset=utf-8');
+include_once("./includes/ltimer/ltimer.class.php");
+$timer=new LTimer();
+include '../includes/main1.php';
+
+$submit = $_POST["submit"];
+$username = $_POST["username"];
+$password = $_POST["password"];
+$logout = $_REQUEST["logout"];
+
+if ($logout != '') {
+    $_SESSION = array();
+}
+
+include './includes/wms_nav1.php';
+$manager = "homepage";
+$page = "MyBWMS Homepage > Login";
+wms_manager_nav2($manager);
+wms_page_nav2($manager);
+
+$root_url = substr($base_url, 7, -1);
+if ( strpos($root_url,'/') ) {
+	$root_url = substr($root_url, 0, strpos($root_url,'/') );
+}
+$root_url = ".".$root_url;
+
+$user_id = $_COOKIE["wms_user"];
+if($user_id != "") {
+  $this_filename = $_SERVER["REQUEST_URI"];
+  $this_filename = explode("/", $this_filename); // THIS WILL BREAK DOWN THE PATH INTO AN ARRAY 
+  for( $i = 0; $i < (count($this_filename) - 1); ++$i ) { 
+  $cookie_path .= $this_filename[$i].'/'; 
+} 
+
+	$result = setcookie("wms_user", $user_id, time()-3600, $cookie_path, $root_url, 0) or die ("Set Cookie failed : " . mysql_error());
+    $user_id = "";
+}
+
+if($submit != "") {
+	//Check for Errors
+	$error_txt = "";
+	if($username == "") { $error_txt .= "Error, you did not enter a username.<br>\n"; }
+	if($password == "") { $error_txt .= "Error, you did not enter a password.<br>\n"; }
+	
+	//If no Errors, Verify against DB
+	if($error_txt == "") {
+		$query = "SELECT * FROM wms_users WHERE username='$username' AND password='$password' AND status=1";
+		$result = mysql_query($query, $dbh_master) or die("Query failed : " . mysql_error());
+		while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+	       	$user_id = $line["user_id"];
+			$_SESSION["wms_username"] = $username;
+            $temp_active_pages = $line["active_pages"];
+            $_SESSION["pages_for_this_user"] = split("\|", $temp_active_pages);
+            $_SESSION["dashboard"] = $line["dashboard"];
+            $_SESSION["main_settings"] = $line["main_settings"];
+            $_SESSION["first_name"] = $line["first_name"];
+		}
+		mysql_free_result($result);
+	}
+	if($user_id != "") {
+		$result = setcookie("wms_user", $user_id, time()+60*60*24*30, $cookie_path, $root_url, 0) or die ("Set Cookie failed : " . mysql_error());
+		//Goto Index2
+		header("Location: " . $base_url."admin/index2.php");
+		exit;
+	} else {
+		$error_txt .= "Error, the username and password you entered are incorrect. Please check your information and try logging in again.<br>\n";
+	}
+}
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>MyBWMS @ <?php echo $website_title.": ".$page; ?></title>
+<link rel="stylesheet" type="text/css" media="screen" href="<?=$current_base?>includes/reset.css">
+<link rel="stylesheet" type="text/css" media="screen" href="<?=$current_base?>admin/includes/core.css">
+<link rel="stylesheet" type="text/css" media="screen" href="<?=$current_base?>admin/includes/site_styles.css">
+<link rel="stylesheet" type="text/css" media="screen" href="<?=$current_base?>admin/includes/wmsform.css">
+<script type="text/javascript" src="<?=$current_base?>includes/jquery.js"></script>
+<script type="text/javascript" src="<?=$current_base?>includes/wmsform.js"></script>
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" OnLoad="document.login.username.focus();">
+<div align="center">
+
+<?php
+include './includes/head_admin3.php';
+?>
+
+<table border="0" width="97%">
+
+<tr><td>&nbsp;</td></tr>
+
+<tr><td align="left"><font size="3"><?php echo $website_title; ?> MyBWMS My Business and Website Management System</font></td></tr>
+
+<?php
+//Error Messages
+if($error_txt) {
+	echo "<tr><td>&nbsp;</td></tr>\n";
+	echo "<tr><td align=\"left\"><font size=\"2\" color=\"red\">$error_txt</font></td></tr>\n";
+	echo "<tr><td>&nbsp;</td></tr>\n";
+}
+?>
+<tr><td align="left">
+	<FORM name="login" Method="POST" ACTION="index.php" class="wmsform">
+	<p>Please login to begin using MyBWMS. Required fields marked <em>*</em></p>
+	<fieldset>
+		<legend>Please Enter Your Login Information</legend>
+		<ol>
+			<li>
+				<label for="username">Username <em>*</em></label>
+				<INPUT type="text" id="username" name="username" size="30" maxlength="100" value="<?php echo $username; ?>" tabindex="1" />
+			</li>
+			<li>
+				<label for="password">Password <em>*</em></label>
+				<INPUT type="password" id="password" name="password" size="30" maxlength="20" value="<?php echo $password; ?>" tabindex="2" />
+			</li>
+			<li class="fm-button">
+				<input type="submit" id="submit" name="submit" value="Login">
+			</li>
+		</ol>
+	</fieldset>
+	</form>
+</td></tr>
+
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+</table>
+
+<?php
+include './includes/foot_admin1.php';
+footer_admin($timer->getTTMS());
+mysql_close($dbh);
+?>
+
+</div>
+</body>
+</html>

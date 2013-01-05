@@ -1,0 +1,12 @@
+.prod_list {
+    min-width: 300px !important;
+}
+
+.window_content {
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+#test_submit {
+	width: 560px !important;
+}

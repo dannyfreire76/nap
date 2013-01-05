@@ -1,0 +1,615 @@
+# Webalizer V2.01-10 Incremental Data - 03/14/2011 23:30:25
+2011 3 14 23 30 25
+270 209 106 30 13 41 1201208 4 4 0
+5 2 55 1 14
+65 35 474228 10 0 0
+7 7 5649 6 0 0
+12 12 9684 12 0 0
+44 30 398432 11 1 1
+17 15 12105 10 0 0
+9 9 7263 6 0 0
+31 29 238129 14 0 0
+11 11 8877 9 0 0
+13 12 8912 11 1 1
+23 12 8877 10 1 1
+12 11 8070 7 1 1
+6 6 4842 4 0 0
+14 14 11298 10 0 0
+6 6 4842 5 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+7 7 5649 0
+3 3 1614 1
+2 1 807 0
+5 5 3228 1
+0 0 0 0
+1 1 807 0
+3 2 1614 0
+6 6 4842 0
+5 5 4035 0
+35 22 392783 0
+6 6 4842 0
+25 23 233287 0
+61 30 470193 0
+22 12 9684 0
+10 10 8070 0
+9 9 7263 0
+15 13 10491 0
+6 6 4842 0
+7 7 4877 1
+10 10 8070 0
+5 5 4035 0
+11 11 8877 0
+11 10 7263 1
+5 5 4035 0
+0
+0
+0
+209
+0
+0
+0
+0
+0
+0
+0
+0
+5
+0
+17
+0
+0
+0
+0
+0
+0
+39
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/admin/retailers_admin10.php
+0 3 317534224 459579 0 0
+/
+0 4 0 35 4 1
+/admin/includes/site_styles.css
+0 3 0 2068 0 0
+/includes/jquery.js
+0 4 0 63516 0 0
+/store/confirm.php
+0 1 0 12521 0 0
+/images/quickssl_anim.gif
+0 2 0 38419 0 0
+/css/sleepsquares.css
+0 2 8589934592 4679 0 0
+/images/wms/home.gif
+0 3 0 758 0 0
+/images/icons/iconLoadingAnimation.gif
+0 1 317525248 3992 0 0
+/images/wms/help.gif
+0 3 0 1182 0 0
+/includes/extend.js
+0 4 0 18282 0 0
+/includes/interface.js
+0 1 0 28459 0 0
+/images/icons/iconIndicatorDkGreenBG.gif
+0 4 0 4932 0 0
+/admin/includes/wmsform.css
+0 3 0 3696 0 0
+/admin/includes/core.css
+0 3 0 4606 0 0
+/images/ss/seperator.png
+0 2 0 150 0 0
+/includes/js_funcs1.js
+0 1 0 25848 0 0
+/images/store_ccs.gif
+0 1 0 990 0 0
+/images/button_order_now_over.gif
+0 1 0 2631 0 0
+/images/wms/logout.gif
+0 3 0 324 0 0
+/images/close.gif
+0 1 332827103489 1125 0 0
+/includes/cookie_control.php
+0 156 3471774159580575542 125892 0 0
+/store/step2.php
+0 4 7885630523688758899 95266 0 0
+/includes/wmsform.js
+0 3 317535312 1768 0 0
+/images/shop_cart1.gif
+0 2 0 354 0 0
+/images/ss/horizontal.drop.shadow.down.bw.png
+0 2 0 153 0 0
+/includes/reset.css
+0 3 0 1478 0 0
+/store/step1.php
+0 2 0 48657 0 0
+/admin/retailers_admin11.php
+0 2 0 78265 0 0
+/images/ss/ss.header.png
+0 2 0 171525 0 0
+# End Of Table - urls
+# -sites- (monthly)
+ool-44c2a56d.dyn.optonline.net
+0 15 15 12105 0 0
+-
+cpe-173-173-22-117.hot.res.rr.com
+0 1 1 807 0 0
+-
+74-94-181-105-newengland.hfc.comcastbusiness.net
+0 54 24 465351 0 0
+-
+pool-71-170-169-60.dllstx.fios.verizon.net
+0 1 1 807 0 0
+-
+c-24-6-218-99.hsd1.ca.comcast.net
+0 1 1 807 0 0
+-
+119247223034.ctinets.com
+0 1 1 807 0 0
+-
+173-120-223-153.pools.spcsdns.net
+0 1 1 807 0 0
+-
+den-69-171-160-212.evdo.leapwireless.net
+0 1 1 807 0 0
+-
+adsl-75-47-143-238.dsl.lsan03.sbcglobal.net
+0 1 1 807 0 0
+-
+pool-71-114-233-138.austtx.dsl-w.verizon.net
+0 1 1 807 0 0
+-
+28.214.95.208.in-addr.arpa.plbb.us
+0 1 1 807 0 0
+-
+pool-98-109-129-63.nwrknj.fios.verizon.net
+0 1 1 807 0 0
+-
+cpe-67-248-86-243.nycap.res.rr.com
+0 1 1 807 0 0
+-
+pool-96-240-4-23.nwrknj.fios.verizon.net
+0 1 1 807 0 0
+-
+c-75-66-224-37.hsd1.ar.comcast.net
+0 1 1 807 0 0
+-
+ucb-np2-80.colorado.edu
+0 1 1 807 0 0
+-
+s126n107.roaming.geneseo.edu
+0 1 1 807 0 0
+-
+207-47-185-200.prna.hsdb.sasknet.sk.ca
+0 1 1 807 0 0
+-
+pool-173-73-136-139.washdc.fios.verizon.net
+0 7 7 5649 0 0
+-
+h161.182.123.208.ip.windstream.net
+0 1 1 807 0 0
+-
+c-76-29-180-201.hsd1.ga.comcast.net
+0 1 1 807 0 0
+-
+66-232-74-171.ctcweb.net
+0 1 1 807 0 0
+-
+c-71-61-169-178.hsd1.pa.comcast.net
+0 1 1 807 0 0
+-
+4.sub-97-202-109.myvzw.com
+0 1 1 807 0 0
+-
+ool-457e57c0.dyn.optonline.net
+0 1 1 807 0 0
+-
+ip68-107-49-236.sd.sd.cox.net
+0 1 1 807 0 0
+-
+pool-71-169-116-7.altnpa.east.verizon.net
+0 1 1 807 0 0
+-
+c-71-207-68-83.hsd1.pa.comcast.net
+0 1 1 807 0 0
+-
+adsl-76-211-222-224.dsl.hrlntx.sbcglobal.net
+0 1 1 807 0 0
+-
+mobile-166-137-009-022.mycingular.net
+0 1 1 807 0 0
+-
+c-76-102-227-225.hsd1.ca.comcast.net
+0 1 1 807 0 0
+-
+ip68-227-201-209.dc.dc.cox.net
+0 1 1 807 0 0
+-
+pa-67-234-63-242.dhcp.embarqhsd.net
+0 1 1 807 0 0
+-
+c-71-224-165-253.hsd1.pa.comcast.net
+0 1 1 807 0 0
+-
+c-98-229-17-132.hsd1.ma.comcast.net
+0 1 1 807 0 0
+-
+192.sub-75-198-247.myvzw.com
+0 1 1 807 0 0
+-
+ip72-208-120-161.ph.ph.cox.net
+0 1 1 807 0 0
+-
+adsl-108-68-28-73.dsl.sndg02.sbcglobal.net
+0 1 1 807 0 0
+-
+208.180.91.48
+0 1 1 807 0 0
+-
+ppappal.hsd1.ma.comcast.net
+0 1 1 807 0 0
+-
+adsl-99-178-102-23.dsl.lsan03.sbcglobal.net
+0 1 1 807 0 0
+-
+68-118-224-170.dhcp.oxfr.ma.charter.com
+0 1 1 807 0 0
+-
+hosted-by.leaseweb.com
+0 10 0 0 0 0
+-
+99-152-149-41.lightspeed.ftwotx.sbcglobal.net
+0 1 1 807 0 0
+-
+cpe-72-178-108-107.satx.res.rr.com
+0 2 2 1614 0 0
+-
+pool-173-61-219-6.cmdnnj.east.verizon.net
+0 1 1 807 0 0
+-
+rh-laurels-cs4-133-43.njit.edu
+0 1 1 807 0 0
+-
+pool-74-101-155-59.nycmny.fios.verizon.net
+0 1 1 807 0 0
+-
+c-98-212-173-165.hsd1.il.comcast.net
+0 1 1 807 0 0
+-
+cpe-74-77-5-89.buffalo.res.rr.com
+0 1 1 807 0 0
+-
+ip68-111-112-130.fv.ks.cox.net
+0 1 1 807 0 0
+-
+76.10.14.50
+0 1 1 807 0 0
+-
+bosch.netcraft.com
+0 2 2 0 2 1299720344
+/
+c-69-253-3-252.hsd1.pa.comcast.net
+0 1 1 807 0 0
+-
+adsl-108-78-229-250.dsl.hstntx.sbcglobal.net
+0 1 1 807 0 0
+-
+cdm-66-76-165-61.grvl.suddenlink.net
+0 1 1 807 0 0
+-
+rh-laurels-cs4-133-22.njit.edu
+0 1 1 807 0 0
+-
+netblock-75-79-23-65.dslextreme.com
+0 2 2 1614 0 0
+-
+cpe-67-248-0-237.nycap.res.rr.com
+0 1 1 807 0 0
+-
+cpe-69-204-222-4.stny.res.rr.com
+0 1 1 807 0 0
+-
+pool-71-125-231-155.nycmny.east.verizon.net
+0 1 1 807 0 0
+-
+cpe-74-76-4-204.nycap.res.rr.com
+0 1 1 807 0 0
+-
+c-24-4-17-75.hsd1.ca.comcast.net
+0 1 1 807 0 0
+-
+adsl-145-140-153.asm.bellsouth.net
+0 1 1 807 0 0
+-
+user-0c8hrdi.cable.mindspring.com
+0 1 1 807 0 0
+-
+pool-96-229-36-195.lsanca.fios.verizon.net
+0 1 1 807 0 0
+-
+71-37-119-23.slkc.qwest.net
+0 1 1 807 0 0
+-
+173-20-51-161.client.mchsi.com
+0 1 1 807 0 0
+-
+ool-4354980a.dyn.optonline.net
+0 1 1 807 0 0
+-
+c-66-31-237-139.hsd1.ma.comcast.net
+0 1 1 807 0 0
+-
+cpe-98-14-122-28.nyc.res.rr.com
+0 2 2 1614 0 0
+-
+c-68-54-159-37.hsd1.nj.comcast.net
+0 2 2 1614 0 0
+-
+c-68-36-237-31.hsd1.nj.comcast.net
+0 1 1 807 0 0
+-
+130-127-46-209.mccabe.resnet.clemson.edu
+0 1 1 807 0 0
+-
+c-24-19-202-201.hsd1.wa.comcast.net
+0 1 1 807 0 0
+-
+elrg-05-084.dsl.netins.net
+0 1 1 807 0 0
+-
+crawl-66-249-71-59.googlebot.com
+0 10 6 4842 0 0
+-
+noname.telekenex.com
+0 1 1 807 0 0
+-
+166-205-143-221.mobile.mymmode.com
+0 1 1 807 0 0
+-
+crawl-66-249-68-24.googlebot.com
+0 7 5 4035 0 0
+-
+pool-72-92-228-22.prvdri.fios.verizon.net
+0 1 1 807 0 0
+-
+96-40-97-21.static.bbcy.ca.charter.com
+0 1 1 807 0 0
+-
+cpe-069-134-016-002.nc.res.rr.com
+0 1 1 807 0 0
+-
+www.aozing.com
+0 1 1 35 1 1299693987
+/
+adsl-99-191-218-86.dsl.irvnca.sbcglobal.net
+0 1 1 0 1 1299882174
+/
+pool-71-116-83-219.snfcca.dsl-w.verizon.net
+0 1 1 807 0 0
+-
+pool-173-61-247-172.cmdnnj.east.verizon.net
+0 1 1 807 0 0
+-
+70-56-89-136.tukw.qwest.net
+0 1 1 807 0 0
+-
+c-71-233-248-5.hsd1.vt.comcast.net
+0 1 1 807 0 0
+-
+cpe-24-28-177-109.elp.res.rr.com
+0 1 1 807 0 0
+-
+cpe-66-61-13-37.neo.res.rr.com
+0 1 1 807 0 0
+-
+ool-44c2e24e.dyn.optonline.net
+0 22 22 17754 0 0
+-
+36.sub-174-253-160.myvzw.com
+0 1 1 807 0 0
+-
+ool-ad02e4f3.dyn.optonline.net
+0 1 1 807 0 0
+-
+027f5fa3.bb.sky.com
+0 1 1 807 0 0
+-
+cpe-67-241-47-221.twcny.res.rr.com
+0 1 1 807 0 0
+-
+166-205-142-058.mobile.mymmode.com
+0 1 1 807 0 0
+-
+cpe-74-76-129-143.nycap.res.rr.com
+0 1 1 807 0 0
+-
+129.252.30.62
+0 1 1 807 0 0
+-
+c-98-212-201-44.hsd1.il.comcast.net
+0 1 1 807 0 0
+-
+host-174-44-114-94.csp-wy.client.bresnan.net
+0 1 1 807 0 0
+-
+173-216-208-55-nwpt.mid.dyn.suddenlink.net
+0 1 1 807 0 0
+-
+cpe-74-65-69-156.stny.res.rr.com
+0 1 1 807 0 0
+-
+ool-457abfa4.dyn.optonline.net
+0 1 1 807 0 0
+-
+c-24-63-108-224.hsd1.ma.comcast.net
+0 1 1 807 0 0
+-
+h186.177.45.173.cable.haefele.htva.net
+0 42 27 611544 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+28.214.95.208.in-addr.arpa.plbb.us
+0 1 1 807 0 0
+-
+pool-96-240-4-23.nwrknj.fios.verizon.net
+0 1 1 807 0 0
+-
+pool-173-73-136-139.washdc.fios.verizon.net
+0 2 2 1614 0 0
+-
+c-98-212-173-165.hsd1.il.comcast.net
+0 1 1 807 0 0
+-
+pool-71-116-83-219.snfcca.dsl-w.verizon.net
+0 1 1 807 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 33
+https://sleepsquares.com/admin/retailers_admin11.php
+0 2
+https://sleepsquares.com/admin/retailers_admin10.php
+0 38
+https://sleepsquares.com/store/step2.php
+0 36
+https://dreamboost.com/store/confirm.php
+0 9
+https://sleepsquares.com/store/step1.php
+0 9
+https://salviazone.com/store/confirm.php
+0 131
+http://sleepsquares.com/store/cart.php
+0 1
+209.151.89.23
+0 5
+http://sleepsquares.com/admin/retailers_admin4.php
+0 2
+https://sleepsquares.com/store/confirm.php
+0 1
+https://salviazone.com/store/step2.php
+0 1
+https://salviazone.com/store/step1.php
+0 2
+# End Of Table - referrers
+# -agents- 
+Googlebot-Image/1.0
+0 17
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.15) 
+0 4
+Java/1.6.0_02
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.
+0 4
+Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en
+0 6
+Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/5
+0 13
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.13) 
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.14) 
+0 4
+Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) 
+0 2
+Mozilla/5.0 (iPod; U; CPU iPhone OS 4_2_1 like Mac OS X; en-u
+0 2
+Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.13) 
+0 4
+Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.5; AOLBuild 4337.540
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b12) Gecko/20100101
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Tri
+0 11
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) Appl
+0 1
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9
+0 4
+Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; VM670 Build/FRG8
+0 1
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) Appl
+0 56
+Mozilla/5.0 (Linux; U; Android 2.2; en-us; ADR6300 Build/FRF9
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Netcraft S
+0 2
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1
+0 2
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; FunWebProd
+0 1
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-us) Appl
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; WOW64; Tri
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6.6; .N
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0) Gecko/20100101 Fi
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/5
+0 3
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.
+0 46
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.14) 
+0 2
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.15) 
+0 4
+Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; en-u
+0 1
+Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; Droid Build/FRG8
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.13) 
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.1) 
+0 10
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; WOW64; Tri
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.19) 
+0 1
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; en) AppleWeb
+0 1
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) Appl
+0 49
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/5
+0 3
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

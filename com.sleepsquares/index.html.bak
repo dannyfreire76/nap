@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sleep Squares - Natural Sleep Aid - The Bedtime Delight that Helps You Sleep Through the Night</title>
+<link href="sleepsquares.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="outer_container">
+<table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="980" height="100%">
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="container">
+        <table bgcolor="#ffffff" border="0" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td colspan="2" class="header">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="2" class="hmenubar">
+              	<a href="#"><div class="tan_text">Online Store</div></a>
+              	<img class="hsplitter" src="images/ss/seperator.png" width="2" height="13">
+                <a href="#"><div class="tan_text">Lucid Dreaming</div></a>
+                <img class="hsplitter" src="images/ss/seperator.png" width="2" height="13">
+                <a href="#"><div class="tan_text">Suggestions</div></a>
+                <img class="hsplitter" src="images/ss/seperator.png" width="2" height="13">
+                <a href="#"><div class="tan_text">Supplement Facts</div></a>
+                <img class="hsplitter" src="images/ss/seperator.png" width="2" height="13">
+                <a href="#"><div class="tan_text">Articles</div></a>
+                <img class="hsplitter" src="images/ss/seperator.png" width="2" height="13">
+                <a href="#"><div class="tan_text">Testimonials</div></a>
+                <img class="hsplitter" src="images/ss/seperator.png" width="2" height="13">
+                <a href="#"><div class="tan_text">FAQs</div></a>
+                <img class="hsplitter" src="images/ss/seperator.png" width="2" height="13">
+                <a href="#"><div class="tan_text">Contact US</div></a>
+                <img class="hsplitter" src="images/ss/seperator.png" width="2" height="13">
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="bw_dropshadow"></td>
+            </tr>
+            <tr>
+              <td class="sidebar1">
+              		<div class="menu_header">Customer Login</div>
+              		<form class="login_form" action="login.php" method="post">
+                    
+                        <table width="160" border="0" cellspacing="2" cellpadding="2">
+                          <tr>
+                            <td align="right">Username:</td>
+                            <td><input name="username" type="text" size="10" maxlength="25"></td>
+                          </tr>
+                          <tr>
+                            <td align="right">Password:</td>
+                            <td><input name="password" type="text" size="10" maxlength="25"></td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" align="center"><input name="remember_me" type="checkbox" value="1"> Remember Me</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" align="center"><input name="login" type="button" value="Login"></td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" style="line-height:2px;">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" align="center"><a href="#">Forgot Password?</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" align="center"><a href="#">Never Got Password?</td>                      </tr>
+                        </table>
+                    </form>
+                </td>
+                <td class="content">
+                <div class="girl_sleeping"><img src="images/ss/girl.sleeping.png" width="375" height="217" alt="The bedtime delight that helps you sleep through the night" title="The bedtime delight that helps you sleep through the night"></div>
+          		  <h3>All Natural Sleep Aid</h3>
+	                <p>Sleep Squares from Slumberland Snacks are a delicious, sugar-free,   chocolate-based supplement developed to help you fall asleep fast,   maintain sleep throughout the night, and wake up feeling rested and   recharged without any side effects or hangover.</p>
+                  <h3>Fun Facts About E Pluribus Unum</h3>
+    	            <p>Just as the U.S. has thirteen original colonies, E Pluribus Unum has thirteen letters in it.</p>
+	    	        <p>The term ex pluribus unum (a minor variation) dates to ancient times, where Saint Augustine uses it in his c. 397-398 Confessions (Book IV.)</p>
+            	    <p>E Pluribus Unum still appears on U.S. coins even though it is no longer the official national motto! That honor was given to In God We Trust in 1956 by an Act of Congress (36 U.S.C. § 302.)</p>
+				</td>
+            </tr>
+        </table>
+        <div class="footer">
+        	<a href="about/privacy_security.php"><div class="tan_text">Privacy & Security</div></a> - 
+            &copy; 2007-2010 <a href="about/index.php"><div class="tan_text">Upstate Dream Institute, LLC</div></a> - 
+            <div class="tan_text">All Rights Reserved.</div>
+        </div>
+    </td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>

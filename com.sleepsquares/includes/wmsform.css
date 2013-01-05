@@ -1,0 +1,106 @@
+/*
+BME WMS
+	Page: Form StyleSheet
+	Path/File: /includes/wmsform.css
+	Version: 1.1
+	Build: 1100
+	Date: 11-14-2006
+*/
+
+form.wmsform {
+	width: 470px;
+	font-size: 1.1em;
+	color: #333;
+	}
+	
+form.wmsform legend { 
+	padding: 0 2px;
+	font-weight: bold;
+	_margin: 0 -7px;
+	padding-left: 0;
+	}
+	
+form.wmsform label {
+	display: inline-block;
+	line-height: 1.8;
+	vertical-align: top;
+	width: 120px;
+	}
+
+form.wmsform legend,
+form.wmsform label { color: #333; }
+
+form.wmsform fieldset {
+	margin-bottom: 10px;
+	border: none;
+	border-top: 1px solid #C9DCA6;
+	background: url('http://www.salviazone.com/images/wmsform-fieldset2.gif') left bottom repeat-x;
+	}
+	
+form.wmsform fieldset ol {
+	margin: 0;
+	padding: 0;
+	}
+
+form.wmsform fieldset li {
+	list-style: none;
+	margin: 0;
+	padding: 5px 10px 7px;
+	background: url('http://www.salviazone.com/images/wmsform-divider2.gif') left bottom repeat-x;
+	}
+
+form.wmsform fieldset li input {
+	border : 1px solid #900;
+	padding : 1px;
+	}
+
+form.wmsform fieldset li select {
+	border : 1px solid #900;
+	padding : 1px;
+	}
+
+form.wmsform fieldset li textarea {
+	border : 1px solid #900;
+	padding : 1px;
+	}
+
+form.wmsform fieldset li.fm-optional input {
+	border : 1px solid #ccc;
+	}
+
+form.wmsform fieldset li.fm-none input {
+	border : none;
+	}
+
+form.wmsform fieldset li.fm-button input {
+	margin : auto 40%;
+	}
+
+form.wmsform fieldset li.fm-optional select {
+	border : 1px solid #ccc;
+	}
+
+form.wmsform em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+	}
+
+form.wmsform fieldset fieldset {
+	border: none;
+	margin: 3px 0 0;
+	background: none;
+	}
+	
+form.wmsform fieldset fieldset legend {
+	padding: 0 0 5px;
+	font-weight: normal;
+	}
+	
+form.wmsform fieldset fieldset label {
+	display: block;
+	width: auto;
+	margin-left: 120px;
+	}
+
+/*\*//*/ form.cmxform legend { display: inline-block; } /* IE Mac legend fix */

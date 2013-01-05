@@ -1,0 +1,51 @@
+Return-path: <>
+Envelope-to: sleepsqu@breakout.whspn.net
+Delivery-date: Mon, 22 Nov 2010 15:05:32 -0700
+Received: from mailnull by breakout.whspn.net with local (Exim 4.69)
+	id 1PKeVw-0007ub-QL
+	for sleepsqu@breakout.whspn.net; Mon, 22 Nov 2010 15:05:32 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@breakout.whspn.net>
+To: sleepsqu@breakout.whspn.net
+Subject: Mail failure - no recipient addresses
+Message-Id: <E1PKeVw-0007ub-QL@breakout.whspn.net>
+Date: Mon, 22 Nov 2010 15:05:32 -0700
+
+A message that you sent contained no recipient addresses, and therefore no
+delivery could be attempted.
+
+------ This is a copy of your message, including all the headers. ------
+
+To: 
+Subject: Your SleepSquares.com Wholesale Catalog Order
+X-PHP-Script: sleepsquares.com/admin/retailers_admin11.php for 173.45.181.106
+FROM: info@sleepsquares.com
+Message-Id: <E1PKeVw-0007ua-Q8@breakout.whspn.net>
+Date: Mon, 22 Nov 2010 15:05:32 -0700
+
+Dear Right By Nature - Attn: Attn: Rhonda,
+
+Thank you for your SleepSquares.com Wholesale order. Your Order Confirmation Number and Order Number is 5000003.  Please keep a copy of this email for your records. If you have any questions please call us toll free at 1-888-725-9664.
+
+Bill To:
+Right By Nature - Attn: Attn: Rhonda
+2305 Smallman St.
+Pittsburgh, PA
+15222, 
+
+Ship To:
+Right By Nature - Attn: Attn: Rhonda
+2305 Smallman St.
+Pittsburgh, PA
+15222, 
+
+Unit price(s) reflect a 0% discount
+Sleep Squares Original - 7 Piece Box SKU: 0011                     1 x $28.32                     Subtotal: $28.32
+Sub-Total: $28.32
+Shipping: $5.68
+Total: $34.00
+
+Note: All charges will appear as Upstate Dream Institute, LLC, the company that produces Sleep Squares.
+
+
+

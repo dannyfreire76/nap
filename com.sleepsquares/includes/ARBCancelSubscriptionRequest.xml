@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ARBCancelSubscriptionRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+    <merchantAuthentication>
+        <name>{merchant_name}</name>
+        <!-- 28YF5q4pFUr -->
+        <transactionKey>{merchant_transactionKey}</transactionKey>
+        <!-- 67qhe99TBP6769rA -->
+    </merchantAuthentication>
+    <refId>{refId}</refId>
+    <subscriptionId>{subscriptionId}</subscriptionId>
+</ARBCancelSubscriptionRequest>

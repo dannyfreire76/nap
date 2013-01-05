@@ -1,0 +1,34 @@
+Return-path: <>
+Envelope-to: sleepsqu@breakout.whspn.net
+Delivery-date: Tue, 19 Oct 2010 12:27:26 -0600
+Received: from mailnull by breakout.whspn.net with local (Exim 4.69)
+	id 1P8GuE-0002Wz-FB
+	for sleepsqu@breakout.whspn.net; Tue, 19 Oct 2010 12:27:26 -0600
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@breakout.whspn.net>
+To: sleepsqu@breakout.whspn.net
+Subject: Mail failure - no recipient addresses
+Message-Id: <E1P8GuE-0002Wz-FB@breakout.whspn.net>
+Date: Tue, 19 Oct 2010 12:27:26 -0600
+
+A message that you sent contained no recipient addresses, and therefore no
+delivery could be attempted.
+
+------ This is a copy of your message, including all the headers. ------
+
+To: 
+Subject: Your SleepSquares.com Order
+X-PHP-Script: sleepsquares.com/store/confirm.php for 67.251.69.56
+FROM: info@sleepsquares.com
+Message-Id: <E1P8GuE-0002Wy-Ey@breakout.whspn.net>
+Date: Tue, 19 Oct 2010 12:27:26 -0600
+
+Sub-Total $0.00
+Shipping $1
+Tax $
+Total $1.00
+
+Note: All charges will appear as Upstate Dream Institute, LLC, the company that produces Dream Boost.
+
+
+

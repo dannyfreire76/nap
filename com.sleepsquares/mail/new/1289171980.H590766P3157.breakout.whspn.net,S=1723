@@ -1,0 +1,43 @@
+Return-path: <>
+Envelope-to: sleepsqu@breakout.whspn.net
+Delivery-date: Sun, 07 Nov 2010 16:19:40 -0700
+Received: from mailnull by breakout.whspn.net with local (Exim 4.69)
+	id 1PFEWS-0000op-IM
+	for sleepsqu@breakout.whspn.net; Sun, 07 Nov 2010 16:19:40 -0700
+X-Failed-Recipients: jp@aicma.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@breakout.whspn.net>
+To: sleepsqu@breakout.whspn.net
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1PFEWS-0000op-IM@breakout.whspn.net>
+Date: Sun, 07 Nov 2010 16:19:40 -0700
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  jp@aicma.com
+    SMTP error from remote mail server after end of data:
+    host mail.aicma.com [63.119.145.34]: 550 This message is spam and is rejected.
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <sleepsqu@breakout.whspn.net>
+Received: from sleepsqu by breakout.whspn.net with local (Exim 4.69)
+	(envelope-from <sleepsqu@breakout.whspn.net>)
+	id 1PFEWO-0000jR-DM
+	for jp@aicma.com; Sun, 07 Nov 2010 16:19:36 -0700
+To: jp@aicma.com
+Subject: Confirming Your Newsletter Subscription
+X-PHP-Script: sleepsquares.com/contact/index.php for 98.216.8.208
+FROM: info@sleepsquares.com
+Message-Id: <E1PFEWO-0000jR-DM@breakout.whspn.net>
+Date: Sun, 07 Nov 2010 16:19:36 -0700
+
+Thank you for subscribing to our email newsletter. We appreciate your interest. Please simply click the link below to confirm your subscription to our newsletter.
+
+http://sleepsquares.com/newsletters/index2.php?confirm=1&member_id=9
+
+
+

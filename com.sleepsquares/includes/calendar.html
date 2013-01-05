@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <title><!-- Insert your title here --></title>
+    <script type="application/x-javascript" src="../includes/jquery.js"></script>
+    <script type="application/x-javascript" src="../includes/_.jquery.js"></script>
+    <script type="application/x-javascript" src="../includes/_.date.js"></script>
+    <style type="text/css">
+	.even {
+	    background-color: #CFF;
+	}
+	.odd {
+	    background-color: #FFC;
+	}
+    </style>
+</head>
+<body>
+    <!-- Insert your content here -->
+    <script type="application/x-javascript">
+	$(document).ready(function(){
+	    var F=_("input",{type:"text",name:"day",'class':"day",id:"day",size:2,style:"text-align:center;"});
+	    var G=_("input",{type:"text",name:"week",'class':"week",id:"week",size:8,style:"text-align:center;"});
+	    F=[F,F,F,F,F,F,F,G];
+	    F=_("td",F);
+	    F=[F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F];
+	    F=_("tr",F);
+	    F=_("table",{border:0,cellspacing:0,cellpadding:0},F);
+	    F=_("form",{name:"calendar"},F);
+	    $('body').append(F);
+	    var date=new Date();
+	    var first=date.add(1-date.getDate());
+	    first=first.add(-first.getDay());
+	    var wk=0;
+	    with(document.forms.calendar){
+		for(var i=0;i<day.length;i++){
+		    day[i].value=first._("d");
+		    day[i].title=first._("yyyy-mm-dd hh:ii:ss");
+		    $(day[i]).removeClass("odd").removeClass("even");
+		    $(day[i]).addClass(first.getMonth()%2?"even":"odd");
+		    week[wk].value=first._("mmm yyyy");
+		    $(week[wk]).removeClass("odd").removeClass("even");
+		    $(week[wk]).addClass(first.getMonth()%2?"even":"odd");
+		    if(i % 7 > 5)wk++;
+		    first=first.add(1);
+		}
+	    }
+	})
+    </script>
+
+</body>
+</html>

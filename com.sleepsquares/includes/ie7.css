@@ -1,0 +1,10 @@
+#loading_dialog {
+	filter:alpha(opacity=70);
+}
+
+.prod_list {
+	padding: 0px 15px 20px 0px;
+}
+
+/* utility classes */
+.hand {cursor:hand}

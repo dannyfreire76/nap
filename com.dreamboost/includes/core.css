@@ -1,0 +1,61 @@
+/*	BME WMS
+	Page: Core StyleSheet
+	Path/File: /includes/core.css
+	Version: 1.8
+	Build: 1801
+	Date: 01-23-2007
+*/
+
+/*
+body {
+	font: normal 62.5% "Lucida Grande", Helvetica, Verdana, Arial;
+	margin: 0px;
+	padding:0px;
+	}
+	
+p { margin: 10px 0; }
+*/
+
+.sr {
+	position: absolute;
+	left: -9999em;
+	top: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	}
+	
+.style1 {
+	FONT: 12px "Times New Roman", Times, serif; TEXT-TRANSFORM: none; 
+}
+.style2 {
+	FONT: 14px Arial; TEXT-TRANSFORM: none; 
+}
+.style3 {
+	FONT: bold 14px Arial; TEXT-TRANSFORM: none; 
+}
+.style4 {
+	FONT: bold 18px Arial; TEXT-TRANSFORM: none; 
+}
+.style17 {
+	BORDER-RIGHT: thin solid; BORDER-TOP: thin solid; BORDER-LEFT: thin solid; BORDER-BOTTOM: thin solid; TOP: 0px; HEIGHT: 0px
+}
+
+P.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"
+}
+.style13 {
+	COLOR: #0099ff
+}
+
+IMG.article-left {
+	float: left;
+	margin-right: 2em;
+	margin-bottom: 2em;
+}
+
+IMG.article-right {
+	float: right;
+	margin-left: 2em;
+	margin-bottom: 2em;
+}

@@ -1,0 +1,5072 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201102 will be lost/reset.
+# Last config file used to build this data file was /home/sleepsqu/tmp/awstats/awstats.sleepsquares.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1976                
+POS_TIME 2658                
+POS_VISITOR 25282               
+POS_DAY 176656              
+POS_DOMAIN 3591                
+POS_LOGIN 4845                
+POS_ROBOT 5000                
+POS_WORMS 5559                
+POS_EMAILSENDER 5690                
+POS_EMAILRECEIVER 5833                
+POS_SESSION 177530              
+POS_SIDER 177744              
+POS_FILETYPES 5968                
+POS_OS 6181                
+POS_BROWSER 6498                
+POS_SCREENSIZE 8404                
+POS_UNKNOWNREFERER 8478                
+POS_UNKNOWNREFERERBROWSER 10542               
+POS_ORIGIN 11047               
+POS_SEREFERRALS 11194               
+POS_PAGEREFS 11377               
+POS_SEARCHWORDS 16542               
+POS_KEYWORDS 17584               
+POS_MISC 2322                
+POS_ERRORS 18395               
+POS_CLUSTER 4701                
+POS_SIDER_404 18530               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110301000952 329 88113 12075438474510
+FirstTime 20110201000458
+LastTime 20110228234519
+LastUpdate 20110301054616 329 0 328 0 0
+TotalVisits 4623                
+TotalUnique 4066                
+MonthHostsKnown 0                   
+MonthHostsUnknown 4075                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 199 246 37301098 268 282 555762
+1 143 149 485625 116 124 34626109
+2 71 73 84306 101 113 290267
+3 144 165 886833 141 150 149745
+4 105 139 481180 126 142 889593
+5 105 157 1009647 135 142 292061
+6 170 268 3003201 155 162 787641
+7 206 320 4659252 106 127 274741
+8 178 218 780671 114 125 224664
+9 269 446 10221226 116 140 239951
+10 252 407 3732763 101 153 229085
+11 309 473 3560422 113 141 310712
+12 374 600 79276276 122 152 98922
+13 405 659 6913525 145 180 154960
+14 359 519 6332836 111 138 587997
+15 342 449 72989521 125 147 398540
+16 387 463 37675617 97 110 422243
+17 419 446 36595984 97 108 194750
+18 322 363 2169754 106 110 255411
+19 412 624 75277045 125 159 882938
+20 276 276 313729 114 124 730230
+21 289 325 36608168 194 207 1451422
+22 287 318 1774083 131 146 303009
+23 237 250 35176219 117 136 279652
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 82
+us 5022 6989 277140374
+ca 303 346 2604229
+gb 158 158 126734
+ro 116 128 139235915
+jp 88 110 1216838
+in 80 93 35040712
+mx 65 65 52455
+pr 56 56 45192
+de 31 31 25017
+br 28 28 22596
+au 27 27 21789
+tr 19 19 14561
+se 18 18 14526
+nl 13 19 248201
+es 10 10 8070
+ru 10 16 235205
+eu 10 10 8070
+gr 9 9 7263
+fr 9 9 7263
+bg 9 9 7263
+nz 9 9 7263
+id 8 8 4912
+il 7 7 5649
+ph 7 7 4877
+dk 7 7 5649
+rs 3 3 2421
+cn 5 19 475207
+gl 1 1 807
+my 1 1 807
+cr 3 3 2421
+sg 2 2 1614
+ec 1 1 807
+co 3 3 2421
+kw 1 1 807
+bo 2 2 1614
+ps 1 1 35
+do 4 4 3228
+bs 1 1 807
+jm 1 1 807
+ch 1 1 807
+sv 1 1 807
+it 5 5 4035
+hu 3 3 1649
+za 6 6 4842
+pl 3 3 2421
+gt 1 1 807
+uy 1 1 807
+sk 3 3 2421
+iq 2 2 1614
+lu 1 1 807
+na 1 1 807
+ve 1 1 807
+pt 4 4 3228
+ua 2 2 1614
+ba 2 2 1614
+eg 5 5 3263
+no 7 7 5649
+kr 4 4 3228
+tt 1 1 807
+sa 2 2 1614
+th 4 4 3228
+hk 3 3 2421
+si 7 7 5649
+ie 3 3 2421
+cz 2 2 1614
+mk 3 3 2421
+fi 5 5 4035
+lt 1 1 807
+hr 1 1 807
+ir 3 3 2421
+py 1 1 807
+qa 1 1 807
+be 5 5 4035
+cl 2 2 1614
+tw 1 1 807
+pa 1 1 807
+at 3 3 2421
+jo 1 1 807
+vn 5 15 620522
+ee 1 1 807
+cm 1 1 35
+ar 2 2 1614
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 829 5129236 20110228231457 0
+msnbot\-media 390 637017 20110228123156 0
+slurp 229 1740633 20110228075148 0
+[\s_+:,\.\;\/\\-]bot 211 189507 20110228203755 0
+bot[\s_+:,\.\;\/\\-] 135 1650095 20110228230835 0
+no_user_agent 95 4869 20110228100451 0
+crawl 62 34676173 20110228103131 0
+ia_archiver 8 117042 20110215220722 0
+webcollage 1 237407 20110224064241 0
+msnbot 1 23237 20110224014005 0
+netcraft 1 0 20110223122515 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 628 1333969 0 0
+php 6019 17704287 0 0
+png 374 18241030 0 0
+html 230 1640274 0 0
+jpg 291 33356494 0 0
+js 301 1926226 0 0
+mov 11 378596757 0 0
+gif 499 4509944 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 23
+linuxredhat 1
+blackberry 124
+linuxandroid 398
+winlong 2433
+winxp 1713
+symbian 13
+win2000 11
+linuxfedora 10
+winunknown 5
+linuxcentos 1
+win2003 16
+linuxdebian 1
+psp 28
+unix 3
+java 124
+winnt 15
+win98 1
+linuxubuntu 63
+linux 99
+macosx 1360
+Unknown 133
+linuxpclinuxos 2
+win2008 1799
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 120
+msie6.0 207
+safari5.0.3 324
+firefox3.6 15
+chrome10.0.648.82 8
+netscape4.1 2
+firefox3.0.1 1
+sonyericsson 11
+firefox4.0 46
+safari4.0.5 180
+safari5.0 11
+chrome7.0.517.41 1
+chrome10.0.648.45 3
+chrome9.0.597.19 1
+safari4.0.3 8
+safari5.0.1 9
+firefox1.5.0.1 63
+chrome9.0.597.94 64
+safari5.0.2 344
+chrome5.0.375.127 2
+chrome10.0.648.114 1
+msie8.0 2643
+msie7.0 494
+chrome6.0.444.0 2
+chrome9.0.597.84 153
+flock 2
+chrome9.0.597.67 1
+chrome11.0.663.0 1
+firefox3.5.11 2
+safari3.1 72
+firefox0.9 22
+safari6.0.0.380 1
+chrome9.0.597.98 476
+safari6.0.0.285 1
+chrome8.0.552.215 1
+firefox2.0.0.20 3
+firefox3.5.13 1
+firefox3.5.14 1
+chrome0. 6
+firefox3.0 3
+lg\- 4
+chrome8.0.552.344 1
+chrome9.0.597.102 52
+firefox3.5.15 2
+safari6.0.0.246 3
+firefox3.6.4 2
+firefox2.0.0.6 1
+safari3.0.4 2
+firefox3.5.5 1
+mozilla 9
+netscape5.0 26
+chrome6.0.472.53 1
+chrome10.0.628.0 1
+chrome11.0.672.0 1
+netscape4.0 10
+opera8.50 1
+firefox3.6.3 21
+firefox3.0.10 1
+safari 4
+firefox3.0.15 1
+firefox3.0.7 2
+safari4.1.3 15
+opera8.54 1
+up\. 4
+firefox3.6.11 4
+android 381
+firefox3.5.4 1
+firefox3.6.6 31
+safari3.1.1 6
+opera9.00 2
+netscape7.2 1
+firefox3.5.3 11
+opera9.80 7
+chrome8.0.549.0 1
+iphone 26
+chrome0.3.154.0 1
+safari6.0.0.431 3
+firefox3.5.8 1
+safari4.1 1
+chrome8.0.552.237 126
+firefox3.6.9 6
+msie5.0 2
+msie9.0 21
+firefox3.6.10 78
+Unknown 134
+firefox3.0.8 1
+chrome8.0.552.224 1
+firefox3.6.7 2
+blackberry 116
+firefox3.6.14 1
+firefox3.5.6 2
+firefox3.0.4 10
+firefox3.5.16 82
+chrome9.0.597.86 1
+chrome9.0.597.83 1
+samsung 22
+firefox3.6.2 23
+firefox3.0.11 1
+safari3.2.3 1
+msie5.5 12
+safari2.0.1 3
+safari4.1.1 1
+safari4.0.2 11
+firefox3.0.3 5
+firefox2.0.0.11 1
+nokia 27
+chrome4.1.249.1045 1
+safari4.0 84
+firefox3.0.12 1
+firefox3.0.6 6
+chrome9.0.587.0 1
+seamonkey 12
+safari4.0.4 116
+firefox3.6.12 16
+firefox3.5.9 3
+firefox3.0.13 2
+firebird 2
+firefox3.5 1
+firefox3.0.19 26
+firefox3.6.8 29
+firefox3.6.13 1533
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 20
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20110220030425
+Mozilla/4.0(compatible;Polaris_6.2;Brew_3.1.5;U;en)/400x240_Samsung_SCH-U820 20110226220321
+Nokia6820/2.0_(4.83)_Profile/MIDP-1.0_Configuration/CLDC-1.0 20110228014414
+HuaweiU7519/B001_Browser/ACCESS_NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1/QTV-Player/5.3 20110212001614
+SAMSUNG-SGH-A867/A867UCHJ3_SHP/VPP/R5_NetFront/3.5_SMM-MMS/1.2.0_profile/MIDP-2.0_configuration/CLDC-1.1 20110208195127
+KWC-Buckle/_UP.Browser/7.2.7.2.541_(GUI)_MMP/2.0 20110219185000
+NetFront/3.5.1_(BREW_5.0.1.2;_U;_en-us;_LG;_NetFront/3.5.1/AMB)_Sprint_LN510_MMP/2.0_Profile/MIDP-2.1_Configuration/CLDC-1.1 20110224064310
+SAMSUNG-SGH-T401G/T401UDJD2_NetFront/3.4_Profile/MIDP-2.0_Configuration/CLDC-1.1[TF356986032168965000000017069948268] 20110210143451
+Mozilla/5.0_(en-us)_AppleWebKit/525.13_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Version/3.1_Safari/525.13 20110225151806
+Mozilla/5.0_(Danger_hiptop_5.0;_U;_rv:1.7.12)_Gecko/20050920 20110223110519
+Mozilla/4.0_(BREW_3.1.5;_U;_en-us;_Sanyo;_Polaris/6.0/AMB)_Boost_SCP-2700 20110206134331
+Mozilla/5.0_(en-us)_AppleWebKit/525.13_(KHTML,_like_Gecko;_Google_Web_Preview)_Version/3.1_Safari/525.13 20110227010419
+SAMSUNG-SGH-A877/A877UCID3_SHP/VPP/R5_NetFront/3.5_SMM-MMS/1.2.0_profile/MIDP-2.1_configuration/CLDC-1.1 20110224191455
+Mozilla/4.0_(BREW_3.1.5;_U;_en-us;_Sanyo;_NetFront/3.5.1/AMB)_Boost_SCP6760 20110224084403
+SAMSUNG-SGH-T669/T669UVJD9_SHP/VPP/R5_Dolfin/1.5_SMM-MMS/1.2.0_profile/MIDP-2.1_configuration/CLDC-1.1 20110219155559
+KWC-Torino/_UP.Browser/7.2.7.2.561_(GUI)_MMP/2.0 20110208222225
+SAMSUNG-SGH-T401G/T401UDJD2_NetFront/3.4_Profile/MIDP-2.0_Configuration/CLDC-1.1[TF356986033103813000000013368622791] 20110203170730
+SAMSUNG-SGH-A887/A887UCIFA_SHP/VPP/R5_NetFront/3.5_SMM-MMS/1.2.0_profile/MIDP-2.1_configuration/CLDC-1.1 20110212185609
+Mozilla/4.1_(U;_BREW_3.1.5;_en-US;_Teleca/Q05A/INT) 20110207103650
+Python-urllib/2.4 20110208012344
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Java/1.6.0_22 20110228162148
+HuaweiU7519/B001_Browser/ACCESS_NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1/QTV-Player/5.3 20110212001614
+Python-urllib/2.4 20110208012344
+Java/1.6.0_04 20110213172402
+Gimmie60/5.0_(Windows;_U;_Windows_NT_5.1;_en-US;_rv:1.9.1.11) 20110228225723
+NetFront/3.5.1_(BREW_5.0.1.2;_U;_en-us;_LG;_NetFront/3.5.1/AMB)_Sprint_LN510_MMP/2.0_Profile/MIDP-2.1_Configuration/CLDC-1.1 20110224064310
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 668 696
+From1 0 0
+From2 72 72
+From3 4640 4654
+From4 880 2931
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 65 65
+aol 2 2
+ask 2 2
+yahoo 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 114
+http://salviazone.com 2660 2667
+http://dreamboost.com 353 353
+http://salviazone.com/store/product.php 272 272
+http://salviazone.com/store/index.php 205 205
+http://salviazone.com/store/ 190 190
+http://salviazone.com 84 84
+http://dreamboost.com/supplement-facts/index.php 83 83
+http://salviazone.com/testimonials/ 59 59
+http://salviazone.com/findretailer/index.php 46 46
+http://salviazone.com/about/ 41 41
+http://translate.googleusercontent.com/translate_c 38 38
+http://salviazone.com/findretailer/ 35 35
+http://salviazone.com/salvia/index.php 33 33
+http://salviazone.com/faqs/index2.php 30 30
+http://salviazone.com/testimonials/index.php 28 28
+http://salviazone.com/store/cart.php 27 27
+http://salviazone.com/index.php 27 27
+http://salviazone.com/store/shipping.php 20 20
+http://salviazone.com/directions/index.php 17 17
+http://salviazone.com/links/links15.php 17 17
+http://dreamboost.com/testimonials/index.php 15 15
+http://gopillz.com 14 14
+http://dreamboost.com/directions/index.php 14 14
+http://dreamboost.com 14 14
+http://dreamboost.com/store/index.php 13 13
+http://salviazone.com/faqs/ 3 3
+http://dreamboost.com/store/cart.php 4 4
+http://salviazone.com/medsups/ 11 11
+http://gopillz.com/faqs/index2.php 1 1
+http://salviazone.com/links/links47.php 1 1
+http://salviazone.com/links/ReadFeed.php 1 1
+http://dreamboost.com/faqs/index.php 2 2
+http://salviazone.com/beretailer/ 8 8
+http://salviazone.com. 1 1
+http://dreamboost.com/articles/article_id/18 2 2
+http://dreamboost.com/store/product_list.php 1 1
+http://salviazone.com/warnings/index.php 4 4
+http://dreamboost.com/articles/article_id/59 2 2
+http://dreamboost.com/newsletters/index2.php 1 1
+http://dreamboost.com/articles/article_id/56 4 4
+http://dreamboost.com/articles/article_id/63 1 1
+http://salviazone.com/links/links33.php 1 1
+http://dreamboost.com/about/index.php 2 2
+http://salviazone.com. 6 6
+http://dreamboost.com/articles/article_id/61 5 5
+http://webcache.googleusercontent.com/search 11 18
+http://dreamboost.com/articles/article_id/22 2 2
+http://salviazone.com/warnings/ 1 1
+http://www.facebook.com/home.php 3 3
+http://dreamboost.com/articles/article_id/42 1 1
+http://www.facebook.com/l.php 2 2
+http://dreamboost.com/lucid_dream/lucid_dreaming.php 2 2
+http://dreamboost.com/articles/article_id/35 1 1
+http://salviazone.com/links/links41.php 3 3
+http://salviazone.com/store/product_list.php 2 2
+http://salviazone.com/links/links_submit.php 13 13
+http://salviazone.com/customer/customer_history.php 1 1
+http://salviazone.com/links/links39.php 1 1
+http://dreamboost.com/beretailer/index.php 9 9
+http://salviazone.com/contact/ 5 5
+http://dreamboost.com/links/links66.php 1 1
+http://salviazone.com/newsletters/index2.php 8 8
+http://salviazone.com./findretailer/index.php 1 1
+http://www.hmrsss.com/exhibitorslist.php 1 1
+http://66.163.168.225/babelfish/translate_url_content 1 1
+http://www.facebook.com/update_security_info.php 2 2
+http://salviazone.com/links/links35.php 2 2
+http://Salviazone.com 1 1
+http://buyersguide.ascendeventmedia.com/HotelMotel/Site/Default.aspx 3 3
+http://salviazone.com/about/privacy_security.php 5 5
+http://toolbar.inbox.com/search/results.aspx 1 1
+http://www.facebook.com/profile.php 4 4
+http://dreamboost.com/about/ 4 4
+http://dreamboost.com/articles/article_id/19 1 1
+http://SalviaZone.com 2 2
+http://salviazone.com/newsletters/index.php 1 1
+http://dreamboost.com/links/links_submit.php 1 1
+http://salviazone.com/contact/thanks.php 1 1
+http://www.facebook.com/daniel.nunezalcocer 1 1
+http://gopillz.com/contact/index.php 2 2
+http://dreamboost.com/store/product.php 6 6
+http://salviazone.com/about/index.php 3 3
+http://salviazone.com/links/index.php 1 1
+http://dreamboost.com/articles/article_id/36 6 6
+http://events.jspargo.com/awma11/Public/booth.aspx 1 1
+http://dreamboost.com/links/links43.php 1 1
+http://dreamboost.com/articles/index.php 13 13
+http://salviazone.com/contact/index.php 6 6
+http://gopillz.com/store/index.php 1 1
+http://salviazone.com/admin/ 10 10
+http://salviazone.com/faqs/index.php 5 5
+http://gopillz.com/links/links_submit.php 1 1
+http://www.facebook.com 3 3
+http://salviazone.com/salvia/ 8 8
+http://gopillz.com/supplement-facts/index.php 2 2
+http://salviazone.com/articles/music1.php 12 12
+http://events.jspargo.com/awma11/Public/Booth.aspx 1 1
+http://dreamboost.com/links/links7.php 1 1
+http://salviazone.com/medsups/5min_meditation.php 3 3
+http://gopillz.com/testimonials/index.php 2 2
+http://dreamboost.com/lucid_dream/introduction.php 2 2
+http://dreamboost.com/contact/index.php 3 3
+http://salviazone.com/beretailer/index.php 1 1
+http://dreamboost.com/lucid_dream/index.php 1 1
+http://dreamboost.com/admin/ 5 5
+http://gopillz.com/admin/ 1 1
+http://www.salviazone.com 11 11
+http://dreamboost.com/articles/article_id/58 1 1
+http://gopillz.com/store/product.php 1 1
+http://dreamboost.com/faqs/index2.php 9 9
+http://dreamboost.com/articles/article_id/62 13 13
+http://salviazone.com/directions/ 1 1
+http://salviazone.com/medsups/nature_meditation.php 5 5
+http://salviazone.com/medsups/index.php 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 29
+sleep+squares 31
+sleepsquares.com 7
+slumberland+snacks 3
+mid+beta+waves 2
+sleepsquares 2
+upstate+dream+institute+mailing+address 1
+slumberland+sleep+squares 1
+sequence+of+sleep+stages 1
+article+brain+electrical+activity+stages+of+sleep+rem 1
+sleep+quares 1
+articles+on+amount+of+sleep+you+get+and+activities+you+do+effecting+your+dreams 1
+sleep+is+for+squares 1
+chocolatey+sleep+squares 1
+stage+5+rem 1
+picture+of+piece+of+orange 1
+www.sleepsquares.com 1
+sleep+squares.com 1
+888-725-9663 1
+where+can+i+buy+sleep+squares%3f 1
+blue+vervain+active+ingredients 1
+describe+the+sequence+of+stages+in+a+typical+first+cycle+of+a+night%e2%80%99s+sleep 1
+disclaimer+drowsiness+disclaimer 1
+brain+waves+on+an+egg+during+rem+sleep 1
+sleep+squares+work 1
+is+your+insomnia+just+a+bad+habit%3f 1
+sleep+benefits+for+brain 1
+rem+stage+duration 1
+sleep+square 1
+inurl+product.php%3fprod_id%3d+intext+cart 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 79
+sleep 45
+squares 35
+of 7
+sleepsquares.com 7
+rem 4
+slumberland 4
+a 3
+stages 3
+brain 3
+waves 3
+snacks 3
+stage 2
+disclaimer 2
+sequence 2
+you 2
+is 2
+on 2
+mid 2
+for 2
+beta 2
+your 2
+sleepsquares 2
+buy 1
+egg 1
+chocolatey 1
+orange 1
+intext 1
+product.php%3fprod_id%3d 1
+and 1
+cycle 1
+piece 1
+vervain 1
+activities 1
+do 1
+bad 1
+888-725-9663 1
+institute 1
+during 1
+work 1
+inurl 1
+can 1
+where 1
+amount 1
+an 1
+the 1
+square 1
+activity 1
+dream 1
+squares%3f 1
+in 1
+typical 1
+upstate 1
+address 1
+articles 1
+active 1
+duration 1
+squares.com 1
+describe 1
+drowsiness 1
+benefits 1
+electrical 1
+effecting 1
+mailing 1
+habit%3f 1
+blue 1
+www.sleepsquares.com 1
+get 1
+article 1
+cart 1
+picture 1
+i 1
+quares 1
+first 1
+night%e2%80%99s 1
+dreams 1
+insomnia 1
+just 1
+ingredients 1
+5 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 293 113229
+206 1 76638
+400 1 411
+301 90 34911
+404 907 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 170
+//awstats.pl 1 -
+/webmail/scripts/setup.php 1 -
+http://www.cornwall.ac.uk/images/cpr/Sport.jpg 1 -
+/mysqladminconfig/scripts/setup.php 1 -
+/phpmya/scripts/setup.php 1 -
+/store/pro 1 -
+/php/scripts/setup.php 4 209.151.89.23
+/phpmanager/scripts/setup.php 1 -
+/php-myadmin/scripts/setup.php 1 -
+/phpmyadmin2/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+//MyAdmin/ 4 -
+//awstats/awstats.pl 1 -
+/includes/+thisID).html( 4 -
+/phpMyAdmin-2.5.4/scripts/setup.php 1 -
+/~/admin/scripts/setup.php 1 -
+//cgi-bin/awstats/awstats.pl 1 -
+http://allrequestsallowed.com/ 1 -
+/phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/php-my-admin/scripts/setup.php 1 -
+/~/phpmyadmin/scripts/setup.php 1 -
+/phpmyadmin1/scripts/setup.php 1 -
+/web/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin2/scripts/setup.php 1 -
+/images/wms/history.gif 15 http://sleepsquares.com/admin/retailers_admin2.php
+/phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+//dbadmin/ 1 -
+/phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+/phpadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.8.1/scripts/setup.php 1 -
+/includes/).html()== 4 -
+/~/phpadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+/mysql-admin/scripts/setup.php 1 -
+/roundcube/scripts/setup.php 1 -
+/phpMyAdmin/scripts/setup.php 13 209.151.89.23
+/sl2/data/scripts/setup.php 1 -
+/webdav/test 8 -
+/cpadmindb/scripts/setup.php 1 -
+/includes/retailer_login.php 4 -
+/phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+/SSLMySQLAdmin/scripts/setup.php 1 -
+//phpMyAdmin/ 4 -
+http://98.136.62.173/config/login 1 -
+/phpMyAdmin-2.6.2-rc1/scripts/setup.php 1 -
+//pma/ 4 -
+//admin/scripts/setup.php/scripts/setup.php 1 -
+/mysql/scripts/setup.php 11 209.151.89.23
+/phpMyAdmin-2.5.5-rc1config/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+/includes/quiz.php 4 -
+//stats/awstats.pl 1 -
+/_vti_bin/_vti_aut/author.dll 1 -
+/phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+/cpanelsql/scripts/setup.php 1 -
+HTTP/1.1 2 -
+/phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+http://66.196.107.226/config/login 1 -
+/phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+/~/myadmin/scripts/setup.php 1 -
+/websql/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+/admin/scripts/setup.php 5 209.151.89.23
+/cpanelmysql/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+/bbs/data/scripts/setup.php 1 -
+/includes/).html( 4 -
+/phpMyAdmin-2.5.6/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+//db/scripts/setup.php/scripts/setup.php 1 -
+//cgi-bin/stats/awstats.pl 1 -
+/phpMyAdmin-2.8.0/scripts/setup.php 1 -
+/phpMyAdmin-2/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+/~/PMA/scripts/setup.php 1 -
+/myAdmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+/web/scripts/setup.php 5 209.151.89.23
+//phpmyadmin/ 4 -
+/phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.7/scripts/setup.php 1 -
+//cgi/awstats.pl 1 -
+/phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+/SQL/scripts/setup.php 1 -
+/admin/phpmyadmin/scripts/setup.php 1 -
+/robots.txt 596 -
+/phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+/admin/pma/scripts/setup.php 1 -
+/pMA/scripts/setup.php 1 -
+/cart.php 4 -
+/sql/scripts/setup.php 4 209.151.89.23
+/phpMyAdmin-2.8.2/scripts/setup.php 1 -
+/sqlmanager/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+/cpanelphpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+/pma2005/scripts/setup.php 1 -
+/webadmin/scripts/setup.php 1 -
+/scripts/setup.php 11 209.151.89.23
+//cgi-bin/awstats.pl 1 -
+/phpMyAdmin-2.6.0/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+/PMA2005/scripts/setup.php 1 -
+/phpmy-admin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+/myadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/PMA/scripts/setup.php 3 -
+/phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+/images/DB_30_bottle.jpg 3 http://sleepsquares.com/articles/article.php
+/phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+/includes/function.mysql-query 1 http://sleepsquares.com/includes/main3.php
+/store/product_%0Acategory.php 1 -
+/webdb/scripts/setup.php 1 -
+/includes/about/index.php 1 http://sleepsquares.com/includes/reps_foot1.php
+//mysql/ 3 -
+/mysqladmin/scripts/setup.php 1 -
+/xampp/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3/scripts/setup.php 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 1 -
+http://98.136.62.161/config/login 1 -
+/dbadmin/scripts/setup.php 1 -
+/~/phpmanager/scripts/setup.php 1 -
+/mail/scripts/setup.php 1 -
+/includes/, 4 -
+/MyAdmin/scripts/setup.php 1 -
+//phppgadmin/ 1 -
+/phpmyadmin/scripts/setup.php 13 209.151.89.23
+/phpMyAdmin-2.5.1/scripts/setup.php 1 -
+/typo3/phpmyadmin/scripts/setup.php 1 -
+/PHPMYADMIN/scripts/setup.php 1 -
+http://business.sfu.ca/files/Images/financial/financial_ad.jpg 1 http://random.yahoo.com/fast/ryl
+/web/phpMyAdmin/scripts/setup.php 1 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/tinybrowser.php 1 http://sleepsquares.com/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/tinybrowser.php
+http://77.238.188.36/config/login 1 -
+/phpMyAdmin-2.5.5/scripts/setup.php 1 -
+/phpMyAdmin-2.2.3/scripts/setup.php 1 -
+http://66.196.106.201/config/login 1 -
+/p/m/a/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4/scripts/setup.php 1 -
+/sqladmin/scripts/setup.php 1 -
+/phpMyAdmin-2.2.6/scripts/setup.php 1 -
+/../images/7piece.original.jpg 6 http://sleepsquares.com/
+/phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+/cpphpmyadmin/scripts/setup.php 1 -
+/cpdbadmin/scripts/setup.php 1 -
+/pma/scripts/setup.php 11 209.151.89.23
+//myadmin/ 4 -
+/db/scripts/setup.php 3 209.151.89.23
+/phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+/awcuser/cgi-bin/vcs 1 -
+/includes/.php 4 -
+//cgi/stats/awstats.pl 1 -
+/phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/mysqlmanager/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4075
+173.45.181.106 191 558 2368874 20110225120939
+173.45.181.97 167 394 2253442 20110228072935
+173.45.183.151 69 170 1153118 20110217160937
+72.230.173.126 61 128 7193434 20110222095207
+207.189.121.44 45 45 352330 20110220171639
+74.98.173.15 44 82 1902148 20110207191655
+12.192.177.85 40 89 3296392 20110212124309
+70.45.181.152 39 39 31473 20110215204208
+173.45.181.14 34 115 36511966 20110223093352
+66.30.139.185 34 42 789654 20110223173910
+150.70.172.103 31 35 216381 20110227225913
+150.70.75.33 31 35 118042 20110228133327
+68.199.33.211 31 40 777971 20110208145220
+68.200.159.193 30 30 24210 20110203174849
+64.134.97.160 29 29 23403 20110216114658
+67.142.130.18 29 154 71408625 20110201192644
+89.123.61.144 28 28 366255 20110202034036
+207.189.121.46 28 28 311284 20110228014414
+166.137.138.244 27 35 740042 20110214075448
+216.169.227.217 27 27 21789 20110224112702
+97.212.195.158 25 61 184694 20110210185434
+173.74.0.46 25 40 1107148 20110227164107
+187.177.115.113 23 23 18561 20110228015814
+70.37.53.175 22 22 335588 20110224004906
+64.233.172.20 22 22 17754 20110225151733
+98.148.32.90 1 1 807 20110210192231
+66.215.247.126 1 1 807 20110225161737
+72.185.138.195 1 1 807 20110221152610
+98.149.129.108 1 1 807 20110224070959
+67.80.111.135 1 1 807 20110222213433
+97.125.88.121 1 1 807 20110212141031
+205.188.116.204 0 1 150 
+69.76.129.37 1 1 807 20110222155720
+208.54.86.70 1 1 807 20110225191210
+98.25.86.184 1 1 807 20110204220151
+69.80.172.39 1 1 807 20110223200127
+207.46.12.63 1 1 807 20110201085412
+209.51.65.240 1 1 807 20110223221555
+72.188.189.8 1 1 807 20110206130653
+207.144.43.245 1 1 807 20110210151420
+68.195.173.94 1 1 807 20110220103537
+166.137.12.158 1 1 807 20110220074444
+166.205.14.34 1 1 807 20110204201338
+208.105.238.19 1 1 807 20110203103115
+71.186.247.96 1 1 807 20110221210136
+97.107.163.234 1 1 807 20110202082618
+98.235.214.118 1 1 807 20110209112858
+201.167.83.188 1 1 807 20110223205920
+173.64.159.33 1 1 807 20110218201503
+173.248.194.74 1 1 807 20110225051936
+24.188.41.48 1 1 807 20110215181219
+174.46.141.131 1 1 807 20110217122019
+70.135.56.35 1 1 807 20110205190143
+173.65.30.27 1 1 807 20110211084333
+189.144.81.110 1 1 807 20110225172739
+24.13.0.112 1 1 807 20110206195544
+85.8.23.42 1 1 807 20110209143602
+75.110.218.207 1 1 807 20110227140256
+201.155.12.208 1 1 807 20110205112538
+75.10.98.144 1 1 807 20110210173821
+207.46.204.160 1 1 807 20110206020756
+68.118.76.97 1 1 807 20110222161730
+123.201.126.4 1 1 807 20110202054401
+208.80.194.62 1 1 8 20110216212757
+98.184.163.195 1 1 807 20110220192348
+72.60.56.197 1 1 807 20110216214542
+141.114.171.43 1 1 807 20110216184507
+91.107.6.23 1 1 807 20110209150849
+173.186.203.29 1 1 807 20110203164839
+69.19.14.26 1 1 807 20110209193828
+98.209.128.12 1 1 807 20110223005220
+74.179.26.17 1 1 807 20110215133557
+75.121.216.179 1 1 807 20110201225938
+166.137.139.169 1 1 807 20110224225148
+173.150.137.51 1 1 807 20110224164626
+24.15.79.106 1 1 807 20110222211642
+67.79.208.18 1 1 807 20110224210415
+74.72.192.194 1 1 807 20110211122733
+71.196.230.249 1 1 807 20110215001552
+67.215.156.43 1 1 807 20110225155707
+24.125.234.103 1 1 807 20110212160828
+64.53.101.229 1 1 807 20110224093119
+71.173.2.104 1 1 807 20110205142734
+74.177.201.137 1 1 807 20110216173313
+97.124.35.100 1 1 807 20110209224803
+86.134.133.181 1 1 807 20110213065623
+69.112.64.38 1 1 807 20110205143510
+76.67.11.193 1 1 807 20110206201530
+96.26.185.134 1 1 807 20110222150558
+68.206.138.180 1 1 807 20110203134353
+24.89.22.19 1 1 807 20110206221259
+131.229.169.121 1 1 807 20110212132642
+66.169.209.174 1 1 807 20110220194709
+68.224.148.116 1 1 807 20110223005412
+70.154.131.178 1 1 807 20110201212737
+96.232.186.37 1 1 807 20110228232940
+70.120.166.2 1 1 807 20110220182953
+24.166.8.152 1 1 807 20110201190017
+66.147.10.245 2 2 1614 20110215105721
+67.234.63.242 4 4 3228 20110222162337
+121.54.126.152 1 1 807 20110203092121
+188.223.80.20 1 1 807 20110201032756
+72.215.9.62 1 1 807 20110222203615
+68.149.61.246 1 1 807 20110228132325
+66.110.144.135 1 1 807 20110204123407
+72.209.162.148 1 1 807 20110206213415
+69.156.177.78 1 1 807 20110212083848
+151.213.228.27 1 1 807 20110215173048
+66.227.165.47 1 1 807 20110213184053
+174.253.225.246 1 1 807 20110225104129
+208.120.112.57 1 1 807 20110203113448
+71.125.128.243 1 1 807 20110204180408
+147.56.110.106 2 2 1614 20110208120829
+109.127.114.21 1 1 807 20110210071608
+71.91.177.90 1 1 807 20110221133034
+118.96.228.42 1 1 35 20110214074926
+174.252.33.31 1 1 807 20110211193319
+70.58.130.219 1 1 807 20110208172639
+208.54.14.103 1 1 807 20110222165025
+71.240.173.184 1 1 807 20110228231126
+72.179.43.89 3 3 2421 20110215191831
+69.23.71.186 1 1 807 20110201234826
+71.254.96.40 1 1 807 20110225142124
+74.70.201.159 1 1 807 20110219231023
+174.61.208.189 1 1 807 20110220123717
+68.84.72.59 1 1 807 20110206183323
+67.241.42.52 1 1 807 20110224153316
+174.28.50.47 1 1 807 20110222233720
+87.59.17.29 1 1 807 20110219171812
+88.83.19.7 1 1 807 20110213210740
+99.35.40.104 1 1 807 20110222191203
+71.172.48.190 1 1 807 20110218231705
+66.175.172.236 1 1 807 20110204203959
+99.127.17.201 2 2 1614 20110228182100
+68.195.175.75 1 1 807 20110211150301
+24.4.231.229 1 1 807 20110205084433
+76.181.64.82 1 1 807 20110222115931
+72.230.81.4 1 1 807 20110207231408
+115.242.192.40 1 1 807 20110205045325
+24.139.67.158 1 1 807 20110209135340
+99.8.17.49 1 1 807 20110220164840
+65.73.80.26 1 1 807 20110205234958
+81.151.107.8 1 1 807 20110210104842
+146.115.162.33 1 1 807 20110225181102
+99.14.111.180 1 1 807 20110207180623
+98.247.28.117 1 1 807 20110228050123
+24.49.240.230 1 1 807 20110223200542
+98.26.104.241 1 1 807 20110207122006
+72.193.166.16 1 1 807 20110205103818
+70.121.155.121 1 1 807 20110212151322
+85.74.227.212 1 1 807 20110214200317
+166.205.12.197 1 1 807 20110218151334
+186.42.29.214 1 1 807 20110228140442
+192.71.148.10 1 1 807 20110214063154
+96.232.30.52 1 1 807 20110225081337
+65.91.117.74 2 2 1614 20110208222125
+69.28.58.23 1 1 10422 20110213004947
+82.170.46.235 2 8 239324 20110205105458
+199.250.57.231 1 1 807 20110203164516
+68.83.40.113 1 1 807 20110213182043
+173.60.121.52 1 1 807 20110222132825
+71.145.144.7 1 1 807 20110222213215
+69.119.158.0 1 1 807 20110224120838
+68.7.215.130 1 1 807 20110205201004
+93.186.31.243 1 1 807 20110201110453
+82.128.199.34 1 1 807 20110218124520
+86.140.58.83 1 1 807 20110206161834
+67.224.148.65 1 1 807 20110204233624
+99.69.90.127 1 1 807 20110219115246
+98.196.162.105 1 1 807 20110209183323
+69.125.194.248 1 1 807 20110222224554
+189.195.18.114 1 1 807 20110208200349
+24.4.72.208 1 1 807 20110203214816
+69.21.110.70 1 1 807 20110208152011
+208.54.39.65 1 1 807 20110201192002
+187.15.199.186 1 1 807 20110212064026
+174.253.145.207 1 1 807 20110227232101
+66.231.144.141 1 1 807 20110203221616
+66.76.165.61 1 1 807 20110218160935
+83.255.67.130 1 1 807 20110211170114
+173.89.165.44 1 1 807 20110204120619
+130.64.190.108 1 1 807 20110226170245
+70.111.18.177 1 1 807 20110208220355
+142.166.9.26 1 1 807 20110214134033
+24.97.87.137 1 1 807 20110222101531
+206.246.15.167 1 1 807 20110228223731
+76.99.170.28 1 1 807 20110221155747
+67.84.159.133 1 1 807 20110202103116
+24.187.156.207 1 1 807 20110208153354
+69.205.80.205 1 1 807 20110202061239
+220.233.116.143 1 1 807 20110228015252
+98.249.164.223 1 1 807 20110216131054
+216.162.154.65 1 1 807 20110228183207
+86.153.52.154 1 1 807 20110207102156
+71.223.235.103 1 1 807 20110204011137
+201.173.24.208 1 1 807 20110213142019
+68.99.177.235 1 1 807 20110212001609
+174.253.144.53 5 5 4035 20110204223658
+74.82.68.35 6 6 27186 20110211132443
+108.0.209.18 1 1 807 20110222182447
+216.171.47.153 1 1 807 20110201181617
+130.49.6.151 1 1 807 20110215034703
+90.198.203.247 1 1 807 20110215114800
+66.68.243.242 1 1 807 20110202080448
+68.32.38.45 1 1 807 20110203183934
+64.85.236.58 2 2 1614 20110224125654
+98.202.188.244 1 1 807 20110204143819
+98.232.143.236 1 1 807 20110225033206
+204.191.68.134 1 1 807 20110202172817
+99.199.232.104 1 1 807 20110228222207
+96.250.4.44 1 1 807 20110215105844
+69.145.198.64 1 1 807 20110211070108
+68.13.107.9 1 1 807 20110221224939
+68.248.241.2 3 10 474526 20110214142702
+64.12.116.210 1 1 807 20110212112521
+71.14.108.116 1 1 807 20110202043626
+199.67.140.43 1 1 807 20110228030804
+24.43.100.100 1 1 807 20110221144731
+98.69.131.31 3 10 476095 20110208121601
+71.116.122.19 1 1 807 20110208144722
+184.189.241.60 1 1 807 20110208151529
+68.116.80.153 1 1 807 20110204233030
+158.135.242.248 1 1 807 20110220133121
+71.182.164.92 2 2 1614 20110214221635
+80.216.216.22 1 1 807 20110215143718
+98.194.45.119 1 1 807 20110228062336
+173.24.127.198 1 1 807 20110211101701
+65.81.157.63 1 1 807 20110213121737
+24.95.49.134 1 1 807 20110219101932
+74.221.71.44 1 1 807 20110227170520
+24.20.161.167 1 1 807 20110204015333
+97.107.90.113 1 1 807 20110211152458
+98.199.53.131 1 1 807 20110201135307
+71.81.179.36 1 1 807 20110228192957
+98.148.253.217 1 1 807 20110207231423
+99.69.48.34 1 1 807 20110205000001
+119.126.106.5 3 17 473593 20110223001915
+76.89.171.169 1 1 807 20110209162429
+71.240.240.150 1 1 807 20110209062124
+184.39.93.113 1 1 807 20110225120701
+68.150.215.201 1 1 807 20110216234456
+99.250.7.235 1 1 807 20110210201801
+97.85.185.161 1 1 807 20110215185914
+71.251.36.57 1 1 807 20110216180425
+76.8.9.45 1 1 807 20110210121500
+71.201.98.3 1 1 807 20110218175343
+67.141.104.217 1 1 807 20110215215219
+68.67.254.136 1 1 807 20110205130409
+74.65.103.197 1 1 807 20110202171324
+71.234.241.125 1 1 807 20110216225033
+67.225.55.245 1 1 807 20110207133900
+174.52.171.173 1 1 807 20110208193728
+69.209.226.128 1 1 807 20110210064830
+24.91.150.50 1 1 807 20110218194135
+69.136.58.111 1 1 807 20110212181418
+71.174.28.248 1 1 807 20110213145056
+173.45.230.76 1 1 807 20110201114245
+174.101.253.79 1 1 807 20110206224948
+68.114.69.155 1 1 807 20110209195601
+184.91.255.164 2 2 1614 20110201192313
+174.99.53.165 1 1 807 20110208160200
+207.46.199.16 1 1 807 20110207191543
+74.72.199.87 1 1 807 20110221154233
+201.167.81.102 1 1 807 20110215224427
+67.166.82.67 2 12 596109 20110202143008
+122.57.211.75 1 1 807 20110209024905
+128.120.204.183 1 1 807 20110222015124
+66.75.113.158 1 1 807 20110214023414
+72.226.10.147 1 1 807 20110220074339
+71.107.142.102 1 1 807 20110207225931
+187.194.15.96 2 2 1614 20110220013959
+65.96.7.93 1 1 807 20110227082022
+173.74.135.185 1 1 807 20110228182220
+169.231.5.137 1 1 807 20110221001335
+207.46.199.23 1 1 807 20110205180457
+66.249.82.1 3 3 2421 20110218085217
+74.86.57.228 1 1 807 20110202090002
+212.72.116.13 2 2 1614 20110224135957
+99.74.242.79 1 1 807 20110224222127
+24.62.67.222 1 1 807 20110221220146
+189.131.95.241 1 1 807 20110203202320
+72.204.35.144 1 1 807 20110203141822
+216.81.81.84 1 1 807 20110222121953
+90.32.29.168 1 1 807 20110213132059
+41.232.188.170 1 1 807 20110210000953
+71.60.201.185 1 1 807 20110209113802
+107.5.32.29 1 1 807 20110206105744
+201.173.229.18 2 2 1614 20110210204412
+70.45.13.24 1 1 807 20110211171909
+97.76.35.34 1 1 807 20110205131311
+72.51.241.255 1 1 807 20110222175636
+216.104.15.134 7 7 15188 20110220181909
+68.50.43.195 1 1 807 20110204204254
+124.187.232.205 1 1 807 20110208004442
+131.216.48.254 1 1 807 20110223140245
+96.55.111.26 1 1 807 20110221191820
+166.137.142.130 1 1 807 20110213121428
+204.116.4.253 1 1 807 20110203021642
+70.125.207.188 1 1 807 20110218160359
+117.196.247.0 1 1 807 20110224062510
+99.59.25.236 1 1 807 20110224034845
+76.87.48.101 1 1 807 20110202172936
+24.1.64.116 2 2 1614 20110206205906
+75.4.29.121 7 22 899322 20110214110213
+166.137.10.25 1 1 807 20110212145335
+24.208.61.228 1 1 807 20110226085618
+81.36.2.211 1 1 807 20110213122920
+184.8.34.45 1 1 807 20110227001533
+92.12.190.216 1 1 807 20110228124740
+71.198.101.48 1 1 807 20110202143837
+24.63.174.224 1 1 807 20110216153255
+66.74.224.241 2 2 1614 20110211173008
+66.153.145.110 1 1 807 20110222152631
+24.138.217.89 1 1 807 20110224225645
+66.192.82.163 1 1 807 20110223180457
+70.139.43.122 1 1 807 20110211224028
+205.188.116.143 1 1 9303 20110218170224
+24.247.104.145 1 1 807 20110210181918
+1.46.99.188 1 1 807 20110206093258
+75.10.110.84 1 1 807 20110225182628
+24.122.252.83 1 1 807 20110205211820
+200.87.154.151 1 1 807 20110202214952
+98.229.136.131 1 1 807 20110210165658
+75.183.32.25 4 4 3228 20110215212042
+85.251.78.192 1 1 807 20110212195931
+66.252.45.13 1 1 807 20110213103539
+207.46.193.40 1 1 807 20110207161147
+212.253.204.163 1 1 807 20110202130350
+99.19.78.17 1 1 807 20110202152731
+184.79.23.209 1 1 807 20110224000218
+108.78.206.113 1 1 807 20110216223111
+74.36.174.101 1 1 807 20110218192734
+68.231.96.104 1 1 807 20110222092037
+184.198.0.199 1 1 807 20110215091715
+69.171.187.77 1 1 807 20110224124550
+24.49.59.57 6 6 4842 20110212182640
+66.50.194.245 2 2 1614 20110217123623
+88.29.27.64 1 1 807 20110213095451
+69.109.45.54 1 1 807 20110211062206
+69.242.242.24 1 1 807 20110204045349
+67.252.41.189 2 2 1614 20110225132524
+99.31.178.204 1 1 807 20110221134556
+99.29.17.6 1 1 807 20110208173955
+74.78.177.59 1 1 807 20110219103948
+97.116.7.206 1 1 807 20110203184623
+207.46.204.167 1 1 807 20110203023608
+193.92.139.40 1 1 807 20110214070430
+96.246.9.202 1 1 807 20110217221907
+86.162.97.71 1 1 807 20110209120145
+173.57.149.227 1 1 807 20110220122531
+131.247.244.181 1 1 807 20110208224712
+89.132.60.228 1 1 807 20110221015121
+71.50.133.224 1 1 807 20110217175739
+64.121.119.233 1 1 807 20110210113353
+68.38.118.63 2 2 1614 20110213124722
+199.19.249.196 3 3 1622 20110217095239
+76.199.171.42 1 1 807 20110216183908
+122.58.36.102 1 1 807 20110219233748
+70.245.246.33 1 1 807 20110205001624
+99.228.16.27 4 4 3228 20110228163551
+195.83.178.210 1 1 807 20110205095216
+70.61.244.66 1 1 807 20110227121921
+18.96.6.86 1 1 807 20110205131516
+174.95.152.126 1 1 807 20110202190053
+76.242.150.76 1 1 807 20110202144853
+24.197.5.126 1 1 807 20110222205720
+208.51.56.82 1 1 807 20110207074532
+64.38.3.50 3 3 20852 20110204092414
+50.15.127.240 1 1 807 20110202233019
+174.129.117.237 6 6 0 20110226031536
+66.80.82.246 1 1 807 20110209120405
+69.127.204.113 1 1 807 20110204112143
+70.228.86.66 1 1 807 20110214175139
+24.63.54.56 1 1 807 20110209171646
+68.29.69.153 1 1 807 20110221185610
+24.243.1.122 1 1 807 20110222174241
+98.194.56.241 1 1 807 20110220011233
+201.222.93.125 1 1 807 20110208065655
+72.240.135.174 1 1 807 20110224084756
+72.80.222.175 1 1 807 20110227045803
+64.34.165.216 1 1 807 20110205052136
+69.143.168.222 1 1 807 20110203175430
+72.77.28.207 1 1 807 20110206231524
+97.115.4.226 1 1 807 20110224140659
+184.59.158.31 1 1 807 20110209031100
+75.67.196.49 1 1 807 20110210143746
+166.205.142.42 1 1 807 20110210153449
+216.220.115.84 1 1 807 20110224153728
+174.124.138.173 1 1 807 20110202113704
+24.98.117.177 1 1 807 20110224074840
+122.163.203.250 1 1 807 20110223234358
+184.36.93.123 2 2 1614 20110210181522
+163.120.70.10 1 1 807 20110212132049
+132.235.243.172 1 1 807 20110211134250
+166.216.130.86 1 1 807 20110212185609
+24.49.113.189 1 1 807 20110226093421
+69.207.94.69 1 1 807 20110214175603
+80.53.229.114 1 1 807 20110215164154
+98.119.206.148 1 1 807 20110204181755
+24.89.31.129 3 3 2421 20110228231458
+68.73.225.6 1 1 807 20110227105121
+108.6.20.190 1 1 807 20110211225758
+69.9.25.22 1 1 807 20110205202124
+65.52.104.41 1 1 807 20110207012549
+24.193.25.171 1 1 807 20110228100822
+62.161.29.149 1 1 807 20110208043243
+70.116.4.14 2 2 1614 20110201121414
+68.195.148.232 1 1 807 20110216182251
+187.111.93.142 1 1 807 20110209191823
+98.118.89.121 4 4 3228 20110201195845
+184.248.176.187 1 1 807 20110208232818
+174.102.138.135 1 1 807 20110218124726
+75.102.214.102 1 1 807 20110226192820
+99.31.157.71 1 1 807 20110211194312
+99.93.5.205 1 1 807 20110224140719
+99.206.143.195 1 1 807 20110201163529
+76.175.213.183 1 1 807 20110223195931
+66.25.139.155 1 1 807 20110212231935
+68.198.4.77 1 1 807 20110222164927
+90.7.195.33 1 1 807 20110222200842
+75.97.157.17 1 1 807 20110223080025
+98.250.160.35 1 1 807 20110211182541
+207.46.204.215 1 1 807 20110224043500
+97.92.210.211 1 1 807 20110216114940
+67.161.34.46 1 1 807 20110211142845
+76.24.206.118 1 1 807 20110208141110
+146.115.86.201 1 1 807 20110208194634
+208.54.38.66 1 1 807 20110202104114
+71.187.58.162 0 1 38419 
+71.75.224.150 1 1 807 20110221195152
+208.97.10.94 1 1 807 20110221180427
+145.120.22.204 1 1 807 20110201135357
+68.103.167.112 1 1 807 20110225105158
+50.14.130.86 2 2 1614 20110213151937
+72.19.96.118 1 1 807 20110225202805
+72.24.118.29 1 1 807 20110211151746
+194.153.145.235 1 1 807 20110222041406
+184.190.207.248 2 2 1614 20110223161340
+65.38.102.125 1 1 807 20110203115539
+12.29.225.150 1 1 807 20110210095817
+213.100.181.252 1 1 807 20110214202142
+74.176.79.214 1 1 807 20110222204415
+98.219.124.127 1 1 807 20110204145522
+205.188.116.199 1 1 9601 20110218170203
+24.149.73.145 1 1 807 20110228012305
+66.156.83.179 1 1 807 20110219161136
+173.29.20.8 1 1 807 20110209144603
+71.116.53.73 1 1 807 20110218220106
+69.180.125.106 1 1 807 20110226091014
+76.91.13.243 1 1 807 20110215051415
+24.115.10.67 2 8 239324 20110208155924
+24.251.46.217 1 1 807 20110206184700
+174.252.41.118 1 1 807 20110206122430
+71.237.154.223 1 1 807 20110211000717
+74.82.64.18 7 7 5649 20110226120707
+166.133.14.136 1 1 807 20110201180811
+204.9.208.1 1 1 807 20110206131040
+71.34.70.181 1 1 807 20110212133536
+184.190.67.155 2 2 1614 20110219232850
+68.36.84.238 1 1 807 20110215164511
+174.45.71.116 1 1 807 20110220183251
+75.55.39.234 1 1 807 20110220113319
+67.226.128.1 1 1 807 20110207093758
+213.185.19.36 2 2 1614 20110202063539
+200.92.188.210 1 1 807 20110205124946
+216.119.15.75 1 1 807 20110212223006
+71.206.230.4 1 1 807 20110228201508
+93.97.104.17 1 1 807 20110201131913
+174.253.97.122 1 1 807 20110204233231
+75.23.163.62 1 1 807 20110223193717
+68.168.214.78 1 1 10422 20110220175521
+99.62.116.246 1 1 807 20110201212924
+69.119.43.220 1 1 807 20110204150335
+86.152.76.79 1 1 807 20110222225305
+99.90.165.133 1 1 807 20110212213601
+68.223.215.173 1 1 807 20110208133844
+89.123.54.157 21 24 34716608 20110212155051
+122.176.67.60 2 2 1614 20110218015751
+71.142.84.13 1 1 807 20110217225809
+98.116.108.25 1 1 807 20110228114601
+84.54.177.241 1 1 807 20110209041744
+12.183.76.69 1 1 807 20110201152518
+75.40.35.106 1 1 807 20110219182343
+199.243.66.19 1 1 807 20110216115313
+24.193.9.157 1 1 807 20110215202835
+75.41.229.220 1 1 807 20110224083345
+204.83.16.161 1 1 807 20110223203429
+99.91.198.93 1 1 807 20110206095411
+68.227.204.2 1 1 807 20110201184628
+74.44.48.69 1 1 807 20110221175743
+174.16.217.223 1 1 807 20110217205627
+24.10.64.168 1 1 807 20110222211324
+68.185.160.63 1 1 807 20110221164246
+98.200.215.52 1 1 807 20110214072944
+205.200.195.105 1 1 807 20110207175846
+97.119.161.145 11 34 35607201 20110209002804
+41.34.25.63 1 1 807 20110216184858
+98.254.36.149 1 1 807 20110220205957
+65.95.114.199 1 1 807 20110219221520
+174.253.191.12 1 1 807 20110201103607
+65.97.172.99 1 1 807 20110214142731
+207.46.12.21 1 1 807 20110216130335
+70.173.27.81 1 1 807 20110213221555
+71.32.88.63 1 1 807 20110201232558
+96.234.70.107 1 1 807 20110217210448
+69.68.234.235 1 1 807 20110216150720
+97.104.121.230 1 1 807 20110201170510
+189.100.41.102 1 1 807 20110217201727
+24.156.6.194 1 1 807 20110223183949
+66.167.47.218 1 1 807 20110207031449
+75.144.237.110 2 2 1614 20110221085051
+71.29.179.217 2 9 463916 20110205213843
+80.121.90.213 1 1 807 20110203222728
+94.12.7.55 1 1 807 20110210233214
+190.135.22.165 1 1 807 20110202122428
+70.26.175.72 2 2 1614 20110220185701
+64.252.88.105 1 1 807 20110218130705
+75.66.34.88 1 1 807 20110213231118
+174.88.27.171 1 1 807 20110220171757
+174.45.93.7 1 1 807 20110226192517
+128.253.137.90 1 1 807 20110207115736
+81.105.242.240 1 1 807 20110206190216
+69.203.204.74 1 1 807 20110218050304
+70.228.66.244 1 1 807 20110209000030
+24.161.33.229 1 1 807 20110218231246
+187.66.128.178 1 1 807 20110206145245
+72.224.75.8 1 1 807 20110204164539
+68.109.9.45 1 1 807 20110222201554
+70.97.100.7 2 8 227854 20110228125057
+74.196.28.227 1 1 807 20110208170051
+123.193.30.112 1 1 807 20110210223640
+214.13.81.211 2 2 1614 20110225222604
+79.131.152.99 1 1 807 20110222032747
+64.231.22.52 1 1 807 20110214173859
+72.89.110.91 1 1 807 20110218220531
+96.233.249.149 1 1 807 20110228044033
+68.43.135.57 1 1 807 20110208125557
+76.186.111.11 1 1 807 20110211233501
+89.123.1.126 1 1 807 20110214050644
+208.54.38.57 1 1 807 20110218013528
+150.148.0.65 1 1 807 20110209071431
+24.87.209.188 1 1 807 20110228220959
+166.216.226.29 1 1 807 20110208195127
+99.73.249.229 1 1 807 20110209201633
+108.16.100.26 1 1 807 20110201112106
+207.46.12.27 1 1 807 20110221175200
+76.120.156.24 1 1 807 20110210205823
+96.228.38.169 1 1 807 20110214011654
+207.47.185.200 1 1 807 20110227132451
+64.134.191.37 1 1 807 20110223083603
+2.97.103.40 1 1 807 20110214162058
+66.108.107.149 1 1 807 20110224170829
+74.45.179.112 1 1 807 20110216195325
+64.128.172.225 1 1 807 20110209113825
+76.69.150.10 1 1 807 20110215110705
+99.18.135.11 1 1 807 20110222095204
+70.253.77.203 1 1 807 20110219130136
+142.165.134.140 1 1 807 20110215235411
+68.206.194.22 1 1 807 20110212005920
+166.137.137.134 1 1 807 20110220214848
+209.63.8.8 1 1 807 20110209170518
+174.252.202.241 1 1 807 20110201085240
+98.25.52.67 1 1 807 20110227065337
+75.120.30.5 1 1 807 20110212190920
+68.230.149.170 1 1 807 20110203142639
+89.133.185.219 1 1 807 20110210054828
+76.168.229.66 2 2 1614 20110223130046
+74.198.164.177 1 1 807 20110201210605
+70.241.100.50 1 1 807 20110206070541
+75.155.157.29 1 1 807 20110226232543
+166.205.9.62 1 1 807 20110201180936
+94.9.134.228 1 1 807 20110222191304
+67.249.6.63 1 1 807 20110226150430
+173.238.203.37 1 1 807 20110220154234
+108.17.101.196 2 2 1614 20110202044348
+80.7.53.229 1 1 807 20110205161406
+129.81.147.196 1 1 807 20110204000641
+109.189.242.96 1 1 807 20110223012843
+174.252.34.242 1 1 807 20110215050454
+97.81.211.41 1 1 807 20110211202737
+24.243.45.133 1 1 807 20110207095131
+69.123.203.79 2 2 1614 20110220093939
+186.44.139.149 1 1 807 20110228131317
+184.245.219.155 1 1 807 20110207143735
+166.166.16.24 2 2 1614 20110219171822
+69.233.89.193 1 1 807 20110204145822
+69.115.29.84 1 1 807 20110202191521
+98.192.205.38 1 1 807 20110225160432
+67.251.11.38 1 1 807 20110212060437
+66.205.126.86 1 1 807 20110228163800
+68.49.156.172 1 1 807 20110206190230
+201.246.76.129 1 1 807 20110217065311
+70.16.104.233 1 1 807 20110222165916
+24.91.248.67 1 1 807 20110205150653
+196.40.10.141 1 1 807 20110228174503
+69.248.172.71 1 1 807 20110202221300
+76.97.153.197 1 1 807 20110206093214
+142.68.106.84 1 1 807 20110216142309
+79.67.74.159 1 1 807 20110219193441
+24.24.85.183 1 1 807 20110204084539
+71.37.122.143 1 1 807 20110216083219
+90.195.239.75 1 1 807 20110227171139
+12.148.189.25 1 1 807 20110211100336
+207.46.12.205 1 1 807 20110201233014
+70.15.43.251 1 1 807 20110227174225
+76.84.220.137 1 1 807 20110216231650
+76.0.228.167 1 1 807 20110207145335
+76.92.221.3 1 1 807 20110212191138
+150.201.108.211 1 1 807 20110224115054
+70.182.243.60 3 10 473593 20110202160650
+71.58.124.114 1 1 807 20110218092908
+99.21.218.52 1 1 807 20110202235438
+76.77.10.148 1 1 807 20110213140222
+74.131.51.77 1 1 807 20110210221145
+213.106.40.214 1 1 807 20110204151730
+76.188.199.190 1 1 807 20110210212052
+166.205.8.172 4 11 475145 20110223194725
+75.12.64.174 7 31 344882 20110217144656
+24.224.233.180 1 1 807 20110203134238
+69.195.136.34 1 1 807 20110209160715
+99.10.100.58 1 1 807 20110205185411
+24.17.101.47 1 1 807 20110204194302
+78.90.229.74 2 2 1614 20110222230431
+64.178.135.4 1 1 807 20110223174359
+223.207.165.101 1 1 807 20110217193956
+75.81.132.239 1 1 807 20110214235342
+77.163.168.70 1 1 807 20110206161305
+24.10.129.27 1 1 807 20110222234810
+76.122.80.230 1 1 807 20110221114052
+63.225.215.183 1 1 807 20110215201726
+79.131.133.193 1 1 807 20110204135335
+76.161.65.171 1 1 807 20110219155057
+76.106.211.249 2 2 1614 20110212110705
+173.70.121.214 1 1 807 20110224124133
+96.18.20.50 1 1 807 20110212204700
+70.171.225.129 1 1 807 20110205112104
+93.103.186.77 1 1 807 20110203165229
+196.210.164.3 1 1 807 20110210114925
+216.121.234.156 1 1 807 20110228113124
+24.241.159.54 1 1 807 20110216091606
+71.182.129.127 1 1 807 20110213222516
+68.28.123.117 1 1 807 20110224084403
+98.216.242.173 1 1 807 20110205222505
+65.107.182.37 1 1 807 20110212170216
+98.198.65.183 1 1 807 20110205074640
+70.238.126.88 1 1 807 20110204093700
+108.85.82.157 1 1 807 20110223192145
+174.253.85.30 1 1 807 20110225110100
+173.57.44.161 1 1 807 20110220163741
+76.25.82.105 1 1 807 20110206133449
+69.137.101.12 1 1 807 20110222125442
+74.197.113.193 1 1 807 20110205094107
+96.226.122.123 1 1 807 20110218205752
+75.99.177.170 1 1 807 20110217101139
+68.192.209.41 1 1 807 20110209144759
+174.252.103.198 1 1 807 20110217182829
+69.237.184.54 1 1 807 20110221010728
+207.6.32.210 1 1 807 20110205125727
+72.19.72.24 1 1 807 20110206170637
+109.242.83.50 1 1 807 20110223062220
+75.82.223.67 1 1 807 20110202153213
+189.155.28.140 1 1 807 20110225232438
+74.78.107.69 1 1 807 20110220155024
+69.134.198.249 1 1 807 20110209203453
+99.147.142.75 1 1 807 20110203170046
+71.147.3.226 1 1 807 20110206210307
+24.55.160.62 1 1 807 20110216163942
+69.224.57.105 1 1 807 20110214160349
+76.108.241.246 1 1 807 20110218115924
+76.5.189.43 1 1 807 20110226013912
+99.165.167.250 1 1 807 20110217224310
+68.64.115.75 1 1 807 20110209193605
+76.172.123.253 1 1 807 20110222005634
+65.10.133.119 1 1 807 20110226100527
+75.177.74.253 1 1 807 20110206221947
+207.180.150.21 1 1 807 20110208183511
+68.171.231.80 1 1 807 20110217082953
+166.216.162.29 1 1 807 20110210143451
+75.149.88.129 3 3 2421 20110226014413
+98.235.204.90 1 1 807 20110211133842
+184.200.55.21 1 1 807 20110218091912
+87.144.78.63 1 1 807 20110212171833
+68.32.164.30 1 1 807 20110220205117
+72.51.240.56 1 1 807 20110214194146
+71.196.184.23 2 2 1614 20110208170945
+99.108.65.123 1 1 807 20110216002724
+71.255.145.64 2 2 1614 20110210190553
+70.238.67.147 1 1 807 20110217232708
+178.242.157.159 4 4 3228 20110212093034
+99.101.21.47 1 1 807 20110216130911
+92.28.83.111 1 1 807 20110226160841
+201.137.75.53 1 1 807 20110215150135
+91.177.184.210 1 1 807 20110202114302
+24.188.30.201 1 1 807 20110221143457
+173.15.106.177 1 1 807 20110218135621
+208.6.43.100 1 1 807 20110210124307
+64.134.243.61 1 1 807 20110223164157
+99.6.153.109 1 1 807 20110214182618
+166.216.130.183 1 1 807 20110221122343
+24.130.156.230 1 1 807 20110224222132
+173.55.231.87 1 1 807 20110228214844
+207.144.73.25 1 1 807 20110211122259
+108.20.24.63 1 1 807 20110226193435
+89.123.55.67 21 24 34716608 20110213172402
+96.61.188.47 1 1 807 20110208182846
+99.111.211.117 5 5 4035 20110223130744
+24.128.233.156 2 2 1614 20110208174732
+68.118.185.93 1 1 807 20110221143824
+72.81.129.108 1 1 807 20110218192502
+68.118.45.26 1 1 807 20110227225507
+68.53.70.41 1 1 807 20110211214748
+66.108.106.27 2 2 1614 20110226110206
+99.194.17.91 2 2 1614 20110227131417
+96.248.107.171 1 1 807 20110226145908
+24.6.5.68 1 1 807 20110207230107
+203.122.14.226 5 5 4035 20110224025513
+68.7.79.53 1 1 807 20110214091936
+92.65.158.162 1 1 807 20110216141439
+72.65.47.247 1 1 807 20110203022525
+99.179.172.120 1 1 807 20110211004042
+169.204.229.74 1 1 807 20110208135409
+173.68.105.11 1 1 807 20110215174309
+68.13.196.105 1 1 807 20110213213512
+97.103.146.60 1 1 807 20110225102049
+67.175.162.228 1 1 807 20110201050432
+129.3.142.228 2 2 1614 20110220230204
+194.153.113.8 12 12 9684 20110218191656
+75.36.153.58 1 1 807 20110227173048
+74.211.16.228 1 1 807 20110213225612
+173.66.81.217 1 1 807 20110208161224
+129.170.241.160 1 1 807 20110209190248
+166.205.140.33 1 1 807 20110211210516
+166.205.13.116 1 1 807 20110227150231
+75.60.111.134 1 1 807 20110209183309
+76.117.106.15 1 1 807 20110227091044
+24.190.73.21 1 1 807 20110221221134
+71.210.89.104 1 1 807 20110206234042
+74.67.89.4 1 1 807 20110211223815
+24.119.204.28 1 1 807 20110228162007
+68.55.136.32 1 1 807 20110201233107
+119.93.65.105 1 1 35 20110215233841
+201.124.5.220 1 1 807 20110207004558
+208.91.115.10 1 1 807 20110226160523
+76.25.63.111 1 1 807 20110207163304
+98.200.21.115 1 1 807 20110225181911
+71.33.96.221 1 1 807 20110213213139
+166.216.194.56 1 1 807 20110205183338
+97.77.53.103 2 2 1614 20110205171520
+184.76.16.221 1 1 807 20110210180230
+98.253.57.144 1 1 807 20110209095311
+99.196.64.56 5 19 558828 20110205190852
+72.183.118.91 1 1 807 20110216000349
+174.253.20.185 1 1 807 20110205150818
+166.205.10.165 1 1 807 20110207111255
+84.92.184.231 1 1 807 20110226114846
+97.100.185.183 1 1 807 20110211125343
+108.107.137.33 1 1 807 20110210043408
+207.67.149.233 1 1 807 20110201211710
+221.237.219.85 1 1 807 20110227224818
+97.94.208.102 2 2 1614 20110215151535
+173.162.165.237 1 1 807 20110214195944
+24.207.3.216 1 1 807 20110220011724
+97.103.215.154 2 2 1614 20110216234856
+71.229.234.3 1 1 807 20110208145747
+68.109.67.85 1 1 807 20110205120947
+89.253.109.119 1 1 807 20110205155001
+66.108.206.158 1 1 807 20110225082420
+67.238.45.88 1 1 807 20110203024030
+68.36.180.126 1 1 807 20110202160211
+64.12.117.6 1 1 807 20110220164225
+70.52.209.5 1 1 807 20110214080911
+71.39.246.5 1 1 807 20110208110920
+161.58.86.197 1 1 807 20110207195451
+74.99.162.148 1 1 807 20110215172809
+58.85.5.226 1 1 807 20110201124714
+24.210.170.33 2 2 1614 20110208062215
+24.8.75.178 1 1 807 20110210195959
+66.58.239.31 1 1 807 20110226232123
+99.104.64.169 1 1 807 20110212040851
+174.17.67.21 1 1 807 20110227001827
+166.205.138.26 1 1 807 20110206224657
+94.13.174.162 1 1 807 20110226182309
+187.144.6.191 1 1 807 20110216192112
+74.230.35.34 1 1 807 20110221060134
+121.97.59.91 1 1 807 20110215140325
+69.172.108.61 1 1 807 20110207065234
+64.134.155.11 1 1 807 20110204122247
+62.219.146.159 1 1 807 20110208060057
+99.177.244.47 1 1 807 20110219180726
+70.138.150.156 1 1 807 20110217201315
+98.197.163.228 1 1 807 20110226214916
+24.43.17.166 2 2 1614 20110227165136
+24.190.201.233 1 1 807 20110215231118
+204.115.33.49 1 1 807 20110215143940
+72.17.232.178 1 1 807 20110211122655
+98.206.175.188 1 1 807 20110201195530
+173.64.144.145 3 3 2421 20110219232336
+67.82.22.0 1 1 807 20110208152200
+72.57.154.141 1 1 807 20110210133338
+41.204.93.138 1 1 35 20110215063918
+67.142.166.20 1 1 807 20110226160503
+166.137.139.175 9 17 562055 20110216063501
+71.128.203.154 1 1 807 20110226183553
+190.166.119.129 1 1 807 20110209190407
+64.252.199.211 1 1 807 20110226144537
+174.254.160.22 1 1 807 20110228115154
+24.68.50.158 1 1 807 20110217233919
+67.171.51.32 1 1 807 20110209225807
+66.176.15.187 1 1 807 20110208135014
+174.253.66.49 1 1 807 20110203135125
+207.46.12.214 2 2 1614 20110227220957
+108.83.230.61 1 1 807 20110206055134
+66.104.49.227 1 1 807 20110216162206
+201.35.78.64 1 1 807 20110221202358
+75.51.71.98 1 1 807 20110220222037
+69.254.1.210 2 2 1614 20110216143957
+76.77.226.78 1 1 807 20110220103632
+68.89.171.220 1 1 807 20110205234948
+68.33.109.108 1 1 807 20110210054605
+72.220.120.9 1 1 807 20110208134116
+68.62.119.111 1 1 807 20110224205130
+174.55.139.213 1 1 807 20110225230018
+63.85.151.70 1 1 807 20110215165243
+70.167.194.132 1 1 807 20110220093015
+174.107.215.151 1 1 807 20110224142425
+50.10.149.24 1 1 807 20110225155055
+201.160.201.32 1 1 807 20110207172052
+174.66.149.67 1 1 807 20110204160052
+217.203.138.222 1 1 807 20110208032313
+99.119.7.231 1 1 807 20110206213143
+68.175.49.64 1 1 807 20110226003350
+121.215.178.236 1 1 807 20110226204957
+69.171.164.61 1 1 807 20110227164404
+207.61.166.5 1 1 807 20110217103728
+115.240.62.97 1 1 807 20110207052935
+208.103.237.66 1 1 807 20110221210619
+86.40.52.52 1 1 807 20110228094219
+90.208.146.28 1 1 807 20110217084426
+99.69.161.79 1 1 807 20110213053153
+82.3.21.89 1 1 807 20110208101139
+97.106.178.106 1 1 807 20110217232944
+186.99.226.9 2 2 1614 20110209142348
+69.76.232.219 1 1 807 20110221145340
+24.88.72.71 1 1 807 20110221214950
+83.233.59.133 1 1 807 20110210231514
+75.20.134.207 1 1 807 20110209162213
+199.107.16.132 1 1 807 20110202212028
+74.128.84.221 1 1 807 20110212170730
+84.220.132.248 1 1 807 20110216103552
+67.232.190.81 1 1 807 20110222190434
+2.125.20.224 1 1 807 20110203153236
+70.48.255.151 1 1 807 20110205212756
+128.211.213.68 1 1 807 20110214201558
+96.237.185.213 1 1 807 20110223162119
+143.43.187.254 1 1 807 20110210161625
+209.118.181.132 4 4 3228 20110220133719
+217.219.66.61 1 1 807 20110226100502
+24.62.177.251 1 1 807 20110213163613
+112.202.195.76 1 1 807 20110210025044
+174.252.195.153 1 1 807 20110228055158
+166.216.226.80 1 1 807 20110224191455
+99.57.35.88 2 2 1614 20110226155201
+174.252.114.50 1 1 807 20110216165221
+174.253.98.232 1 1 807 20110213214833
+72.231.151.20 2 2 1614 20110209083513
+99.89.236.173 1 1 807 20110215113441
+98.212.62.114 1 1 807 20110215203605
+190.16.1.218 1 1 807 20110209145729
+76.18.236.33 1 1 807 20110205091954
+66.68.118.84 1 1 807 20110222191342
+174.44.114.94 1 1 807 20110224121325
+69.169.254.106 4 11 485772 20110214082308
+68.194.236.97 1 1 807 20110206235443
+173.218.176.218 1 1 807 20110227224713
+98.17.247.82 1 1 807 20110216213141
+99.245.168.13 1 1 807 20110222174828
+2.144.52.173 1 1 807 20110218093839
+142.162.87.91 1 1 807 20110222180720
+208.54.94.63 1 1 807 20110212001614
+64.30.106.154 1 1 807 20110205152634
+173.172.83.127 1 1 807 20110218160939
+68.5.45.105 1 1 807 20110209205815
+98.71.99.213 1 1 807 20110224191205
+24.60.71.97 1 1 807 20110204232110
+109.66.27.72 1 1 807 20110216074310
+71.230.216.102 1 1 807 20110221163321
+69.92.212.148 1 1 807 20110219014901
+166.205.15.187 1 1 807 20110219224401
+99.113.1.86 1 1 807 20110216031948
+68.228.204.116 3 3 2421 20110215003522
+72.64.46.182 1 1 807 20110224175932
+108.65.14.94 1 1 807 20110212144851
+220.253.55.195 1 1 807 20110220180847
+69.122.109.220 1 1 807 20110202091719
+64.71.175.133 1 1 807 20110217134735
+86.145.105.64 1 1 807 20110205174058
+71.153.4.113 1 1 807 20110201225654
+174.54.127.21 6 22 35311122 20110221122745
+67.40.33.155 1 1 807 20110226193147
+216.167.146.22 1 1 807 20110202145740
+68.204.187.13 1 1 807 20110203142848
+174.151.194.134 3 17 845396 20110214143422
+74.82.64.32 2 2 1614 20110226170343
+88.195.45.250 1 1 807 20110221164000
+86.88.7.135 1 1 807 20110210150209
+69.116.96.29 1 1 807 20110219220755
+24.73.188.105 1 1 807 20110222111913
+71.213.216.243 1 1 807 20110218143005
+75.49.219.238 1 1 807 20110207170508
+96.250.48.176 1 1 807 20110217084006
+201.94.237.18 1 1 807 20110214054733
+66.250.191.192 1 1 807 20110209141857
+69.99.17.222 1 1 807 20110224133931
+66.32.196.132 1 1 807 20110201160027
+71.126.22.107 1 1 807 20110220084701
+173.125.62.23 1 1 807 20110206103220
+71.202.178.85 1 1 807 20110219110811
+83.82.109.202 1 1 807 20110221143538
+80.203.62.104 1 1 807 20110212104322
+71.91.137.228 1 1 807 20110223164741
+76.108.159.235 1 1 807 20110221111408
+74.197.33.2 1 1 807 20110209193921
+118.93.32.131 1 1 807 20110221012645
+67.87.229.82 1 1 807 20110213212140
+65.173.18.42 1 1 807 20110201133530
+96.235.105.168 1 1 807 20110216192329
+72.14.194.65 5 11 231254 20110217134838
+74.59.45.136 1 1 807 20110209192614
+90.231.135.8 1 1 807 20110205141957
+162.40.166.251 1 1 807 20110203173226
+207.46.204.157 1 1 807 20110201040811
+65.91.116.34 1 1 807 20110219185000
+24.165.19.192 1 1 807 20110227024521
+68.3.110.183 1 1 807 20110227192657
+24.188.29.143 1 1 807 20110222001700
+69.152.246.205 2 2 1614 20110222215949
+174.252.33.47 1 1 807 20110224213801
+75.104.160.36 5 15 259734 20110204140254
+86.140.26.51 1 1 807 20110214155407
+70.188.169.209 1 1 807 20110220181445
+74.109.247.12 1 1 807 20110224185033
+174.28.149.242 1 1 807 20110213183037
+122.177.77.221 1 1 807 20110225052755
+96.255.103.27 1 1 807 20110227225336
+69.121.102.181 1 1 807 20110211160041
+67.86.109.22 1 1 807 20110225225301
+67.136.169.170 1 1 807 20110222084310
+69.118.159.237 1 1 807 20110221091548
+74.178.1.11 2 9 463916 20110201074536
+174.252.155.136 1 1 807 20110219153313
+24.182.68.95 1 1 807 20110228202636
+208.54.40.57 1 1 807 20110210231714
+205.188.117.80 1 1 12179 20110218165847
+98.115.238.33 2 2 1614 20110221003201
+75.172.111.53 1 1 807 20110213104728
+75.30.238.14 1 1 807 20110204001754
+122.163.69.212 1 1 807 20110217045132
+24.185.2.97 4 4 3228 20110221162358
+70.41.47.203 1 1 807 20110202195856
+122.162.146.139 1 1 807 20110225171436
+98.223.204.7 1 1 807 20110224195056
+180.192.8.34 1 1 807 20110220052006
+67.85.10.216 1 1 807 20110219173814
+86.154.213.99 1 1 807 20110215125123
+92.41.98.173 1 1 807 20110216071640
+85.138.243.30 1 1 807 20110220094538
+74.78.80.145 1 1 807 20110225220151
+24.129.40.99 1 1 807 20110219141307
+96.55.133.79 1 1 807 20110201203853
+71.175.212.55 1 1 807 20110210005051
+68.174.76.155 1 1 807 20110204064752
+188.223.80.17 3 3 2421 20110207150936
+207.46.12.165 1 1 807 20110204135236
+76.67.77.118 1 1 807 20110221162255
+64.135.222.107 1 1 807 20110202173807
+137.49.133.249 1 1 807 20110210121401
+74.212.25.78 1 1 807 20110226084633
+173.210.206.173 1 1 807 20110227214815
+64.134.230.107 1 1 807 20110228092951
+99.68.219.50 1 1 807 20110207194859
+96.235.105.55 2 2 1614 20110216190925
+96.19.208.24 1 1 807 20110215184329
+108.27.102.35 1 1 807 20110204071425
+149.159.105.114 1 1 807 20110202233813
+166.181.64.62 12 12 9684 20110215185024
+207.46.12.115 1 1 807 20110203110046
+174.252.91.215 1 1 807 20110212091705
+24.203.241.80 1 1 807 20110207212929
+206.188.49.1 1 1 807 20110202135259
+98.196.82.153 1 1 807 20110206110338
+173.105.38.212 1 1 807 20110225093541
+96.224.162.240 1 1 807 20110204003545
+98.111.200.158 1 1 807 20110223165113
+68.49.188.102 1 1 807 20110207171446
+71.110.22.159 1 1 807 20110208011645
+84.148.53.208 1 1 807 20110213162325
+68.44.154.11 1 1 807 20110205150412
+74.103.107.22 1 1 807 20110223140515
+65.98.97.254 1 1 807 20110214052654
+68.117.217.126 1 1 807 20110216205138
+71.162.86.243 1 1 807 20110218150033
+174.252.177.179 1 1 807 20110224140616
+202.180.96.122 1 1 807 20110225181610
+74.198.164.231 1 1 807 20110215092354
+70.30.26.60 1 1 807 20110224000737
+68.50.58.121 1 1 807 20110211192724
+173.188.138.132 1 1 807 20110203133103
+24.196.222.13 1 1 807 20110207123315
+74.82.68.160 1 1 807 20110213212826
+86.41.139.235 1 1 807 20110224084522
+98.181.25.89 1 1 807 20110211224244
+24.102.213.210 1 1 807 20110227024735
+166.137.10.92 1 1 807 20110217092431
+108.10.17.133 1 1 807 20110213232356
+67.11.27.96 1 1 807 20110212014336
+207.189.121.41 3 3 31266 20110228023701
+72.195.186.195 1 1 807 20110208130559
+205.188.116.5 4 4 38952 20110218170147
+166.205.8.14 1 1 807 20110215070806
+99.145.123.114 1 1 807 20110228154716
+173.79.166.157 1 1 807 20110227132522
+108.83.225.149 1 1 807 20110228114158
+67.61.156.147 1 1 807 20110221080106
+173.73.27.94 1 1 807 20110223234919
+70.246.17.130 1 1 807 20110212223248
+74.211.8.183 1 1 807 20110208094327
+173.28.244.43 1 1 807 20110227223100
+207.241.232.87 1 1 807 20110203021455
+68.198.220.39 1 1 807 20110210152358
+74.125.112.85 2 2 1614 20110215164112
+72.35.195.59 1 1 807 20110214171609
+69.20.138.212 1 1 807 20110219110541
+78.72.163.59 1 1 807 20110203172333
+128.120.181.44 1 1 807 20110211052926
+86.27.17.138 1 1 807 20110203095810
+24.237.71.65 1 1 807 20110221180600
+207.46.195.207 1 1 807 20110221073545
+99.65.215.35 1 1 807 20110210173256
+174.59.156.234 1 1 807 20110210102937
+99.157.24.42 1 1 807 20110228070744
+199.67.16.61 1 1 807 20110208125610
+24.152.253.24 1 1 807 20110209150849
+72.83.74.45 1 1 807 20110207005424
+174.96.151.244 1 1 807 20110223185038
+207.46.193.38 1 1 807 20110206144152
+72.234.199.117 1 1 807 20110204121019
+173.238.20.160 1 1 807 20110224154002
+76.175.1.113 1 1 807 20110224235148
+82.132.211.76 1 1 807 20110227031824
+71.188.189.184 1 1 807 20110212075244
+24.14.189.13 1 1 807 20110218024211
+71.240.205.75 2 2 1614 20110215180827
+138.237.161.196 1 1 807 20110224143916
+187.57.65.43 1 1 807 20110207101423
+90.197.68.149 1 1 807 20110205112350
+96.242.143.127 1 1 807 20110210183705
+216.96.18.147 1 1 807 20110203150627
+71.124.121.57 1 1 807 20110206230218
+69.139.45.43 1 1 807 20110202102923
+69.117.176.21 1 1 807 20110201232240
+72.216.61.220 1 1 807 20110225164747
+67.241.47.221 1 1 807 20110227163008
+98.252.132.197 1 1 807 20110218190004
+174.124.222.90 1 1 807 20110217105841
+173.12.165.13 1 1 807 20110217151532
+24.106.49.227 1 1 807 20110208154535
+99.98.38.201 1 1 807 20110207150802
+86.145.223.5 1 1 807 20110206103154
+146.126.51.51 1 1 807 20110208101342
+173.175.73.202 1 1 807 20110211094149
+92.85.160.97 21 24 34716608 20110206125003
+75.63.157.0 1 1 807 20110202105632
+68.58.243.62 1 1 807 20110207163531
+129.210.236.39 1 1 807 20110206210744
+64.134.42.16 1 1 807 20110224163052
+207.189.121.45 14 14 155642 20110208053049
+71.68.12.91 3 3 2421 20110219115044
+67.241.61.12 1 1 807 20110215115153
+74.82.64.20 5 5 4035 20110219173837
+69.243.99.249 1 1 807 20110228214034
+173.56.163.142 1 1 807 20110219152243
+71.190.65.112 1 1 807 20110214213154
+74.137.174.100 1 1 807 20110221223654
+98.148.93.200 1 1 807 20110220134316
+74.102.5.36 1 1 807 20110220093039
+71.198.10.238 1 1 807 20110226152042
+69.207.6.37 2 2 1614 20110226133614
+98.254.176.172 1 1 807 20110207232232
+76.241.27.104 1 1 807 20110213215056
+98.28.103.70 1 1 807 20110222030416
+96.231.238.99 1 1 807 20110228083221
+174.55.201.186 1 1 807 20110207170237
+78.148.115.168 1 1 807 20110221052440
+75.67.170.37 4 18 855073 20110201193219
+220.239.191.9 1 1 807 20110216035905
+132.246.241.17 1 1 807 20110221123808
+207.46.204.223 1 1 807 20110205204150
+71.104.17.10 1 1 807 20110225031522
+68.112.121.119 1 1 807 20110226225113
+131.128.141.198 1 1 807 20110206124558
+98.149.151.205 2 2 1614 20110225001953
+134.139.237.112 1 1 807 20110227141835
+166.137.143.212 1 1 807 20110204164120
+75.108.250.6 1 1 807 20110227204850
+173.21.0.24 1 1 807 20110225123848
+94.3.186.61 1 1 807 20110206082047
+64.113.26.133 1 1 807 20110217154754
+173.2.190.53 1 1 807 20110224201336
+212.219.142.152 1 1 807 20110202073922
+72.28.43.181 1 1 807 20110207225302
+92.7.5.142 1 1 807 20110213182330
+71.173.108.173 1 1 807 20110220183749
+61.41.83.226 1 1 807 20110210085526
+75.107.96.58 4 13 425935 20110205190819
+67.253.66.236 1 1 807 20110223162701
+72.241.177.22 1 1 807 20110214162210
+122.162.69.154 2 2 1614 20110202014720
+75.88.56.98 1 1 807 20110205075213
+189.176.200.108 1 1 807 20110218150513
+69.203.128.151 1 1 807 20110219215408
+99.202.126.170 1 1 807 20110205125800
+76.221.65.129 1 1 807 20110219174557
+220.253.104.215 1 1 807 20110221044802
+99.239.74.185 1 1 807 20110207191858
+75.15.114.29 2 2 1614 20110216212434
+208.54.39.79 0 7 183749 
+184.171.154.96 1 1 807 20110210145905
+205.188.116.197 3 3 28481 20110218170139
+174.0.238.242 1 1 807 20110220013737
+166.137.142.97 1 1 807 20110219140500
+41.235.8.56 1 1 35 20110214134740
+66.168.252.99 1 1 807 20110203175637
+71.30.142.158 1 1 807 20110205185540
+24.1.175.140 1 1 807 20110226175501
+67.252.10.64 1 1 807 20110220095310
+204.13.42.10 1 1 807 20110216094949
+184.76.60.24 1 1 807 20110222125424
+205.200.78.194 1 1 807 20110221172718
+97.121.235.130 1 1 807 20110227164800
+190.198.83.26 1 1 807 20110212063324
+71.175.250.242 1 1 807 20110204224920
+178.22.35.10 1 1 807 20110207055640
+64.92.6.174 1 1 807 20110211233433
+122.162.67.66 1 1 807 20110218043932
+77.28.44.129 1 1 807 20110204114455
+68.194.156.182 1 1 807 20110202172150
+217.226.47.240 1 1 807 20110218164644
+91.118.9.110 1 1 807 20110202022722
+98.203.29.246 1 1 807 20110215071402
+173.57.182.213 2 2 1614 20110202171026
+24.184.16.12 1 1 807 20110209183859
+68.171.233.215 2 2 1614 20110221212234
+98.197.0.200 1 1 807 20110221054723
+81.91.144.226 1 1 807 20110213053341
+216.70.173.16 1 1 807 20110225102211
+76.91.212.54 1 1 807 20110227012903
+68.198.127.16 17 53 1576278 20110217105955
+69.137.199.54 1 1 807 20110206044244
+173.29.23.241 1 1 807 20110219173612
+71.254.105.211 1 1 807 20110222132033
+96.240.118.122 2 2 1614 20110218211839
+173.30.32.194 1 1 807 20110223212555
+2.120.229.151 1 1 807 20110212122310
+72.235.151.162 1 1 807 20110215165844
+206.51.197.138 1 1 807 20110211213835
+204.63.136.150 1 1 807 20110202170000
+91.85.163.212 1 1 807 20110208172500
+77.247.154.40 1 1 807 20110215131846
+24.60.76.162 1 1 807 20110220221610
+71.81.210.31 1 1 807 20110222144955
+65.26.177.22 1 1 807 20110224120057
+82.45.193.150 1 1 807 20110202083144
+98.151.146.25 1 1 807 20110201121329
+98.236.152.215 1 1 807 20110207194418
+76.232.245.127 1 1 807 20110210135208
+67.246.68.70 2 2 1614 20110214182355
+196.219.226.29 1 1 807 20110211030352
+66.21.139.168 1 1 807 20110203212031
+67.171.195.25 1 1 807 20110212191330
+99.228.57.16 1 1 807 20110217140801
+66.30.103.78 1 1 807 20110216142400
+68.117.7.210 2 2 1614 20110222202559
+173.56.163.48 1 1 807 20110213225603
+71.61.113.177 1 1 807 20110227143712
+75.151.170.58 1 1 807 20110221205025
+67.86.123.234 2 2 1614 20110227195331
+96.233.125.131 2 2 1614 20110222131038
+209.121.8.82 1 1 807 20110208031158
+70.114.159.129 1 1 807 20110207224743
+90.190.221.187 1 1 807 20110217101840
+82.93.41.176 1 1 807 20110218144506
+67.252.131.64 1 1 807 20110203213245
+70.248.222.238 1 1 807 20110221093844
+66.227.137.76 1 1 807 20110218223840
+71.71.58.173 1 1 807 20110201215144
+174.253.0.192 1 1 807 20110226122209
+174.100.242.212 2 2 1614 20110223205055
+173.53.123.49 1 1 807 20110227190315
+75.19.167.113 1 1 807 20110225145104
+24.98.105.157 1 1 807 20110214042710
+64.20.29.37 1 1 807 20110209183448
+76.20.82.230 1 1 807 20110201002653
+98.232.231.152 1 1 807 20110217221112
+201.164.146.6 2 2 1614 20110213182240
+70.113.193.122 1 1 807 20110206212007
+72.79.83.133 1 1 807 20110209081516
+208.54.44.51 1 1 807 20110218162414
+72.224.198.172 4 4 3228 20110222131742
+122.162.145.249 1 1 807 20110224162241
+75.171.52.196 1 1 807 20110219175508
+187.144.40.149 2 2 1614 20110220085002
+213.137.108.189 1 1 807 20110203153255
+96.233.182.169 1 1 807 20110227102640
+71.23.230.93 1 1 807 20110212182450
+24.205.237.204 2 9 463916 20110223222352
+24.17.236.217 1 1 807 20110220142416
+96.27.98.227 1 1 807 20110201220457
+69.199.68.189 1 1 807 20110204083037
+70.24.152.176 1 1 807 20110224153851
+67.197.161.118 7 7 5649 20110222141007
+75.88.101.202 1 1 807 20110213011858
+59.162.86.164 1 1 807 20110223065550
+99.148.244.93 1 1 807 20110215110131
+80.13.242.21 1 1 807 20110227160913
+83.77.152.194 1 1 807 20110209130432
+166.205.138.207 1 1 807 20110215011138
+128.119.178.95 1 1 807 20110222161541
+75.10.133.92 1 1 807 20110218134543
+94.212.34.150 1 1 807 20110215134637
+67.183.77.166 1 1 807 20110212004458
+204.9.147.2 1 1 807 20110214105122
+76.93.29.154 1 1 807 20110225030020
+96.11.193.57 1 1 807 20110218084419
+70.173.141.237 1 1 807 20110224140950
+66.255.16.50 1 1 807 20110213170419
+109.76.22.82 1 1 807 20110221025650
+77.209.246.74 1 1 807 20110210134903
+67.188.104.246 1 1 807 20110210174217
+173.88.51.59 1 1 807 20110222184057
+76.22.14.150 2 2 1614 20110228062623
+72.196.9.227 5 5 4035 20110227102503
+64.138.240.119 3 3 2421 20110226002403
+109.152.90.248 1 1 807 20110217125308
+94.6.168.8 2 2 1614 20110218204528
+169.229.92.111 1 1 807 20110220212108
+24.61.145.179 1 1 807 20110218122041
+68.108.2.247 1 1 807 20110210052926
+96.8.222.42 1 1 807 20110225001655
+71.116.79.33 1 1 807 20110215001530
+173.186.20.187 2 8 239324 20110213092436
+184.34.17.239 1 1 807 20110218163611
+99.19.31.166 1 1 807 20110220193909
+74.81.231.66 1 1 807 20110228182825
+71.127.186.164 1 1 807 20110214183426
+93.103.109.172 1 1 807 20110201060734
+74.70.250.173 1 1 807 20110225152208
+208.54.86.57 1 1 807 20110227224923
+174.31.36.163 1 1 807 20110210202505
+76.178.38.252 1 1 807 20110216213531
+75.66.124.164 1 1 807 20110217220242
+219.89.14.154 1 1 807 20110221025016
+70.131.126.105 1 1 807 20110221121650
+121.247.197.116 1 1 807 20110202234511
+71.178.56.216 1 1 807 20110202121434
+208.54.45.57 1 1 807 20110215113329
+24.78.64.61 3 3 2421 20110226151801
+75.119.55.146 1 1 807 20110211110038
+75.65.83.20 1 1 807 20110215131649
+99.12.230.173 1 1 807 20110219132125
+173.238.205.56 2 2 1614 20110227230032
+79.219.46.55 1 1 807 20110223191124
+98.236.49.115 2 2 1614 20110207190347
+66.90.252.194 1 1 807 20110211170305
+169.252.4.21 1 1 807 20110211054241
+15.203.233.75 1 1 807 20110210074124
+212.25.53.198 1 1 807 20110217110617
+64.92.38.68 1 1 807 20110209084635
+128.100.8.157 1 1 807 20110207102455
+173.19.197.163 1 1 807 20110203035021
+66.152.116.38 1 1 807 20110228094849
+75.121.36.88 1 1 807 20110224211053
+76.184.174.252 1 1 807 20110212164233
+70.232.35.87 1 1 807 20110203150053
+72.234.145.78 1 1 807 20110207045608
+24.32.62.6 1 1 807 20110227201838
+71.179.96.10 2 2 1614 20110223112922
+76.4.57.69 1 1 807 20110201191348
+173.23.254.254 1 1 807 20110221110752
+98.104.229.115 1 1 807 20110217155809
+71.194.21.2 2 2 1614 20110213091959
+99.18.96.223 1 1 807 20110221012632
+78.147.112.234 1 1 807 20110203092105
+96.31.117.55 1 1 807 20110205011936
+186.6.29.52 1 1 807 20110224203843
+75.36.39.101 1 1 807 20110208221549
+207.46.195.208 2 2 1614 20110220222317
+69.122.80.191 1 1 807 20110216171225
+71.216.21.216 1 1 807 20110215141303
+81.158.2.180 1 1 807 20110213154030
+74.74.150.82 1 1 807 20110213132714
+78.147.193.38 1 1 807 20110215034609
+75.88.58.171 1 1 807 20110203192335
+24.78.52.125 1 1 807 20110221211509
+75.40.76.140 1 1 807 20110217141307
+77.29.125.110 1 1 807 20110220173516
+207.46.12.108 1 1 807 20110220170315
+24.209.247.239 1 1 807 20110222173124
+98.169.172.53 1 1 807 20110217161855
+173.248.192.188 1 1 807 20110223151133
+98.159.19.221 1 1 807 20110209181012
+108.10.241.146 1 1 807 20110218133444
+162.40.163.229 1 1 807 20110203151007
+70.178.250.121 1 1 807 20110212194030
+99.39.241.213 1 1 807 20110205081525
+76.124.116.228 2 2 1614 20110209200528
+72.220.57.157 1 1 807 20110220202315
+98.82.155.94 1 1 807 20110219161742
+66.226.109.247 1 1 807 20110203215626
+68.194.28.231 2 2 1614 20110226130628
+189.208.147.14 1 1 807 20110201201322
+98.214.159.210 1 1 807 20110212160511
+80.200.214.175 1 1 807 20110224103637
+108.26.69.109 1 1 807 20110216080432
+208.54.83.57 1 1 807 20110204190722
+98.23.134.178 1 1 807 20110221183126
+65.91.116.33 1 1 807 20110217164625
+204.209.59.11 1 1 807 20110201124756
+12.10.219.168 1 1 807 20110214123228
+24.128.62.75 1 1 807 20110212080555
+74.160.0.53 1 1 807 20110203145203
+174.252.2.141 1 1 807 20110201015750
+66.30.48.185 1 1 807 20110207200551
+8.18.145.250 1 1 807 20110221153208
+98.177.215.227 1 1 807 20110221145130
+72.77.188.210 1 1 807 20110213223548
+89.236.29.11 1 1 807 20110210110142
+184.78.148.69 1 1 807 20110225094736
+86.14.87.208 1 1 807 20110216121535
+59.95.154.68 1 1 807 20110202005115
+189.205.169.113 1 1 807 20110209100329
+24.20.199.198 1 1 807 20110218182109
+173.21.157.139 1 1 807 20110218054441
+74.125.66.84 1 1 807 20110202162726
+24.46.122.107 1 1 807 20110228010613
+71.221.235.120 1 1 807 20110209155807
+32.167.67.7 1 1 807 20110206195934
+108.14.232.7 1 1 807 20110219143313
+72.198.120.138 1 1 807 20110223030816
+75.110.203.144 1 1 807 20110212191340
+71.230.209.56 1 1 807 20110223131852
+75.90.186.137 1 1 807 20110201203546
+95.145.251.151 1 1 807 20110209095332
+64.134.103.145 1 1 807 20110209085232
+152.8.106.32 1 1 807 20110210190859
+74.82.68.18 2 2 1614 20110227211105
+98.108.155.125 2 2 1614 20110211154550
+67.176.54.122 2 2 1614 20110208142308
+68.194.227.222 1 1 807 20110212142405
+173.77.227.252 1 1 807 20110214154236
+174.152.253.34 1 1 807 20110212103955
+205.174.169.53 1 1 807 20110212114926
+97.82.130.248 1 1 807 20110207224738
+68.209.82.196 1 1 807 20110214232933
+178.243.38.152 6 6 4842 20110212092447
+174.252.55.126 1 1 807 20110216031640
+74.7.78.65 1 1 807 20110209151008
+68.58.253.231 1 1 807 20110201120355
+76.23.50.150 1 1 807 20110206174524
+71.169.170.142 1 1 807 20110216174107
+189.26.152.218 1 1 807 20110221161420
+71.186.209.208 1 1 807 20110209070511
+207.46.195.214 2 2 1614 20110226213655
+117.203.8.244 1 1 807 20110205095657
+216.70.234.50 1 1 807 20110223161142
+174.253.28.12 1 1 807 20110228150226
+24.245.75.134 1 1 807 20110201210612
+88.67.39.14 1 1 807 20110206055545
+99.59.131.208 1 1 807 20110216221707
+24.186.252.81 1 1 807 20110213202245
+74.82.68.32 5 10 256393 20110203221852
+67.224.233.125 1 1 807 20110227204208
+99.72.79.225 1 1 807 20110213120736
+24.166.26.242 1 1 807 20110208210935
+99.97.155.121 1 1 807 20110206112425
+86.147.109.120 1 1 807 20110203201404
+99.254.218.56 1 1 807 20110215234120
+186.32.55.108 1 1 807 20110213203829
+65.184.111.146 1 1 807 20110216114928
+98.25.12.157 1 1 807 20110219122544
+207.8.67.210 2 2 1614 20110204162735
+173.21.121.199 1 1 807 20110209154307
+71.194.229.29 1 1 807 20110212131920
+166.205.141.56 1 1 807 20110216070942
+216.19.21.228 2 2 1614 20110228052600
+68.118.203.185 1 1 807 20110207202931
+69.118.53.218 1 1 807 20110219203605
+64.92.45.80 1 1 807 20110215081625
+74.125.16.68 1 1 807 20110227010419
+184.155.76.2 1 1 807 20110210131646
+173.157.55.73 1 1 807 20110210001058
+68.52.15.217 1 1 807 20110217143226
+67.58.94.120 1 1 807 20110223155245
+70.91.61.142 3 9 228994 20110223075346
+66.25.53.175 1 1 807 20110207220811
+207.46.195.213 1 1 807 20110202052727
+72.224.127.209 1 1 807 20110220105809
+166.137.139.60 1 1 807 20110209190530
+76.203.231.225 1 1 807 20110219013023
+173.61.213.50 1 1 807 20110201143559
+68.114.218.66 1 1 807 20110218223304
+216.185.244.98 1 1 807 20110207210457
+137.49.135.85 1 1 807 20110204103012
+98.141.170.168 1 1 807 20110210192954
+206.54.198.166 1 1 807 20110227120153
+96.55.180.117 2 2 1614 20110201221019
+64.211.20.115 1 1 807 20110213111924
+69.248.42.50 1 1 807 20110206112147
+76.171.13.221 1 1 807 20110214001507
+213.6.75.100 1 1 35 20110216041442
+96.51.255.26 1 1 807 20110214203134
+24.229.216.206 1 1 807 20110219120248
+72.183.112.138 1 1 807 20110226234817
+68.28.187.120 2 2 1614 20110207103650
+75.30.217.122 1 1 807 20110202221429
+86.166.224.59 1 1 807 20110206134445
+76.214.209.54 1 1 807 20110211202622
+85.97.62.155 1 1 807 20110215114617
+99.89.3.141 1 1 807 20110215164646
+209.7.103.50 1 1 807 20110215084425
+68.55.120.162 2 2 1614 20110220190156
+69.136.3.203 1 1 807 20110223171704
+74.76.92.126 1 1 807 20110227215748
+75.85.151.253 1 1 807 20110202201642
+75.97.155.248 1 1 807 20110219173525
+71.153.240.120 2 2 1614 20110203111801
+166.205.9.154 1 1 807 20110203145911
+99.8.36.10 1 1 807 20110202163334
+98.90.131.108 1 1 807 20110217130151
+68.102.61.13 1 1 807 20110215172900
+71.169.147.105 1 1 807 20110214015003
+70.116.17.242 1 1 807 20110220153315
+67.142.166.24 1 1 807 20110221221809
+98.77.113.80 1 1 807 20110209174926
+67.242.136.238 1 1 807 20110228131413
+98.210.20.179 1 1 807 20110220002021
+173.189.53.137 1 1 807 20110222065802
+173.61.165.42 1 1 807 20110219150101
+207.46.12.112 1 1 807 20110208200655
+98.212.9.109 1 1 807 20110205211600
+216.82.194.92 1 1 807 20110220194035
+124.149.164.169 1 1 807 20110205065045
+67.54.201.209 1 1 807 20110202152657
+128.54.143.23 1 1 807 20110226233836
+75.6.135.148 1 1 807 20110218194348
+68.60.222.231 1 1 807 20110214203535
+88.102.71.134 1 1 807 20110210004627
+68.202.23.223 1 1 807 20110225173125
+208.73.61.10 1 1 807 20110218103657
+76.118.147.58 1 1 807 20110225202238
+69.95.91.98 1 1 807 20110207160413
+72.22.177.12 1 1 807 20110214172342
+174.79.249.147 1 1 807 20110215124009
+166.137.11.53 1 1 807 20110224162533
+72.145.34.85 1 1 807 20110207212806
+74.82.68.21 1 1 807 20110225144258
+74.101.147.44 1 1 807 20110209160419
+86.133.197.226 1 1 807 20110204115534
+98.117.87.124 1 1 807 20110213153917
+99.120.109.34 1 1 807 20110216082907
+173.79.187.123 1 1 807 20110203214951
+169.130.116.122 1 1 807 20110218133411
+67.10.228.54 1 1 807 20110219133321
+207.46.199.27 1 1 807 20110208122221
+174.54.162.174 1 1 807 20110226165703
+96.41.8.173 1 1 807 20110217192605
+72.188.246.73 1 1 807 20110213204330
+72.69.125.138 1 1 807 20110213190943
+216.195.181.180 1 1 807 20110211110828
+137.142.212.176 1 1 807 20110201204622
+75.105.32.52 4 15 911193 20110204140304
+72.56.113.230 1 1 807 20110220164548
+75.111.89.173 1 1 807 20110227215117
+85.151.5.206 1 1 807 20110203060102
+76.90.89.249 1 1 807 20110213033224
+207.46.12.153 1 1 807 20110214125504
+71.231.170.210 1 1 807 20110208204022
+208.54.90.76 1 1 807 20110214215225
+67.172.133.24 1 1 807 20110201224841
+96.61.182.227 1 1 807 20110228233311
+74.185.146.49 1 1 807 20110208202919
+184.153.225.57 2 2 1614 20110208160235
+81.149.186.215 1 1 807 20110209052509
+216.79.146.130 1 1 807 20110221180757
+70.44.110.99 1 1 807 20110217181425
+70.178.109.38 1 1 807 20110211185516
+207.46.204.168 1 1 807 20110220183046
+97.83.176.165 1 1 807 20110221185442
+208.103.69.74 1 1 807 20110217125310
+173.172.236.101 1 1 807 20110215023258
+174.106.209.252 1 1 807 20110227113405
+66.180.117.10 12 31 944682 20110225100534
+174.254.49.154 1 1 807 20110208172302
+24.141.173.105 2 2 1614 20110227193112
+173.79.37.248 1 1 807 20110201195251
+75.27.137.183 1 1 807 20110208220334
+207.46.199.18 1 1 807 20110206174457
+173.22.242.56 1 1 807 20110205074203
+166.137.136.118 1 1 807 20110209231322
+76.78.62.137 1 1 807 20110228105805
+68.52.181.127 1 1 807 20110217160551
+67.234.189.133 1 1 807 20110220175448
+68.228.208.175 1 1 807 20110204072134
+199.26.9.151 1 1 807 20110203082719
+166.205.14.85 5 5 4035 20110206230618
+80.202.223.64 1 1 807 20110227151652
+60.215.176.149 1 1 807 20110226010129
+69.109.212.160 1 1 807 20110211070531
+173.102.156.194 1 1 807 20110212114104
+74.194.236.219 1 1 807 20110203105606
+74.44.85.80 1 1 807 20110208140733
+68.196.43.172 2 2 1614 20110226200252
+66.104.192.98 6 19 557135 20110215125745
+98.243.16.57 3 3 2421 20110223165901
+204.120.195.19 1 1 807 20110212160922
+76.245.44.199 1 1 807 20110217120154
+204.62.23.130 1 1 807 20110220112355
+81.142.117.236 1 1 807 20110208104511
+71.123.191.90 1 1 807 20110223232100
+24.39.106.58 1 1 807 20110217135347
+71.205.216.231 1 1 807 20110212230045
+24.214.49.20 1 1 807 20110227013656
+86.8.253.101 1 1 807 20110217062219
+173.217.98.181 1 1 807 20110214210411
+69.123.200.250 1 1 807 20110213195835
+24.5.98.53 1 1 807 20110223194609
+99.6.51.81 1 1 807 20110214223749
+99.120.150.106 1 1 807 20110222142930
+98.95.186.158 1 1 807 20110210201128
+72.20.238.167 1 1 807 20110213155101
+98.249.148.73 2 2 1614 20110213125012
+82.196.170.5 1 1 807 20110202184932
+216.171.188.175 1 1 807 20110207224601
+99.109.188.224 1 1 807 20110219135459
+75.93.160.92 1 1 807 20110227194024
+166.205.140.16 1 1 807 20110218210950
+118.21.26.216 3 17 845396 20110213073328
+205.188.117.9 1 1 807 20110202091425
+76.247.12.125 2 2 1614 20110211160817
+207.134.159.83 1 1 807 20110201165208
+71.76.211.173 1 1 807 20110227013705
+212.73.152.198 1 1 807 20110222043308
+99.37.96.45 1 1 807 20110219210308
+69.132.220.240 1 1 807 20110216194807
+190.166.102.162 2 2 1614 20110225044402
+68.13.247.205 1 1 807 20110215164237
+98.221.34.112 1 1 807 20110218210013
+174.31.111.207 1 1 807 20110212145230
+174.252.89.225 1 1 807 20110226150215
+166.205.8.160 1 1 807 20110225203724
+98.16.109.12 1 1 807 20110204172508
+72.231.172.122 1 1 807 20110217230813
+71.251.10.52 2 2 1614 20110207201200
+174.107.152.50 15 23 643752 20110208190613
+166.205.13.208 1 1 807 20110218080113
+108.120.172.11 1 1 807 20110211124808
+184.230.254.26 1 1 807 20110208205434
+173.23.48.228 1 1 807 20110219180332
+38.106.70.37 1 1 807 20110211131849
+65.33.101.60 1 1 807 20110215234435
+72.175.61.160 1 1 807 20110203202353
+166.205.9.49 1 1 807 20110214222209
+98.64.215.36 1 1 807 20110222182100
+90.214.146.190 1 1 807 20110204100625
+59.11.207.175 1 1 807 20110210054454
+99.61.97.253 1 1 807 20110209174353
+71.9.7.114 1 1 807 20110217225129
+75.105.32.38 2 12 277756 20110205190819
+68.230.100.123 1 1 807 20110228015247
+138.89.108.195 1 1 807 20110201225737
+72.152.214.77 1 1 807 20110220183537
+174.252.36.198 1 1 807 20110207000321
+71.237.237.227 1 1 807 20110225015140
+66.87.4.9 1 1 807 20110228192731
+94.5.201.12 1 1 807 20110203131305
+63.116.76.50 1 1 807 20110203133357
+108.36.2.49 2 2 1614 20110225090648
+166.137.142.123 1 1 807 20110224174632
+158.80.64.2 1 1 807 20110210070234
+76.214.21.206 1 1 807 20110204234333
+166.137.11.3 1 1 807 20110210111640
+74.125.52.83 1 1 807 20110224191439
+71.53.127.225 1 1 807 20110203212352
+189.217.125.244 1 1 807 20110206204259
+169.233.193.86 1 1 807 20110201024559
+174.3.163.151 1 1 807 20110224101849
+75.174.161.251 1 1 807 20110226155205
+95.92.36.130 1 1 807 20110210141940
+69.41.14.130 1 1 807 20110209162213
+24.112.141.72 2 2 1614 20110227092848
+71.214.159.8 1 1 807 20110208211107
+199.20.31.52 1 1 807 20110201210939
+76.235.28.197 2 2 1614 20110225215042
+75.95.116.118 1 1 807 20110228234020
+90.196.255.2 1 1 807 20110210124611
+211.28.149.110 1 1 807 20110206223608
+207.241.232.92 1 1 807 20110208121930
+67.252.99.18 1 1 807 20110215005628
+166.205.9.78 1 1 807 20110203194346
+99.72.155.176 1 1 807 20110202155114
+140.182.157.125 1 1 807 20110219104845
+71.198.72.29 1 1 807 20110203230624
+64.124.14.126 1 3 19780 20110209132005
+98.237.107.239 1 1 807 20110228183625
+211.255.184.189 1 1 807 20110224091450
+69.121.144.24 2 2 1614 20110211132703
+70.135.171.178 1 1 807 20110203232802
+79.12.191.1 1 1 807 20110220201053
+174.31.165.165 1 1 807 20110223163929
+50.10.191.244 1 1 807 20110205170803
+207.181.201.153 1 1 807 20110211010608
+68.54.149.115 1 1 807 20110210155844
+68.255.98.42 1 1 807 20110213231537
+71.243.35.143 1 1 807 20110209200941
+188.127.99.74 1 1 807 20110227131458
+95.24.142.194 1 1 807 20110221123549
+97.112.39.246 1 1 807 20110227005241
+166.205.10.22 1 1 807 20110209101411
+109.175.171.55 1 1 807 20110213174738
+68.224.255.180 3 3 2421 20110209152831
+141.149.26.174 1 1 807 20110214215105
+173.152.238.122 1 1 807 20110215143351
+68.4.157.173 1 1 807 20110214193224
+130.244.196.90 1 1 807 20110216032442
+68.40.165.245 1 1 807 20110226063314
+174.252.2.33 1 1 807 20110215232645
+68.195.164.168 1 1 807 20110207210346
+75.85.36.214 1 1 807 20110201003413
+209.240.115.234 1 1 807 20110211103557
+99.227.116.67 2 2 1614 20110217134013
+96.238.196.191 1 1 807 20110203200809
+69.28.58.21 1 1 10422 20110206091452
+74.138.240.170 1 1 807 20110220021348
+115.70.79.29 1 1 807 20110217201649
+71.192.184.113 1 1 807 20110201230952
+207.86.161.26 1 1 807 20110203042028
+122.144.5.130 1 1 807 20110222004620
+75.40.240.198 1 1 807 20110203161425
+66.27.251.35 2 2 1614 20110223224351
+217.30.204.78 2 2 1614 20110209122742
+154.5.42.197 1 1 807 20110222131136
+76.93.202.21 1 1 807 20110203044215
+108.16.158.120 1 1 807 20110201193218
+69.132.93.120 1 1 807 20110216180257
+67.199.181.68 1 1 807 20110226111317
+68.96.132.199 1 1 807 20110223221417
+71.7.186.26 1 1 807 20110217145438
+24.187.25.129 1 1 807 20110218135010
+173.165.161.249 1 1 807 20110203195135
+75.176.71.153 1 1 807 20110210103012
+70.178.26.101 1 1 807 20110228222815
+99.30.177.77 1 1 807 20110205210421
+2.98.172.76 1 1 807 20110211131250
+92.18.158.175 1 1 807 20110212102642
+66.68.106.18 1 1 807 20110212150334
+69.171.187.71 1 1 807 20110225175301
+68.255.5.185 1 1 807 20110219131621
+121.72.169.171 1 1 807 20110212220509
+68.34.70.3 5 5 4035 20110213080410
+96.233.230.11 1 1 807 20110201151738
+173.31.4.116 1 1 807 20110226135500
+24.1.107.170 1 1 807 20110227163916
+71.74.144.108 1 1 807 20110227170304
+67.71.144.171 1 1 807 20110206163949
+71.233.89.106 1 1 807 20110226165053
+75.34.64.71 1 1 807 20110226110648
+65.243.151.147 1 1 807 20110224095419
+18.111.25.23 1 1 807 20110201121340
+67.249.198.179 1 1 807 20110212095149
+207.46.204.217 1 1 807 20110218115723
+184.171.154.210 1 1 807 20110207211210
+81.132.143.167 1 1 807 20110208102741
+81.141.103.57 1 1 807 20110210070247
+68.42.12.99 1 1 807 20110211181950
+99.103.103.247 1 1 807 20110208175957
+75.104.160.54 4 14 304254 20110204140305
+67.226.64.34 1 1 807 20110211111713
+67.20.219.159 1 1 807 20110209174132
+71.231.73.166 1 1 807 20110217232015
+166.137.138.179 1 1 807 20110208044440
+97.57.190.234 10 28 102824 20110228101736
+184.206.15.170 1 1 807 20110210021255
+71.188.239.234 1 1 807 20110208180154
+166.137.13.3 1 1 807 20110216220223
+173.117.236.223 1 1 807 20110222071829
+71.116.26.109 1 1 807 20110217190425
+24.209.68.83 1 1 807 20110228010126
+174.22.0.170 1 1 807 20110203013023
+68.84.242.150 1 1 807 20110214164023
+24.112.38.39 1 1 807 20110213154001
+174.253.2.6 1 1 807 20110202121349
+98.104.229.192 1 1 807 20110220141356
+76.115.216.13 1 1 807 20110227214823
+70.51.126.190 12 26 994861 20110209065626
+76.112.152.225 6 20 876929 20110223124210
+94.194.126.110 1 1 807 20110206152351
+68.62.128.165 1 1 807 20110207121404
+74.82.68.17 1 1 807 20110227211129
+72.179.135.197 1 1 807 20110216195750
+129.2.129.155 1 1 807 20110216093402
+76.206.241.176 1 1 807 20110224222212
+71.207.99.77 1 1 807 20110221185539
+69.119.157.0 2 2 1614 20110208154321
+174.252.145.179 1 1 807 20110207042653
+65.52.104.39 1 1 807 20110211014540
+96.23.110.86 1 1 807 20110220093958
+74.104.34.117 1 1 807 20110221161024
+208.70.40.38 1 1 807 20110205211318
+173.23.64.181 1 1 807 20110209155453
+24.3.84.204 1 1 807 20110216211658
+68.13.55.153 1 1 807 20110207201158
+80.193.21.235 1 1 807 20110217131104
+74.114.195.14 1 1 807 20110209170049
+98.202.72.145 1 1 807 20110202163054
+199.15.194.179 1 1 807 20110201134352
+64.184.179.70 1 1 807 20110220111207
+75.91.159.135 1 1 807 20110203233453
+122.173.193.98 1 1 807 20110218063001
+77.28.56.185 1 1 807 20110204114404
+69.137.186.175 1 1 807 20110220223719
+93.186.31.236 1 1 807 20110227192744
+137.44.118.164 1 1 807 20110208161228
+184.243.157.29 1 1 807 20110210114519
+74.125.152.82 2 2 1614 20110225021021
+69.248.90.75 1 1 807 20110203115039
+207.170.62.235 1 1 807 20110210141008
+68.54.160.163 1 1 807 20110205035929
+71.41.60.73 1 1 807 20110222103556
+89.212.100.200 1 1 807 20110225093350
+207.46.195.198 1 1 807 20110203075324
+209.240.121.80 1 1 807 20110223191218
+92.233.177.38 1 1 807 20110209211528
+74.215.150.164 1 1 807 20110217065604
+209.234.201.176 2 9 463916 20110208124513
+76.14.184.6 1 1 807 20110205023101
+166.137.137.130 1 1 807 20110208083354
+59.184.119.43 1 1 35 20110214212824
+173.66.214.127 1 1 807 20110209181107
+12.18.245.219 1 1 807 20110218213309
+64.139.233.222 1 1 807 20110221105705
+71.239.218.126 1 1 807 20110214140648
+97.83.38.174 1 1 807 20110215170327
+216.104.15.142 5 5 27622 20110222175536
+69.201.173.129 2 2 1614 20110203151109
+98.220.148.146 1 1 807 20110208045604
+71.184.125.240 3 3 2421 20110216201149
+71.135.40.247 1 1 807 20110219054817
+98.92.186.82 1 1 807 20110202213321
+95.27.6.14 1 1 807 20110206012440
+24.94.235.182 1 1 807 20110216230950
+71.112.2.63 1 1 807 20110213225733
+68.55.252.89 1 1 807 20110219152451
+129.7.17.171 1 1 807 20110213063407
+38.104.231.206 1 1 807 20110216122710
+142.161.152.58 1 1 807 20110208191823
+24.118.0.181 1 1 807 20110216160751
+76.91.88.32 1 1 807 20110222104448
+207.46.12.204 1 1 807 20110226044023
+166.137.8.215 1 1 807 20110216212527
+69.143.97.209 1 1 807 20110225204056
+82.24.228.186 1 1 807 20110223125416
+207.29.158.20 1 1 807 20110223090831
+24.231.190.5 1 1 807 20110202144844
+211.124.96.146 1 1 807 20110208084857
+24.233.241.108 1 1 807 20110219211704
+173.55.79.33 1 1 807 20110208011633
+187.50.215.242 1 1 807 20110217100116
+166.205.13.212 1 1 807 20110213004754
+64.107.44.50 1 1 807 20110222120612
+24.150.241.104 1 1 807 20110225054449
+68.200.213.80 1 1 807 20110205132210
+87.53.152.108 1 1 807 20110214131956
+68.231.241.183 1 1 807 20110227221828
+79.161.133.48 1 1 807 20110209073029
+129.64.141.151 1 1 807 20110208183948
+24.10.66.47 1 1 807 20110204171511
+24.21.50.137 1 1 807 20110221222730
+157.55.112.214 3 3 2421 20110227222918
+75.37.16.238 2 2 1614 20110209160903
+70.190.70.58 1 1 807 20110228182427
+96.228.117.211 1 1 807 20110223203347
+70.95.175.20 1 1 807 20110214025421
+75.134.99.175 1 1 807 20110214151641
+98.168.250.197 1 1 807 20110217141234
+99.61.252.13 1 1 807 20110214191849
+24.97.19.35 2 8 239324 20110211065846
+81.102.57.154 1 1 807 20110205201729
+24.91.126.14 1 1 807 20110208055607
+68.237.140.125 1 1 807 20110203201455
+184.190.210.48 1 1 807 20110222170942
+95.25.100.218 1 1 807 20110223032237
+174.253.0.1 1 1 807 20110219233426
+74.243.130.195 1 1 807 20110203115050
+97.115.199.118 1 1 807 20110222173104
+69.193.6.215 1 1 807 20110202211742
+92.26.219.199 1 1 807 20110206181414
+75.21.107.86 1 1 807 20110212191406
+69.86.58.80 1 1 807 20110214212932
+72.8.4.42 1 1 807 20110221124902
+65.163.152.133 1 1 807 20110221130915
+134.74.74.174 1 1 807 20110224155444
+76.241.147.187 1 1 807 20110212233326
+204.38.200.19 1 1 807 20110224002817
+69.207.216.161 1 1 807 20110212105424
+71.1.11.24 1 1 807 20110214081306
+68.34.172.95 1 1 807 20110211210631
+63.250.234.226 1 1 807 20110209113535
+74.178.101.27 1 1 807 20110203174150
+74.82.64.39 1 1 807 20110226170341
+24.1.187.53 1 1 807 20110228222929
+65.60.149.59 1 1 807 20110226043420
+208.119.130.2 1 1 807 20110204142301
+130.245.200.146 1 1 807 20110210221900
+71.42.197.50 1 1 807 20110228154348
+118.208.196.133 1 1 807 20110209231828
+207.204.186.8 1 1 807 20110225205622
+74.70.144.28 1 1 807 20110209151307
+174.254.17.158 1 1 807 20110226224927
+68.199.198.190 1 1 807 20110205201813
+67.81.232.167 1 1 807 20110212225302
+69.120.16.79 1 1 807 20110213232535
+67.142.168.26 1 1 807 20110202063951
+76.15.37.199 2 2 1614 20110226141155
+61.247.11.38 2 2 1614 20110217231836
+68.222.184.133 1 1 807 20110203184743
+71.61.145.137 2 2 1614 20110224182255
+86.169.177.207 1 1 807 20110227171009
+98.239.108.81 1 1 807 20110213143621
+24.0.231.212 1 1 807 20110224224747
+99.93.44.126 1 1 807 20110228182646
+67.235.226.227 1 1 807 20110223200250
+67.208.179.6 1 1 807 20110203074649
+78.86.57.199 1 1 807 20110224065116
+164.58.30.30 1 1 807 20110202084559
+68.62.105.107 1 1 807 20110227111406
+24.158.70.18 2 2 1614 20110221190037
+64.123.160.94 1 1 807 20110210071105
+152.30.253.73 1 1 807 20110219002717
+130.157.46.152 1 1 807 20110205190629
+208.104.49.156 1 1 807 20110225075321
+99.49.111.82 3 15 455110 20110219094159
+206.53.147.233 4 4 3228 20110210230238
+65.203.37.67 1 1 807 20110210230853
+72.184.144.175 1 1 807 20110204213508
+90.204.145.55 1 1 807 20110207073434
+108.3.66.104 1 1 807 20110215134743
+69.112.164.3 1 1 807 20110203213442
+188.194.86.212 1 1 807 20110209064342
+98.210.97.12 1 1 807 20110222161757
+128.237.67.128 1 1 807 20110215173831
+99.100.222.121 1 1 807 20110203185100
+72.188.41.241 1 1 807 20110214164830
+97.213.159.168 1 1 807 20110216135832
+24.190.83.57 1 1 807 20110213122243
+139.225.212.52 2 2 1614 20110202084237
+174.107.71.255 1 1 807 20110206012220
+68.6.64.208 1 1 807 20110221224329
+69.125.24.96 1 1 807 20110210065552
+173.182.138.245 1 1 807 20110212105543
+69.125.70.174 1 1 807 20110223013402
+74.82.64.33 2 2 1614 20110227032804
+97.82.167.231 1 1 807 20110210193226
+96.8.161.107 1 1 807 20110212165231
+67.172.64.129 1 1 807 20110211185938
+75.109.99.6 1 1 807 20110201180833
+205.188.116.66 0 1 153 
+208.54.39.63 3 9 338721 20110227224233
+75.39.195.103 1 1 807 20110223230759
+24.21.137.229 1 1 807 20110202042608
+70.171.237.250 1 1 807 20110226082644
+184.190.219.108 1 1 807 20110207164715
+24.91.35.250 1 1 807 20110224211924
+131.175.10.150 1 1 807 20110215025157
+72.224.200.133 1 1 807 20110219133211
+74.106.21.140 2 2 1614 20110211072004
+69.114.58.191 1 1 807 20110210112839
+24.191.113.138 1 1 807 20110224171222
+68.38.86.248 1 1 807 20110220004006
+122.173.195.233 1 1 807 20110211171724
+98.192.148.40 1 1 807 20110220072927
+69.155.142.127 1 1 807 20110215231209
+207.46.12.118 2 2 1614 20110208083915
+99.120.10.25 1 1 807 20110208215430
+108.13.183.163 1 1 807 20110217035733
+24.45.246.201 1 1 807 20110223202735
+24.11.248.18 1 1 807 20110206214048
+98.216.226.164 1 1 807 20110216191515
+67.82.168.49 1 1 807 20110213071118
+24.153.207.188 1 1 807 20110205193529
+72.177.158.247 1 1 807 20110217000522
+68.183.233.2 1 1 807 20110209034534
+71.208.120.185 2 2 1614 20110217060114
+24.192.190.86 1 1 807 20110210043148
+69.106.132.20 1 1 807 20110206092640
+71.33.228.97 1 1 807 20110201144200
+173.61.219.13 2 2 1614 20110218183147
+99.6.248.216 1 1 807 20110219025628
+173.238.204.197 1 1 807 20110219044059
+50.15.248.159 1 1 807 20110211191344
+76.95.6.98 1 1 807 20110202005624
+72.80.155.7 1 1 807 20110207214629
+76.0.222.62 1 1 807 20110224014917
+199.8.99.230 1 1 807 20110223124654
+119.246.127.83 1 1 807 20110216120227
+70.105.96.194 1 1 807 20110213172409
+96.242.152.141 1 1 807 20110212200437
+71.173.113.46 1 1 807 20110214222616
+96.236.115.108 4 4 3228 20110218060406
+67.242.52.47 1 1 807 20110207203415
+76.254.59.203 1 1 807 20110222132615
+82.45.246.48 2 2 1614 20110207103635
+174.23.220.222 1 1 807 20110213025134
+208.98.190.176 1 1 807 20110218174756
+122.163.70.187 1 1 807 20110219023356
+76.108.233.223 1 1 807 20110227130428
+72.82.224.101 1 1 807 20110211195711
+32.139.66.146 1 1 807 20110214122022
+65.25.168.226 1 1 807 20110227161330
+66.38.72.230 1 1 807 20110217160842
+116.199.212.78 1 1 807 20110209215507
+76.19.237.93 1 1 807 20110221203034
+96.39.118.152 1 1 807 20110202202741
+72.65.197.114 1 1 807 20110223181549
+90.230.93.158 1 1 807 20110226093021
+173.23.6.61 1 1 807 20110227005143
+75.143.172.49 1 1 807 20110206212059
+75.52.253.66 1 1 807 20110213011329
+76.184.188.44 1 1 807 20110215194430
+165.166.196.91 1 1 807 20110221000102
+75.92.69.93 1 1 807 20110220193630
+72.14.71.233 1 1 807 20110207204424
+70.176.225.21 1 1 807 20110218162211
+71.249.63.45 1 1 807 20110204122303
+69.225.137.60 1 1 807 20110219171138
+72.94.9.217 1 1 807 20110220213228
+66.214.71.64 1 1 807 20110218192654
+67.218.79.157 1 1 807 20110227084526
+129.113.46.188 2 8 228749 20110215141424
+208.180.91.48 1 1 807 20110222142214
+174.202.203.184 4 13 19928 20110228164830
+24.126.100.139 1 1 807 20110210174522
+108.23.204.230 1 1 807 20110213190011
+76.118.105.253 1 1 807 20110211005554
+98.220.108.213 1 1 807 20110220124345
+98.212.37.236 1 1 807 20110227165009
+71.33.228.98 2 2 1614 20110216172154
+85.103.75.163 1 1 807 20110220102931
+24.0.208.7 1 1 807 20110206083500
+69.132.116.187 1 1 807 20110203173953
+75.95.122.211 1 1 807 20110206113122
+69.123.52.177 1 8 462364 20110209133715
+174.7.22.141 1 1 807 20110217205926
+128.211.161.17 1 1 807 20110222094452
+81.97.88.159 1 1 807 20110212135748
+98.151.142.183 1 1 807 20110209013958
+75.53.118.162 1 1 807 20110207065222
+68.171.231.18 1 1 807 20110221212117
+168.16.225.221 1 1 807 20110211174128
+71.134.54.49 1 1 807 20110203225656
+90.214.85.164 1 1 807 20110208160028
+24.2.72.183 3 3 2421 20110225194831
+38.114.81.227 1 1 807 20110208185920
+76.19.11.166 1 1 807 20110205215648
+96.25.38.150 1 1 807 20110208181450
+95.86.65.144 1 1 807 20110213181916
+99.93.252.34 1 1 807 20110222174355
+199.8.99.189 1 1 807 20110224233824
+75.89.237.57 1 1 807 20110226111940
+66.138.29.47 1 1 807 20110221223650
+67.68.12.76 1 1 807 20110208221248
+74.232.70.253 1 1 807 20110219190225
+99.13.205.33 1 1 807 20110206181431
+66.80.249.178 1 1 807 20110224104751
+74.68.136.78 1 1 807 20110203153221
+68.126.6.227 1 1 807 20110216175636
+108.0.3.162 1 1 807 20110213041031
+72.94.130.65 1 1 807 20110226082136
+72.181.37.58 1 1 807 20110207115918
+75.69.163.121 1 1 807 20110213173208
+174.69.98.214 1 1 807 20110224003955
+173.75.236.135 1 1 807 20110215215911
+93.143.157.220 1 1 807 20110214135301
+207.46.204.204 1 1 807 20110207043220
+166.137.8.72 1 1 807 20110221001204
+166.137.11.194 2 2 1614 20110226085658
+24.179.94.167 1 1 807 20110227034738
+68.226.134.123 1 1 807 20110201074323
+96.250.226.128 1 1 807 20110216182201
+216.169.227.132 16 16 12912 20110223233728
+71.189.81.202 1 1 807 20110214194831
+174.254.4.4 1 1 807 20110225211352
+174.254.147.198 1 1 807 20110204083419
+173.186.234.18 1 1 807 20110207123719
+74.209.32.139 1 1 807 20110211134146
+71.12.20.176 1 1 807 20110224065739
+166.205.138.135 1 1 807 20110221142249
+98.64.191.153 1 1 807 20110220231553
+12.197.204.55 1 1 807 20110224215649
+74.70.159.21 1 1 807 20110206140045
+67.220.101.136 3 3 19252 20110206085526
+74.70.139.234 1 1 807 20110222190611
+63.77.139.254 1 1 807 20110204085454
+24.92.89.42 2 2 1614 20110208223647
+68.35.182.71 1 1 807 20110204142841
+208.54.40.66 1 1 807 20110217112644
+99.180.236.247 1 1 807 20110227231054
+97.116.58.11 1 1 807 20110217165526
+207.46.199.17 1 1 807 20110205040838
+67.181.141.105 1 1 807 20110222122236
+150.70.64.201 18 18 33756 20110227222450
+207.46.12.121 1 1 807 20110226185721
+174.52.247.132 3 3 2421 20110212185849
+98.225.90.115 1 1 807 20110225222803
+205.188.116.142 3 4 37113 20110218170218
+206.162.206.76 1 1 807 20110216094919
+66.195.91.184 1 1 807 20110224082455
+70.75.250.87 1 1 807 20110208202515
+216.67.51.254 1 1 807 20110208171013
+174.55.116.232 1 1 807 20110226030046
+24.206.86.250 2 2 1614 20110216140014
+24.241.22.55 1 1 807 20110226124026
+76.64.73.43 1 1 807 20110208141251
+24.237.89.38 1 1 807 20110205220733
+24.131.75.159 1 1 807 20110203123919
+69.253.67.177 1 1 807 20110212132937
+74.82.64.17 9 9 7263 20110226120433
+98.229.17.132 4 4 3228 20110218134102
+71.10.4.3 1 1 807 20110222181506
+166.205.10.71 1 1 807 20110223194724
+67.181.255.41 1 1 807 20110223191932
+68.81.160.212 1 1 807 20110219210256
+166.216.226.77 1 1 807 20110216083553
+207.241.228.152 1 1 807 20110207235001
+151.204.187.233 1 1 807 20110221145713
+69.124.238.199 1 1 807 20110208110250
+151.132.206.26 1 1 807 20110216065825
+68.198.191.221 1 1 807 20110210172937
+173.174.103.81 1 1 807 20110224205626
+68.197.191.203 1 1 807 20110202000148
+75.64.72.96 1 1 807 20110216165746
+151.188.18.82 2 2 1614 20110224091223
+24.186.54.60 1 1 807 20110225003036
+99.135.9.98 1 1 807 20110209203618
+71.62.98.77 1 1 807 20110214215906
+115.248.98.84 4 4 3228 20110224042311
+124.122.203.48 1 1 807 20110228045313
+98.151.2.192 1 1 807 20110204014104
+50.15.178.131 1 1 807 20110213173641
+67.87.102.45 1 1 807 20110224143308
+74.196.225.120 1 1 807 20110212211940
+205.188.116.73 1 1 10422 20110218165823
+174.253.69.50 1 1 807 20110204075446
+98.127.88.55 1 1 807 20110227204638
+174.254.35.110 1 1 807 20110220122011
+205.188.116.141 2 2 18950 20110218170109
+66.188.63.151 1 1 807 20110206123610
+74.125.114.87 1 1 807 20110223232005
+2.89.133.254 1 1 807 20110210175430
+82.41.207.216 1 1 807 20110211155648
+115.118.47.105 1 1 807 20110228114634
+203.110.243.21 1 1 807 20110217065440
+75.186.136.183 1 1 807 20110223131700
+168.11.155.60 1 1 807 20110202090006
+24.233.71.16 1 1 807 20110215193827
+204.112.49.213 1 1 807 20110228194748
+66.241.162.244 1 1 807 20110207090509
+209.222.216.218 1 1 807 20110211165457
+96.233.178.47 1 1 807 20110218101539
+75.163.79.63 1 1 807 20110211141748
+174.252.51.76 1 1 807 20110202232418
+188.179.39.19 2 2 1614 20110227153947
+99.186.124.178 1 1 807 20110209224328
+75.142.165.124 1 1 807 20110203140025
+124.168.225.15 1 1 807 20110223222716
+216.52.207.75 1 1 807 20110210033619
+86.141.204.43 1 1 807 20110223191037
+97.81.110.193 1 1 807 20110207164825
+67.238.213.173 1 1 807 20110203184903
+92.4.151.58 1 1 807 20110222204954
+207.46.12.16 3 3 2421 20110224023043
+113.166.0.6 1 1 807 20110217223454
+122.173.224.176 1 1 807 20110223043635
+166.205.8.241 1 1 807 20110203155756
+205.188.117.69 0 1 354 
+68.103.22.121 1 1 807 20110213195708
+166.137.142.81 1 1 807 20110209123622
+24.60.27.183 2 2 1614 20110228202100
+72.181.150.124 1 1 807 20110217184737
+174.48.209.240 1 1 807 20110222093528
+110.139.101.121 2 2 1614 20110215064606
+71.177.224.63 1 1 807 20110209180132
+76.111.63.206 1 1 807 20110211030523
+72.226.110.252 1 1 807 20110210171358
+72.92.196.9 21 29 654828 20110204124451
+32.169.237.235 1 1 807 20110212194515
+70.246.140.217 1 1 807 20110201000458
+98.217.90.114 1 1 807 20110219200049
+166.137.141.254 1 1 807 20110204170708
+96.248.141.243 1 1 807 20110206104238
+67.188.80.249 1 1 807 20110213223232
+173.33.81.183 1 1 807 20110227080719
+174.52.243.234 1 1 807 20110206003426
+93.96.49.79 1 1 807 20110217070044
+187.79.50.171 1 1 807 20110218113454
+81.152.148.196 1 1 807 20110213140534
+24.128.102.142 1 1 807 20110205134211
+69.126.165.38 1 1 807 20110210212058
+208.54.87.79 1 1 807 20110223163719
+207.126.220.33 1 1 807 20110213151612
+76.210.215.218 1 1 807 20110210224502
+72.185.129.83 1 1 807 20110216092600
+74.61.15.55 1 1 807 20110222154245
+207.46.204.169 2 2 1614 20110202094403
+72.179.161.49 1 1 807 20110210232125
+174.149.26.32 1 1 807 20110226235007
+206.74.217.56 1 1 807 20110227094611
+71.7.221.71 1 1 807 20110214164847
+97.125.27.74 1 1 807 20110211234152
+173.74.167.213 1 1 807 20110204031959
+174.52.228.170 1 1 807 20110226044924
+24.0.249.49 1 1 807 20110217124241
+96.254.175.171 1 1 807 20110227031902
+161.58.86.205 3 3 2421 20110207195718
+67.164.147.209 1 1 807 20110215182200
+99.66.216.168 1 1 807 20110228194407
+69.108.139.99 1 1 807 20110209185607
+174.5.179.228 1 1 807 20110228104048
+69.246.149.92 1 1 807 20110201090544
+173.117.123.9 1 1 807 20110210171257
+66.87.5.253 1 1 807 20110220211029
+98.233.226.21 1 1 807 20110228174623
+99.14.164.218 1 1 807 20110210182512
+166.137.143.227 1 1 807 20110211192442
+208.54.36.66 1 1 807 20110208005632
+69.123.131.123 1 1 807 20110206221858
+219.107.98.126 1 1 807 20110215163215
+41.132.119.150 1 1 807 20110208031953
+70.146.200.42 1 1 807 20110220101604
+208.54.14.69 1 1 807 20110224225249
+89.240.177.177 1 1 807 20110225140916
+216.104.15.138 4 4 22190 20110225112811
+76.16.244.59 1 1 807 20110219161510
+97.94.196.50 1 1 807 20110222011954
+208.105.109.70 1 1 807 20110218104346
+212.159.92.64 1 1 807 20110207053339
+78.145.101.42 1 1 807 20110201161739
+97.227.154.163 6 24 82043 20110208093316
+204.108.96.93 1 1 807 20110216092258
+173.64.65.198 1 1 807 20110221102526
+99.254.92.227 1 1 807 20110227150820
+189.169.225.85 1 1 807 20110214181351
+173.216.93.197 2 2 1614 20110215134712
+70.114.129.99 1 1 807 20110217190601
+68.150.205.15 2 2 1614 20110219211519
+190.219.133.205 1 1 807 20110220124844
+217.12.55.233 1 1 807 20110203150407
+46.32.51.150 1 1 807 20110214031535
+76.99.214.80 1 1 807 20110216163252
+96.247.76.219 2 2 1614 20110211104205
+76.5.149.134 3 3 2421 20110226135333
+173.95.182.239 1 1 807 20110222175634
+69.205.249.232 1 1 807 20110202103209
+97.102.250.10 1 1 807 20110226212634
+72.61.9.38 1 1 807 20110209210512
+66.87.0.126 1 1 807 20110228152902
+66.152.118.75 1 1 807 20110201125854
+24.98.197.75 1 1 807 20110212214642
+66.152.117.130 1 1 807 20110207172447
+207.229.13.119 1 1 807 20110228001905
+69.205.60.102 1 1 807 20110221111736
+68.9.239.183 2 2 1614 20110207145746
+92.62.119.101 1 1 807 20110228064626
+72.224.122.105 2 2 1614 20110220105526
+142.161.115.212 1 1 807 20110210171243
+216.51.225.160 5 5 4035 20110228120231
+69.113.117.5 1 1 807 20110206134659
+173.217.102.254 1 1 807 20110203142936
+216.87.174.153 1 1 807 20110221123757
+70.67.239.235 1 1 807 20110208183114
+68.225.78.139 1 1 807 20110203163748
+207.46.195.206 1 1 807 20110220143733
+76.181.73.26 1 1 807 20110217164638
+72.17.207.91 1 1 807 20110215134038
+24.66.26.140 1 1 807 20110205135931
+75.72.84.127 1 1 807 20110214224347
+24.102.58.243 1 1 807 20110211223905
+209.33.3.57 1 1 807 20110219204331
+75.45.228.140 1 1 807 20110212194721
+67.159.28.198 1 1 10422 20110224234809
+99.136.68.109 1 1 807 20110226235201
+163.186.153.67 1 1 807 20110210103644
+71.116.83.219 1 1 807 20110227043253
+208.180.109.26 2 2 1614 20110228064528
+108.119.157.53 1 1 807 20110221133106
+41.35.177.15 1 1 807 20110223120245
+75.108.172.220 1 1 807 20110219211113
+174.252.161.31 1 1 807 20110209213005
+99.118.189.123 1 1 807 20110211150528
+69.64.84.80 1 1 807 20110227112226
+92.16.194.179 1 1 807 20110207190400
+97.127.33.241 1 1 807 20110220015119
+208.54.87.53 1 1 807 20110210064510
+120.63.14.53 1 1 807 20110221113208
+170.184.81.34 1 1 807 20110224023706
+67.82.40.147 1 1 807 20110223011453
+64.7.140.82 1 1 807 20110217123831
+173.52.161.98 1 1 807 20110223195743
+76.15.41.14 1 1 807 20110219143821
+99.74.196.100 1 1 807 20110205235521
+76.112.250.185 1 1 807 20110223181244
+71.170.200.183 2 2 1614 20110219221410
+80.195.249.134 1 1 807 20110216070944
+168.212.247.7 2 2 1614 20110228145337
+98.168.219.48 1 1 807 20110211132424
+68.149.82.13 1 1 807 20110202214741
+166.205.15.243 1 1 807 20110204155511
+76.31.142.44 1 1 807 20110214143720
+24.9.29.82 1 1 807 20110216014307
+165.166.73.106 1 1 807 20110228061759
+174.99.0.124 1 1 807 20110214192228
+96.243.52.129 1 1 807 20110208174225
+85.210.140.85 1 1 807 20110215162348
+206.223.227.220 1 1 807 20110222182406
+99.104.74.95 1 1 807 20110227083746
+77.100.236.58 1 1 807 20110225140231
+24.108.17.53 1 1 807 20110222190407
+69.171.187.76 1 1 807 20110226170619
+207.46.12.60 1 1 807 20110218132525
+75.24.247.53 1 1 807 20110203142159
+76.5.22.162 1 1 807 20110212154825
+97.127.202.175 1 1 807 20110213202856
+119.247.223.34 1 1 807 20110226103907
+117.200.154.128 1 1 807 20110211000157
+154.5.159.169 1 1 807 20110216173020
+82.224.11.31 3 3 2421 20110224155119
+24.175.216.3 1 1 807 20110203201011
+67.42.170.53 1 1 807 20110218203700
+69.140.114.99 2 2 1614 20110221091746
+76.87.64.198 1 1 807 20110218043732
+24.131.51.47 1 1 807 20110218232623
+99.153.167.234 1 1 807 20110213170924
+208.111.116.2 1 1 807 20110223141909
+76.170.200.196 3 3 2421 20110205193512
+208.54.5.58 1 1 807 20110205160402
+69.250.162.1 1 1 807 20110202191949
+187.107.117.85 1 1 807 20110216200306
+98.77.226.118 1 1 807 20110218170043
+68.169.140.26 1 1 807 20110218070621
+74.90.238.44 1 1 807 20110209210546
+67.163.251.150 1 1 807 20110228182918
+65.122.205.161 1 1 807 20110228023843
+67.3.141.203 1 1 807 20110213145855
+68.40.41.131 1 1 807 20110219211353
+65.93.214.195 1 1 807 20110203160620
+71.227.225.152 1 1 807 20110210175808
+76.19.155.219 2 2 1614 20110224130355
+4.58.29.2 6 19 566750 20110207121653
+108.12.18.185 1 1 807 20110224192237
+92.44.102.114 1 1 807 20110224103638
+65.35.148.7 1 1 807 20110227113357
+66.74.74.227 1 1 807 20110218172557
+68.42.201.192 1 1 807 20110222231503
+98.207.61.159 2 2 1614 20110225222010
+67.129.143.2 2 12 594346 20110209111724
+75.219.235.250 1 1 807 20110210171019
+223.206.228.5 1 1 807 20110212220320
+173.32.226.59 1 1 807 20110226202147
+24.107.197.97 1 1 807 20110203213433
+81.153.59.128 1 1 807 20110209171905
+24.0.164.205 1 1 807 20110227191203
+66.182.232.65 2 2 1614 20110204001511
+108.3.18.192 1 1 807 20110224045954
+71.234.214.121 1 1 807 20110202131704
+174.52.86.13 1 1 807 20110206203950
+75.6.8.106 1 1 807 20110216125033
+212.183.140.49 1 1 807 20110217095239
+24.60.4.195 1 1 807 20110224221821
+174.103.157.187 1 1 807 20110225205455
+108.0.56.104 1 1 807 20110217004234
+69.28.58.41 2 2 20844 20110224043129
+166.137.15.13 1 1 807 20110208014049
+24.34.76.235 1 1 807 20110219130114
+67.239.168.129 1 1 807 20110222192402
+76.99.254.241 2 2 1614 20110206214258
+50.72.10.211 1 1 807 20110221153744
+76.121.224.86 1 1 807 20110223214215
+99.48.75.190 1 1 807 20110221225954
+173.86.62.68 1 1 807 20110205124146
+70.160.118.45 1 1 807 20110209120316
+173.70.14.246 1 1 807 20110212161505
+122.177.159.132 1 1 807 20110225002014
+81.157.42.119 1 1 807 20110225204535
+87.114.179.222 1 1 807 20110220160007
+184.56.105.232 1 1 807 20110203223228
+216.81.81.81 1 1 807 20110220065130
+124.106.164.38 1 1 807 20110218190347
+99.3.60.48 1 1 807 20110223200433
+70.80.214.54 1 1 807 20110227203730
+115.64.90.166 1 1 807 20110202013952
+173.191.247.57 1 1 807 20110217115536
+70.187.133.95 1 1 807 20110218181928
+65.184.250.173 1 1 807 20110209003953
+67.117.144.83 1 1 807 20110220201149
+208.120.254.201 1 1 807 20110227083602
+74.125.112.83 3 3 2421 20110225151806
+74.74.95.211 1 1 807 20110205120538
+149.164.242.80 1 1 807 20110203005228
+69.58.178.58 11 11 159151 20110216135035
+68.108.154.75 1 1 807 20110204222516
+67.116.252.129 1 1 807 20110223001609
+99.191.152.158 1 1 807 20110216054343
+72.241.142.79 1 1 807 20110215001913
+78.173.237.125 1 1 807 20110223181932
+173.164.129.225 1 1 807 20110209163229
+65.0.61.31 1 1 807 20110206173236
+99.13.170.2 1 1 807 20110216104631
+71.60.218.119 1 1 807 20110228212901
+92.42.152.100 1 1 807 20110209150032
+173.76.171.199 1 1 807 20110209143946
+71.57.31.54 1 1 807 20110216201436
+74.110.228.30 1 1 807 20110224063120
+70.57.63.208 1 1 807 20110202212506
+74.140.72.157 4 11 485772 20110223171615
+67.121.120.98 1 1 807 20110218184309
+87.120.3.128 1 1 807 20110217082226
+98.194.226.233 1 1 807 20110217032921
+69.204.67.236 2 2 1614 20110226151629
+75.26.17.44 1 1 807 20110204184801
+96.35.227.110 1 1 807 20110227130513
+71.84.74.46 1 1 807 20110212125157
+76.180.160.254 1 1 807 20110209153852
+72.177.143.173 1 1 807 20110213101801
+94.252.107.48 1 1 807 20110207064719
+66.25.12.209 1 1 807 20110206191137
+203.59.221.23 1 1 807 20110228020439
+207.161.60.109 1 1 807 20110217195807
+222.155.158.4 1 1 807 20110205202602
+96.255.102.206 1 1 807 20110219201048
+166.137.8.93 1 1 807 20110204210806
+67.188.201.229 1 1 807 20110212012025
+208.54.86.76 1 1 807 20110216034939
+168.105.140.156 2 2 1614 20110210012241
+209.50.153.237 1 1 807 20110217055434
+212.218.89.4 2 2 1614 20110217081353
+69.108.138.4 1 1 807 20110224022040
+99.100.27.76 1 1 807 20110222164827
+65.24.153.23 1 1 807 20110209072743
+166.216.130.35 1 1 807 20110219172052
+216.171.191.178 1 1 807 20110207112633
+24.33.253.138 1 1 807 20110203235429
+69.205.194.112 1 1 807 20110213181723
+65.79.253.146 1 1 807 20110208202651
+108.13.200.254 1 1 807 20110225224708
+209.188.49.181 1 1 807 20110209212851
+76.126.17.105 2 2 1614 20110212202248
+24.59.176.22 1 1 807 20110224215257
+71.135.164.46 1 1 807 20110216012240
+24.7.100.0 1 1 807 20110212010226
+97.66.29.97 13 21 583203 20110224130658
+97.95.48.225 1 1 807 20110214132407
+77.12.45.76 1 1 807 20110215122022
+174.30.153.75 1 1 807 20110218174714
+189.217.4.162 1 1 807 20110208141518
+76.179.220.129 1 1 807 20110204225004
+68.251.44.43 1 1 807 20110224144341
+87.104.161.15 1 1 807 20110227124926
+87.123.208.104 1 1 807 20110221074609
+74.243.97.211 1 1 807 20110220003527
+209.184.113.231 1 1 807 20110224172915
+67.142.177.20 1 1 807 20110209120300
+71.181.233.69 1 1 807 20110214143449
+99.120.8.32 1 1 807 20110206015826
+75.66.5.144 1 1 807 20110227015317
+69.155.128.197 1 1 807 20110220191439
+69.142.83.114 1 1 807 20110228201020
+99.19.67.38 1 1 807 20110218205454
+91.197.117.210 1 1 807 20110228105516
+72.240.214.85 1 1 807 20110203004450
+208.54.39.56 1 1 807 20110203233728
+71.58.80.139 1 1 807 20110212211552
+68.194.201.30 1 1 807 20110208202453
+76.127.69.247 2 2 1614 20110222121240
+174.254.160.245 1 1 807 20110226085150
+24.218.60.65 1 1 807 20110205124804
+74.78.69.57 1 1 807 20110225112415
+201.132.217.204 1 1 807 20110215180234
+74.196.243.62 1 1 807 20110213194838
+68.12.217.87 1 1 807 20110216084828
+201.116.55.114 1 1 807 20110225163202
+98.222.121.1 1 1 807 20110219101200
+74.94.74.142 2 2 1614 20110228132738
+166.137.136.156 5 12 485755 20110224132609
+24.173.57.12 1 1 807 20110204182722
+76.199.136.25 1 1 807 20110224232033
+75.67.240.82 1 1 807 20110215173957
+173.74.174.151 1 1 807 20110219212954
+68.61.148.152 1 1 807 20110218141624
+113.165.61.48 4 14 619715 20110224004832
+82.33.72.191 1 1 807 20110214110104
+174.252.178.5 1 1 807 20110210084909
+94.194.131.72 1 1 807 20110206184838
+71.30.202.78 1 1 807 20110228131959
+72.0.209.99 1 1 807 20110215143017
+122.162.147.252 1 1 807 20110210142246
+96.233.181.160 1 1 807 20110225181449
+97.115.47.227 1 1 807 20110213140946
+174.253.18.86 1 1 807 20110206214304
+189.250.245.25 1 1 807 20110226164037
+196.215.119.8 1 1 807 20110227095211
+75.84.115.107 1 1 807 20110208114148
+149.165.186.38 1 1 807 20110224094515
+86.148.90.137 1 1 807 20110208190656
+76.28.117.209 1 1 807 20110225214641
+173.173.22.117 1 1 807 20110214133536
+72.69.186.58 1 1 807 20110209161305
+79.167.125.172 1 1 807 20110220161136
+91.154.209.6 1 1 807 20110221164405
+66.206.247.111 1 1 807 20110222072533
+208.54.4.78 1 1 807 20110217161148
+99.101.183.194 1 1 807 20110210190119
+85.48.240.28 1 1 807 20110207080454
+98.230.246.50 1 1 807 20110223172352
+92.41.201.194 1 1 807 20110227111201
+98.65.216.160 1 1 807 20110222215340
+173.174.84.73 1 1 807 20110216192606
+173.80.46.160 1 1 807 20110203064306
+24.243.10.97 1 1 807 20110209112244
+96.243.133.58 1 1 807 20110224184038
+173.238.139.159 1 1 807 20110203164840
+98.14.182.243 1 1 807 20110206203925
+98.194.240.234 1 1 807 20110225204514
+174.65.108.72 2 2 1614 20110215005409
+188.55.113.202 1 1 807 20110206042709
+108.13.35.229 1 1 807 20110212220811
+209.56.138.9 1 1 807 20110204143454
+173.81.240.17 1 1 807 20110213191013
+74.74.149.130 1 1 807 20110226231749
+96.244.169.87 1 1 807 20110201012520
+174.93.49.43 1 1 807 20110226232934
+166.205.15.229 1 1 807 20110204224320
+72.230.195.5 1 1 807 20110210113034
+166.205.15.141 1 1 807 20110207133354
+12.192.225.3 1 1 807 20110217144636
+69.43.219.164 1 1 807 20110220105306
+24.9.215.232 1 1 807 20110211135910
+65.81.152.5 1 1 807 20110221155944
+107.5.197.220 1 1 807 20110201035253
+75.183.50.84 1 1 807 20110215180201
+76.101.178.108 1 1 807 20110207171930
+202.160.169.66 8 21 34983380 20110207234115
+112.213.155.160 1 1 807 20110218174033
+166.82.93.253 1 1 807 20110220105803
+24.90.34.246 2 2 1614 20110214084003
+67.253.100.231 1 1 807 20110225141220
+99.41.12.30 1 1 807 20110215182633
+71.226.153.130 1 1 807 20110222085345
+147.229.209.138 1 1 807 20110222051405
+72.229.41.122 1 1 807 20110214153709
+166.137.8.173 1 1 807 20110205164129
+208.57.101.199 1 1 807 20110204124851
+174.96.86.22 1 1 807 20110218205747
+24.243.44.55 1 1 807 20110211225207
+173.45.188.38 1 1 807 20110221092329
+71.245.9.58 1 1 807 20110228150423
+71.190.26.154 1 1 807 20110228225319
+76.248.79.131 1 1 807 20110227114751
+69.218.25.68 1 1 807 20110223223932
+71.190.177.89 1 1 807 20110210151322
+68.28.169.226 1 1 807 20110203120259
+168.103.166.179 1 1 807 20110218201436
+187.54.11.141 1 1 807 20110201131642
+75.101.20.17 1 1 807 20110204164944
+74.125.112.84 2 2 1614 20110215141357
+70.114.57.59 1 1 807 20110216073645
+173.216.208.30 1 1 807 20110223090349
+69.122.139.2 1 1 807 20110203012257
+75.109.207.3 1 1 807 20110220233420
+67.234.108.199 1 1 807 20110217173519
+24.39.103.200 1 1 807 20110201202540
+95.28.110.165 1 1 807 20110212012704
+98.242.240.131 1 1 807 20110212060732
+75.92.212.95 1 1 807 20110220192152
+166.205.9.254 1 1 807 20110228081513
+74.89.97.20 1 1 807 20110215171141
+71.59.6.3 2 2 1614 20110223135412
+184.77.124.91 1 1 807 20110227123550
+166.205.12.247 4 12 500389 20110201131336
+136.167.254.210 1 1 807 20110225160142
+173.27.106.193 1 1 807 20110204012838
+67.10.180.138 1 1 807 20110203142255
+98.149.170.163 1 1 807 20110201215745
+130.253.44.134 1 1 807 20110218132658
+76.184.97.41 1 1 807 20110213151013
+98.212.148.160 1 1 807 20110204160326
+76.127.30.116 1 1 807 20110214141038
+69.61.243.242 2 2 1614 20110217170251
+65.35.235.254 1 1 807 20110207180359
+68.230.126.38 1 1 807 20110210150303
+142.22.16.50 1 1 807 20110216101825
+74.171.68.211 1 1 807 20110217200913
+173.51.255.169 2 2 20844 20110228225723
+24.110.5.110 5 5 4035 20110212211153
+97.77.106.137 2 2 1614 20110205030707
+71.87.222.129 1 1 807 20110213172819
+174.18.89.102 1 1 807 20110228234519
+75.130.90.225 1 1 807 20110227153917
+74.99.148.125 1 1 807 20110210134643
+99.90.171.117 1 1 807 20110222233150
+71.227.29.71 1 1 807 20110209221721
+98.127.254.18 1 1 807 20110209155912
+95.25.163.110 1 1 807 20110205115704
+209.181.185.49 1 1 807 20110217164934
+97.77.252.99 1 1 807 20110209175337
+76.172.138.126 1 1 807 20110211105837
+173.185.44.34 1 1 807 20110207111407
+24.42.242.162 1 1 807 20110227002459
+72.211.224.185 2 2 1614 20110219232836
+71.202.110.33 1 1 807 20110222193929
+74.112.57.173 1 1 807 20110208233914
+96.53.138.136 1 1 807 20110214224419
+74.82.68.37 2 5 132008 20110225144555
+84.85.129.73 1 1 807 20110214112311
+74.243.135.162 1 1 807 20110222155820
+46.117.93.215 1 1 807 20110203135841
+96.239.21.75 1 1 807 20110227124547
+207.46.12.70 1 1 807 20110218174239
+68.192.142.243 1 1 807 20110210134206
+67.255.123.134 1 1 807 20110222165223
+76.5.134.27 2 2 1614 20110209205455
+207.46.193.49 4 4 3228 20110212092954
+98.209.164.79 1 1 807 20110219224650
+74.243.237.52 1 1 807 20110219160232
+67.42.205.49 1 1 807 20110211122548
+189.141.106.194 1 1 807 20110204201509
+76.29.121.192 1 1 807 20110210145023
+173.74.53.126 1 1 807 20110214025654
+206.29.188.225 1 1 807 20110206040644
+129.7.17.223 1 1 807 20110218222552
+208.53.103.247 1 1 807 20110207173031
+68.186.134.126 1 1 807 20110215175855
+74.106.19.226 1 1 807 20110228182323
+66.194.108.2 1 1 807 20110207161041
+75.82.64.237 1 1 807 20110223033407
+173.52.88.89 1 1 807 20110217212623
+71.67.106.158 1 1 807 20110219123517
+99.232.181.27 1 1 807 20110204114051
+173.89.76.39 2 2 1614 20110222172012
+92.15.74.62 1 1 807 20110203171038
+99.124.230.124 4 12 494385 20110201151420
+76.119.85.241 1 1 807 20110205182323
+76.113.94.193 1 1 807 20110216000345
+99.175.65.194 1 1 807 20110201222746
+69.234.35.177 1 1 807 20110209200142
+87.126.84.204 1 1 807 20110225175141
+90.219.246.219 1 1 807 20110206102133
+173.166.41.167 1 1 807 20110227141015
+99.175.79.163 2 2 1614 20110225092018
+76.31.98.206 1 1 807 20110201121513
+24.11.224.157 1 1 807 20110226090802
+24.188.234.123 1 1 807 20110202222857
+204.116.236.43 1 1 807 20110224141726
+68.113.107.23 1 1 807 20110210041854
+149.43.212.57 1 1 807 20110204105924
+74.82.64.16 3 3 2421 20110226120426
+66.233.24.205 1 1 807 20110221193753
+93.172.40.5 1 1 807 20110208085851
+166.216.162.35 1 1 807 20110201172331
+83.132.250.7 1 1 807 20110221102415
+71.12.73.126 2 2 1614 20110228163356
+174.57.155.241 1 1 807 20110227203518
+108.2.184.14 2 2 1614 20110221210709
+69.227.128.156 1 1 807 20110214232414
+50.84.65.234 1 1 807 20110217163736
+94.193.138.145 1 1 807 20110201135540
+208.54.38.69 1 1 807 20110226221008
+72.191.36.26 1 1 807 20110226203109
+173.217.93.188 1 1 807 20110224210217
+130.64.184.69 2 2 1614 20110226235136
+72.48.82.182 1 1 807 20110220004156
+64.134.68.231 1 1 807 20110226160230
+98.108.232.64 1 1 807 20110217194628
+189.216.76.226 1 1 807 20110202102237
+86.62.69.18 2 8 228749 20110203075735
+64.12.116.208 1 1 807 20110215185716
+69.195.49.123 1 1 807 20110212011243
+187.133.183.211 1 1 807 20110202155647
+91.110.87.250 1 1 807 20110206104341
+96.230.200.35 1 1 807 20110226174643
+96.47.145.36 1 1 807 20110213110942
+66.174.93.52 1 1 807 20110226220321
+98.254.122.164 1 1 807 20110219103043
+24.163.93.46 1 1 807 20110212235019
+124.176.44.116 1 1 807 20110201231821
+68.198.135.127 1 1 807 20110226105246
+173.161.186.22 1 1 807 20110225152105
+75.60.6.220 1 1 807 20110204172550
+67.183.162.84 1 1 807 20110208185711
+71.61.250.43 1 1 807 20110224151203
+98.237.54.238 1 1 807 20110221131126
+24.126.20.68 1 1 807 20110211164728
+205.188.116.196 1 1 9430 20110218170128
+122.61.231.15 1 1 807 20110205020742
+71.226.93.105 1 1 807 20110213130415
+24.137.81.139 1 1 807 20110209195253
+72.226.14.62 3 3 2421 20110225154001
+76.77.247.43 1 1 807 20110204162719
+71.191.67.91 1 1 807 20110214132104
+75.27.113.54 1 1 807 20110209174304
+69.205.140.112 1 1 807 20110228162055
+69.181.6.51 1 1 807 20110227212237
+99.141.53.238 1 1 807 20110218210306
+74.193.225.244 1 1 807 20110207080210
+173.210.100.242 1 1 807 20110203011034
+64.146.149.125 1 1 807 20110227053546
+86.9.172.237 1 1 807 20110205071227
+69.76.21.69 1 1 807 20110218155957
+74.82.68.22 1 1 807 20110227210816
+216.211.96.253 1 1 807 20110219140544
+65.51.170.146 1 1 807 20110204144101
+205.188.117.74 0 1 237407 
+86.161.46.245 1 1 807 20110203200652
+70.160.226.40 1 1 807 20110223173134
+72.29.180.52 1 1 807 20110217131720
+71.249.191.112 3 17 845396 20110209110917
+157.55.112.242 1 1 807 20110226092000
+64.114.104.37 1 1 807 20110225075442
+74.34.116.220 1 1 807 20110215161748
+208.66.147.2 1 1 807 20110210053513
+92.7.210.7 1 1 807 20110214185012
+24.237.113.188 1 1 807 20110209134325
+67.137.247.25 1 1 807 20110203081105
+98.196.235.194 1 1 807 20110224214053
+205.188.116.11 1 1 807 20110218165826
+207.46.12.111 2 2 1614 20110226142015
+58.106.98.3 1 1 807 20110205174224
+207.46.12.61 1 1 807 20110219113141
+98.18.36.205 1 1 807 20110211124055
+71.106.222.55 1 1 807 20110227135556
+65.36.17.244 1 1 807 20110220012837
+207.46.199.29 1 1 807 20110202170126
+74.69.130.206 1 1 807 20110206034901
+72.211.248.117 2 2 1614 20110220143107
+71.56.68.39 1 1 807 20110224205702
+70.161.199.208 1 1 807 20110204185922
+50.74.6.149 1 1 807 20110222103037
+74.82.68.144 1 1 807 20110215113535
+68.110.230.15 1 1 807 20110215224346
+116.73.144.102 1 1 807 20110228110858
+95.18.100.229 1 1 807 20110201100112
+99.9.92.248 1 1 807 20110219171752
+71.190.152.214 3 3 2421 20110228202941
+69.251.14.2 1 1 807 20110228154759
+97.100.134.73 1 1 807 20110206021235
+150.212.52.150 1 1 807 20110221152332
+90.206.182.74 1 1 807 20110212115504
+99.101.238.195 1 1 807 20110226230336
+24.46.85.232 1 1 807 20110226124257
+212.160.172.70 1 1 807 20110214052419
+164.116.22.128 1 1 807 20110201171637
+98.228.226.207 1 1 807 20110217023800
+72.188.111.213 1 1 807 20110215190530
+217.43.176.105 1 1 807 20110205165242
+38.107.150.194 1 1 807 20110216105141
+97.81.206.147 1 1 807 20110224122514
+92.48.122.218 1 1 35 20110208012344
+86.63.2.73 1 1 807 20110201103039
+24.126.177.241 1 1 807 20110221130840
+66.87.1.211 1 1 807 20110202004917
+67.142.165.23 1 1 807 20110210045424
+76.98.47.147 1 1 807 20110223145214
+108.78.201.186 1 1 807 20110203172808
+24.44.9.43 1 1 807 20110208002407
+173.54.188.183 1 1 807 20110218192518
+174.55.1.30 1 1 807 20110212144044
+99.96.13.236 1 1 807 20110217002005
+216.236.174.70 1 1 807 20110203131833
+184.171.154.245 1 1 807 20110207054351
+75.131.202.173 1 1 807 20110217220623
+98.111.13.157 1 1 807 20110221145524
+67.224.223.181 1 1 807 20110223201603
+71.162.78.237 1 1 807 20110228200335
+71.14.152.23 1 1 807 20110202140818
+68.54.139.103 1 1 807 20110202153302
+75.109.149.9 1 1 807 20110210152503
+92.3.162.220 1 1 807 20110213204845
+178.19.24.211 1 1 807 20110223141004
+76.233.26.151 1 1 807 20110228204126
+71.170.12.171 1 1 807 20110214161728
+41.182.227.151 1 1 807 20110202150356
+60.50.204.132 1 1 807 20110204054155
+66.55.58.138 1 1 807 20110221143438
+89.241.153.162 1 1 807 20110214145826
+146.189.9.144 1 1 807 20110222081107
+75.38.66.254 1 1 807 20110208193038
+64.201.212.63 1 1 807 20110222142951
+178.175.74.7 1 1 807 20110215130716
+59.180.220.41 1 1 807 20110226062019
+72.231.207.57 1 1 807 20110228225639
+208.54.38.62 1 1 807 20110202164522
+67.160.128.121 1 1 807 20110216212551
+98.252.67.112 1 1 807 20110223222006
+207.63.215.130 2 2 1614 20110211072705
+76.99.210.2 1 1 807 20110208070802
+99.98.34.250 1 1 807 20110207061627
+71.234.161.251 1 1 807 20110223180653
+24.255.16.217 1 1 807 20110201091718
+149.119.198.227 1 1 807 20110227232232
+169.231.58.149 1 1 807 20110219231656
+71.12.94.151 1 1 807 20110228100807
+166.216.162.95 2 2 1614 20110203170730
+72.235.141.104 1 1 807 20110210132121
+95.23.231.177 1 1 807 20110228095659
+199.82.243.104 2 2 1614 20110218111056
+174.59.49.72 1 1 807 20110216101025
+166.205.9.133 1 1 807 20110215194015
+69.233.254.12 1 1 807 20110220135528
+67.14.209.20 1 1 807 20110228213229
+72.208.120.213 1 1 807 20110206220027
+70.178.87.253 1 1 807 20110220222816
+66.203.239.99 1 1 807 20110210170133
+76.11.69.148 1 1 807 20110210184857
+68.231.163.18 1 1 807 20110219171936
+184.35.1.249 1 1 807 20110207145935
+98.92.31.111 1 1 807 20110219185239
+76.120.186.208 3 3 2421 20110226225414
+2.120.35.146 1 1 807 20110228144711
+76.252.0.107 1 1 807 20110216161043
+69.125.4.192 1 1 807 20110228194024
+74.94.40.21 1 1 807 20110209212906
+66.212.140.26 1 1 807 20110210115028
+70.114.31.104 1 1 807 20110210211850
+69.230.118.82 2 9 463916 20110220223552
+187.104.161.96 1 1 807 20110218092703
+209.49.132.245 1 1 807 20110205113134
+99.101.73.25 1 1 807 20110203152057
+71.236.83.209 1 1 807 20110211162044
+68.220.183.239 1 1 807 20110218115233
+24.88.118.7 13 36 35686995 20110215210834
+66.31.183.112 2 2 1614 20110207133423
+98.117.214.22 2 2 1614 20110220161035
+68.45.24.44 1 1 807 20110226181519
+99.171.93.154 1 1 807 20110228151802
+76.108.109.183 2 9 463916 20110228121636
+189.168.181.64 1 1 807 20110228114025
+97.86.47.176 1 1 807 20110217173934
+74.101.3.179 1 1 807 20110228191940
+66.108.146.6 1 1 807 20110207200425
+24.168.62.14 3 3 2421 20110216191423
+95.240.23.74 1 1 807 20110227121003
+67.169.79.30 5 18 715733 20110225085757
+68.244.98.243 1 1 807 20110201170122
+99.59.152.128 1 1 807 20110226231228
+68.226.18.157 1 1 807 20110214165104
+166.137.8.202 1 1 807 20110209092937
+174.55.45.22 1 1 807 20110217140814
+69.161.83.142 1 1 807 20110222191103
+99.184.132.88 1 1 807 20110209133127
+68.95.123.131 1 1 807 20110205231824
+173.166.30.125 1 1 807 20110215064048
+76.67.101.167 1 1 807 20110218145806
+174.252.5.43 1 1 807 20110201101031
+72.230.75.61 1 1 807 20110204203754
+96.27.158.18 1 1 807 20110218013057
+24.234.70.227 1 1 807 20110211112540
+192.112.102.254 1 1 807 20110211230844
+24.7.40.128 1 1 807 20110224180645
+69.138.177.104 1 1 807 20110202212157
+12.167.64.68 1 1 807 20110203112621
+72.241.113.88 1 1 807 20110208173700
+203.115.81.82 13 13 10491 20110225090450
+216.47.195.109 1 1 807 20110220111208
+68.38.201.171 1 1 807 20110223193249
+98.117.213.86 1 1 807 20110211221814
+173.67.132.130 4 4 3228 20110210110016
+75.166.0.240 1 1 807 20110216015256
+76.210.210.163 1 1 807 20110211142419
+24.139.202.155 1 1 807 20110211220230
+173.71.189.251 1 1 807 20110213113614
+70.45.7.169 1 1 807 20110201084908
+71.193.129.216 1 1 807 20110214232240
+95.91.19.56 1 1 807 20110221141226
+69.233.5.32 1 1 807 20110214142059
+117.193.18.95 1 1 807 20110221065158
+67.233.55.236 1 1 807 20110217222809
+65.26.158.12 1 1 807 20110224143632
+208.54.44.59 1 1 807 20110214180427
+98.143.3.54 1 1 807 20110201012345
+98.148.234.234 1 1 807 20110204002710
+76.175.145.122 1 1 807 20110224002548
+173.88.105.84 1 1 807 20110210185958
+95.27.171.131 1 1 807 20110207155857
+86.183.248.91 1 1 807 20110203024648
+74.60.253.188 1 1 807 20110214172744
+109.96.229.239 1 1 807 20110206035735
+74.193.33.138 1 1 807 20110212235314
+69.135.196.86 1 1 807 20110216144417
+208.54.83.73 1 1 807 20110224215526
+99.149.123.253 1 1 807 20110206013232
+12.165.243.132 1 1 807 20110210155155
+201.166.123.32 1 1 807 20110226213227
+76.28.155.163 1 1 807 20110226221204
+74.76.250.64 2 2 1614 20110207171453
+71.207.151.217 1 1 807 20110217230426
+79.182.112.211 2 2 1614 20110220024922
+71.102.81.85 1 1 807 20110205132126
+201.254.124.221 1 1 807 20110220215451
+99.225.75.73 1 1 807 20110225190634
+76.16.152.171 1 1 807 20110221084002
+199.212.150.16 1 1 807 20110216112145
+96.227.62.63 1 1 807 20110219093026
+207.46.12.24 1 1 807 20110204232346
+78.101.137.65 1 1 807 20110210020925
+216.203.6.11 1 1 807 20110209074736
+67.241.4.78 1 1 807 20110222174747
+219.77.165.43 1 1 807 20110226205403
+24.44.138.102 1 1 807 20110204131743
+74.82.68.36 7 20 741280 20110225144505
+68.60.48.223 1 1 807 20110221193743
+65.183.136.170 1 1 807 20110207031820
+90.217.65.149 1 1 807 20110206074925
+99.30.229.107 1 1 807 20110220195209
+122.162.146.141 1 1 807 20110224235541
+173.71.196.40 2 2 1614 20110216171927
+69.47.155.142 8 21 600899 20110217155258
+71.142.67.104 1 1 807 20110222154417
+166.137.13.165 1 1 807 20110215101128
+99.194.47.152 1 1 807 20110215134052
+66.50.248.180 1 1 807 20110227204304
+98.244.220.72 1 1 807 20110215152005
+76.119.184.32 1 1 807 20110218204625
+24.155.142.42 1 1 807 20110222164147
+69.131.69.206 1 1 807 20110205190430
+174.113.35.19 1 1 807 20110212200645
+68.39.137.90 1 1 807 20110213214534
+74.82.68.33 4 8 221734 20110211132551
+94.14.75.60 1 1 807 20110205214526
+66.87.8.87 1 1 807 20110228154556
+71.239.43.143 1 1 807 20110213132455
+199.27.176.226 1 1 807 20110203192705
+174.79.242.106 1 1 807 20110208071434
+67.60.128.98 1 1 807 20110221145604
+64.234.11.29 1 1 807 20110213193801
+66.227.171.68 1 1 807 20110226215237
+108.21.239.34 1 1 807 20110211155559
+67.82.30.93 1 1 807 20110208204409
+216.96.19.128 1 1 807 20110203130747
+174.77.54.50 1 1 807 20110204012317
+207.46.12.208 1 1 807 20110222191528
+86.155.107.55 1 1 807 20110208162829
+24.16.56.6 1 1 807 20110202204623
+212.253.210.174 1 1 807 20110207100405
+75.76.13.220 1 1 807 20110225172437
+134.154.168.112 1 1 807 20110204223336
+67.180.241.84 1 1 807 20110216223315
+68.59.40.105 1 1 807 20110223202041
+207.6.21.148 1 1 807 20110222185533
+76.172.156.169 1 1 807 20110224015912
+94.71.25.101 1 1 807 20110214125844
+74.90.93.28 1 1 807 20110212111922
+124.183.156.129 1 1 807 20110204164428
+64.34.219.55 1 1 10422 20110216100118
+184.40.22.104 1 1 807 20110226204323
+71.49.205.189 1 1 807 20110227125648
+196.28.52.1 1 1 807 20110221104858
+84.196.89.77 1 1 807 20110207135242
+66.30.159.22 1 1 807 20110224091845
+69.161.109.157 1 1 807 20110202172524
+99.140.255.59 1 1 807 20110216182709
+24.125.207.38 1 1 807 20110203230501
+67.162.148.4 1 1 807 20110203194253
+67.60.48.131 1 1 807 20110223095148
+166.205.12.169 1 1 807 20110202120846
+174.45.191.98 1 1 807 20110207125639
+216.246.239.199 1 1 807 20110223114236
+24.52.139.214 1 1 807 20110215220056
+148.167.2.25 1 1 807 20110206165247
+12.40.50.1 7 7 5649 20110216094240
+166.205.14.91 1 1 807 20110202154907
+76.122.202.179 1 1 807 20110204024700
+69.171.162.180 1 1 807 20110220195210
+71.246.1.157 4 4 3228 20110227111504
+72.77.113.218 2 2 1614 20110227093727
+184.77.207.206 1 1 807 20110217190115
+91.137.131.41 1 1 35 20110215023126
+108.18.158.187 1 1 807 20110207001844
+99.117.218.58 1 1 807 20110209220017
+125.254.30.66 1 1 807 20110227225745
+173.174.172.159 1 1 807 20110209183059
+200.195.151.245 13 13 10491 20110222130329
+98.169.140.72 1 1 807 20110226214104
+67.182.151.70 1 1 807 20110216160610
+189.216.34.23 1 1 807 20110201201214
+97.73.64.161 1 1 807 20110222171542
+167.206.69.62 1 1 807 20110211082716
+76.226.10.138 2 2 1614 20110209225959
+69.227.158.238 1 1 807 20110222122134
+74.192.58.125 1 1 807 20110217195801
+98.119.2.216 1 1 807 20110209193408
+208.54.44.65 1 1 807 20110209100939
+108.27.130.146 1 1 807 20110210222740
+68.36.77.223 1 1 807 20110208174727
+72.27.90.0 1 1 807 20110222120823
+67.194.33.46 1 1 807 20110211115856
+71.67.132.197 1 1 807 20110209231256
+75.39.184.145 1 1 807 20110209230143
+173.68.44.6 1 1 807 20110205073152
+62.216.118.83 1 1 807 20110224131819
+166.205.136.70 4 4 3228 20110228231226
+98.143.97.114 1 1 807 20110202084619
+207.38.230.165 1 1 807 20110223013608
+24.227.222.13 1 1 807 20110210144324
+76.20.25.180 2 2 1614 20110224011914
+173.57.73.246 1 1 807 20110205214011
+67.249.129.97 1 1 807 20110219135018
+96.224.186.238 1 1 807 20110215021648
+174.99.34.68 1 1 807 20110225182739
+69.247.205.156 1 1 807 20110208003111
+96.242.159.109 1 1 807 20110209132854
+24.12.251.36 1 1 807 20110222142857
+98.222.243.63 1 1 807 20110225153718
+68.101.188.14 1 1 807 20110218122853
+67.87.91.207 1 1 807 20110226172320
+66.29.190.33 1 1 807 20110227233102
+108.28.37.92 1 1 807 20110227213358
+173.57.60.23 1 1 807 20110218203312
+71.111.184.180 1 1 807 20110202081336
+173.24.2.35 1 1 807 20110211013701
+166.205.11.194 1 1 807 20110208073633
+71.83.125.28 1 1 807 20110208010244
+75.97.65.200 1 1 807 20110224200529
+71.181.214.172 1 1 807 20110225141614
+166.205.136.217 1 1 807 20110216163442
+86.18.14.202 1 1 807 20110212031506
+69.140.51.91 1 1 807 20110220221824
+85.237.233.165 1 1 807 20110204143306
+67.181.212.148 1 1 807 20110201212955
+24.22.238.238 1 1 807 20110213201942
+68.28.41.228 1 1 807 20110205232216
+194.86.21.77 1 1 807 20110225035128
+137.205.140.9 1 1 807 20110228181656
+166.137.12.92 1 1 807 20110212161513
+71.241.153.112 1 1 807 20110201214411
+69.114.23.49 1 1 807 20110202205948
+70.49.218.252 1 1 807 20110208083411
+166.205.8.170 1 1 807 20110215200141
+76.205.71.43 1 1 807 20110210155307
+71.234.193.128 1 1 807 20110207183921
+76.119.226.179 1 1 807 20110216190117
+68.197.232.167 1 8 462364 20110201125954
+125.99.189.191 1 1 807 20110215220442
+208.54.7.175 1 1 807 20110207024857
+96.240.85.87 1 1 807 20110201070848
+66.249.85.65 4 4 3228 20110224093117
+128.138.210.51 1 1 807 20110217120936
+94.5.100.81 1 1 807 20110217104637
+207.241.232.95 1 1 807 20110202071707
+24.127.90.8 2 2 1614 20110220184544
+201.10.11.215 1 1 807 20110217125004
+68.107.49.236 1 1 807 20110226211955
+71.138.213.188 1 1 807 20110218184558
+72.144.189.45 1 1 807 20110215172925
+166.137.11.80 1 1 807 20110206195322
+97.124.85.207 1 1 807 20110209091448
+75.169.144.77 1 1 807 20110209214559
+74.61.122.77 1 1 807 20110222172259
+184.198.173.196 1 1 807 20110202084539
+86.9.44.220 1 1 807 20110211122830
+70.19.34.234 1 1 807 20110208164625
+173.81.239.187 2 2 1614 20110227042253
+216.105.250.4 1 1 807 20110209095215
+75.18.214.181 1 1 807 20110213011425
+99.70.229.96 1 1 807 20110210214124
+92.232.36.173 1 1 807 20110210140300
+68.80.245.21 1 1 807 20110211005512
+67.190.43.205 1 1 807 20110207194743
+76.24.23.87 1 1 807 20110224154429
+74.105.93.132 1 1 807 20110215234650
+89.123.41.209 21 24 34716608 20110228162148
+174.55.106.254 1 1 807 20110225210416
+71.201.159.119 1 1 807 20110215175959
+174.252.89.228 1 1 807 20110204171558
+82.132.211.108 1 1 807 20110221183011
+24.28.176.208 1 1 807 20110218161425
+76.90.88.77 2 8 239324 20110207214020
+76.216.105.118 1 1 807 20110206201418
+68.245.113.74 1 1 807 20110208152105
+50.11.91.254 1 1 807 20110220145011
+208.54.86.62 1 1 807 20110209200400
+69.85.113.9 1 1 807 20110225121210
+96.239.101.155 1 1 807 20110211203941
+76.119.107.119 1 1 807 20110202195916
+216.67.25.41 1 1 807 20110223193729
+109.157.30.214 1 1 807 20110215160944
+99.125.132.88 1 1 807 20110201163037
+97.255.37.163 4 13 43840 20110212192301
+117.196.246.95 1 1 807 20110218050602
+192.44.136.113 1 1 807 20110206070839
+24.142.29.81 1 1 807 20110226233756
+68.254.162.234 1 1 807 20110210204454
+166.137.143.18 1 1 807 20110218112358
+98.185.141.156 1 1 807 20110210143106
+74.237.18.110 1 1 807 20110211144714
+174.253.189.124 1 1 807 20110210224143
+59.92.142.252 1 1 807 20110215131744
+174.52.229.124 1 1 807 20110206130306
+68.192.15.105 6 19 556426 20110228133746
+162.40.163.116 1 1 807 20110203140725
+24.226.39.48 1 1 807 20110217183728
+93.186.31.238 1 1 807 20110227192820
+173.63.150.66 1 1 807 20110227011028
+75.135.157.215 2 2 1614 20110227104608
+128.151.20.250 1 1 807 20110212193010
+208.54.86.50 1 1 807 20110223204458
+74.73.246.189 1 1 807 20110202161410
+69.231.69.151 1 1 807 20110227023526
+184.36.98.65 1 1 807 20110205175057
+75.84.191.126 1 1 807 20110217101027
+71.7.88.17 2 2 1614 20110208034315
+88.245.82.4 1 1 35 20110201122412
+166.205.11.179 1 1 807 20110206230740
+108.125.5.121 1 1 807 20110215112106
+72.161.39.5 1 1 807 20110211114628
+98.195.136.93 1 1 807 20110211060028
+69.230.118.85 1 1 807 20110221123330
+24.184.16.42 1 1 807 20110204082038
+174.253.72.152 1 1 807 20110223131816
+122.167.87.222 1 1 807 20110203153935
+96.24.191.14 1 1 807 20110226124933
+64.148.251.4 1 1 807 20110225205524
+130.64.154.240 1 1 807 20110217201835
+68.117.32.54 1 1 807 20110215201205
+98.150.101.42 1 1 807 20110214223519
+74.82.64.19 2 2 1614 20110226120947
+74.232.91.251 1 1 807 20110206185256
+77.162.77.138 1 1 807 20110207073022
+178.16.7.240 1 1 807 20110216002417
+174.59.28.141 1 1 807 20110214152628
+128.194.37.168 1 1 807 20110201221932
+98.93.135.80 1 1 807 20110208160023
+69.207.208.182 1 1 807 20110207191710
+71.187.195.94 1 1 807 20110209160956
+208.80.194.70 1 1 8 20110228035037
+24.184.19.62 1 1 807 20110223081951
+74.78.118.120 1 1 807 20110227221330
+69.172.120.146 2 2 1614 20110208143533
+68.39.122.143 1 1 807 20110225232246
+69.124.222.95 1 1 807 20110204162611
+67.164.190.133 2 2 1614 20110209222904
+174.252.149.218 1 1 807 20110221230935
+63.229.227.167 1 1 807 20110212120922
+70.128.246.141 1 1 807 20110209213813
+71.233.134.76 1 1 807 20110213044716
+24.124.69.101 1 1 807 20110215142245
+65.202.103.26 2 9 463171 20110214052357
+99.111.86.192 1 1 807 20110220082856
+71.208.139.40 1 1 807 20110219161357
+71.161.93.133 1 1 807 20110217121311
+68.103.24.113 1 1 807 20110221073022
+98.206.174.37 1 1 807 20110212010804
+98.194.58.87 1 1 807 20110224201253
+69.141.123.206 1 1 807 20110208213657
+74.230.254.201 1 1 807 20110205054241
+129.173.226.245 1 1 807 20110210160114
+65.41.43.166 3 23 845396 20110216145507
+69.253.73.147 1 1 807 20110228193213
+64.20.64.74 1 1 807 20110211100251
+173.49.49.218 1 1 807 20110219163937
+166.137.139.71 1 1 807 20110209054045
+68.231.30.162 2 2 1614 20110218171824
+74.82.64.144 2 2 1614 20110224175304
+131.177.176.170 1 1 807 20110218022506
+109.196.195.165 1 1 807 20110218042715
+99.3.82.86 1 1 807 20110228223058
+208.83.123.135 1 1 807 20110221090015
+74.95.71.17 1 1 807 20110208145308
+161.58.86.199 1 1 807 20110207200340
+108.21.57.154 2 2 1614 20110209191841
+99.117.164.23 1 1 807 20110220192504
+71.168.96.180 1 1 807 20110227112241
+2.122.168.112 1 1 807 20110214155943
+99.239.214.180 1 1 807 20110222192822
+99.229.232.178 1 1 807 20110221205719
+76.206.63.198 1 1 807 20110217232402
+76.226.37.94 1 1 807 20110214200631
+67.249.223.162 1 1 807 20110223114144
+70.138.40.125 1 1 807 20110213201223
+71.245.235.226 3 3 2421 20110225155138
+24.23.0.239 1 1 807 20110224172627
+69.34.176.18 1 1 807 20110220230942
+94.192.166.62 1 1 807 20110226213339
+71.184.108.212 1 1 807 20110216195603
+143.231.249.141 3 3 2421 20110211103437
+69.127.127.142 1 1 807 20110213133542
+98.235.234.199 1 1 807 20110221172903
+66.91.125.2 1 1 807 20110209040449
+99.21.74.38 1 1 807 20110210020120
+84.150.68.132 1 1 807 20110228114749
+24.46.213.9 2 2 1614 20110201214608
+59.160.8.188 1 1 807 20110217024620
+72.183.238.90 1 1 807 20110226194416
+75.14.15.97 2 2 1614 20110214092345
+68.59.222.144 1 1 807 20110221123503
+66.183.47.115 1 1 807 20110210135624
+158.165.97.171 1 1 807 20110214165247
+70.15.221.41 8 8 6456 20110226220955
+116.197.197.77 1 1 807 20110226182339
+147.143.242.35 1 1 807 20110214120155
+69.141.196.25 1 1 807 20110216171332
+75.1.101.16 1 1 807 20110206221123
+72.192.192.196 1 1 807 20110201175507
+208.115.138.254 11 11 28986 20110227201352
+24.60.124.214 2 2 1614 20110211113652
+72.77.122.239 1 1 807 20110207121408
+67.246.82.219 1 1 807 20110227233753
+205.188.116.136 1 1 807 20110206090323
+206.210.161.13 1 1 807 20110204002217
+74.212.168.116 1 1 807 20110203151504
+74.125.75.19 4 4 3228 20110215141253
+208.54.45.66 1 1 807 20110221181210
+67.249.55.189 1 1 807 20110228180602
+122.169.158.132 1 1 807 20110209235642
+173.67.102.54 1 1 807 20110225012801
+71.57.118.165 1 1 807 20110223134813
+99.61.124.102 1 1 807 20110217225901
+173.46.228.147 1 1 807 20110216064000
+124.168.99.46 1 1 807 20110217063325
+166.182.64.197 1 1 807 20110215151014
+207.46.193.50 2 2 1614 20110213072913
+68.173.59.120 1 1 807 20110220234828
+173.187.179.23 1 1 807 20110205074322
+99.55.173.40 2 2 1614 20110202231100
+146.7.192.68 1 1 807 20110224140920
+173.98.248.32 1 1 807 20110209100832
+69.116.231.244 1 1 807 20110222184958
+71.115.82.196 1 1 807 20110213185259
+66.87.21.235 1 1 807 20110220133735
+174.253.98.109 1 1 807 20110202104546
+72.79.144.22 1 1 807 20110224174720
+99.255.150.119 1 1 807 20110201192828
+66.215.206.211 1 1 807 20110202153216
+98.213.187.31 1 1 807 20110221154524
+66.240.120.70 1 1 807 20110223080001
+173.71.99.105 1 1 807 20110205124828
+70.187.51.163 1 1 807 20110201195011
+68.110.30.55 1 1 807 20110216170457
+68.88.255.64 1 1 807 20110218143924
+166.205.12.57 1 1 807 20110220085305
+67.188.231.131 1 1 807 20110207225820
+174.53.101.143 1 1 807 20110205185846
+74.125.126.87 1 1 807 20110208194456
+174.254.34.204 1 1 807 20110221133940
+68.3.105.53 1 1 807 20110226171145
+71.204.231.150 1 1 807 20110208204250
+70.113.121.132 1 1 807 20110219201353
+88.88.216.146 1 1 807 20110220025707
+71.33.126.111 1 1 807 20110210032139
+24.108.132.104 1 1 807 20110217145423
+98.17.88.95 1 1 807 20110225112539
+96.18.36.234 1 1 807 20110222221202
+207.46.12.23 1 1 807 20110204224804
+72.92.232.40 1 1 807 20110224153639
+50.15.123.218 1 1 807 20110223071554
+68.60.30.168 2 2 1614 20110219144741
+65.190.221.175 1 1 807 20110215232550
+66.62.195.237 1 1 807 20110221165305
+122.162.69.169 1 1 807 20110210012259
+69.57.121.46 1 1 807 20110202110436
+174.30.20.225 1 1 807 20110216220908
+74.106.123.112 1 1 807 20110218190544
+99.227.100.55 1 1 807 20110213225937
+173.76.161.225 1 1 807 20110227072817
+38.117.234.81 1 1 807 20110210171910
+68.114.46.120 1 1 807 20110226215053
+74.235.172.196 1 1 807 20110213132443
+76.196.3.115 1 1 807 20110205083236
+65.215.162.63 1 1 807 20110201115123
+70.73.116.109 1 1 807 20110214103919
+166.216.130.65 1 1 807 20110213111315
+65.30.53.204 1 1 807 20110211212552
+77.228.195.72 1 1 807 20110210175428
+66.56.16.29 1 1 807 20110202211110
+71.76.146.130 1 1 807 20110214160712
+76.119.91.72 1 1 807 20110222160722
+199.248.230.5 1 1 807 20110223130013
+207.46.204.209 1 1 807 20110224045426
+174.70.157.16 1 1 807 20110206180840
+72.209.25.69 4 18 857575 20110223190816
+122.172.10.151 1 1 807 20110204214603
+98.176.208.189 1 1 807 20110224223236
+68.58.177.29 1 1 807 20110210182005
+24.186.5.161 1 1 807 20110207173534
+74.184.138.105 1 1 807 20110202155820
+74.84.232.34 1 1 807 20110226115259
+174.253.64.205 1 1 807 20110203132413
+137.99.32.93 1 1 807 20110220213613
+71.57.167.113 1 1 807 20110217192035
+173.187.231.29 1 1 807 20110203141029
+74.194.233.213 3 3 2421 20110212190255
+74.125.114.86 1 1 807 20110219155458
+72.193.51.13 1 1 807 20110202223207
+71.80.85.40 1 1 807 20110205221727
+76.26.212.125 1 1 807 20110211225137
+108.1.47.218 1 1 807 20110216153420
+108.21.206.199 1 1 807 20110203160401
+68.28.115.115 6 6 4842 20110224064310
+74.125.114.81 5 5 4035 20110223210223
+69.245.61.159 1 1 807 20110208030303
+198.54.202.234 1 1 807 20110213114507
+174.1.225.184 1 1 807 20110227121914
+24.190.31.138 1 1 807 20110209151648
+65.29.68.159 1 1 807 20110211173913
+24.218.15.200 1 1 807 20110226111255
+71.183.88.101 1 1 807 20110202071146
+69.142.233.81 1 1 807 20110209200543
+93.244.186.171 1 1 807 20110217112524
+97.77.98.235 1 1 807 20110213202045
+166.205.12.89 1 1 807 20110221144537
+24.189.109.203 1 1 807 20110224112811
+24.29.86.231 1 1 807 20110207152037
+97.100.238.122 1 1 807 20110210221315
+192.160.131.19 1 1 807 20110220183415
+70.45.59.12 1 1 807 20110216185413
+96.42.99.14 1 1 807 20110203170617
+69.78.133.84 1 1 807 20110211062354
+24.45.79.138 1 1 807 20110219153520
+166.205.15.111 1 1 807 20110204115258
+142.32.208.231 1 1 807 20110221120358
+96.235.51.195 12 12 9684 20110204085225
+99.2.50.170 1 1 807 20110222184804
+98.229.82.27 1 1 807 20110222142227
+68.28.83.113 4 4 3228 20110206134331
+67.180.18.61 2 2 1614 20110206220405
+65.66.227.177 1 1 807 20110218223602
+76.197.135.148 1 1 807 20110222224256
+67.58.120.145 1 1 807 20110211005535
+184.32.175.89 3 3 2421 20110225035918
+148.198.43.3 1 1 807 20110204095017
+173.14.100.158 1 1 807 20110201193324
+66.216.208.229 1 1 807 20110212131721
+166.205.13.175 1 1 807 20110208124758
+173.181.124.98 1 1 807 20110207001724
+128.237.249.40 1 1 807 20110218160015
+76.30.181.104 1 1 807 20110204215314
+24.180.125.235 1 1 807 20110220130206
+99.188.37.98 1 1 807 20110220061925
+74.82.64.34 3 3 2421 20110227032217
+216.68.186.220 1 1 807 20110221170854
+161.58.86.206 1 1 807 20110207195853
+76.229.211.34 1 1 807 20110210204545
+208.127.97.136 1 1 807 20110226102408
+74.125.152.83 1 1 807 20110214092212
+67.174.197.9 3 10 476095 20110224122548
+208.54.86.58 1 1 807 20110202141659
+67.172.67.80 1 1 807 20110227100810
+68.63.213.180 1 1 807 20110216174851
+98.110.146.170 1 1 807 20110218160010
+24.13.83.198 2 2 1614 20110227110320
+74.100.114.13 1 1 807 20110205040133
+65.184.157.190 1 1 807 20110213223112
+68.11.27.128 1 1 807 20110213225753
+108.27.49.181 1 1 807 20110222162746
+69.181.234.226 1 1 807 20110204190734
+74.125.114.82 1 1 807 20110219155513
+24.11.13.62 1 1 807 20110202124802
+162.40.164.154 1 1 807 20110203160150
+75.75.106.188 1 1 807 20110203212929
+174.66.140.183 4 4 3228 20110212153451
+87.64.181.209 1 1 807 20110202143536
+188.10.9.93 1 1 807 20110213045308
+72.18.105.76 1 1 807 20110205190148
+71.176.9.160 1 1 807 20110201214943
+75.200.188.218 2 8 227281 20110227091258
+173.18.91.160 1 1 807 20110213211243
+67.246.40.239 1 1 807 20110227182605
+70.164.195.227 1 1 807 20110212201626
+173.34.144.46 1 1 807 20110201201941
+166.228.118.48 1 1 807 20110210163005
+70.48.249.18 1 1 807 20110208103722
+99.102.57.96 1 1 807 20110227103604
+70.231.236.116 1 1 807 20110223175103
+71.235.124.50 1 1 807 20110214160518
+173.57.60.108 1 1 807 20110202084045
+98.178.142.10 1 1 807 20110215193101
+216.165.57.38 1 1 807 20110213000538
+76.182.240.184 1 1 807 20110226132232
+92.231.199.163 1 1 807 20110210053120
+71.14.154.78 1 1 807 20110220210641
+166.205.11.106 1 1 807 20110216072442
+72.222.216.74 1 1 807 20110206110231
+115.118.183.122 1 1 807 20110212033533
+174.55.248.135 2 2 1614 20110222211122
+190.52.159.221 1 1 807 20110201210725
+67.142.176.26 1 1 807 20110206225713
+75.72.209.163 1 1 807 20110217153026
+99.106.127.124 1 1 807 20110214144700
+69.28.47.27 1 1 807 20110207145453
+174.253.214.161 1 1 807 20110214000656
+65.60.204.100 1 1 807 20110209195036
+98.243.178.140 4 4 3228 20110220135755
+99.228.208.81 1 1 807 20110213083949
+182.211.101.134 1 1 807 20110210111227
+24.27.21.72 1 1 807 20110222200156
+209.30.229.174 1 1 807 20110203222116
+187.19.104.246 1 1 807 20110213145349
+75.93.120.1 1 1 807 20110203221432
+67.164.254.127 3 3 2421 20110227211735
+211.30.186.89 1 1 807 20110223212154
+71.210.198.226 1 1 807 20110210191403
+67.58.200.35 1 1 807 20110201234109
+72.224.212.77 1 1 807 20110227231730
+74.125.112.87 2 2 1614 20110219155453
+98.235.113.34 1 1 807 20110226080033
+96.41.169.58 1 1 807 20110227144930
+124.148.131.15 1 1 807 20110216225733
+64.222.224.237 1 1 807 20110220162801
+75.31.162.252 1 1 807 20110207234454
+69.124.20.40 1 1 807 20110227213022
+24.214.173.147 2 2 1614 20110225145822
+174.52.87.214 1 1 807 20110221181402
+98.71.58.147 1 1 807 20110219182151
+69.138.146.222 1 1 807 20110216170334
+78.33.241.212 1 1 807 20110224101635
+71.243.112.24 1 1 807 20110202101031
+71.123.90.105 1 1 807 20110216165435
+152.15.200.209 1 1 807 20110210134232
+161.73.61.91 1 1 807 20110223193341
+8.21.4.254 3 3 13858 20110219094142
+130.64.135.207 2 2 1614 20110228221657
+166.216.162.89 4 10 241473 20110217151909
+174.49.178.182 1 1 807 20110205121927
+166.137.143.31 1 1 807 20110218152804
+98.196.12.200 1 1 807 20110217170357
+67.141.106.225 1 1 807 20110203141035
+148.244.126.230 1 1 807 20110223141208
+67.172.37.148 1 1 807 20110221185118
+75.167.35.176 1 1 807 20110226155014
+202.161.31.4 1 1 807 20110228212010
+77.77.249.165 1 1 807 20110221150547
+24.146.22.63 1 1 807 20110211082242
+75.10.110.180 2 2 1614 20110225122715
+78.145.28.158 1 1 807 20110223171600
+24.47.54.128 1 1 807 20110207180151
+74.70.243.205 1 1 807 20110212075129
+207.229.10.199 1 1 807 20110211102043
+99.31.209.11 1 1 807 20110224222212
+76.226.36.146 1 1 807 20110208210632
+199.8.163.139 1 1 807 20110227093509
+85.226.171.98 1 1 807 20110222210129
+64.134.238.80 1 1 807 20110224174834
+207.38.182.157 1 1 807 20110206150426
+108.12.90.102 1 1 807 20110213175217
+24.167.213.13 2 2 1614 20110208043436
+196.40.10.157 1 1 807 20110218201540
+174.58.135.93 1 1 807 20110219213343
+125.161.156.192 1 1 807 20110212155405
+174.252.106.141 1 1 807 20110214223235
+76.120.81.100 1 1 807 20110201112731
+71.20.74.146 1 1 807 20110214211728
+75.84.140.246 1 1 807 20110211021003
+173.45.177.186 9 21 59033 20110218135840
+82.41.224.130 1 1 807 20110228121553
+71.105.63.8 1 1 807 20110217103132
+76.178.62.153 1 1 807 20110213105251
+70.139.187.230 1 1 807 20110206174635
+95.28.121.86 1 1 807 20110210155613
+75.32.55.36 1 1 807 20110209152303
+98.119.208.92 1 1 807 20110210003115
+24.108.38.234 6 6 4842 20110221231456
+76.184.48.146 2 9 463916 20110202155658
+69.122.82.250 2 2 1614 20110208133625
+174.52.56.112 1 1 807 20110206191546
+69.147.20.254 1 1 807 20110218082034
+98.222.55.158 1 1 807 20110223110035
+74.133.51.199 1 1 807 20110212011128
+174.253.89.65 1 1 807 20110203145731
+99.92.214.242 1 1 807 20110223000415
+173.71.58.220 1 1 807 20110202171724
+67.11.240.127 1 1 807 20110204202314
+67.80.161.153 1 1 807 20110219085642
+12.53.52.5 2 2 1614 20110202114415
+166.205.8.57 1 1 807 20110203162546
+68.197.133.153 1 1 807 20110205150608
+216.93.128.150 2 2 1614 20110217150415
+173.185.124.217 1 1 807 20110203162449
+68.226.149.22 1 1 807 20110212112718
+98.88.27.218 1 1 807 20110218232039
+173.27.30.163 1 1 807 20110210190209
+72.152.178.58 1 1 807 20110226150934
+12.36.252.123 1 1 807 20110202141751
+213.22.180.6 1 1 807 20110212074125
+205.188.117.5 2 2 31464 20110218170112
+24.2.63.35 1 1 807 20110219212405
+24.84.0.14 1 1 807 20110228131818
+24.20.145.211 3 3 2421 20110219232922
+68.231.185.63 1 1 807 20110203153729
+128.54.135.166 1 1 807 20110201213146
+96.224.68.23 1 1 807 20110204215938
+94.225.102.128 1 1 807 20110208145119
+74.190.97.216 1 1 807 20110215033914
+71.54.116.20 1 1 807 20110220164303
+24.76.50.78 2 2 1614 20110207182352
+208.21.208.2 3 17 845396 20110214124007
+166.205.10.210 1 1 807 20110222185342
+70.253.65.137 1 1 807 20110211225309
+69.141.130.6 1 1 807 20110205195557
+98.206.170.160 1 1 807 20110203055244
+96.242.25.2 2 2 807 20110228084403
+158.135.243.25 1 1 807 20110224152814
+72.51.241.128 1 1 807 20110211235908
+64.253.102.242 1 1 807 20110224105733
+66.104.117.233 1 1 807 20110215082136
+66.110.246.224 3 3 2421 20110206171325
+174.28.237.89 1 1 807 20110216234836
+174.48.38.181 1 1 807 20110212113853
+76.93.179.86 1 1 807 20110216001022
+24.59.190.221 1 1 807 20110207113232
+204.210.133.221 1 1 807 20110216142103
+67.159.56.162 1 1 807 20110228061029
+74.89.160.34 1 1 807 20110223075103
+173.2.120.156 1 1 807 20110227195538
+166.137.140.84 2 2 1614 20110211190027
+96.19.210.6 1 1 807 20110225193136
+24.128.153.155 1 1 807 20110222002919
+65.9.188.66 1 1 807 20110202133044
+166.137.141.101 1 1 807 20110219085651
+24.77.143.34 1 1 807 20110221151356
+97.64.220.178 1 1 807 20110220015556
+64.25.155.185 1 1 807 20110223195304
+72.46.207.168 1 1 807 20110203221318
+69.159.253.15 1 1 807 20110220143542
+212.186.171.178 1 1 807 20110203005401
+174.22.228.112 1 1 807 20110227182618
+82.40.32.47 1 1 807 20110212004041
+75.97.193.176 1 1 807 20110204211242
+24.9.243.7 1 1 807 20110212224258
+75.221.81.206 1 1 807 20110206153849
+98.110.155.111 1 1 807 20110227173042
+70.166.207.7 1 1 807 20110226123719
+129.72.185.122 1 1 807 20110210182641
+174.252.22.70 1 1 807 20110228085314
+41.151.80.224 1 1 807 20110216001500
+173.212.1.91 1 1 807 20110215195147
+174.69.99.49 1 1 807 20110203001539
+206.248.232.233 1 1 807 20110216184551
+121.208.240.107 1 1 807 20110207233753
+69.118.46.143 1 1 807 20110201194335
+76.177.22.164 1 1 807 20110216184723
+8.26.250.159 1 1 807 20110213190916
+173.5.141.31 1 1 807 20110206220510
+128.138.175.224 1 1 807 20110210155017
+205.188.117.75 0 1 38419 
+76.102.65.70 1 1 807 20110227190717
+76.235.15.165 1 1 807 20110202124800
+96.233.74.137 1 1 807 20110228190249
+69.245.72.20 1 1 807 20110227065215
+98.227.175.215 1 1 807 20110223163943
+75.141.236.111 1 1 807 20110217033702
+75.100.156.104 1 1 807 20110224000502
+208.54.7.162 1 1 807 20110227041842
+75.89.236.74 2 2 1614 20110215151454
+67.163.19.239 1 1 807 20110226102905
+24.203.204.62 1 1 807 20110228074428
+64.150.209.10 1 1 807 20110211203446
+173.27.214.245 1 1 807 20110209224441
+71.232.102.118 1 1 807 20110225232653
+72.153.214.175 1 1 807 20110211115707
+98.177.229.151 1 1 807 20110226005157
+24.188.173.169 1 1 807 20110221215240
+207.46.204.173 1 1 807 20110219011258
+98.214.6.110 1 1 807 20110206215033
+166.137.136.203 1 1 807 20110201194012
+74.73.40.49 1 1 807 20110222211351
+174.254.32.51 1 1 807 20110211232652
+68.195.107.21 1 1 807 20110212130245
+122.173.194.28 1 1 807 20110224160056
+38.99.96.130 1 1 10422 20110220030425
+68.152.64.2 1 1 807 20110222195648
+74.125.112.82 3 3 2421 20110223034847
+58.85.51.196 1 1 807 20110203105000
+71.239.42.98 1 1 807 20110212134052
+188.179.187.111 1 1 807 20110216183021
+68.14.30.240 1 1 807 20110206215707
+208.100.40.40 1 1 807 20110224111017
+66.168.220.215 1 1 807 20110227201210
+173.2.125.159 1 1 807 20110227195408
+166.204.137.105 1 1 807 20110211142225
+97.214.198.204 10 10 80144 20110209081756
+67.177.71.241 1 1 807 20110211190222
+71.232.158.16 1 1 807 20110219120529
+24.22.192.132 1 1 807 20110205023413
+69.142.100.160 1 1 807 20110218210949
+66.159.137.247 1 1 807 20110219180712
+98.212.108.247 1 1 807 20110210153045
+173.181.118.55 1 1 807 20110208215702
+68.75.181.179 1 1 807 20110202070311
+75.37.134.12 1 1 807 20110217194237
+84.13.253.121 1 1 807 20110206032310
+174.252.178.208 1 1 807 20110226141115
+99.245.2.9 1 1 807 20110219065145
+193.24.32.52 1 1 807 20110228110309
+71.149.161.130 1 1 807 20110220014723
+68.206.97.77 1 1 807 20110215215723
+99.76.216.54 1 1 807 20110216102514
+166.137.141.38 1 1 807 20110202230050
+24.24.158.172 1 1 807 20110220004144
+75.109.13.19 1 1 807 20110216205056
+207.219.69.249 1 1 807 20110221130105
+202.3.77.215 1 1 807 20110204184826
+24.176.156.140 1 1 807 20110218073821
+99.70.106.202 1 1 807 20110222135137
+96.232.13.97 1 1 807 20110224172527
+68.28.83.118 3 3 2421 20110206112804
+166.205.15.6 1 1 807 20110212122207
+184.247.193.236 1 1 807 20110228152015
+67.11.22.7 1 1 807 20110221124221
+174.253.240.211 1 1 807 20110227041836
+98.251.193.64 1 1 807 20110213090138
+72.211.145.115 1 1 807 20110207144920
+70.75.208.70 1 1 807 20110208204328
+24.161.59.108 1 1 807 20110201101128
+188.221.52.130 1 1 807 20110203113616
+208.54.83.55 1 1 807 20110205020606
+75.111.198.153 1 1 807 20110214193925
+24.247.238.41 1 1 807 20110222161302
+70.145.207.181 1 1 807 20110224005911
+149.125.175.62 1 1 807 20110204173038
+108.12.16.78 2 2 1614 20110212140630
+71.161.89.150 1 1 807 20110221071651
+99.120.38.247 1 1 807 20110210000529
+65.220.92.60 1 1 807 20110216153908
+125.30.113.38 1 1 35 20110215110653
+173.174.57.123 1 1 807 20110219041722
+69.65.94.129 1 1 807 20110222164945
+68.191.210.159 1 1 807 20110216190848
+76.169.174.230 1 1 807 20110222011330
+174.253.231.236 1 1 807 20110211151422
+71.192.122.56 1 1 807 20110222005431
+70.168.125.6 1 1 807 20110202114211
+173.174.171.195 1 1 807 20110203134318
+67.152.135.2 1 1 807 20110210113024
+98.226.90.172 1 1 807 20110212131156
+24.161.7.185 1 1 807 20110220214213
+123.243.100.203 1 1 807 20110224031902
+66.108.245.124 1 1 807 20110219213500
+98.231.73.183 1 1 807 20110203220641
+144.118.149.64 1 1 807 20110228113359
+68.169.152.49 2 8 228749 20110216130026
+205.188.116.145 0 1 171525 
+98.239.72.242 1 1 807 20110214003654
+209.42.68.180 1 1 807 20110224174418
+67.233.48.53 1 1 807 20110206122932
+149.125.197.253 1 1 807 20110207221442
+71.63.56.62 1 1 807 20110218154057
+188.174.152.198 1 1 807 20110216013302
+168.122.213.80 1 1 807 20110209173803
+72.224.173.30 1 1 807 20110223160842
+76.29.180.201 3 3 2421 20110221145556
+76.235.29.0 1 1 807 20110206020901
+173.59.84.13 1 1 807 20110220152550
+98.219.140.198 1 1 807 20110209113846
+71.48.239.117 1 1 807 20110212085839
+80.217.139.30 1 1 807 20110218161330
+90.213.94.199 1 1 807 20110227133525
+98.14.115.211 1 1 807 20110203214725
+137.118.212.7 1 1 807 20110224202029
+66.253.164.19 1 1 807 20110220093305
+76.176.136.118 1 1 807 20110220225755
+70.131.17.125 1 1 807 20110201163226
+24.251.88.132 1 1 807 20110203211700
+76.121.117.216 1 1 807 20110219144812
+75.146.127.17 1 1 807 20110210114143
+199.169.200.4 1 1 807 20110227075703
+76.102.45.164 1 1 807 20110208183436
+96.231.45.24 1 1 807 20110203193852
+122.176.183.130 1 1 807 20110211044202
+69.201.186.39 1 1 807 20110228195748
+72.196.4.143 1 1 807 20110217120213
+24.191.183.63 1 1 807 20110226101526
+80.30.76.213 1 1 807 20110223083025
+67.81.20.116 1 1 807 20110211142337
+134.114.219.138 1 1 807 20110221165216
+64.126.72.147 1 1 807 20110222121742
+65.189.245.20 1 1 807 20110204160313
+66.25.57.82 1 1 807 20110215113635
+69.119.73.209 2 2 1614 20110207073528
+62.215.113.212 1 1 807 20110204092416
+24.53.144.232 1 1 807 20110219213422
+68.32.56.7 1 1 807 20110204105653
+66.177.45.192 1 1 807 20110202150415
+76.119.230.202 1 1 807 20110213171735
+76.105.129.222 1 1 807 20110216114819
+68.206.123.2 3 3 2421 20110222174813
+99.99.46.173 1 1 807 20110209065936
+70.113.62.248 1 1 807 20110204180740
+74.222.205.35 1 1 807 20110222164743
+216.82.251.227 2 8 227281 20110228090759
+213.93.20.90 1 1 807 20110219073643
+64.124.12.253 3 3 2421 20110228173149
+74.125.112.86 2 2 1614 20110215152131
+174.131.33.4 1 1 807 20110220074622
+71.57.76.154 2 2 1614 20110216145011
+124.182.26.104 1 1 807 20110228054026
+88.80.205.219 1 1 807 20110205232147
+68.47.176.12 1 1 807 20110209200559
+92.41.170.95 1 1 807 20110216182022
+24.46.233.146 1 1 807 20110225111745
+71.241.203.194 1 1 807 20110225141817
+72.42.168.123 1 1 807 20110216154436
+131.128.144.220 1 1 807 20110215203743
+166.137.11.29 1 1 807 20110216162348
+71.227.172.162 1 1 807 20110216201830
+166.137.10.30 1 1 807 20110207234549
+75.154.75.28 1 1 807 20110202140819
+184.209.110.6 1 1 807 20110228151721
+117.96.97.125 1 1 807 20110223152129
+69.179.155.218 1 1 807 20110224191903
+71.56.154.15 1 1 807 20110226162956
+69.47.97.26 1 1 807 20110204203331
+76.103.29.212 1 1 807 20110204234509
+74.125.152.80 1 1 807 20110214071643
+24.19.165.174 1 1 807 20110224035559
+71.173.170.170 1 1 807 20110216170301
+69.171.163.188 1 1 807 20110228180904
+190.10.0.123 1 1 807 20110217182133
+207.46.195.216 1 1 807 20110207211108
+218.186.18.10 1 1 807 20110213163818
+98.18.167.217 1 1 807 20110227192015
+97.91.92.119 1 1 807 20110225220951
+173.30.18.68 1 1 807 20110213133901
+97.104.169.43 1 1 807 20110222180642
+98.220.225.69 1 1 807 20110220195758
+68.35.1.233 1 1 807 20110216005906
+123.238.36.22 1 1 807 20110210004903
+207.46.12.116 1 1 807 20110204031626
+24.13.51.149 1 1 807 20110220202235
+71.239.8.174 1 1 807 20110228232352
+74.105.147.35 1 1 807 20110211112451
+168.11.157.5 1 1 807 20110202090010
+184.46.31.214 1 1 807 20110223090707
+129.252.30.62 1 1 807 20110208181042
+173.48.155.138 1 1 807 20110202205903
+92.115.118.221 1 1 807 20110222071715
+69.151.39.144 1 1 807 20110228175504
+68.195.168.6 2 2 1614 20110220103755
+74.82.68.34 5 9 19333 20110225144312
+166.205.140.245 1 1 807 20110222213413
+70.112.18.70 1 1 807 20110209162531
+92.15.61.255 1 1 807 20110227120030
+71.29.91.13 1 1 807 20110203181249
+166.137.140.180 1 1 807 20110211074714
+193.203.68.50 1 1 807 20110218055538
+76.68.130.134 1 1 807 20110219233131
+76.202.67.254 1 1 807 20110216143714
+186.105.79.241 1 1 807 20110217102614
+97.91.175.36 1 1 807 20110202233327
+69.113.129.111 1 1 807 20110217134218
+98.201.113.23 2 2 1614 20110224132930
+69.253.222.59 1 1 807 20110203182654
+24.239.128.36 3 3 2421 20110221073704
+66.90.159.68 1 1 807 20110206214947
+97.250.103.133 1 1 807 20110223142338
+72.94.11.84 1 1 807 20110222181312
+69.205.178.62 1 1 807 20110202162158
+76.226.9.249 1 1 807 20110207184610
+166.137.137.133 1 1 807 20110204203137
+207.46.12.76 2 2 1614 20110228094545
+70.18.128.241 1 1 807 20110212164809
+70.180.193.26 1 1 807 20110220183545
+68.53.178.27 1 1 807 20110210165641
+75.203.26.203 1 1 807 20110218192543
+166.205.143.134 1 1 807 20110221043712
+64.222.235.201 2 2 1614 20110201184924
+69.146.102.133 1 1 807 20110220150046
+94.195.230.28 1 1 807 20110215194830
+2.25.227.170 1 1 807 20110211084529
+59.178.48.147 1 1 807 20110213121956
+67.177.124.126 1 1 807 20110218232537
+71.98.204.33 1 1 807 20110210065251
+216.220.216.171 1 1 807 20110223110519
+96.242.94.159 1 1 807 20110206161722
+201.137.67.110 1 1 807 20110220180825
+98.228.6.88 1 1 807 20110211003702
+188.174.64.63 1 1 807 20110209140005
+68.222.34.220 8 8 6456 20110204184511
+92.43.66.7 1 1 807 20110211030106
+161.58.86.196 1 1 807 20110207195532
+72.158.115.2 1 1 807 20110204145014
+174.17.93.156 1 1 807 20110212003454
+174.22.151.84 1 1 807 20110219041923
+24.222.104.201 1 1 807 20110220184637
+157.55.112.217 1 1 807 20110226055256
+99.250.57.188 1 1 807 20110206080027
+24.83.44.78 1 1 807 20110210142806
+98.122.156.98 1 1 807 20110213184820
+68.122.29.73 1 1 807 20110208203413
+207.46.12.123 1 1 807 20110219060037
+208.54.40.70 1 1 807 20110219155559
+174.1.53.55 1 1 807 20110208174752
+69.205.180.169 4 4 3228 20110219110536
+207.119.79.173 1 1 807 20110223091928
+76.178.254.208 1 1 807 20110219213336
+71.1.74.42 1 1 807 20110203104056
+66.75.74.31 1 1 807 20110201014550
+70.106.220.160 1 1 807 20110219090830
+98.208.86.131 1 1 807 20110225020815
+174.253.90.130 1 1 807 20110215110947
+173.161.29.105 1 1 807 20110216131559
+24.184.6.246 1 1 807 20110220192029
+108.0.78.5 1 1 807 20110223162755
+166.137.141.237 1 1 807 20110223184738
+71.196.17.26 1 1 807 20110216130836
+209.172.228.7 1 1 807 20110208155500
+195.116.80.2 1 1 807 20110223155714
+65.92.118.115 1 1 807 20110221143825
+96.232.165.76 1 1 807 20110226100053
+174.100.77.128 1 1 807 20110224150615
+208.54.5.60 1 1 807 20110226202609
+67.214.228.78 1 1 807 20110223171224
+216.116.188.134 3 16 522470 20110214092357
+121.44.35.215 1 1 807 20110224162816
+76.206.247.19 2 2 1614 20110216212323
+70.112.99.25 1 1 807 20110212152915
+173.179.175.212 1 1 807 20110209192440
+207.162.58.17 1 1 807 20110222124027
+159.91.111.78 1 1 807 20110216203013
+117.205.32.86 1 1 807 20110226110856
+24.59.185.25 1 1 807 20110225055929
+134.10.201.206 1 1 807 20110214170301
+71.75.103.214 1 1 807 20110202210511
+82.30.247.116 1 1 807 20110214204529
+70.176.4.92 1 1 807 20110206222736
+166.137.140.211 1 1 807 20110222121147
+79.130.125.250 1 1 807 20110220133319
+75.23.168.201 4 4 3228 20110224033430
+206.188.242.150 1 1 807 20110208192116
+85.164.80.154 1 1 807 20110211060357
+76.168.5.233 2 2 1614 20110218141151
+24.239.218.222 2 9 463916 20110214153224
+99.40.250.212 1 1 807 20110201130952
+70.62.130.145 2 2 1614 20110222175851
+70.27.129.4 1 1 807 20110222224218
+82.159.233.201 1 1 807 20110224115331
+24.247.58.99 1 1 807 20110209221256
+166.205.13.232 1 1 807 20110223212928
+71.203.60.96 1 1 807 20110223183559
+184.79.184.25 1 1 807 20110225002913
+93.96.106.239 1 1 807 20110211122849
+97.119.207.2 6 6 4842 20110222211544
+160.39.225.46 1 1 807 20110206134903
+65.61.51.16 1 1 807 20110222004833
+222.124.198.178 1 1 35 20110215165901
+97.100.54.103 1 1 807 20110213210828
+71.14.30.210 1 1 807 20110224071833
+79.107.240.108 1 1 807 20110219034124
+78.128.116.86 1 1 807 20110227090118
+99.68.165.188 1 1 807 20110206211629
+68.34.168.90 1 1 807 20110228203507
+97.106.46.212 1 1 807 20110202085329
+69.31.103.74 1 1 807 20110202104752
+69.148.17.87 1 1 807 20110219135432
+173.48.170.195 1 1 807 20110219122858
+173.80.16.133 1 1 807 20110210184115
+71.232.91.31 1 1 807 20110211134255
+173.243.45.2 1 1 807 20110221234002
+24.96.71.132 1 1 807 20110211045800
+206.214.124.73 1 1 807 20110218173547
+71.9.93.63 1 1 807 20110219144448
+70.176.129.142 1 1 807 20110216000027
+66.27.252.224 1 1 807 20110216135005
+99.21.173.139 1 1 807 20110215175754
+75.18.122.185 1 1 807 20110202201120
+91.106.223.117 1 1 807 20110203121444
+98.25.209.162 1 1 807 20110202052227
+71.82.169.150 1 1 807 20110217232623
+166.205.12.216 2 2 1614 20110223185705
+68.39.138.209 1 1 807 20110212235629
+173.48.82.122 1 1 807 20110225171150
+12.189.230.178 1 1 807 20110204141531
+199.120.31.19 1 1 807 20110224134650
+108.18.60.19 1 8 453494 20110203065747
+24.16.243.45 1 1 807 20110226185325
+38.99.82.102 1 3 19780 20110203024628
+174.117.229.153 1 1 807 20110208045410
+96.233.26.96 1 1 807 20110207170018
+173.22.142.182 1 1 807 20110226222737
+209.86.226.40 1 1 807 20110206214046
+81.154.69.92 1 1 807 20110228105436
+97.31.70.85 4 28 124606 20110211111154
+71.82.125.64 1 1 807 20110213103831
+80.56.58.49 1 1 807 20110219132042
+167.206.147.218 2 2 1614 20110224092733
+89.212.197.63 1 1 807 20110207092344
+72.240.104.229 1 1 807 20110202200725
+90.221.249.0 1 1 807 20110222150251
+98.203.44.156 1 1 807 20110216191728
+68.231.94.97 1 1 807 20110214223231
+76.28.6.169 1 1 807 20110228175127
+174.254.34.102 1 1 807 20110225141350
+189.217.127.251 1 1 807 20110225222928
+76.4.30.64 1 1 807 20110218063304
+96.244.64.126 1 1 807 20110222190515
+67.174.34.243 1 1 807 20110210085644
+71.188.234.15 8 15 281511 20110226134609
+189.182.7.160 1 1 807 20110223020941
+173.87.226.158 1 1 807 20110211143948
+174.254.0.232 1 1 807 20110225001347
+68.105.75.123 1 1 807 20110204181955
+98.117.160.252 1 1 807 20110213230552
+184.60.136.83 1 1 807 20110223050209
+63.96.59.159 2 2 1614 20110225144903
+152.216.7.5 1 1 807 20110207105420
+68.231.115.162 1 1 807 20110201225340
+76.186.59.142 10 10 8070 20110204173724
+212.253.201.155 2 2 1614 20110228095740
+62.30.29.134 1 1 807 20110202155314
+70.49.16.78 1 1 807 20110206143934
+66.65.16.230 1 1 807 20110204111109
+108.121.184.40 1 1 807 20110210162110
+174.252.205.77 1 1 807 20110211222416
+69.249.10.35 1 1 807 20110220220132
+66.76.176.155 2 9 463916 20110223131056
+68.123.5.12 1 1 807 20110215031422
+74.96.186.133 1 1 807 20110207191641
+173.24.15.251 1 1 807 20110203004944
+66.253.231.216 1 1 807 20110202122216
+71.33.55.83 1 1 807 20110214142024
+74.248.135.250 1 1 807 20110210162247
+68.205.180.207 1 1 807 20110220181340
+74.69.157.183 3 3 2421 20110228205802
+166.205.10.114 1 1 807 20110209210045
+69.249.159.91 1 1 807 20110224085606
+207.46.12.166 1 1 807 20110226044222
+209.149.228.96 1 1 807 20110202142433
+184.161.115.188 1 1 807 20110205223359
+97.93.238.4 1 1 807 20110221042235
+70.160.75.179 1 1 807 20110210193146
+174.49.169.181 1 1 807 20110206002831
+99.110.43.173 1 1 807 20110216110154
+173.25.22.65 1 1 807 20110220154153
+216.198.100.62 1 1 807 20110223172225
+71.12.21.58 1 1 807 20110217150337
+130.245.226.81 1 1 807 20110221202525
+164.159.60.2 1 1 807 20110204144828
+173.74.120.249 1 1 807 20110220141558
+71.63.120.203 1 1 807 20110216170113
+92.114.209.145 1 1 807 20110207080615
+161.58.86.202 1 1 807 20110207195237
+198.111.16.33 1 1 807 20110205094345
+166.216.162.50 1 1 807 20110221082649
+71.224.203.114 1 1 807 20110211001459
+66.142.67.116 1 1 807 20110223000245
+216.169.227.86 2 2 1614 20110224112225
+174.0.58.12 1 1 807 20110228032345
+69.126.23.161 1 1 807 20110213200153
+74.34.94.36 1 1 807 20110210222917
+76.169.135.35 1 1 807 20110219085155
+24.255.209.77 1 1 807 20110220110622
+142.167.71.143 1 1 807 20110213185739
+98.204.139.220 1 1 807 20110219014941
+24.233.165.76 1 1 807 20110227120151
+69.70.189.238 1 1 807 20110214213021
+173.186.202.247 1 1 807 20110203150110
+174.252.21.47 1 1 807 20110209152537
+66.31.162.228 1 1 807 20110227065357
+75.175.233.156 1 1 807 20110207173351
+75.59.254.35 1 1 807 20110201235318
+147.4.161.237 1 1 807 20110226185520
+137.44.1.174 1 1 807 20110217133820
+166.205.8.44 1 1 807 20110203145055
+24.16.120.65 1 1 807 20110224223619
+98.211.113.65 1 1 807 20110221220916
+189.217.77.60 1 1 807 20110215190220
+174.254.32.26 1 1 807 20110208162123
+64.244.86.44 1 1 807 20110217165748
+75.223.62.74 1 1 807 20110215180711
+75.51.173.90 1 1 807 20110213113529
+99.7.57.74 1 1 807 20110206000705
+67.247.73.87 1 1 807 20110208201844
+174.252.115.20 2 2 1614 20110209065532
+166.137.8.187 1 1 807 20110209050813
+206.188.93.19 1 1 807 20110219205353
+204.63.137.150 1 1 807 20110202154359
+75.46.68.102 1 1 807 20110203154807
+98.200.154.159 1 1 807 20110224195356
+98.24.110.175 1 1 807 20110210094345
+67.241.237.203 1 1 807 20110219135510
+174.17.37.166 1 1 807 20110222101021
+24.171.254.123 1 1 807 20110223170857
+75.150.115.221 1 1 807 20110204073651
+76.172.249.174 3 3 2421 20110223005028
+169.231.29.191 1 1 807 20110204013408
+76.30.19.227 1 1 807 20110211213756
+99.182.79.115 1 1 807 20110223153904
+76.121.160.10 1 1 807 20110219110526
+207.46.12.159 2 2 1614 20110207131530
+94.194.92.146 1 1 807 20110216121027
+24.131.17.73 1 1 807 20110216183516
+98.183.88.75 1 1 807 20110222211609
+99.59.27.250 1 1 807 20110226171904
+76.26.202.210 1 1 807 20110201064031
+69.96.74.56 1 1 807 20110203115337
+82.17.236.12 1 1 807 20110218093153
+99.236.162.27 1 1 807 20110216195614
+72.94.246.250 1 1 807 20110227211614
+75.133.91.170 1 1 807 20110215133630
+87.113.69.242 1 1 807 20110206084124
+166.205.10.164 1 1 807 20110227201858
+75.67.251.254 1 1 807 20110215201537
+96.255.104.114 1 1 807 20110223135040
+207.62.148.128 1 1 807 20110215202811
+86.184.36.120 1 1 807 20110221110958
+67.81.65.248 1 1 807 20110204142547
+24.22.44.158 1 1 807 20110222200812
+71.161.40.194 1 1 807 20110211233212
+67.234.179.219 1 1 807 20110219072258
+71.52.148.240 1 1 807 20110214170545
+72.208.252.54 1 1 807 20110209150746
+71.35.171.44 1 1 807 20110217133249
+24.56.252.239 1 1 807 20110212104627
+24.166.2.19 1 1 807 20110213202949
+70.64.7.178 1 1 807 20110226182557
+69.118.197.198 1 1 807 20110205155016
+69.36.216.233 1 1 807 20110219024337
+76.122.114.106 1 1 807 20110217062408
+67.233.105.250 1 1 807 20110221125955
+129.7.17.182 1 1 807 20110201212445
+174.95.25.90 1 1 807 20110220063443
+75.30.78.219 1 1 807 20110224015102
+196.210.182.103 1 1 807 20110222082113
+74.222.202.144 1 1 807 20110228162756
+75.164.181.95 1 1 807 20110208213707
+76.71.56.35 1 1 807 20110201203727
+98.233.137.132 1 1 807 20110201183337
+98.208.96.246 1 1 807 20110204222526
+70.228.102.215 1 1 807 20110226133548
+75.120.80.56 1 1 807 20110210054647
+98.108.233.224 1 1 807 20110208145655
+190.157.40.46 1 1 807 20110224230807
+67.174.155.167 1 1 807 20110220161703
+99.200.158.100 1 1 807 20110206033118
+71.173.0.229 2 2 1614 20110224141134
+70.114.13.50 2 2 1614 20110227195538
+207.241.228.167 2 14 472383 20110202111623
+117.204.92.101 1 1 807 20110205043800
+108.78.55.140 1 1 807 20110224214530
+98.211.157.238 1 1 807 20110210081948
+69.78.133.78 1 1 807 20110222074442
+99.13.214.88 1 1 807 20110205123158
+69.205.2.153 1 1 807 20110220043906
+72.89.220.136 1 1 807 20110201132147
+194.80.20.10 1 1 807 20110228021728
+66.27.186.95 1 1 807 20110204104922
+24.187.105.159 1 1 807 20110226161318
+71.205.210.44 1 1 807 20110220141942
+67.234.195.14 1 1 807 20110225073806
+166.205.14.236 1 1 807 20110213082743
+74.67.75.220 1 1 807 20110208030757
+207.46.204.159 2 2 1614 20110224151344
+98.201.25.129 1 1 807 20110209165309
+67.232.80.218 1 1 807 20110223155837
+12.184.80.130 1 1 807 20110205154526
+71.201.56.36 1 1 807 20110204202318
+174.28.134.144 1 1 807 20110217134839
+98.235.42.163 1 1 807 20110215223626
+68.96.226.52 1 1 807 20110204033043
+99.7.139.47 1 1 807 20110224232408
+75.97.200.14 1 1 807 20110208164701
+76.10.13.105 1 1 807 20110211194206
+74.70.253.221 1 1 807 20110225141826
+69.122.203.95 1 1 807 20110210142413
+76.168.136.85 1 1 807 20110212181553
+72.234.160.154 1 1 807 20110208015125
+24.86.211.130 1 1 807 20110222184043
+68.180.12.58 1 1 807 20110212163014
+108.18.105.194 1 1 807 20110210170423
+89.143.130.247 1 1 807 20110224140613
+174.45.187.92 1 1 807 20110228161009
+202.124.142.198 1 1 807 20110206220711
+75.118.68.220 1 1 807 20110211235728
+82.132.210.232 1 1 807 20110203164420
+71.175.115.57 1 1 807 20110204014822
+178.212.92.6 1 1 807 20110222051429
+96.21.2.51 1 1 807 20110208125927
+70.105.189.84 2 2 1614 20110206173302
+96.2.111.248 1 1 807 20110228094005
+96.49.134.54 1 1 807 20110217222724
+88.177.156.161 1 1 807 20110225012453
+184.78.230.172 1 1 807 20110220012901
+75.71.76.134 1 1 807 20110208130441
+98.112.154.80 1 1 807 20110213235535
+189.248.142.252 1 1 807 20110208211837
+75.205.212.11 1 1 807 20110204152534
+75.62.248.27 1 1 807 20110218183851
+98.112.181.162 1 1 807 20110226213654
+98.25.52.97 1 1 807 20110209181254
+72.191.49.43 1 1 807 20110216192142
+66.41.164.248 1 1 807 20110219203351
+71.87.255.13 1 1 807 20110202151559
+70.112.78.119 1 1 807 20110210205644
+165.20.108.150 1 1 807 20110216083410
+166.205.9.231 1 1 807 20110222203606
+71.33.91.96 1 1 807 20110212153409
+24.58.174.186 1 1 807 20110219191116
+72.228.80.199 1 1 807 20110216173542
+216.104.15.130 6 6 39547 20110220151537
+174.48.46.84 1 1 807 20110222122009
+99.139.85.83 1 1 807 20110217163841
+71.181.170.85 1 1 807 20110224135406
+76.18.97.98 1 1 807 20110206210511
+71.158.222.6 1 1 807 20110225200335
+81.156.59.117 1 1 807 20110211173820
+94.135.135.138 1 1 807 20110217115727
+99.176.40.169 1 1 807 20110222180859
+174.252.209.62 2 2 1614 20110201220131
+208.120.109.173 1 1 807 20110202081728
+137.49.134.162 1 1 807 20110213143155
+72.189.7.42 1 1 807 20110214143328
+75.213.189.201 1 1 807 20110208010607
+188.222.51.118 2 2 1614 20110216154152
+66.211.235.56 1 1 807 20110223171742
+64.8.142.125 1 1 807 20110217090515
+75.185.142.7 1 1 807 20110206032535
+70.138.187.132 1 1 807 20110226185517
+68.44.225.56 1 1 807 20110213195737
+78.105.34.158 1 1 807 20110211130419
+205.188.116.8 0 1 4679 
+76.27.43.66 1 1 807 20110207184011
+78.98.64.115 1 1 807 20110202133714
+71.104.26.94 1 1 807 20110202210422
+98.86.55.200 1 1 807 20110204183430
+158.80.80.2 1 1 807 20110216133712
+75.109.157.36 2 2 1614 20110222151618
+71.205.122.62 1 1 807 20110217085451
+74.232.225.40 1 1 807 20110215211946
+209.6.158.66 1 1 807 20110225114148
+166.137.14.183 1 1 807 20110201084342
+190.87.43.203 1 1 807 20110204184313
+72.21.132.184 1 1 807 20110214014041
+174.253.112.156 1 1 807 20110202231105
+74.195.4.40 1 1 807 20110216235841
+24.94.181.39 1 1 807 20110223141920
+90.206.112.251 1 1 807 20110215161806
+166.137.140.194 1 1 807 20110219224919
+174.0.162.239 1 1 807 20110206010530
+65.95.142.203 2 2 1614 20110226193845
+74.82.64.37 2 2 1614 20110219173835
+173.2.93.157 1 1 807 20110214210054
+173.73.91.216 1 1 807 20110217105415
+67.65.163.134 2 2 1614 20110216024733
+65.91.117.73 1 1 807 20110208222225
+96.240.2.34 1 1 807 20110228212235
+99.186.236.10 1 1 807 20110223150111
+173.215.183.136 1 1 807 20110201150810
+209.242.178.129 1 1 807 20110208103653
+96.244.228.139 1 1 807 20110213195715
+210.50.143.21 1 1 807 20110213033411
+184.74.16.182 1 1 807 20110207121946
+153.90.65.85 1 1 807 20110212192127
+68.238.210.228 1 1 807 20110221111148
+173.21.26.104 1 1 807 20110205205840
+71.181.231.25 1 1 807 20110204020011
+108.12.182.209 1 1 807 20110224120025
+72.25.228.164 1 1 807 20110216084026
+174.252.196.90 1 1 807 20110203232801
+74.88.222.12 1 1 807 20110208163132
+69.18.50.2 1 1 807 20110216160830
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20110201 254 549 76174700 163
+20110202 243 360 3490225 170
+20110203 261 344 2637155 191
+20110204 218 277 1650035 158
+20110205 192 275 3343324 134
+20110206 246 270 35536265 158
+20110207 189 236 35982459 165
+20110208 275 346 4379176 182
+20110209 235 320 39746188 183
+20110210 207 250 339690 178
+20110211 190 229 605996 168
+20110212 261 365 37594054 145
+20110213 207 277 36726476 158
+20110214 261 438 6616602 152
+20110215 228 316 36967478 176
+20110216 327 471 38491706 193
+20110217 209 317 2129971 166
+20110218 204 257 1167566 157
+20110219 160 172 592439 154
+20110220 209 225 970640 175
+20110221 188 217 35734623 164
+20110222 252 319 7346764 172
+20110223 238 343 6220966 163
+20110224 256 287 2598826 188
+20110225 160 203 1411333 136
+20110226 154 154 123471 151
+20110227 198 236 2090296 167
+20110228 238 300 36640557 156
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 10
+5mn-15mn 43
+0s-30s 4394
+15mn-30mn 23
+2mn-5mn 48
+30s-2mn 75
+30mn-1h 30
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 79
+/includes/cookie_control.php 4881 3934165 4411 4424
+/faqs/index2.php 157 1503075 13 19
+/ 138 1221574 97 51
+/admin/index2.php 136 903929 0 24
+/admin/ 80 291629 52 3
+/store/product.php 70 1036082 5 4
+/store/index.php 67 970511 2 10
+/faqs/index.php 48 765566 1 3
+/supplement-facts/index.php 45 557067 4 13
+/admin/shipping_admin.php 43 464972 1 3
+/store/cart.php 37 434769 0 4
+/articles/index.php 35 800029 8 2
+/admin/contact_us_admin.php 34 218166 0 12
+/warnings/index.php 30 324718 5 4
+/index.php 30 296764 4 4
+/admin/shipping_admin4.php 29 204564 0 3
+/about/index.php 28 324645 0 7
+/contact/index.php 28 704777 2 3
+/admin/retailers_admin.php 26 594582 1 0
+/articles/article.php 23 282339 9 4
+/news/index.php 23 245700 1 1
+/admin/shipping_admin2.php 17 163971 0 1
+/admin/shipping_admin5.php 17 96592 0 0
+/admin/retailers_admin12.php 16 123883 0 0
+/directions/index.php 16 160863 1 2
+/admin/email_lists_admin.php 2 12668 0 0
+/admin/reports_admin_w.php 1 8844 0 0
+/newsletters/index.php 11 115427 0 1
+/includes/reps_foot1.php 1 925 0 0
+/admin/shipping_admin6.php 4 45238 0 0
+/includes/login.php 4 4192 0 4
+/store/././cart.php 1 10556 0 0
+/news/UDI100-001.mov 11 378596757 0 1
+/admin/index.php 5 18397 2 1
+/store/./ 1 12752 0 0
+/about/privacy_security.php 5 91920 1 0
+/admin/shipping_admin7.php 4 35985 0 1
+/store/./product.php 2 30466 0 0
+/store/product_list.php 2 25502 0 0
+/admin/contact_us_admin2.php 10 123043 0 3
+/admin/merchant_acct_admin.php 1 9499 0 0
+/includes/foot_wc_hard1.php 2 4628 0 0
+/admin/reps_reports.php 4 44860 0 0
+/store/././product.php 1 15233 0 0
+/includes/ 8 73789 2 0
+/includes/foot_wc2.php 3 5670 0 0
+/admin/retailers_admin8.php 5 137805 0 0
+/admin/members_admin12.php 2 3864 0 0
+/includes/mysql_connect.php 1 0 0 0
+/store/./shipping.php 1 9988 0 0
+/store/shipping.php 9 87873 0 0
+/admin/retailers_admin9.php 9 121290 0 2
+/admin/retailers_admin2.php 10 179641 0 1
+/store/ 3 40530 1 0
+/includes/calendar.php 1 7622 0 0
+/admin/reports_admin.php 3 22401 0 0
+/login.php 13 151893 0 2
+/admin/shipping_admin3.php 4 16681 0 0
+/includes/head_my1.php 1 1888 0 0
+/includes/main3.php 3 1644 0 0
+/newsletters/unsubscribe.php 4 40976 0 0
+/includes/foot_admin1.php 3 0 0 1
+/admin/shipping_admin9.php 4 42095 0 1
+/admin/retailers_admin4.php 12 623546 0 0
+/admin/members_admin.php 2 12410 0 0
+/includes/head_wc_hard1.php 1 2185 0 0
+/store/./index.php 3 45078 0 0
+/store/./cart.php 2 21112 0 0
+/contact/thanks.php 1 9223 0 1
+/admin/members_admin2_edit.php 2 74442 0 0
+/admin/members_admin2.php 2 50360 0 0
+/admin/retailers_admin7.php 5 111384 0 2
+/admin/shipping_admin8.php 9 98944 0 0
+/includes/retailer1.php 1 524 0 0
+/admin/contact_us_admin2_edit.php 3 24420 0 0
+/admin/retailers_admin3.php 1 51684 0 0
+/store/./product_list.php 1 12751 0 1
+/admin/reps_admin.php 1 10755 0 0
+/store/././index.php 1 15026 0 0
+END_SIDER

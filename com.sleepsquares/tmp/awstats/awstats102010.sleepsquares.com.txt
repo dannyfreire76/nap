@@ -1,0 +1,4070 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201010 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2547                
+POS_VISITOR 29349               
+POS_DAY 144149              
+POS_DOMAIN 3434                
+POS_LOGIN 4606                
+POS_ROBOT 4761                
+POS_WORMS 5294                
+POS_EMAILSENDER 5425                
+POS_EMAILRECEIVER 5568                
+POS_SESSION 144976              
+POS_SIDER 145190              
+POS_FILETYPES 5703                
+POS_OS 5914                
+POS_BROWSER 6168                
+POS_SCREENSIZE 7107                
+POS_UNKNOWNREFERER 7181                
+POS_UNKNOWNREFERERBROWSER 11521               
+POS_ORIGIN 14082               
+POS_SEREFERRALS 14232               
+POS_PAGEREFS 14389               
+POS_SEARCHWORDS 18925               
+POS_KEYWORDS 19521               
+POS_MISC 2210                
+POS_ERRORS 19830               
+POS_CLUSTER 4462                
+POS_SIDER_404 19958               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20101101000028 173 46685 29057062383218
+FirstTime 20101005113611
+LastTime 20101031235350
+LastUpdate 20101101063530 173 0 172 0 0
+TotalVisits 3560                
+TotalUnique 3084                
+MonthHostsKnown 0                   
+MonthHostsUnknown 3096                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 45 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 121 129 616220 127 128 31115
+1 117 117 210058 28 32 64108
+2 71 80 113302 34 38 93972
+3 95 133 492738 40 40 110853
+4 113 192 1436028 62 69 28701
+5 135 207 2860225 66 76 224231
+6 128 321 2295316 37 70 319060
+7 256 542 5957273 41 67 43548
+8 305 588 5781689 52 129 364104
+9 310 779 7367319 57 127 268890
+10 512 1219 9974832 118 229 720335
+11 444 894 7171139 92 112 115862
+12 711 1495 11609005 96 190 97868
+13 687 1463 9968416 121 252 75611
+14 577 1032 7943005 106 158 165859
+15 558 882 9350731 197 233 1011939
+16 346 570 3763059 46 60 124273
+17 276 361 1895927 53 75 144689
+18 253 289 2204847 34 38 76884
+19 274 318 1652033 159 168 74402
+20 303 312 1224775 34 35 75814
+21 231 352 1850287 26 26 26170
+22 209 209 167864 72 72 416809
+23 221 256 2031835 23 24 65993
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 77
+us 6353 11773 94148447
+ca 325 355 1708537
+gb 103 103 83121
+jp 60 66 348692
+in 60 60 48420
+ro 41 47 581703
+au 25 25 20175
+mx 15 15 12105
+cn 13 26 492668
+pr 13 13 10491
+es 12 12 9684
+se 12 12 9684
+de 12 12 14403
+il 11 11 8877
+no 9 9 7263
+fr 8 8 6456
+hu 8 8 6456
+rs 7 19 286779
+gr 7 7 5649
+ar 7 7 5649
+fi 7 7 5649
+ph 6 6 4842
+ch 6 6 4842
+co 6 6 4842
+br 6 6 4842
+tr 4 4 3228
+hn 1 1 807
+my 3 3 2421
+ru 5 5 4035
+cr 4 4 3228
+dk 4 4 3228
+sg 1 1 807
+bm 2 2 1614
+kw 1 1 807
+ge 1 1 807
+do 1 1 807
+bs 1 1 807
+eu 3 3 2421
+mu 1 1 807
+bg 2 2 1614
+sv 2 2 1614
+it 4 4 3228
+pl 2 2 1614
+gt 1 1 807
+iq 2 2 1614
+pe 2 2 1614
+lu 1 1 807
+ve 1 1 807
+pt 4 4 3228
+eg 2 2 1614
+kr 4 4 3228
+lv 2 2 1614
+tt 1 1 807
+fo 1 1 807
+sa 1 1 807
+id 6 6 4842
+hk 1 1 807
+th 1 1 807
+ie 5 5 4035
+si 1 1 807
+om 1 1 807
+cz 2 2 1614
+vg 1 1 807
+lt 1 1 807
+hr 6 6 4842
+ir 1 1 807
+be 3 3 2421
+md 1 1 807
+cl 1 1 807
+at 2 2 1614
+jo 3 3 2421
+vn 2 2 1614
+ee 1 1 807
+pk 4 4 3228
+nl 4 4 3228
+nz 5 5 4035
+ae 5 5 4035
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 457 3520755 20101031235301 0
+msnbot\-media 103 83121 20101031205454 0
+slurp 63 515361 20101031131213 0
+[+:,\.\;\/\\-]bot 15 12105 20101031191038 0
+ia_archiver 13 183546 20101025141132 0
+no_user_agent 4 11179 20101021153042 0
+bot[+:,\.\;\/\\-] 4 46073 20101024160931 0
+msnbot 3 31540 20101030104512 0
+netcraft 2 0 20101030190530 0
+spider 1 807 20101019165736 0
+crawl 1 9995 20101029060310 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 1250 1549710 0 0
+php 6946 39565788 0 0
+png 1728 14173843 0 0
+html 303 2501237 0 0
+js 486 2451952 0 0
+jpg 754 34359153 0 0
+cgi 4 13332 0 0
+gif 1269 3322908 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 19
+linuxsuse 1
+winxp 1350
+winlong 3919
+win2000 8
+symbian 3
+linuxfedora 10
+linuxgentoo 1
+winunknown 1
+linuxcentos 1
+win2003 74
+psp 1
+unix 1
+linuxubuntu 44
+win98 2
+linux 159
+winme 1
+macosx 1121
+Unknown 438
+win2008 5605
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 61
+msie6.0 200
+firefox3.6 8
+chrome 738
+firefox3.0.9 1
+firefox3.6.11 806
+firefox2.0.0.1 1
+firefox3.5.4 2
+firefox3.0.1 1
+firefox3.6.6 13
+firefox3.0.14 1
+firefox4.0 12
+firefox2.0.0.12 1
+firefox3.5.3 21
+firefox1.5.0.1 35
+firefox2.0.0.7 1
+msie8.0 7425
+firefox3.5.8 1
+msie7.0 791
+firefox3.6.9 10
+msie9.0 7
+firefox3.6.10 828
+firefox3.5.11 4
+Unknown 318
+firefox3.0.8 7
+firefox3.6.7 1
+firefox3.0.18 1
+firefox2.0.0.20 3
+msie5.01 1
+firefox3.5.13 116
+firefox3.0.16 3
+firefox3.5.14 19
+firefox3.0.4 22
+opera 3
+firefox3.0 2
+msie999.1 1
+lg\- 1
+samsung 1
+firefox3.6.2 3
+firefox3.5.15 5
+firefox3.0.11 2
+msie5.5 1
+firefox3.6.4 1
+firefox3.5.10 1
+firefox3.5.12 1
+firefox1.5.0.9 1
+firefox3.0.3 5
+nokia 17
+firefox3.5.5 2
+mozilla 45
+netscape5.0 11
+netscape4.0 4
+firefox3.5.9 1
+firefox2.0.0.4 1
+firefox3.6.12 78
+firefox3.6.3 42
+firefox3.0.19 99
+firefox3.5 8
+firefox3.6.8 57
+safari 947
+firefox3.5.7 1
+firefox3.0.15 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 46
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/5.1.21214/21.529;_U;_en)_Presto/2.5.25_Version/10.54 20101024152656
+BlackBerry9330/5.0.0.913_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/104 20101025161312
+BlackBerry8530/5.0.0.654_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/104 20101028093214
+MOT-MOTOQA1/A2.01.11R_Release/09.24.2008_OPERA/BER2.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20101025054801
+BlackBerry9630/5.0.0.732_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101029155553
+BlackBerry9630/5.0.0.624_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/104 20101024193043
+BlackBerry9700/5.0.0.586_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/173 20101030152833
+Mozilla/5.0_(Windows;_U;_en_US)_AppleWebKit/530.19.2_(KHTML,_like_Gecko)_Dreamweaver/11.0.0.4909_Version/4.0.2_Safari/530.19.2 20101019135007
+Mozilla/5.0_(Danger_hiptop_4.7;_U;_rv:1.7.12)_Gecko/20050920 20101013162958
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9800;_en)_AppleWebKit/534.1__(KHTML,_like_Gecko)_Version/6.0.0.246_Mobile_Safari/534.1_ 20101028193226
+LG-CF360/V10h_Teleca/Q7.0_Profile/MIDP-2.1_Configuration/CLDC-1.1 20101009100553
+BlackBerry8530/5.0.0.782_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/394 20101010200225
+BlackBerry9650/5.0.0.732_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101025155440
+BlackBerry9700/5.0.0.442_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/332 20101012123334
+BlackBerry9630/5.0.0.975_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101023214828
+BlackBerry9550/5.0.0.607_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101008235506
+Mozilla/4.0_(BREW_3.1.5;_U;_en-us;_Sanyo;_NetFront/3.5.1/AMB)_Boost_SCP3810 20101031112955
+BlackBerry9550/5.0.0.713_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101031134821
+Java/1.6.0_04 20101031032935
+Mozilla/5.0_(webOS/1.4.5;_U;_en-US)_AppleWebKit/532.2_(KHTML,_like_Gecko)_Version/1.0_Safari/532.2_Pixi/1.0 20101007150315
+BlackBerry8530/5.0.0.337_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/189 20101024135553
+BlackBerry9530/4.7.0.148_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20101008150222
+Mozilla/5.0_(SnapPreviewBot)_Gecko/20061206_Firefox/1.5.0.9 20101011233848
+BlackBerry9630/4.7.1.40_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/106 20101009202204
+Mozilla/5.0_(webOS/1.4.5;_U;_en-US)_AppleWebKit/532.2_(KHTML,_like_Gecko)_Version/1.0_Safari/532.2_Pre/1.1 20101028042820
+Nokia6820/2.0_(4.83)_Profile/MIDP-1.0_Configuration/CLDC-1.0 20101031133417
+BlackBerry9300/5.0.0.832_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/332 20101025055619
+panscient.com 20101020131445
+Mozilla/5.0_R800_like_Gecko/20060426_Netfront/3.4 20101018215204
+NetFront/3.5.1_(BREW_5.0.1.2;_U;_en-us;_LG;_NetFront/3.5.1/AMB)_Sprint_LN510_MMP/2.0_Profile/MIDP-2.1_Configuration/CLDC-1.1 20101010163210
+BlackBerry8520/4.6.1.286_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/604 20101007184424
+BlackBerry8330/4.3.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20101009203427
+BlackBerry9530/5.0.0.328_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101016190945
+BlackBerry8530/5.0.0.337_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101014163830
+BlackBerry9700/5.0.0.586_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/100 20101026185031
+BlackBerry9700/5.0.0.405_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/102 20101017203446
+Mozilla/5.0_(compatible;_Teleca_Q7;_Brew_3.1.5;_U;_en)_320X240_LGE_VX9200 20101023004454
+Mozilla/5.0_(en-us)_AppleWebKit/525.13_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Version/3.1_Safari/525.13 20101031143732
+SAMSUNG-SGH-A877/A877UCID3_SHP/VPP/R5_NetFront/3.5_SMM-MMS/1.2.0_profile/MIDP-2.1_configuration/CLDC-1.1 20101019205052
+Mozilla/5.0_(000000000;_0;_00000_000_00_0_000000;_00000)_DDDDDDDDDDDDDDDDDDDD_DDDDDDD_DDDD_DDDDDD_DDDDDDDDDDDDD_DDDDDDDDDDDDDDD 20101030225231
+BlackBerry9630/4.7.1.61_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20101016162642
+Mozilla/5.0_(PLAYSTATION_3;_1.00) 20101030085917
+Mozilla/4.0_(compatible;) 20101028203802
+BlackBerry8330/4.5.0.169_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/106 20101022171327
+LGE-VM510_NetFront/3.5.1_(GUI)_MMP/2.0 20101023202559
+BlackBerry9630/5.0.0.591_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101025212544
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 28
+BlackBerry9530/4.7.0.148_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20101008150222
+BlackBerry9630/4.7.1.40_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/106 20101009202204
+BlackBerry9330/5.0.0.913_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/104 20101025161312
+BlackBerry8530/5.0.0.654_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/104 20101028093214
+BlackBerry9630/5.0.0.732_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101029155553
+BlackBerry9300/5.0.0.832_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/332 20101025055619
+panscient.com 20101020131445
+NetFront/3.5.1_(BREW_5.0.1.2;_U;_en-us;_LG;_NetFront/3.5.1/AMB)_Sprint_LN510_MMP/2.0_Profile/MIDP-2.1_Configuration/CLDC-1.1 20101010163210
+BlackBerry8520/4.6.1.286_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/604 20101007184424
+BlackBerry9630/5.0.0.624_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/104 20101024193043
+BlackBerry8330/4.3.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20101009203427
+BlackBerry9700/5.0.0.586_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/173 20101030152833
+BlackBerry9530/5.0.0.328_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101016190945
+BlackBerry8530/5.0.0.337_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101014163830
+BlackBerry9700/5.0.0.586_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/100 20101026185031
+BlackBerry9700/5.0.0.405_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/102 20101017203446
+BlackBerry8530/5.0.0.782_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/394 20101010200225
+BlackBerry9650/5.0.0.732_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101025155440
+BlackBerry9700/5.0.0.442_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/332 20101012123334
+BlackBerry9630/5.0.0.975_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101023214828
+BlackBerry9630/4.7.1.61_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20101016162642
+BlackBerry9550/5.0.0.607_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101008235506
+BlackBerry9550/5.0.0.713_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101031134821
+Java/1.6.0_04 20101031032935
+BlackBerry8330/4.5.0.169_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/106 20101022171327
+LGE-VM510_NetFront/3.5.1_(GUI)_MMP/2.0 20101023202559
+BlackBerry9630/5.0.0.591_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20101025212544
+BlackBerry8530/5.0.0.337_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/189 20101024135553
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1150 1173
+From1 1 1
+From2 46 46
+From3 3574 3637
+From4 2482 7883
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 46 46
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 101
+http://salviazone.com 2114 2177
+http://dreamboost.com 234 234
+http://salviazone.com/store/product.php 204 204
+http://salviazone.com/store/ 158 158
+http://salviazone.com/store/index.php 151 151
+http://salviazone.com 64 64
+http://salviazone.com/testimonials/ 48 48
+http://salviazone.com/findretailer/index.php 47 47
+http://dreamboost.com/supplement-facts/index.php 46 46
+http://salviazone.com/links/links15.php 37 37
+http://salviazone.com/about/ 29 29
+http://salviazone.com/salvia/index.php 25 25
+http://salviazone.com/index.php 24 24
+http://salviazone.com/faqs/index2.php 23 23
+http://gopillz.com 17 17
+http://salviazone.com/faqs/index.php 17 17
+http://dreamboost.com/testimonials/index.php 14 14
+http://dreamboost.com/articles/article_id/62 14 14
+http://salviazone.com/links/links_submit.php 12 12
+http://translate.googleusercontent.com/translate_c 12 12
+http://www.salviazone.com 12 12
+http://salviazone.com/testimonials/index.php 11 11
+http://dreamboost.com/articles/article_id/61 11 11
+http://salviazone.com/admin/ 10 10
+http://salviazone.com/salvia/ 10 10
+http://salviazone.com/findretailer/ 2 2
+http://salviazone.com/faqs/ 9 9
+http://www.sitetalk-friends.com 1 1
+http://salviazone.com/medsups/ 8 8
+http://salviazone.com/links/links47.php 1 1
+http://dreamboost.com/faqs/index.php 1 1
+http://salviazone.com/directions/index.php 8 8
+http://salviazone.com/beretailer/ 5 5
+http://dreamboost.com/store/product_list.php 1 1
+http://dreamboost.com/findretailer/index.php 2 2
+http://salviazone.com/warnings/index.php 2 2
+http://dreamboost.com/articles/article_id/59 3 3
+http://www.facebook.com/kamayababy 2 2
+http://dreamboost.com/articles/article_id/56 9 9
+http://dreamboost.com/articles/article_id/63 1 1
+http://dreamboost.com/articles/article_id/55 1 1
+http://dreamboost.com/admin/index.php 2 2
+http://www.dreamboost.com:2095/horde/imp/message.php 2 2
+http://salviazone.com. 1 1
+http://webcache.googleusercontent.com/search 2 2
+http://dreamboost.com/store/index.php 5 5
+http://salviazone.com/warnings/ 2 2
+http://www.facebook.com/home.php 5 5
+http://gopillz.com/about/privacy_security.php 1 1
+http://dreamboost.com/store/shipping.php 1 1
+http://dreamboost.com/lucid_dream/lucid_dreaming.php 4 4
+http://dreamboost.com/articles/article_id/35 1 1
+http://salviazone.com// 8 8
+http://salviazone.com/links/links41.php 7 7
+http://salviazone.com/store/product_list.php 1 1
+http://salviazone.com/customer/customer_history.php 1 1
+http://salviazone.com/contact/ 4 4
+http://dreamboost.com/beretailer/index.php 7 7
+http://dreamboost.com/articles/article_id/60 4 4
+http://salviazone.com/links/links16.php 1 1
+http://dreamboost.com/articles/article_id/38 1 1
+http://salviazone.com/newsletters/index2.php 2 2
+http://dreamboost.com/about/privacy_security.php 1 1
+http://salviazone.com/links/links37.php 1 1
+http://dreamboost.com/articles/article_id/26 1 1
+http://dreamboost.com/links/links39.php 1 1
+http://dreamboost.com/about/ 4 4
+http://SalviaZone.com 1 1
+http://salviazone.com/newsletters/index.php 1 1
+http://salviazone.com/contact/thanks.php 1 1
+http://dreamboost.com/links/links_submit.php 1 1
+http://dreamboost.com/articles/article_id/43 1 1
+http://dreamboost.com/store/product.php 5 5
+http://salviazone.com/about/index.php 3 3
+http://dreamboost.com/articles/article_id/36 5 5
+http://dreamboost.com/links/links33.php 2 2
+http://dreamboost.com/articles/index.php 9 9
+http://salviazone.com/contact/index.php 7 7
+http://gopillz.com/store/index.php 1 1
+http://salviazone.com/store/cart.php 7 7
+http://dreamboost.com/directions/index.php 3 3
+http://dreamboost.com 3 3
+http://www.facebook.com 9 9
+http://salviazone.com/store/shipping.php 3 3
+http://us.mg1.mail.yahoo.com/dc/launch 2 2
+http://salviazone.com/articles/music1.php 8 8
+http://salviazone.com/links/links51.php 3 3
+http://dreamboost.com/links/links8.php 1 1
+http://dreamboost.com/links/links49.php 1 1
+http://salviazone.com/medsups/5min_meditation.php 1 1
+http://gopillz.com/testimonials/index.php 2 2
+http://salviazone.com/beretailer/index.php 1 1
+http://dreamboost.com/lucid_dream/index.php 2 2
+http://dreamboost.com/admin/ 1 1
+http://dreamboost.com:2086/scripts4/listaccts 1 1
+http://salviazone.com/customer/update_customer.php 1 1
+http://salviaworld.com 1 1
+http://dreamboost.com/faqs/index2.php 6 6
+http://salviazone.com/medsups/nature_meditation.php 2 2
+http://salviazone.com/directions/ 2 2
+http://salviazone.com/medsups/index.php 7 7
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 14
+sleep+squares 31
+sleepsquares 2
+allinurl+store%2fproduct_category.php 2
+slumberland+snacks+udi+contact 1
+chocolate+sleep+aid 1
+where+can+i+find+sleeping+squares 1
+chocolatey+sleep+squares 1
+chocolate+sleep+squares 1
+upstate+dream+institute+chocolatey+sleep+squares 1
+sleep+aid+chocolates 1
+slumberland+snacks+chocolatey+sleep+squares 1
+slumberland+snacks 1
+slumberland+snacks+chocolately+sleep+squares 1
+upstate+dream+institute+sleep+square 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 23
+sleep 39
+squares 37
+snacks 4
+slumberland 4
+chocolatey 3
+aid 2
+dream 2
+upstate 2
+institute 2
+chocolate 2
+sleepsquares 2
+allinurl 2
+store%2fproduct_category.php 2
+square 1
+contact 1
+find 1
+udi 1
+chocolates 1
+i 1
+chocolately 1
+can 1
+where 1
+sleeping 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 358 142344
+206 1 152722
+301 119 31542
+404 1304 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 225
+/wbsadmin/html/scripts/setup.php 1 -
+/admin.php 1 -
+/chat3//chat/messagesL.php3 1 -
+/contact/images/ss/seperator.png 21 http://sleepsquares.com/contact/index.php
+/phpmanager/scripts/setup.php 3 -
+/php-myadmin/scripts/setup.php 3 -
+/phpmyadmin2/scripts/setup.php 3 -
+/phpMyAdmin-2.7.0-beta1/scripts/setup.php 3 -
+/horde-3.0.5//README 1 -
+/articles/article_id/58 1 -
+/includes/+thisID).html( 2 -
+/phpMyAdmin-2.5.4/scripts/setup.php 3 -
+http://proxyjudge3.proxyfire.net/fastenv 1 -
+/phpMyAdmin-2.5.6-rc1/scripts/setup.php 3 -
+http://www.google.com/intl/zh-CN/ 2 -
+//README 1 -
+/phpMyAdmin-2.6.4-pl3/scripts/setup.php 3 -
+/php-my-admin/scripts/setup.php 6 -
+/phpmyadmin1/scripts/setup.php 3 -
+/index2.php 1 http://sleepsquares.com/login.php
+/php/phpmychat//chat/messagesL.php3 1 -
+/chat//chat/messagesL.php3 1 -
+/mail//README 1 -
+/vhcs2/tools/pma/scripts/setup.php 1 -
+/pmy/scripts/setup.php 1 -
+/roundcubemail//bin/msgimport 1 -
+/phpMyChat-0.14.5//chat/messagesL.php3 1 -
+//chat/messagesL.php3 1 -
+/phpMyAdmin-2.5.5-rc2/scripts/setup.php 3 -
+/cube//bin/msgimport 1 -
+/phpMyAdmin-2.7.0-pl2/scripts/setup.php 3 -
+/phpMyAdmin-2.8.0.4/scripts/setup.php 3 -
+/phpadmin/scripts/setup.php 3 -
+/articles/article_id/62 1 -
+/contact/admin.php 1 -
+/articles/article_id/53 1 -
+/phpMyAdmin-2.8.0-rc1/scripts/setup.php 3 -
+/chat1//chat/messagesL.php3 1 -
+/horde-3.0.6//README 1 -
+/images/button_subscribe_over.gif 112 http://sleepsquares.com/articles/index.php
+/phpMyAdmin-2.8.1/scripts/setup.php 3 -
+/includes/).html()== 2 -
+/phpMyAdmin-2.8.0.2/scripts/setup.php 3 -
+/mysql-admin/scripts/setup.php 3 -
+/phpMyAdmin/scripts/setup.php 7 -
+/includes/retailer_login.php 2 -
+/newsletters/images/ss/seperator.png 36 http://sleepsquares.com/newsletters/index.php
+/phpMyAdmin-2.5.6-rc2/scripts/setup.php 3 -
+/rc//bin/msgimport 1 -
+//phpMyAdmin/ 1 -
+/phpMyAdmin-2.6.1/scripts/setup.php 3 -
+/phpMyAdmin-2.6.2-rc1/scripts/setup.php 6 -
+/horde3//README 1 -
+/articles/article_id/38 1 http://sleepsquares.com/articles/article.php
+/phpMyAdmin-2.8.0.1/scripts/setup.php 3 -
+/mysql/scripts/setup.php 3 -
+/includes/quiz.php 2 -
+/roundcube-0.2//bin/msgimport 1 -
+/phpMyAdmin-2.6.0-beta1/scripts/setup.php 3 -
+/admin/content_admin2_edit.php 2 http://sleepsquares.com/admin/content_admin2_edit.php
+/about/newsletters/index.php 1 http://sleepsquares.com/about/index.php
+/phpMyAdmin-2.7.0-pl1/scripts/setup.php 3 -
+HTTP/1.1 1 -
+/phpMyAdmin-2.6.2-beta1/scripts/setup.php 2 -
+/search/index.php 1 http://sleepsquares.com/includes/foot_wc2.php
+/phpMyAdmin-2.6.1-rc1/scripts/setup.php 3 -
+/articles/article_id/18 2 http://sleepsquares.com/admin/content_admin2.php
+/articles/article_id/49 1 -
+/phpMyAdmin-2.6.1-pl3/scripts/setup.php 3 -
+/findretailer/images/ss/seperator.png 13 http://sleepsquares.com/findretailer/index.php
+/roundcubemail-0.2//bin/msgimport 1 -
+/websql/scripts/setup.php 6 -
+/webmail2//bin/msgimport 1 -
+/community//chat/messagesL.php3 1 -
+/phpMyAdmin-2.6.0-rc3/scripts/setup.php 3 -
+/phpMyAdmin-2.6.3-pl1/scripts/setup.php 2 -
+/admin/scripts/setup.php 3 -
+/articles/article_id/61 1 -
+/includes/Dream-Boost-TV-Commercial.mov 1 -
+/includes/).html( 2 -
+/horde-3.0.9//README 1 -
+/published/wbsadmin/html/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6/scripts/setup.php 3 -
+/images/button_view_now_over.gif 9 http://sleepsquares.com/store/index.php
+/phpMyAdmin-2.6.0-alpha/scripts/setup.php 3 -
+/phpMyAdmin-2/scripts/setup.php 3 -
+/phpMyAdmin-2.8.0/scripts/setup.php 3 -
+/mailz//README 1 -
+/phpMyAdmin-2.5.5-pl1/scripts/setup.php 3 -
+/articles/article_id/39 1 http://sleepsquares.com/articles/article.php
+/phpMyChat//chat/messagesL.php3 1 -
+/test/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-beta2/scripts/setup.php 2 -
+/bin/msgimport 1 -
+/pma2010/scripts/setup.php 1 -
+/web/scripts/setup.php 3 -
+//phpmyadmin/ 1 -
+/phpMyAdmin-2.6.0-pl1/scripts/setup.php 3 -
+/articles/article_id/34 2 http://sleepsquares.com/admin/content_admin2.php
+/administrator/phpmyadmin/scripts/setup.php 1 -
+/horde2//README 1 -
+/phpMyAdmin-2.5.7/scripts/setup.php 3 -
+/about/css/sleepsquares.css 1 http://sleepsquares.com/about/index.php
+http://images4.byinter.net/img-32705.jpg 1 -
+/horde-3.0.7//README 1 -
+/phpMyAdmin-2.6.0-rc1/scripts/setup.php 2 -
+/admin/phpmyadmin/scripts/setup.php 3 -
+/robots.txt 208 -
+/phpMyAdmin-2.6.0-rc2/scripts/setup.php 3 -
+/sqlweb/scripts/setup.php 2 -
+//scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.3/scripts/setup.php 3 -
+/admin/pma/scripts/setup.php 3 -
+/cart.php 2 -
+http://zerg.helllabs.net/cgi-bin/textenv.pl 2 -
+/e107_docs/gpl.txt 1 -
+/contact/admin 1 -
+/articles/article_id/63 1 -
+/mail2//bin/msgimport 1 -
+/phpMyAdmin-2.8.2/scripts/setup.php 3 -
+/sqlmanager/scripts/setup.php 3 -
+/store/images/ss/seperator.png 127 http://sleepsquares.com/store/cart.php
+/phpMyAdmin-2.7.0-rc1/scripts/setup.php 3 -
+/phpMyAdmin-2.6.1-pl2/scripts/setup.php 3 -
+/phpMyAdmin-2.6.4-pl1/scripts/setup.php 3 -
+/articles/article_id/37 3 http://sleepsquares.com/admin/content_admin2.php
+/phpMyAdmin-2.8.1-rc1/scripts/setup.php 3 -
+http://proxyjudge1.proxyfire.net/fastenv 4 -
+/phpMyAdmin-2.6.4-pl2/scripts/setup.php 2 -
+/wm//bin/msgimport 1 -
+/webadmin/scripts/setup.php 3 -
+/pma2005/scripts/setup.php 3 -
+/phpMyAdmin-2.6.0/scripts/setup.php 3 -
+/scripts/setup.php 3 -
+/mails//README 1 -
+/phpMyAdmin-2.6.2-pl1/scripts/setup.php 3 -
+/PMA2005/scripts/setup.php 3 -
+/articles/article_id/40 2 http://sleepsquares.com/articles/article.php
+/phpmy-admin/scripts/setup.php 3 -
+/e107/e107_docs/gpl.txt 1 -
+/chats//chat/messagesL.php3 1 -
+/links/images/ss/seperator.png 14 http://sleepsquares.com/links/index.php
+/chat2//chat/messagesL.php3 1 -
+/articles/article_id/45 1 http://sleepsquares.com/articles/article.php
+/phpMyAdmin-2.8.0-beta1/scripts/setup.php 3 -
+/phpMyAdmin-2.6.0-alpha2/scripts/setup.php 3 -
+//phpMyAdmin1/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0/scripts/setup.php 3 -
+/phpMyAdmin-2.6.0-pl3/scripts/setup.php 3 -
+/chatroom//chat/messagesL.php3 1 -
+/phpMyAdmin-2.6.2/scripts/setup.php 2 -
+/myadmin/scripts/setup.php 3 -
+/newmail//README 1 -
+/phpMyAdmin-2.8.0-rc2/scripts/setup.php 3 -
+/horde-3.0.8//README 1 -
+/phpMyChat-0.14.3//chat/messagesL.php3 1 -
+/phpMyAdmin-2.6.4-rc1/scripts/setup.php 3 -
+/forum//chat/messagesL.php3 1 -
+/images/DB_30_bottle.jpg 8 http://sleepsquares.com/articles/article.php
+/phpMyAdmin-2.5.7-pl1/scripts/setup.php 3 -
+/articles/article_id/20 1 http://sleepsquares.com/admin/content_admin2.php
+/phpadmin/phpMyAdmin-2.11.4/scripts/setup.php 1 -
+/includes/function.mysql-query 1 http://sleepsquares.com/includes/main3.php
+/store/product_%0Acategory.php 2 -
+/webdb/scripts/setup.php 3 -
+//RAHAT/PHP.php 1 -
+/roundcubemail-0.1//bin/msgimport 1 -
+/mysqladmin/scripts/setup.php 6 -
+/xampp/phpmyadmin/scripts/setup.php 3 -
+/articles/article_id/55 2 http://sleepsquares.com/articles/article.php
+/w00tw00t.at.blackhats.romanian.anti-sec:) 3 -
+/phpMyAdmin-2.6.3/scripts/setup.php 6 -
+/phpchat//chat/messagesL.php3 1 -
+/dbadmin/scripts/setup.php 3 -
+/phpMyAdmin-2.6.1-pl1/scripts/setup.php 3 -
+/includes/, 2 -
+/horde//README 1 -
+/directions/images/ss/seperator.png 30 http://sleepsquares.com/directions/index.php
+/articles/article_id/35 1 http://sleepsquares.com/articles/article.php
+/PhpMyChat//chat/messagesL.php3 1 -
+/webmail//README 1 -
+/phpMyAdmin-2.5.1/scripts/setup.php 2 -
+/warnings/images/ss/seperator.png 60 http://sleepsquares.com/warnings/index.php
+/phpmyadmin/scripts/setup.php 7 -
+/roundcube-0.1//bin/msgimport 1 -
+/typo3/phpmyadmin/scripts/setup.php 3 -
+/rms//bin/msgimport 1 -
+/articles/images/ss/seperator.png 32 http://sleepsquares.com/articles/index.php
+/phpMyChat-0.14.2//chat/messagesL.php3 1 -
+/about/images/ss/seperator.png 138 http://sleepsquares.com/about/index.php
+/user/soapCaller.bs 1 -
+/forums//chat/messagesL.php3 1 -
+/webmail//bin/msgimport 1 -
+/Admin/scripts/setup.php 1 -
+/web/phpMyAdmin/scripts/setup.php 3 -
+/images/button_add_to_cart_over.gif 9 http://sleepsquares.com/store/index.php
+/articles/article_id/60 1 -
+/phpMyAdmin-2.5.5/scripts/setup.php 3 -
+/phpMyAdmin-2.2.3/scripts/setup.php 3 -
+/phpMyChat-0.14.4//chat/messagesL.php3 1 -
+/supplement-facts/images/ss/seperator.png 42 http://sleepsquares.com/supplement-facts/index.php
+/p/m/a/scripts/setup.php 3 -
+/phpMyAdmin-2.6.1-rc2/scripts/setup.php 3 -
+/phpMyAdmin-2.6.3-rc1/scripts/setup.php 2 -
+//store/images/ss/seperator.png 1 http://sleepsquares.com//store/
+/phpMyAdmin-2.6.4/scripts/setup.php 3 -
+/phpMyAdmin-2.2.6/scripts/setup.php 3 -
+/../images/7piece.original.jpg 2 http://sleepsquares.com/
+/mail//bin/msgimport 1 -
+/mss2//bin/msgimport 1 -
+/phpMyAdmin-2.5.5-rc1/scripts/setup.php 3 -
+/images/button_update_cart_over.gif 9 http://sleepsquares.com/store/index.php
+/phpmyadmino-ld/scripts/setup.php 1 -
+/my/phpmyadmin/scripts/setup.php 1 -
+/round//bin/msgimport 1 -
+/pma/scripts/setup.php 3 -
+/articles/article_id/17 4 http://sleepsquares.com/articles/article.php
+/db/scripts/setup.php 3 -
+/phpMyAdmin-2.6.0-pl2/scripts/setup.php 3 -
+/articles/article_id/59 1 -
+//phpMyAdmin/scripts/setup.php 1 -
+/includes/.php 2 -
+/phpMyAdmin-2.6.4-pl4/scripts/setup.php 3 -
+/mysqlmanager/scripts/setup.php 3 -
+/email//README 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3096
+173.45.181.106 1589 2838 32382546 20101029034059
+67.251.69.56 1304 4651 23064822 20101029144538
+173.45.181.97 92 276 7035989 20101029085606
+205.251.121.5 85 85 884484 20101020131445
+96.238.138.220 83 112 1804028 20101019200234
+207.189.121.46 36 36 308626 20101031122325
+150.70.75.167 33 37 205275 20101029203625
+69.117.30.67 30 163 2056527 20101026115937
+66.245.219.238 27 27 21789 20101030233227
+64.233.172.20 24 30 480870 20101031143732
+67.166.82.67 21 42 1127438 20101021012414
+89.123.58.34 20 23 290467 20101031032935
+92.85.33.199 20 23 290429 20101026045506
+203.115.80.59 20 20 16140 20101029020454
+173.70.148.231 18 26 623235 20101025202412
+150.70.64.205 18 20 122362 20101026112723
+72.16.169.78 17 30 611920 20101011122759
+71.255.41.101 17 51 1500847 20101025101307
+24.189.244.167 16 16 12912 20101023075607
+68.171.231.21 16 16 12912 20101031134821
+64.233.172.1 15 15 12105 20101014202917
+38.117.236.210 15 54 1450138 20101026093019
+207.189.121.45 14 14 174744 20101031133607
+68.171.231.19 13 13 10491 20101031134751
+68.28.147.118 12 12 9684 20101010163210
+69.84.21.130 1 1 807 20101031002038
+88.108.232.196 1 1 807 20101010152015
+70.191.123.100 1 1 807 20101021221258
+122.168.208.244 1 1 807 20101031230037
+174.223.1.167 1 1 807 20101019183535
+131.94.186.10 1 1 807 20101011074950
+158.111.5.34 1 1 807 20101028061644
+205.188.116.204 0 1 150 
+68.55.107.86 1 1 807 20101011031953
+71.193.149.26 1 1 807 20101009000232
+68.11.99.167 1 1 807 20101011171415
+208.54.86.70 1 1 807 20101009095137
+24.254.224.182 1 1 807 20101016024412
+66.82.9.12 1 1 807 20101028063255
+207.46.12.63 1 1 807 20101027041242
+174.48.94.57 1 1 807 20101022205534
+72.181.117.28 1 1 807 20101011104904
+112.110.3.42 1 1 807 20101014080642
+201.167.100.217 1 1 807 20101007094440
+109.164.204.128 1 1 807 20101019235120
+74.78.9.132 1 1 807 20101017205039
+216.17.37.210 1 1 807 20101022103139
+24.126.120.157 1 1 807 20101025175825
+82.37.80.182 1 1 807 20101007085343
+12.106.191.111 1 1 807 20101023200141
+205.188.116.70 1 1 807 20101020123315
+122.168.249.68 1 1 807 20101008010703
+201.200.117.250 1 1 807 20101016181323
+24.182.74.112 1 1 807 20101008193750
+24.233.219.114 1 1 807 20101026185650
+109.204.14.82 1 1 807 20101018053829
+207.46.204.160 3 3 2421 20101025013321
+69.99.203.142 1 1 807 20101017041408
+24.91.46.32 1 1 807 20101014125131
+24.193.7.129 1 1 807 20101025205625
+109.157.39.214 2 2 1614 20101014140945
+69.124.238.99 1 1 807 20101010053120
+71.226.165.109 1 1 807 20101015114645
+83.131.49.105 1 1 807 20101025202940
+50.15.18.156 1 1 807 20101020215109
+205.185.229.17 1 1 807 20101026192059
+76.233.83.8 1 1 807 20101008002511
+76.92.148.75 1 1 807 20101015144528
+67.183.149.87 1 1 807 20101016012535
+71.134.238.70 1 1 807 20101019182507
+24.46.44.152 1 1 807 20101012205419
+66.245.219.161 1 1 807 20101027021132
+166.189.162.46 1 1 807 20101031164931
+84.50.241.195 1 1 807 20101026173331
+63.240.175.30 1 1 807 20101020154348
+85.74.203.226 1 1 807 20101013032452
+99.141.183.22 1 1 807 20101029221653
+129.72.139.5 1 1 807 20101020171049
+99.230.248.192 1 1 807 20101020210224
+74.190.21.140 1 1 807 20101009102312
+76.23.114.213 1 1 807 20101017135519
+85.23.163.122 1 1 807 20101019233949
+24.76.51.199 1 1 807 20101023193306
+69.23.114.51 1 1 807 20101027183247
+75.40.67.171 1 1 807 20101016015556
+76.93.144.66 1 1 807 20101027162642
+129.186.253.75 1 1 807 20101022232258
+85.49.204.53 1 1 807 20101026220023
+80.136.131.229 1 1 807 20101014103052
+70.94.85.82 1 1 807 20101030202815
+92.97.247.110 1 1 807 20101013181629
+64.255.164.37 1 1 807 20101024152656
+173.174.162.96 1 1 807 20101024201941
+69.78.70.134 1 1 807 20101017163236
+70.241.90.141 1 1 807 20101031221550
+184.1.100.9 1 1 807 20101028181850
+78.148.160.190 1 1 807 20101016111606
+166.137.13.228 1 1 807 20101013045454
+71.7.178.92 1 1 807 20101024233056
+68.197.54.69 1 1 807 20101010005006
+66.69.20.23 1 1 807 20101012204851
+122.169.87.159 1 1 807 20101018054201
+97.253.137.147 1 1 807 20101027135031
+173.2.229.252 7 27 555618 20101025101312
+207.46.199.11 1 1 807 20101010161436
+71.98.164.69 1 1 807 20101008194056
+92.40.43.39 1 1 807 20101027162513
+68.191.48.173 1 1 807 20101026195130
+139.78.10.2 1 1 807 20101022220248
+71.22.74.76 1 1 807 20101009025220
+147.26.222.242 1 1 807 20101014022056
+12.177.123.180 1 1 807 20101031104057
+67.173.189.205 1 1 807 20101022232353
+68.174.37.27 1 1 807 20101012031559
+216.161.238.186 1 1 807 20101011102043
+190.87.178.1 1 1 807 20101023111449
+75.71.101.182 1 1 807 20101009190056
+143.88.0.213 1 1 807 20101019181631
+94.10.246.15 1 1 807 20101021172955
+64.127.38.178 1 1 807 20101027134302
+190.232.129.59 1 1 807 20101010095839
+94.194.211.55 1 1 807 20101026154127
+98.213.105.112 1 1 807 20101022133049
+69.26.86.171 1 1 807 20101009201256
+71.224.205.60 1 1 807 20101030210048
+74.173.232.17 1 1 807 20101023143605
+131.191.33.79 3 3 2421 20101017214812
+93.186.23.239 1 1 807 20101030152833
+70.176.122.174 1 1 807 20101007193445
+120.140.92.177 1 1 807 20101023231047
+93.34.220.179 1 1 807 20101018185038
+71.104.22.247 1 1 807 20101008193358
+86.132.147.202 1 1 807 20101009102547
+96.255.127.7 1 1 807 20101026023631
+173.54.240.140 1 1 807 20101024192725
+82.193.82.146 1 1 807 20101010082450
+173.22.241.188 1 1 807 20101010230229
+70.231.96.4 1 1 807 20101011051056
+68.220.162.87 1 1 807 20101013162405
+70.160.73.221 1 1 807 20101018105856
+75.50.104.153 1 1 807 20101030222742
+174.49.86.96 1 1 807 20101012175100
+74.41.56.97 1 1 807 20101010015714
+99.52.143.46 1 1 807 20101019142803
+207.192.249.58 1 1 807 20101014160902
+99.177.91.88 2 2 1614 20101014200116
+24.122.252.192 1 1 807 20101009180347
+70.241.104.89 1 1 807 20101011171037
+166.205.137.80 1 1 807 20101021185122
+173.31.73.128 1 1 807 20101023140523
+76.120.192.242 1 1 807 20101026121908
+166.205.8.126 1 1 807 20101015195638
+24.47.133.227 1 1 807 20101009001721
+72.152.168.195 1 1 807 20101021205608
+98.118.166.130 1 1 807 20101009101511
+97.122.121.246 1 1 807 20101023220905
+24.211.107.87 1 1 807 20101013003500
+64.12.116.130 1 1 807 20101026175012
+206.53.157.223 1 1 807 20101009203427
+71.246.44.241 1 1 807 20101010211736
+69.141.241.254 3 3 2421 20101013103818
+118.137.128.145 1 1 807 20101009154607
+71.234.72.93 1 1 807 20101009234818
+75.85.38.25 1 1 807 20101018000805
+67.191.203.47 1 1 807 20101023214821
+76.102.117.174 1 1 807 20101025173528
+97.123.47.98 1 1 807 20101028184429
+64.180.55.190 1 1 807 20101011201925
+136.223.3.130 1 1 807 20101028072907
+173.173.48.170 1 1 807 20101026234133
+174.45.158.26 1 1 807 20101025011459
+71.42.216.78 1 1 807 20101016194926
+75.167.36.173 1 1 807 20101024031349
+75.117.45.88 1 1 807 20101026000307
+81.106.141.241 1 1 807 20101014194844
+83.76.20.131 1 1 807 20101024030712
+76.112.127.232 1 1 807 20101021184056
+72.229.17.79 2 2 1614 20101025204143
+209.195.65.191 1 1 807 20101013215339
+70.115.74.94 1 1 807 20101022002110
+75.91.69.244 1 1 807 20101031175915
+81.36.236.113 1 1 807 20101028211542
+108.7.191.219 1 1 807 20101020184344
+208.107.110.158 1 1 807 20101018153942
+71.118.206.50 1 1 807 20101030204503
+74.76.12.69 3 3 2421 20101020200237
+75.129.53.82 1 1 807 20101016095014
+99.24.250.13 1 1 807 20101022050608
+86.33.34.6 3 3 2421 20101029180638
+71.231.222.163 1 1 807 20101026220316
+118.137.4.37 1 1 807 20101008235807
+75.48.3.178 1 1 807 20101027024955
+98.150.12.49 1 1 807 20101019021802
+198.83.125.28 1 1 807 20101028065856
+173.77.245.109 1 1 807 20101018142147
+169.229.119.151 1 1 807 20101010012420
+65.32.73.9 1 1 807 20101010020616
+82.18.61.98 1 1 807 20101028091636
+71.163.69.182 1 1 807 20101017143433
+68.174.47.33 1 1 807 20101027014038
+67.142.173.24 1 1 807 20101027182952
+166.205.137.200 1 1 807 20101027013257
+74.179.168.248 1 1 807 20101020233921
+91.152.37.162 1 1 807 20101013060142
+99.22.65.139 1 1 807 20101028003524
+98.127.20.185 2 2 1614 20101023000315
+68.145.58.75 1 1 807 20101025055619
+206.53.157.22 5 5 4035 20101016162642
+95.109.7.4 1 1 807 20101012161612
+71.188.49.5 1 1 807 20101023172952
+89.138.73.105 1 1 807 20101028114324
+128.113.138.110 1 1 807 20101024203616
+75.84.159.56 1 1 807 20101028181417
+70.58.243.33 1 1 807 20101007183339
+69.29.34.250 1 1 807 20101025004834
+148.4.89.214 1 1 807 20101027130526
+71.181.145.215 1 1 807 20101014144026
+173.146.62.8 1 1 807 20101025183921
+98.230.96.111 1 1 807 20101025191123
+75.117.162.253 1 1 807 20101027105510
+64.53.230.144 1 1 807 20101014080939
+74.125.74.193 1 1 807 20101014080435
+166.137.142.178 1 1 807 20101025145739
+209.151.123.104 1 1 807 20101011204617
+71.234.119.24 1 1 807 20101029220034
+166.205.13.246 1 1 807 20101023004601
+99.163.102.229 1 1 807 20101014235743
+76.30.113.5 1 1 807 20101010160108
+24.60.245.36 1 1 807 20101007164622
+67.176.35.184 1 1 807 20101030115910
+96.229.92.247 1 1 807 20101025172829
+24.130.95.109 1 1 807 20101026163922
+93.36.67.113 1 1 807 20101013140527
+192.251.125.85 1 1 807 20101031231956
+71.84.94.215 1 1 807 20101013184241
+71.252.226.8 1 1 807 20101023153515
+75.117.131.141 1 1 807 20101023222856
+98.112.201.5 1 1 807 20101026194223
+65.10.92.104 1 1 807 20101017161521
+71.53.192.176 1 1 807 20101025162841
+67.35.190.208 1 1 807 20101022155725
+173.74.208.18 1 1 807 20101013000918
+173.48.66.102 1 1 807 20101009092043
+75.75.15.249 1 1 807 20101019192850
+24.86.166.102 1 1 807 20101019170433
+173.162.199.90 1 1 807 20101026170501
+72.19.72.72 1 1 807 20101010231243
+97.131.0.97 1 1 807 20101012154613
+143.44.69.141 1 1 807 20101015210839
+24.12.46.135 1 1 807 20101029052648
+96.48.236.7 1 1 807 20101012182329
+96.240.7.194 1 1 807 20101027135219
+166.205.139.252 1 1 807 20101026220219
+71.173.221.193 1 1 807 20101014213444
+83.251.81.194 1 1 807 20101017141653
+24.0.18.122 2 2 1614 20101011100213
+68.189.47.70 1 1 807 20101019124727
+67.201.255.201 1 1 807 20101013004433
+98.250.154.145 1 1 807 20101017154710
+99.170.252.148 1 1 807 20101013102628
+66.189.4.253 1 1 807 20101008150412
+166.137.137.100 1 1 807 20101009090609
+205.188.117.17 1 1 807 20101022164028
+216.104.15.134 5 5 25121 20101027211013
+74.105.174.252 1 1 807 20101019201309
+24.218.8.176 1 1 807 20101030051612
+198.36.203.177 1 1 807 20101020123148
+173.68.229.75 1 1 807 20101029013450
+70.241.77.132 1 1 807 20101016121145
+98.92.127.26 4 4 3228 20101026183704
+86.2.4.70 1 1 807 20101020065309
+69.108.162.107 1 1 807 20101028011631
+173.79.79.100 1 1 807 20101024062830
+69.234.191.31 1 1 807 20101013092508
+128.62.27.69 1 1 807 20101031003604
+72.98.29.128 1 1 807 20101019124138
+68.73.81.158 1 1 807 20101007165411
+112.210.154.86 1 1 807 20101013113841
+74.42.146.181 1 1 807 20101015211404
+166.205.136.143 1 1 807 20101023011743
+97.229.15.152 1 1 807 20101020213332
+66.169.180.81 1 1 807 20101021215202
+69.141.149.229 1 1 807 20101027124123
+174.55.110.80 1 1 807 20101021201804
+67.185.21.73 1 1 807 20101022154335
+68.169.137.86 1 1 807 20101011140322
+70.241.78.78 1 1 807 20101021091209
+24.155.134.210 1 1 807 20101014175430
+41.131.49.130 1 1 807 20101011010128
+97.77.82.240 1 1 807 20101010182903
+24.147.96.189 1 1 807 20101013141248
+24.202.90.20 1 1 807 20101010210011
+72.177.172.215 1 1 807 20101019131022
+166.205.142.224 1 1 807 20101013190857
+68.8.214.151 1 1 807 20101015005036
+99.101.60.88 1 1 807 20101025194545
+78.90.169.61 1 1 807 20101014123149
+70.59.30.41 1 1 807 20101019161928
+222.91.65.119 1 1 807 20101031234207
+184.79.233.155 1 1 807 20101012231621
+70.16.87.109 1 1 807 20101009150220
+71.53.60.68 4 4 3228 20101016115715
+174.96.23.253 1 1 807 20101013155009
+76.186.150.86 1 1 807 20101023134841
+207.46.204.167 2 2 1614 20101013104002
+207.46.12.154 1 1 807 20101019201205
+173.57.149.227 1 1 807 20101029230211
+208.125.105.250 5 11 486351 20101021125143
+24.20.189.233 2 2 1614 20101025221730
+75.53.153.190 1 1 807 20101012150943
+71.161.194.77 1 1 807 20101012181229
+71.187.201.174 1 1 807 20101021160234
+68.171.231.16 8 8 6456 20101030174300
+76.119.132.131 1 1 807 20101009120217
+174.55.51.15 1 1 807 20101018212315
+86.176.140.10 1 1 807 20101007174407
+24.227.222.116 1 1 807 20101007214658
+72.105.76.188 1 1 807 20101025190314
+96.26.120.117 1 1 807 20101016194955
+173.75.12.188 1 1 807 20101013112521
+70.180.65.88 1 1 807 20101022132849
+24.208.192.27 1 1 807 20101014161655
+119.155.41.237 1 1 807 20101028084723
+71.40.223.68 1 1 807 20101011171948
+217.165.154.210 1 1 807 20101029015702
+94.13.18.229 1 1 807 20101026160909
+208.82.1.19 1 1 807 20101029093550
+70.161.152.93 1 1 807 20101031022907
+76.190.164.83 1 1 807 20101009093223
+82.178.4.23 1 1 807 20101014043151
+166.137.139.110 2 9 463470 20101025155420
+173.188.55.109 1 1 807 20101010210341
+60.240.227.147 1 1 807 20101022023734
+76.254.25.184 1 1 807 20101012104753
+71.188.19.48 1 1 807 20101027165138
+163.120.70.10 1 1 807 20101007235156
+166.205.136.133 1 1 807 20101019092452
+98.84.99.98 4 4 3228 20101016022446
+66.249.17.206 1 1 807 20101013132735
+190.87.175.202 1 1 807 20101021002048
+81.97.247.192 1 1 807 20101012155604
+124.161.110.34 1 1 807 20101022022814
+142.162.78.71 1 1 807 20101025111513
+71.176.22.71 1 1 807 20101025090403
+65.52.104.41 1 1 807 20101021222713
+173.16.105.235 1 1 807 20101020010119
+68.195.148.232 1 1 807 20101029100223
+72.152.105.206 1 1 807 20101017050859
+24.155.114.203 1 1 807 20101019070725
+72.19.121.133 1 1 807 20101012113011
+166.137.143.180 1 1 807 20101012231953
+97.153.81.107 1 1 807 20101019172157
+122.163.49.102 1 1 807 20101030053010
+98.112.56.60 1 1 807 20101010121535
+75.89.15.95 1 1 807 20101024111524
+72.172.37.202 1 1 807 20101028080702
+174.45.56.138 1 1 807 20101027010557
+138.67.151.220 1 1 807 20101020082512
+76.115.36.112 1 1 807 20101024000556
+12.169.199.162 1 1 807 20101027145341
+190.230.95.61 1 1 807 20101011175932
+74.67.124.62 1 1 807 20101025230102
+204.88.30.162 1 1 807 20101028084125
+206.53.153.166 3 3 2421 20101025212544
+129.7.17.178 1 1 807 20101012105529
+68.228.47.71 1 1 807 20101020172821
+72.118.142.73 1 1 807 20101011090750
+97.144.12.185 1 1 807 20101020144708
+75.17.230.180 1 1 807 20101026070600
+24.58.232.220 1 1 807 20101023180940
+98.156.12.249 1 1 807 20101019213704
+98.124.96.229 1 1 807 20101028144436
+99.95.10.50 1 1 807 20101029230457
+76.97.212.150 1 1 807 20101024193841
+109.42.136.23 1 1 807 20101024212457
+72.190.74.27 1 1 807 20101026151425
+142.162.11.102 2 2 1614 20101027150641
+194.36.154.240 1 1 807 20101015082453
+150.70.66.180 6 6 18634 20101029195441
+71.195.54.38 1 1 807 20101029155058
+138.87.138.3 1 1 807 20101030121312
+173.63.249.23 2 2 1614 20101023220848
+72.161.44.18 1 1 807 20101025160947
+173.60.53.75 1 1 807 20101025030500
+72.254.57.177 1 1 807 20101011134528
+76.192.207.197 1 1 807 20101029222747
+74.37.151.202 2 2 1614 20101026224641
+72.14.192.65 1 1 807 20101022235301
+98.86.153.94 1 1 807 20101021145913
+136.167.165.109 1 1 807 20101027205413
+173.176.160.214 1 1 807 20101027164415
+96.21.126.148 1 1 807 20101026131648
+99.174.162.115 1 1 807 20101012103936
+76.103.208.93 1 1 807 20101017022650
+24.228.34.4 1 1 807 20101008131717
+173.3.136.74 1 1 807 20101007232816
+67.142.168.21 1 1 807 20101030232207
+70.64.253.85 1 1 807 20101014220303
+24.162.116.139 1 1 807 20101015173508
+166.205.11.216 1 1 807 20101022214227
+74.34.80.41 1 1 807 20101023223943
+192.17.178.199 1 1 807 20101007161817
+142.222.33.95 1 1 807 20101015195553
+173.35.160.150 1 1 807 20101020111600
+68.5.16.131 1 1 807 20101012122825
+66.89.174.138 1 1 807 20101015080912
+99.228.239.58 1 1 807 20101011144527
+206.53.147.209 3 19 508354 20101016190945
+208.54.86.53 1 1 807 20101028132128
+87.69.62.80 1 1 807 20101023084014
+69.171.166.219 1 1 807 20101031031600
+205.188.116.135 1 1 807 20101013143540
+67.246.185.228 1 1 807 20101017212700
+173.202.35.248 1 1 807 20101018191546
+24.12.167.18 1 1 807 20101025153830
+12.229.166.57 1 1 807 20101010012935
+71.234.96.39 1 1 807 20101019143544
+184.8.105.183 1 1 807 20101027004956
+173.52.189.231 1 1 807 20101009205616
+207.46.12.22 1 1 807 20101021133311
+76.119.232.197 7 7 5649 20101029230443
+68.194.220.113 1 1 807 20101027100448
+70.116.134.66 1 1 807 20101018002936
+72.184.107.193 1 1 807 20101017124022
+59.161.127.5 1 1 807 20101027114325
+98.247.85.151 1 1 807 20101031093318
+64.90.157.83 1 1 807 20101018192123
+72.178.57.164 1 1 807 20101023222910
+166.137.143.111 1 1 807 20101019223108
+68.110.71.238 1 1 807 20101013094924
+174.59.170.70 1 1 807 20101015181211
+95.25.60.158 1 1 807 20101013233850
+98.92.24.146 2 2 1614 20101024102803
+24.162.119.234 2 2 1614 20101009111212
+72.175.35.176 1 1 807 20101014173334
+90.202.237.15 1 1 807 20101010155111
+198.101.42.95 1 1 807 20101012085411
+67.82.19.236 1 1 807 20101021182525
+74.240.222.23 1 1 807 20101029143013
+184.8.14.116 1 1 807 20101010230437
+68.171.231.20 6 6 4842 20101025161124
+96.246.2.127 1 1 807 20101026230507
+76.23.233.69 1 1 807 20101028150606
+74.101.186.150 1 1 807 20101016211025
+108.13.234.116 1 1 807 20101014004708
+98.203.178.196 1 1 807 20101027125042
+67.117.25.80 1 1 807 20101022002753
+98.127.24.138 1 1 807 20101007200902
+207.46.199.22 1 1 807 20101018102809
+64.252.19.153 1 1 807 20101026193928
+216.249.52.94 1 1 807 20101020094907
+69.123.157.3 2 2 1614 20101020224114
+71.36.87.62 1 1 807 20101028212412
+98.216.153.186 1 1 807 20101018231421
+99.66.202.49 1 1 807 20101012171419
+64.81.134.204 7 19 540407 20101020082351
+99.99.191.79 1 1 807 20101022135104
+74.220.79.232 1 1 807 20101017162122
+96.61.13.205 1 1 807 20101012230725
+75.23.120.190 1 1 807 20101023091246
+75.12.120.234 1 1 807 20101016155322
+93.96.118.8 1 1 807 20101008112901
+65.70.108.66 1 1 807 20101016173344
+189.177.17.23 1 1 807 20101027183339
+69.126.233.38 1 1 807 20101029093638
+24.243.18.76 1 1 807 20101007125714
+69.109.116.17 1 1 807 20101029110930
+70.178.76.179 1 1 807 20101016202100
+69.243.252.97 1 1 807 20101011074543
+67.235.215.61 1 1 807 20101026213435
+173.16.106.115 1 1 807 20101011160518
+173.188.31.138 1 1 807 20101011003225
+76.6.62.188 1 1 807 20101014194224
+24.15.236.64 1 1 807 20101007121615
+74.101.240.178 1 1 807 20101029103950
+122.176.200.218 2 2 1614 20101029041045
+68.201.64.180 2 2 1614 20101029173706
+174.55.125.145 1 1 807 20101019070708
+208.80.74.44 3 3 2421 20101029091111
+216.166.12.133 2 2 1614 20101029155553
+24.154.189.76 1 1 807 20101017065656
+129.32.96.232 1 1 807 20101029163712
+122.163.149.198 1 1 807 20101029032034
+198.82.6.244 1 1 807 20101019125039
+192.17.198.224 1 1 807 20101021114317
+184.189.219.195 1 1 807 20101028001053
+69.114.227.190 1 1 807 20101026212534
+64.13.92.93 1 1 807 20101024120525
+147.26.234.210 1 1 807 20101008204053
+166.205.14.166 1 1 807 20101012164538
+174.111.240.114 1 1 807 20101021165712
+74.7.45.138 1 1 807 20101025142033
+74.113.106.102 1 1 807 20101007131630
+69.207.214.138 5 14 485268 20101020125256
+207.46.12.205 1 1 807 20101011173240
+63.231.50.92 4 4 3228 20101014125118
+222.72.137.101 1 1 807 20101007214535
+96.224.53.6 1 1 807 20101027130205
+114.207.129.184 2 2 1614 20101015205022
+82.1.124.172 1 1 807 20101013161205
+99.242.190.23 1 1 807 20101016160940
+68.186.86.121 1 1 807 20101007232334
+63.247.60.254 1 1 807 20101011082914
+76.84.113.141 1 1 807 20101020234607
+89.240.254.194 1 1 807 20101011163919
+69.14.12.211 1 1 807 20101029174454
+207.199.210.83 1 1 807 20101013020654
+76.30.83.235 1 1 807 20101018134002
+166.216.130.29 1 1 807 20101025054801
+24.20.203.130 1 1 807 20101009183611
+65.119.124.98 1 1 807 20101026094714
+138.210.4.245 1 1 807 20101007174027
+99.118.117.94 1 1 807 20101025111417
+89.126.42.122 1 1 807 20101026131933
+65.242.107.218 1 1 807 20101014094714
+98.234.137.110 1 1 807 20101019235126
+166.205.10.13 1 1 807 20101026202701
+69.14.231.56 1 1 807 20101020155428
+74.192.81.31 1 1 807 20101012005051
+208.191.143.173 3 3 2421 20101021090217
+67.188.80.120 1 1 807 20101020232033
+173.21.240.212 1 1 807 20101009130302
+69.181.228.209 1 1 807 20101024225631
+208.125.141.90 1 1 807 20101018075127
+209.104.229.66 1 1 807 20101029160034
+74.88.147.112 1 1 807 20101023114758
+68.230.226.98 1 1 807 20101022015830
+72.14.94.35 1 1 807 20101010222409
+94.249.43.109 1 1 807 20101021101610
+71.82.107.20 1 1 807 20101022054843
+66.191.182.189 1 1 807 20101007233352
+98.68.128.57 1 1 807 20101011165836
+93.97.194.149 1 1 807 20101028042241
+71.187.212.129 1 1 807 20101027183946
+97.170.95.71 1 1 807 20101023215811
+93.137.60.162 1 1 807 20101011153043
+24.0.138.193 1 1 807 20101007144835
+74.193.81.48 1 1 807 20101014193926
+68.157.198.127 1 1 807 20101021114550
+206.57.22.195 1 1 807 20101020004142
+68.36.125.68 1 1 807 20101016212233
+74.214.96.139 1 1 807 20101019180848
+99.7.12.157 1 1 807 20101013221417
+96.232.13.217 1 1 807 20101019173158
+170.215.62.197 1 1 807 20101020201940
+68.59.176.197 1 1 807 20101024184626
+71.51.1.68 1 1 807 20101007121556
+24.23.2.52 1 1 807 20101019135342
+66.190.177.33 1 1 807 20101026204834
+71.194.164.129 1 1 807 20101015061507
+70.3.28.216 1 1 807 20101019152906
+24.190.187.97 1 1 807 20101029171735
+173.215.207.241 1 1 807 20101031233901
+99.141.24.235 1 1 807 20101028231518
+86.17.86.98 1 1 807 20101016160241
+94.0.72.161 1 1 807 20101019112607
+174.124.251.142 1 1 807 20101013201105
+156.142.120.129 1 1 807 20101013012344
+166.137.140.82 1 1 807 20101026231818
+189.182.147.173 1 1 807 20101008185323
+98.207.50.169 1 1 807 20101025013526
+68.171.231.80 1 1 807 20101028193226
+76.166.249.230 4 16 509694 20101017143034
+75.149.88.129 2 2 1614 20101023225211
+24.218.57.10 1 1 807 20101031194902
+209.237.109.27 1 1 807 20101010211539
+182.177.14.90 1 1 807 20101026113444
+99.36.150.179 1 1 807 20101012170439
+99.239.44.3 1 1 807 20101029052459
+99.40.201.19 1 1 807 20101029202910
+173.171.144.214 1 1 807 20101007193911
+207.46.12.202 1 1 807 20101022130119
+137.140.145.29 1 1 807 20101015185248
+201.127.202.236 1 1 807 20101025012531
+69.113.166.91 1 1 807 20101021224443
+99.189.216.151 1 1 807 20101010011814
+24.254.171.126 1 1 807 20101019182455
+71.118.126.21 1 1 807 20101020071259
+98.198.209.107 1 1 807 20101016164955
+74.208.147.213 1 1 807 20101030060038
+66.33.238.98 1 1 807 20101029124232
+79.245.166.122 1 1 807 20101021142329
+98.229.32.23 1 1 807 20101031195805
+75.199.223.203 1 1 807 20101012212408
+206.53.153.253 4 12 486974 20101025155440
+72.19.90.162 1 1 807 20101020121855
+198.83.125.25 3 3 2421 20101025093023
+69.149.169.72 2 2 1614 20101028222701
+70.22.123.111 1 1 807 20101028115452
+141.238.195.157 1 1 807 20101028223525
+75.164.101.212 1 1 807 20101017153523
+99.190.121.37 1 1 807 20101022212010
+69.3.229.118 1 1 807 20101022140042
+94.8.73.152 1 1 807 20101011134338
+24.52.145.120 1 1 807 20101012125227
+74.109.208.21 1 1 807 20101017134156
+99.28.139.238 1 1 807 20101013161158
+173.52.107.110 1 1 807 20101027014733
+74.108.239.85 1 1 807 20101019153105
+130.18.78.104 1 1 807 20101014200409
+76.70.114.156 1 1 807 20101022162412
+173.66.160.64 1 1 807 20101012203428
+75.70.96.6 1 1 807 20101014175419
+195.210.227.194 1 1 807 20101007142421
+24.114.234.33 1 1 807 20101019201145
+67.201.214.46 1 1 807 20101022132016
+119.224.66.179 1 1 807 20101023082232
+199.46.200.231 1 1 807 20101008012148
+122.108.160.220 1 1 807 20101026065102
+76.24.237.45 3 3 2421 20101026192128
+97.117.84.47 1 1 807 20101024003729
+76.84.230.134 1 1 807 20101031072401
+81.236.20.212 1 1 807 20101011143906
+99.157.140.77 1 1 807 20101026173058
+67.241.68.98 1 1 807 20101026173541
+78.166.178.64 1 1 807 20101017141016
+24.5.48.184 1 1 807 20101026234036
+169.226.112.177 1 1 807 20101014174018
+166.205.12.18 1 1 807 20101013052644
+68.84.11.197 1 1 807 20101008224836
+81.132.87.62 1 1 807 20101026191920
+76.171.148.184 1 1 807 20101016173656
+66.231.133.122 1 1 807 20101011232455
+87.232.1.48 1 1 807 20101025184611
+72.254.150.187 1 1 807 20101007192939
+68.64.113.45 1 1 807 20101015172945
+98.82.130.236 1 1 807 20101013031635
+64.12.117.6 1 1 807 20101030095857
+169.204.228.146 1 1 807 20101028084521
+97.119.181.20 1 1 807 20101022022236
+68.10.67.251 1 1 807 20101019123510
+24.27.43.58 1 1 807 20101026194446
+68.198.127.251 1 1 807 20101022015548
+76.103.47.14 1 1 807 20101016223135
+71.233.137.77 1 1 807 20101010075220
+173.48.235.117 1 1 807 20101019031147
+204.112.164.124 1 1 807 20101030203113
+12.183.76.10 1 1 807 20101021080144
+67.248.211.98 1 1 807 20101016141325
+81.18.225.134 1 1 807 20101027055044
+98.229.185.43 1 1 807 20101012224429
+68.108.219.86 1 1 807 20101010210424
+81.90.22.59 1 1 807 20101029121503
+216.221.203.88 2 2 1614 20101026175214
+66.42.95.90 1 1 807 20101025025123
+203.212.25.88 1 1 807 20101018184910
+99.9.18.245 1 1 807 20101014145345
+174.99.103.224 1 1 807 20101014234518
+201.151.193.252 1 1 807 20101014120637
+24.10.10.165 2 2 1614 20101012135715
+24.227.222.59 1 1 807 20101031180921
+76.106.236.160 2 2 1614 20101017222601
+80.7.84.177 1 1 807 20101021184310
+86.179.11.173 1 1 807 20101026091040
+209.172.30.140 1 1 807 20101010163049
+91.111.14.10 1 1 807 20101013173919
+75.18.168.59 1 1 807 20101021205631
+71.218.52.96 9 9 7263 20101022144043
+89.168.139.106 1 1 807 20101021160845
+206.188.153.3 1 1 807 20101028082834
+98.77.242.10 1 1 807 20101011175718
+98.122.118.232 1 1 807 20101027202200
+75.93.245.210 1 1 807 20101026224839
+68.33.109.108 1 1 807 20101018083343
+24.189.254.72 1 1 807 20101020170841
+63.85.151.70 1 1 807 20101029131031
+64.17.76.82 1 1 807 20101028202226
+207.255.221.161 5 13 513420 20101027001116
+150.135.210.16 2 2 1614 20101029153950
+69.119.61.19 1 1 807 20101010134605
+166.205.141.14 1 1 807 20101026122831
+72.227.178.152 1 1 807 20101029170835
+98.114.106.144 1 1 807 20101020165526
+71.80.13.100 1 1 807 20101018105920
+66.87.5.30 1 1 807 20101028223520
+71.253.66.73 1 1 807 20101024191138
+192.12.88.65 1 1 807 20101013210126
+86.40.206.219 1 1 807 20101010163619
+123.201.246.224 1 1 807 20101018081917
+166.216.226.26 1 1 807 20101029053819
+66.255.55.23 5 5 4035 20101008052143
+70.44.136.92 1 1 807 20101015151505
+68.171.231.17 10 10 8070 20101028093145
+98.244.3.243 1 1 807 20101031000821
+67.212.96.127 1 1 807 20101016101949
+24.128.165.244 8 8 6456 20101031195213
+207.250.153.34 1 1 807 20101013085129
+128.248.55.76 1 1 807 20101008114952
+207.47.151.5 1 1 807 20101020221944
+71.165.246.127 1 1 807 20101029224956
+202.46.123.130 1 1 807 20101019004153
+184.78.98.132 1 1 807 20101024194045
+24.117.159.4 1 1 807 20101021182904
+72.35.118.19 1 1 807 20101029144928
+24.136.230.122 1 1 807 20101024195802
+206.188.130.215 1 1 807 20101026123001
+130.184.250.29 1 1 807 20101025133848
+98.201.102.104 1 1 807 20101020220148
+67.170.211.112 1 1 807 20101021231520
+78.129.107.170 1 1 807 20101020164145
+69.152.245.107 3 3 2421 20101011214120
+74.4.114.163 1 1 807 20101009012800
+71.125.2.44 1 1 807 20101028163730
+68.142.39.204 1 1 807 20101015061918
+69.199.101.89 1 1 807 20101021081512
+24.19.178.205 1 1 807 20101015182527
+168.184.220.4 1 1 807 20101014104831
+72.93.242.106 3 3 2421 20101026070032
+24.5.177.249 1 1 807 20101021215156
+70.118.90.244 1 1 807 20101015204402
+24.242.221.228 1 1 807 20101024144229
+202.134.153.91 1 1 807 20101031065033
+24.125.79.143 1 1 807 20101011131541
+128.235.132.205 1 1 807 20101007220135
+193.247.250.17 1 1 807 20101027110014
+166.216.194.74 1 1 807 20101020151234
+190.167.170.71 1 1 807 20101019201942
+71.206.138.7 1 1 807 20101012031744
+68.228.204.116 2 2 1614 20101027115229
+90.221.69.83 1 1 807 20101026082458
+198.82.70.53 1 1 807 20101014141122
+71.204.225.34 1 1 807 20101012114029
+94.195.252.148 1 1 807 20101028044147
+208.115.150.203 2 2 1614 20101024035108
+68.36.43.226 1 1 807 20101029070211
+74.243.108.84 2 2 1614 20101022144512
+24.236.130.146 1 1 807 20101024161455
+82.73.222.226 1 1 807 20101022154158
+76.117.92.188 1 1 807 20101017181714
+208.87.234.180 1 1 807 20101024083945
+74.82.64.32 4 4 3228 20101022171205
+86.26.233.163 1 1 807 20101010102701
+122.107.161.167 1 1 807 20101030185144
+207.46.199.32 1 1 807 20101014130322
+187.160.178.8 1 1 807 20101026153923
+76.121.66.218 1 1 807 20101012135553
+173.64.159.39 1 1 807 20101025201945
+24.125.162.25 1 1 807 20101007182401
+86.128.37.57 1 1 807 20101007124000
+209.159.240.241 1 1 807 20101024191937
+94.195.215.136 1 1 807 20101017060804
+67.82.95.241 1 1 807 20101014161006
+67.158.31.18 1 1 807 20101015144827
+88.174.13.61 1 1 807 20101017085529
+24.93.160.233 1 1 807 20101020213610
+97.96.48.175 1 1 807 20101012185642
+71.115.14.64 1 1 807 20101024090409
+98.248.153.196 1 1 807 20101018191419
+68.35.41.129 1 1 807 20101027222213
+69.45.121.93 1 1 807 20101014235306
+69.246.221.188 1 1 807 20101027054625
+207.46.204.157 1 1 807 20101019110028
+174.103.116.46 1 1 807 20101026205054
+66.74.234.75 1 1 807 20101019203129
+98.16.133.136 1 1 807 20101029170939
+50.9.3.103 1 1 807 20101012164027
+75.183.121.63 1 1 807 20101020182831
+24.232.104.7 1 1 807 20101009012642
+76.179.22.245 1 1 807 20101030233323
+93.222.85.45 2 2 1614 20101013104232
+216.40.69.236 1 1 807 20101027144925
+174.132.19.226 2 2 1614 20101007095421
+67.173.147.181 1 1 807 20101031213713
+173.52.107.78 1 1 807 20101023222208
+66.87.2.30 1 1 807 20101025165531
+97.8.25.230 1 1 807 20101012125100
+207.46.12.18 1 1 807 20101022082219
+98.208.58.158 1 1 807 20101028010111
+67.68.151.175 1 1 807 20101017192529
+75.68.211.236 1 1 807 20101014174958
+75.182.4.72 1 1 807 20101013123235
+173.165.209.98 1 1 807 20101010144507
+99.116.236.98 1 1 807 20101012154430
+85.64.115.211 1 1 807 20101019155611
+76.169.74.63 1 1 807 20101011024131
+205.188.117.80 2 2 21920 20101020123711
+99.245.71.254 1 1 807 20101023142812
+85.103.100.109 1 1 807 20101025120608
+98.233.239.116 1 1 807 20101009221743
+208.54.14.24 1 1 807 20101027033932
+99.113.61.152 1 1 807 20101011140028
+203.145.92.163 1 1 807 20101011095849
+108.10.116.246 1 1 807 20101010075408
+72.178.11.62 1 1 807 20101031192212
+74.221.251.90 10 29 997168 20101014091231
+98.30.170.252 1 1 807 20101011211057
+92.17.196.158 1 1 807 20101030150756
+65.111.172.186 1 1 807 20101013044855
+65.101.143.11 1 1 807 20101008143905
+174.44.60.28 1 1 807 20101008204413
+80.218.111.14 1 1 807 20101026093736
+67.247.63.104 1 1 807 20101028114110
+24.46.186.245 1 1 807 20101007093600
+174.131.100.188 1 1 807 20101013080811
+70.27.204.206 1 1 807 20101028073058
+96.224.34.51 1 1 807 20101011204144
+24.227.191.78 1 1 807 20101008112000
+71.232.105.28 1 1 807 20101007125413
+76.106.216.147 1 1 807 20101008214452
+75.111.20.219 1 1 807 20101012191746
+71.245.254.36 1 1 807 20101020191849
+174.103.27.237 1 1 807 20101008175743
+142.176.0.114 2 8 458996 20101019091102
+68.4.44.1 1 1 807 20101010153805
+24.1.181.205 1 1 807 20101009183725
+120.63.21.14 1 1 807 20101017064124
+99.56.220.212 1 1 807 20101019161554
+69.203.30.248 1 1 807 20101019205019
+24.131.32.169 1 1 807 20101016222403
+24.44.52.80 1 1 807 20101021150614
+99.107.181.82 1 1 807 20101024200358
+75.44.48.54 1 1 807 20101028212119
+70.123.141.146 1 1 807 20101013174004
+72.225.175.46 7 21 565226 20101025101751
+76.18.230.3 1 1 807 20101027142609
+108.11.39.91 1 1 807 20101031120713
+84.38.10.145 1 1 807 20101007085153
+174.50.83.144 1 1 807 20101031091935
+129.15.131.161 1 1 807 20101008192030
+184.40.26.243 1 1 807 20101028172711
+76.199.106.243 1 1 807 20101020222843
+85.246.195.80 1 1 807 20101031181905
+192.12.88.23 1 1 807 20101027195138
+75.111.38.89 1 1 807 20101021181429
+67.49.66.130 1 1 807 20101025161304
+86.6.237.120 1 1 807 20101010190451
+24.201.36.52 1 1 807 20101025192536
+160.39.38.73 1 1 807 20101018204241
+70.251.27.17 1 1 807 20101019134902
+96.249.121.201 1 1 807 20101009110103
+66.53.237.200 1 1 807 20101030105126
+91.85.168.108 1 1 807 20101012220042
+67.253.74.80 1 1 807 20101022181735
+69.97.125.9 1 1 807 20101029213002
+166.216.194.26 1 1 807 20101014144332
+99.103.33.64 1 1 807 20101015032105
+71.198.143.190 1 1 807 20101026135418
+99.231.131.11 1 1 807 20101023180607
+70.70.245.36 1 1 807 20101026202257
+69.248.129.39 1 1 807 20101014130059
+24.82.154.138 1 1 807 20101030162145
+76.20.119.107 2 2 1614 20101030225231
+173.19.196.177 1 1 807 20101017024417
+64.5.165.88 1 1 807 20101008185847
+208.54.14.70 1 1 807 20101012080118
+74.34.128.106 1 1 807 20101026173638
+75.139.179.247 1 1 807 20101026223001
+78.144.34.142 1 1 807 20101007113811
+66.142.91.233 1 1 807 20101012004240
+68.70.61.190 1 1 807 20101022124853
+144.9.56.131 1 1 807 20101018084008
+72.133.59.207 1 1 807 20101030212550
+69.136.148.129 1 1 807 20101014232729
+93.137.32.245 1 1 807 20101012043237
+77.92.241.232 1 1 807 20101028055522
+71.42.133.140 1 1 807 20101015141156
+24.237.71.65 1 1 807 20101026181417
+207.46.195.207 1 1 807 20101019202209
+70.243.109.135 1 1 807 20101023210821
+75.176.147.229 1 1 807 20101028113523
+173.76.229.195 5 14 491512 20101015193827
+24.155.138.192 1 1 807 20101019154736
+76.220.0.214 1 1 807 20101013003348
+173.0.20.185 1 1 807 20101016163437
+98.117.110.109 1 1 807 20101013160657
+90.193.163.64 1 1 807 20101026114223
+117.0.150.88 1 1 807 20101021033530
+71.139.12.99 1 1 807 20101027095825
+206.205.36.130 2 8 457801 20101013142044
+67.161.188.53 1 1 807 20101019012503
+164.107.193.13 1 1 807 20101025092918
+24.180.162.237 1 1 807 20101012191558
+96.24.154.2 1 1 807 20101016034216
+70.192.184.52 1 1 807 20101029033214
+75.63.19.227 1 1 807 20101031192941
+24.44.136.124 1 1 807 20101023004857
+166.216.194.68 1 1 807 20101008233513
+75.181.46.238 1 1 807 20101029222820
+68.108.59.212 1 1 807 20101010125326
+71.115.60.77 1 1 807 20101008203236
+128.151.29.239 1 1 807 20101026225926
+75.91.29.132 1 1 807 20101021223421
+96.49.122.10 1 1 807 20101017215900
+72.70.38.53 1 1 807 20101009161936
+173.64.1.107 1 1 807 20101012173302
+69.125.104.240 1 1 807 20101023192015
+71.75.42.250 1 1 807 20101013082441
+184.8.106.60 1 1 807 20101027002637
+64.231.17.230 1 1 807 20101019100554
+96.35.15.116 1 1 807 20101019205059
+120.61.130.87 1 1 807 20101019051444
+70.188.151.154 1 1 807 20101017031854
+173.48.131.104 1 1 807 20101031201835
+121.241.13.182 1 1 807 20101026013032
+173.3.251.111 1 1 807 20101026080922
+69.119.83.204 1 1 807 20101022092852
+72.231.169.66 1 1 807 20101011203841
+70.63.125.2 1 1 807 20101022103822
+69.243.99.249 1 1 807 20101031195840
+173.67.22.97 1 1 807 20101026192547
+202.43.188.16 1 1 807 20101008005947
+204.238.128.100 3 16 521597 20101028080503
+76.88.3.26 1 1 807 20101012145316
+65.3.131.180 1 1 807 20101009150707
+187.144.137.54 1 1 807 20101007224418
+173.184.176.54 1 1 807 20101010160117
+68.199.196.130 1 1 807 20101022163732
+187.13.174.29 1 1 807 20101007140459
+64.235.157.234 7 7 28210 20101023085311
+24.18.246.141 2 2 1614 20101021235650
+90.220.101.33 1 1 807 20101027135833
+96.238.32.251 1 1 807 20101028012755
+207.46.204.223 1 1 807 20101012035148
+78.72.167.215 1 1 807 20101020230315
+98.162.229.206 1 1 807 20101015095317
+74.46.66.94 1 1 807 20101030085917
+69.235.225.129 1 1 807 20101029020513
+137.99.155.91 1 1 807 20101018193105
+72.181.54.115 1 1 807 20101031002146
+98.212.44.28 1 1 807 20101012111736
+59.94.102.73 1 1 807 20101011021912
+144.96.54.37 1 1 807 20101026152915
+173.48.141.55 1 1 807 20101008200910
+188.115.10.57 1 1 807 20101031180948
+99.146.36.50 2 2 1614 20101010005116
+99.21.0.147 1 1 807 20101026222814
+208.54.83.76 1 1 807 20101018235747
+68.239.67.59 1 1 807 20101010132354
+65.95.247.174 1 1 807 20101008134056
+98.207.59.34 1 1 807 20101021050814
+150.135.210.32 1 1 807 20101020152237
+78.108.43.82 1 1 807 20101007164039
+83.130.123.14 1 1 807 20101029061201
+71.59.156.144 1 1 807 20101028042337
+173.71.183.43 1 1 807 20101026192752
+75.109.55.33 1 1 807 20101024130533
+69.178.6.66 1 1 807 20101024215600
+96.36.150.153 1 1 807 20101031202414
+99.245.201.18 1 1 807 20101022163223
+24.76.177.165 8 8 6456 20101023005452
+67.180.71.204 1 1 807 20101010165435
+68.197.251.136 1 1 807 20101023211634
+24.231.207.7 1 1 807 20101009101138
+69.137.181.251 1 1 807 20101029145533
+69.54.29.71 1 1 807 20101020164330
+173.143.236.85 1 1 807 20101008093053
+98.227.163.64 1 1 807 20101022191914
+74.138.136.53 1 1 807 20101013042101
+207.46.12.66 1 1 807 20101025071829
+114.94.194.72 1 1 807 20101016042442
+91.187.103.3 4 16 284358 20101023155445
+75.95.231.126 1 1 807 20101012013101
+90.202.49.200 2 2 1614 20101030093416
+24.61.177.58 1 1 807 20101015134017
+66.249.17.110 1 1 807 20101023150600
+98.168.160.9 1 1 807 20101014115108
+204.180.99.219 1 1 807 20101021144730
+142.162.27.127 3 3 2421 20101018205933
+207.46.204.161 1 1 807 20101023123641
+173.173.90.225 1 1 807 20101030164420
+98.151.146.25 1 1 807 20101020201017
+69.117.188.156 1 1 807 20101023165057
+99.61.124.82 1 1 807 20101009014031
+67.253.244.60 1 1 807 20101013111627
+68.51.113.70 1 1 807 20101010114906
+99.25.38.135 1 1 807 20101027214634
+72.230.132.118 1 1 807 20101021102130
+166.137.143.188 1 1 807 20101016110110
+166.205.10.178 1 1 807 20101020111133
+97.97.228.160 1 1 807 20101030003914
+174.252.178.46 5 5 4035 20101022191528
+76.170.233.17 1 1 807 20101023164540
+173.56.192.221 1 1 807 20101011034221
+186.205.176.132 1 1 807 20101031142249
+69.208.69.229 1 1 807 20101023074553
+68.93.98.208 1 1 807 20101016175117
+142.227.91.253 1 1 807 20101019073503
+72.15.71.226 1 1 807 20101010235210
+199.249.157.129 1 1 807 20101024144958
+108.118.235.40 1 1 807 20101024154006
+24.90.176.37 2 2 1614 20101030120751
+71.167.47.168 1 1 807 20101012152752
+209.6.177.61 1 1 807 20101028112427
+69.242.15.168 1 1 807 20101027165421
+69.120.146.182 1 1 807 20101009183834
+76.226.201.42 1 1 807 20101031184153
+24.18.8.235 1 1 807 20101020212227
+72.153.57.144 1 1 807 20101017080701
+71.23.248.41 1 1 807 20101019174139
+98.149.166.127 1 1 807 20101007221621
+178.77.77.146 1 1 5526 20101005213825
+71.83.249.10 1 1 807 20101015020645
+75.87.254.55 1 1 807 20101022232344
+71.48.224.179 1 1 807 20101030084354
+65.49.14.12 1 1 807 20101008083918
+67.169.116.224 1 1 807 20101019165047
+69.121.223.11 2 2 1614 20101017191401
+96.238.137.131 1 1 807 20101010163341
+89.241.43.15 1 1 807 20101031151332
+69.86.189.25 1 1 807 20101017151506
+173.51.192.21 1 1 807 20101016051307
+71.228.43.135 1 1 807 20101012175838
+65.52.104.42 1 1 807 20101007181230
+207.134.166.195 2 2 1614 20101009180550
+24.54.169.180 1 1 807 20101030003613
+98.210.202.108 2 2 1614 20101027163216
+24.197.155.16 1 1 807 20101010155329
+173.181.20.225 1 1 807 20101019112119
+69.201.164.64 1 1 807 20101012204545
+141.158.139.26 1 1 807 20101011010727
+69.76.238.251 1 1 807 20101022013843
+96.236.239.242 1 1 807 20101026171002
+87.195.148.34 1 1 807 20101013032950
+108.16.28.241 1 1 807 20101017210437
+72.130.210.89 1 1 807 20101011200429
+97.170.248.114 1 1 807 20101031082348
+208.54.4.73 1 1 807 20101017024101
+69.139.84.248 1 1 807 20101007192217
+222.66.232.142 1 1 807 20101026032413
+89.243.158.237 1 1 807 20101016105218
+99.12.230.173 1 1 807 20101014190652
+108.11.37.11 1 1 807 20101022142440
+68.214.211.93 1 1 807 20101021154701
+74.196.239.67 1 1 807 20101015152417
+72.225.12.78 1 1 807 20101009143149
+67.242.187.114 1 1 807 20101013224619
+65.52.104.37 2 2 1614 20101010052948
+65.73.80.169 1 1 807 20101012173137
+72.43.217.126 1 1 807 20101012122003
+68.199.57.52 1 1 807 20101026072539
+74.215.17.215 1 1 807 20101013223154
+121.210.52.238 1 1 807 20101018080440
+76.14.129.71 1 1 807 20101011073000
+81.34.37.173 6 6 4842 20101024081817
+121.96.39.193 1 1 807 20101018032331
+173.51.227.6 1 1 807 20101031170130
+216.7.233.78 1 1 807 20101022093304
+207.46.195.208 1 1 807 20101020203841
+72.191.141.143 1 1 807 20101012190458
+67.60.92.107 1 1 807 20101031204613
+24.147.229.210 1 1 807 20101009144526
+68.190.207.195 1 1 807 20101011224656
+67.190.205.224 1 1 807 20101008200011
+72.147.59.193 1 1 807 20101011145039
+98.225.47.241 1 1 807 20101026230115
+80.13.147.195 1 1 807 20101027014356
+68.255.74.195 1 1 807 20101017230539
+96.50.71.211 1 1 807 20101027130509
+98.157.179.110 1 1 807 20101010095405
+70.24.116.89 1 1 807 20101021140637
+74.131.12.136 1 1 807 20101026195514
+24.67.129.165 1 1 807 20101024061629
+174.49.7.64 1 1 807 20101019163058
+64.119.158.14 3 9 467217 20101014080503
+64.57.177.18 10 39 1364872 20101025085232
+69.231.11.209 1 1 807 20101010011012
+71.251.37.98 1 1 807 20101021171850
+68.48.42.179 1 1 807 20101012161505
+99.135.189.2 1 1 807 20101022091815
+76.117.146.33 1 1 807 20101025161927
+208.95.49.144 1 1 807 20101020112912
+70.88.46.5 1 1 807 20101007101505
+72.43.56.8 1 1 807 20101025123044
+97.249.232.145 1 1 807 20101024154211
+74.108.153.231 4 12 484579 20101018092733
+79.74.147.4 1 1 807 20101014074004
+71.57.66.133 1 1 807 20101023222532
+76.90.143.128 1 1 807 20101011213042
+67.180.140.96 1 1 807 20101027232406
+67.142.173.23 2 2 1614 20101017081520
+72.175.119.160 1 1 807 20101024133112
+142.167.166.241 1 1 807 20101026011319
+67.237.3.78 1 1 807 20101024141636
+74.131.10.180 1 1 807 20101007183025
+71.56.229.171 1 1 807 20101011165855
+97.213.80.91 1 1 807 20101012095800
+72.186.231.47 1 1 807 20101028185336
+74.213.81.9 1 1 807 20101007165435
+67.239.44.227 1 1 807 20101023205258
+71.168.241.156 1 1 807 20101025164236
+67.11.177.126 1 1 807 20101028181358
+68.95.254.193 1 1 807 20101012221603
+128.23.52.128 1 1 807 20101018143227
+81.154.99.11 2 2 1614 20101022183320
+88.193.161.61 1 1 807 20101022050411
+147.4.18.37 1 1 807 20101025180403
+24.131.9.237 1 1 807 20101017191713
+190.107.134.254 1 1 807 20101024220234
+74.45.26.221 1 1 807 20101020200523
+96.227.180.156 1 1 807 20101011114038
+68.50.18.60 1 1 807 20101025121130
+72.19.44.43 1 1 807 20101012005107
+69.115.80.7 1 1 807 20101026192921
+98.64.26.75 1 1 807 20101007214126
+68.63.91.230 1 1 807 20101011114906
+222.64.141.68 4 17 485405 20101026094733
+24.196.9.83 1 1 807 20101013193744
+216.106.40.106 1 1 807 20101019141556
+98.25.109.16 1 1 807 20101009154432
+74.104.110.186 3 3 2421 20101020102222
+72.77.252.65 1 1 807 20101029092856
+205.213.72.2 1 1 807 20101018155309
+67.190.60.229 1 1 807 20101015165443
+70.135.110.238 1 1 807 20101029135113
+69.140.128.120 1 1 807 20101026200636
+68.226.59.124 1 1 807 20101007144359
+207.200.116.66 1 1 807 20101010183122
+67.58.183.226 1 1 807 20101031195928
+173.31.146.200 1 1 807 20101026110427
+69.69.151.50 1 1 807 20101022063931
+166.205.142.32 1 1 807 20101030144224
+198.185.18.72 10 28 689883 20101021114317
+122.160.231.242 1 1 807 20101026235345
+92.20.2.117 1 1 807 20101007090905
+207.46.12.20 1 1 807 20101015034440
+68.109.72.194 1 1 807 20101017222032
+75.82.178.47 1 1 807 20101023120220
+71.81.140.183 1 1 807 20101016122627
+173.76.247.86 1 1 807 20101014034013
+72.197.13.109 1 1 807 20101019175332
+166.137.139.215 1 1 807 20101028175619
+68.127.144.240 1 1 807 20101012183146
+173.24.169.154 1 1 807 20101021194438
+208.54.85.68 1 1 807 20101007193703
+98.212.203.187 1 1 807 20101018222958
+114.108.226.66 1 1 807 20101029174541
+67.249.135.174 2 2 1614 20101023223151
+71.233.106.50 1 1 807 20101010082514
+72.73.237.229 1 1 807 20101031100317
+75.6.146.76 1 1 807 20101008023121
+76.106.203.254 1 1 807 20101028073642
+189.239.76.64 1 1 807 20101030145845
+76.230.78.132 1 1 807 20101009090129
+67.49.237.117 1 1 807 20101030171414
+97.118.20.245 1 1 807 20101027163807
+97.121.135.57 1 1 807 20101022233743
+69.20.148.215 1 1 807 20101013164125
+174.69.148.204 1 1 807 20101026155707
+209.99.30.99 2 2 1614 20101015114745
+99.150.139.128 1 1 807 20101020142814
+24.14.215.70 1 1 807 20101017141809
+77.74.128.15 1 1 807 20101014105608
+71.244.121.221 6 6 4842 20101021153452
+131.91.34.149 1 1 807 20101031201428
+68.227.41.188 1 1 807 20101031164313
+76.174.7.249 1 1 807 20101028000652
+71.242.19.105 1 1 807 20101013152422
+69.40.135.212 1 1 807 20101023014708
+24.74.25.74 2 2 1614 20101031215105
+24.185.82.86 1 1 807 20101024220006
+207.46.12.17 1 1 807 20101016112724
+174.95.9.122 1 1 807 20101029175416
+24.239.72.138 1 1 807 20101026210209
+207.216.134.10 1 1 807 20101028164945
+207.46.12.112 1 1 807 20101014144732
+76.17.153.247 1 1 807 20101015202642
+68.40.146.76 1 1 807 20101007212418
+110.33.4.112 1 1 807 20101030075112
+50.8.161.251 1 1 807 20101031221141
+96.232.115.143 1 1 807 20101027210333
+89.164.16.233 1 1 807 20101010144510
+166.205.9.87 1 1 807 20101026105550
+98.206.254.119 1 1 807 20101017134538
+174.57.58.220 1 1 807 20101007161737
+114.81.166.130 1 1 807 20101029002533
+173.217.217.13 1 1 807 20101015104312
+71.235.163.137 1 1 807 20101026203406
+38.100.143.106 3 23 844523 20101025155439
+65.74.122.250 1 1 807 20101021180417
+24.193.231.52 1 1 807 20101029233614
+93.1.231.67 1 1 807 20101031074033
+72.2.74.211 1 1 807 20101021163316
+67.142.168.138 1 1 807 20101011034416
+99.105.0.166 1 1 807 20101028034701
+207.46.12.153 1 1 807 20101017125128
+65.0.92.57 1 1 807 20101013211723
+173.77.125.80 1 1 807 20101008040400
+94.192.213.176 1 1 807 20101030145754
+24.141.22.157 1 1 807 20101012164100
+64.189.101.213 1 1 807 20101023174331
+205.188.116.20 1 1 10136 20101020123459
+96.60.250.254 1 1 807 20101030143541
+66.143.200.38 1 1 807 20101025190229
+67.235.95.247 1 1 807 20101019193250
+174.101.209.119 1 1 807 20101019023731
+213.161.224.224 1 1 807 20101011150539
+70.178.169.235 1 1 807 20101008145722
+71.60.118.98 2 15 32741 20101024123248
+99.119.173.64 1 1 807 20101028150652
+68.185.90.206 1 1 807 20101025152221
+74.242.172.31 1 1 807 20101014003608
+190.16.106.117 1 1 807 20101021100438
+198.82.102.31 1 1 807 20101019142147
+108.6.31.155 1 1 807 20101021173610
+75.70.233.5 1 1 807 20101028180912
+98.218.8.177 1 1 807 20101030215329
+24.20.104.124 1 1 807 20101022193617
+70.89.32.229 1 1 807 20101021064814
+72.224.61.193 1 1 807 20101009152741
+93.243.202.162 1 1 807 20101029104534
+24.166.56.152 1 1 807 20101009205617
+60.242.24.149 1 1 807 20101027053857
+161.73.32.144 2 2 1614 20101031180209
+187.11.98.164 1 1 807 20101015121258
+75.32.54.101 4 4 3228 20101011211224
+95.25.11.25 1 1 807 20101028135626
+99.52.250.33 1 1 807 20101024184509
+76.120.176.116 1 1 807 20101016034949
+97.101.179.95 1 1 807 20101009190749
+71.181.242.126 1 1 807 20101015191249
+85.74.28.125 1 1 807 20101030202054
+98.229.125.210 1 1 807 20101007191338
+24.211.194.141 1 1 807 20101012195112
+166.137.11.83 1 1 807 20101017180458
+68.155.193.158 1 1 807 20101022092049
+205.188.117.9 0 1 60526 
+98.109.227.101 1 1 807 20101028140505
+209.105.142.231 3 3 2421 20101029181519
+68.36.171.172 1 1 807 20101021205243
+24.100.93.56 1 1 807 20101031041014
+24.123.151.34 1 1 807 20101007215836
+24.1.4.240 1 1 807 20101024094304
+208.46.240.2 1 1 807 20101018142546
+24.112.19.202 1 1 807 20101012171121
+166.137.137.106 1 1 807 20101020210935
+69.134.83.100 1 1 807 20101019180122
+71.187.246.174 1 1 807 20101027141548
+68.171.233.219 1 1 807 20101014163830
+74.131.197.26 1 1 807 20101019194627
+70.59.108.201 1 1 807 20101017235330
+70.78.206.213 1 1 807 20101011204751
+96.241.49.66 1 1 807 20101011171621
+173.217.131.3 1 1 807 20101013192321
+59.97.210.184 1 1 807 20101008074823
+71.192.175.80 1 1 807 20101013211831
+74.211.66.82 1 1 807 20101012001708
+173.21.105.101 1 1 807 20101026163921
+141.164.42.15 1 1 807 20101022234814
+67.247.73.63 1 1 807 20101024234123
+67.84.31.253 1 1 807 20101019204347
+75.80.121.10 1 1 807 20101019233051
+141.165.137.27 1 1 807 20101023202927
+74.197.47.223 1 1 807 20101012221709
+98.229.123.72 1 1 807 20101025154259
+173.63.111.89 1 1 807 20101027120109
+24.218.130.28 1 1 807 20101028134456
+68.0.165.178 1 1 807 20101011122220
+70.80.146.139 1 1 807 20101029173551
+78.80.29.32 1 1 807 20101007153456
+173.2.132.68 1 1 807 20101022152747
+69.121.220.247 4 4 3228 20101030190914
+72.181.190.78 1 1 807 20101016235051
+75.65.131.131 1 1 807 20101023124601
+74.69.225.114 1 1 807 20101021151806
+98.226.243.218 1 1 807 20101011185753
+74.214.8.65 1 1 807 20101011185547
+75.175.184.143 1 1 807 20101009183941
+98.233.112.16 1 1 807 20101009001909
+98.210.129.4 1 1 807 20101018161538
+76.19.203.174 1 1 807 20101022103057
+98.242.158.46 1 1 807 20101007103332
+173.53.79.165 1 1 807 20101016021744
+68.173.175.130 1 1 807 20101022141439
+74.136.165.207 1 1 807 20101021203107
+69.159.116.137 1 1 807 20101010191555
+209.143.4.68 2 2 1614 20101010144955
+67.142.164.26 2 2 1614 20101025155605
+71.253.239.52 1 1 807 20101025161807
+99.71.181.224 1 1 807 20101024230847
+70.166.199.195 1 1 807 20101011202741
+208.120.0.89 1 1 807 20101027064209
+99.168.121.138 1 1 807 20101025125536
+98.93.122.29 1 1 807 20101020200019
+71.89.14.218 1 1 807 20101019024617
+96.231.133.43 1 1 807 20101020174536
+205.188.116.208 1 2 69937 20101020123450
+99.201.71.181 1 1 807 20101018003906
+130.184.161.201 1 1 807 20101020133050
+69.123.157.199 1 1 807 20101027185810
+124.177.192.104 1 1 807 20101028052656
+74.73.80.230 2 2 1614 20101029215333
+67.199.181.68 1 1 807 20101017065833
+71.29.228.113 1 1 807 20101018161224
+76.221.213.182 5 5 4035 20101020155017
+66.175.81.100 1 1 807 20101014221846
+24.94.36.253 1 1 807 20101016153325
+68.45.8.71 1 1 807 20101017175658
+24.91.210.193 1 1 807 20101023152826
+24.6.144.3 1 1 807 20101026215236
+67.236.213.17 1 1 807 20101029171357
+67.186.139.36 1 1 807 20101015230741
+98.163.7.159 1 1 807 20101025150146
+24.21.249.238 1 1 807 20101013182025
+173.219.96.148 1 1 807 20101022215253
+71.42.190.128 1 1 807 20101021153042
+71.187.20.128 1 1 807 20101011221915
+69.61.219.185 1 1 807 20101016180801
+174.71.30.231 1 1 807 20101030010149
+90.209.118.87 1 1 807 20101019092640
+12.192.30.131 1 1 807 20101014112438
+207.46.204.217 1 1 807 20101021010226
+69.128.216.40 1 1 807 20101021143245
+173.80.110.76 1 1 807 20101008164942
+71.195.221.9 1 1 807 20101007194419
+184.91.54.163 1 1 807 20101016211652
+24.63.231.51 1 1 807 20101018114306
+123.3.180.31 1 1 807 20101031003635
+173.178.148.209 1 1 807 20101019113700
+65.73.101.84 1 1 807 20101007213445
+68.32.164.178 1 1 807 20101018184313
+174.20.42.12 1 1 807 20101026161347
+173.174.42.8 1 1 807 20101009113407
+68.171.233.206 5 5 4035 20101019231600
+66.176.84.131 1 1 807 20101031142858
+129.10.235.57 1 1 807 20101012152726
+99.61.61.37 1 1 807 20101008105927
+99.240.3.16 2 2 1614 20101015223642
+216.119.46.250 2 2 1614 20101014125151
+24.11.251.162 1 1 807 20101022044613
+68.171.235.244 1 1 807 20101023214741
+97.84.162.7 1 1 807 20101029082602
+69.4.103.121 1 1 807 20101020174149
+71.77.73.61 1 1 807 20101023224828
+77.248.226.203 1 1 807 20101016172029
+99.252.252.48 1 1 807 20101012020510
+65.52.104.39 1 1 807 20101015162311
+99.4.70.177 1 1 807 20101022081832
+173.180.102.14 1 1 807 20101010134528
+69.149.177.109 1 1 807 20101010132007
+70.33.30.145 1 1 807 20101026183235
+24.130.7.204 1 1 807 20101024134348
+98.19.171.247 1 1 807 20101018161911
+24.3.84.204 1 1 807 20101026204956
+71.218.204.26 1 1 807 20101017220124
+142.68.109.23 1 1 807 20101012214435
+166.205.13.80 1 1 807 20101013221020
+70.187.38.85 1 1 807 20101011041327
+207.46.12.157 1 1 807 20101019223228
+64.228.64.177 1 1 807 20101027192756
+66.190.228.53 1 1 807 20101020202749
+68.227.201.147 1 1 807 20101031111552
+74.197.233.251 1 1 807 20101024125512
+85.92.222.254 2 2 1614 20101026180202
+71.31.6.23 1 1 807 20101011185506
+97.101.38.219 1 1 807 20101028203029
+24.230.144.231 1 1 807 20101024175315
+88.89.5.245 1 1 807 20101022074655
+207.46.204.165 1 1 807 20101021224154
+89.191.172.34 1 1 807 20101016101213
+166.137.142.171 1 1 807 20101021100041
+212.87.245.60 1 1 807 20101012050304
+68.89.248.182 3 3 2421 20101023173131
+216.104.15.142 5 5 23873 20101031003809
+76.124.4.89 1 1 807 20101016113801
+89.184.218.71 1 1 807 20101021134523
+74.75.156.112 1 1 807 20101011184506
+207.171.244.225 3 3 2421 20101019130929
+173.23.233.176 1 1 807 20101023220422
+99.6.214.51 1 1 807 20101026194723
+174.1.89.97 1 1 807 20101020180009
+96.248.121.64 2 2 1614 20101016152058
+75.159.102.253 1 1 807 20101011224049
+78.69.109.99 1 1 807 20101030014519
+69.11.202.58 1 1 807 20101011074450
+24.22.150.67 1 1 807 20101013215802
+99.242.90.8 1 1 807 20101017163615
+97.241.81.203 1 1 807 20101010070925
+97.3.125.130 1 1 807 20101026032514
+71.213.87.193 1 1 807 20101011163218
+188.51.69.15 1 1 807 20101028104918
+74.108.38.75 1 1 807 20101026101456
+98.213.85.49 1 1 807 20101031090048
+175.216.62.9 1 1 807 20101026043023
+68.98.221.6 1 1 807 20101021082119
+96.8.142.187 2 2 1614 20101030193755
+69.248.181.0 1 1 807 20101025181250
+204.14.13.65 1 1 807 20101022095348
+24.227.66.221 1 1 807 20101020141612
+74.248.140.173 1 1 807 20101024185239
+173.215.189.234 1 1 807 20101025223727
+68.201.92.244 1 1 807 20101007093558
+76.112.72.215 1 1 807 20101027155837
+74.83.93.135 1 1 807 20101025161734
+65.52.104.40 1 1 807 20101013230237
+24.190.229.5 1 1 807 20101010140046
+97.35.200.29 1 1 807 20101029134938
+68.38.237.240 1 1 807 20101015231222
+69.137.116.30 6 6 4842 20101023222312
+99.117.134.201 1 1 807 20101020215858
+67.193.140.173 1 1 807 20101015031654
+58.7.178.0 1 1 807 20101021123645
+64.229.213.179 2 2 1614 20101028004543
+98.242.22.212 1 1 807 20101026091645
+166.137.140.238 1 1 807 20101018234752
+89.89.96.122 1 1 807 20101012055638
+64.60.227.74 1 1 807 20101027171834
+67.170.193.22 1 1 807 20101026183551
+76.19.138.122 1 1 807 20101007184857
+66.82.162.13 1 1 807 20101010053857
+99.181.142.146 1 1 807 20101030230052
+173.27.129.159 1 1 807 20101012200340
+186.28.46.255 1 1 807 20101013212250
+75.121.26.192 1 1 807 20101029052329
+76.30.211.36 1 1 807 20101025205244
+68.41.126.147 1 1 807 20101029145833
+216.100.91.8 1 1 807 20101028094434
+24.101.96.127 2 2 1614 20101021214426
+173.246.255.176 1 1 807 20101012005337
+67.234.17.162 1 1 807 20101014100629
+76.78.31.161 2 2 1614 20101028163624
+24.0.231.212 1 1 807 20101024202601
+78.29.130.135 1 1 807 20101013181206
+75.75.98.143 1 1 807 20101026104349
+173.19.109.152 1 1 807 20101010175329
+75.185.189.129 1 1 807 20101010175736
+203.129.198.17 3 3 2421 20101029101742
+71.246.238.3 1 1 807 20101027231817
+71.88.5.204 1 1 807 20101009151446
+71.176.84.242 1 1 807 20101026110610
+80.42.180.227 1 1 807 20101011153945
+98.154.89.81 1 1 807 20101026002658
+58.185.110.162 1 1 807 20101013224237
+71.228.156.114 1 1 807 20101009011646
+110.33.228.232 1 1 807 20101020051020
+64.229.80.3 1 1 807 20101027042936
+71.115.12.98 1 1 807 20101011120829
+209.6.95.133 1 1 807 20101007212217
+74.82.64.33 3 3 2421 20101009202204
+88.108.233.36 1 1 807 20101016083910
+68.217.168.116 1 1 807 20101021165906
+71.200.36.25 1 1 807 20101026220941
+75.22.21.10 1 1 807 20101018061644
+198.82.102.125 1 1 807 20101019124918
+205.188.116.66 0 1 153 
+174.48.2.207 1 1 807 20101020081734
+132.177.54.228 1 1 807 20101007130602
+99.24.176.11 1 1 807 20101025210156
+207.46.195.210 1 1 807 20101026131648
+74.108.40.247 1 1 807 20101007211542
+69.47.126.33 1 1 807 20101031170825
+98.232.198.254 1 1 807 20101029215935
+74.110.123.97 1 1 807 20101013161426
+76.21.44.86 2 2 1614 20101024225439
+65.93.197.140 1 1 807 20101022232357
+174.54.30.42 1 1 807 20101020220300
+38.117.235.17 1 1 807 20101010211558
+65.121.155.222 1 1 807 20101014184932
+72.36.42.204 1 1 807 20101026085004
+134.173.199.248 1 1 807 20101007230443
+84.229.231.144 1 1 807 20101015073712
+216.160.107.18 1 1 807 20101008023841
+66.245.219.99 1 1 807 20101025044958
+66.56.234.34 2 2 1614 20101013175658
+209.236.250.246 1 1 807 20101023202559
+174.60.108.38 1 1 807 20101007221520
+206.41.88.149 2 2 1614 20101008123542
+166.205.137.111 1 1 807 20101030194234
+68.57.53.22 1 1 807 20101011200929
+98.115.96.115 1 1 807 20101015173429
+174.253.242.50 1 1 807 20101027223722
+72.89.179.104 1 1 807 20101024183111
+190.161.121.223 1 1 807 20101013200740
+139.142.154.129 1 1 807 20101008150434
+68.116.99.244 1 1 807 20101008232410
+108.5.139.129 1 1 807 20101020132048
+76.26.200.143 1 1 807 20101011155235
+76.186.220.135 1 1 807 20101023090005
+189.253.79.27 1 1 807 20101026232114
+184.8.3.136 1 1 807 20101007120616
+68.51.13.33 1 1 807 20101026030945
+173.32.152.125 1 1 807 20101012105659
+67.142.130.21 1 1 807 20101012164504
+99.243.103.29 1 1 807 20101018214610
+98.196.249.63 1 1 807 20101013174639
+98.255.32.5 2 2 1614 20101027013536
+69.143.104.170 2 2 1614 20101021144314
+173.2.119.18 1 1 807 20101030050504
+169.204.208.212 1 1 807 20101012102546
+99.18.89.101 1 1 807 20101019002239
+84.238.115.224 1 1 807 20101019143151
+96.242.88.2 2 2 1614 20101026054022
+99.28.155.38 1 1 807 20101029163626
+70.95.69.55 2 2 1614 20101009193346
+184.79.25.72 1 1 807 20101015142951
+138.88.213.95 1 1 807 20101022215327
+74.129.166.133 1 1 807 20101024123403
+108.66.50.67 1 1 807 20101012185858
+65.52.104.36 2 2 1614 20101026235956
+145.100.147.220 1 1 807 20101021051346
+122.168.164.230 1 1 807 20101025023436
+68.41.89.252 1 1 807 20101029203358
+87.221.62.47 1 1 807 20101009153856
+24.222.204.105 1 1 807 20101028004201
+139.78.10.255 1 1 807 20101023204107
+166.205.8.169 1 1 807 20101021111549
+24.99.149.13 1 1 807 20101027191236
+66.176.145.175 1 1 807 20101025113208
+76.185.157.46 1 1 807 20101023015109
+71.231.10.6 1 1 807 20101024000903
+24.251.8.103 1 1 807 20101015234757
+68.171.231.22 6 6 4842 20101025161312
+98.83.133.157 1 1 807 20101026133647
+68.171.231.18 10 10 8070 20101031134315
+74.60.178.65 1 1 807 20101018151851
+76.105.34.139 3 3 2421 20101018224414
+208.54.86.79 1 1 807 20101022202230
+64.251.57.174 1 1 807 20101028075803
+75.53.204.138 1 1 807 20101030172957
+24.117.204.17 1 1 807 20101022153634
+108.2.111.125 1 1 807 20101012195241
+131.128.72.3 1 1 807 20101016191452
+67.224.176.223 1 1 807 20101027100606
+83.61.125.190 1 1 807 20101012095018
+75.111.164.136 2 2 1614 20101024134951
+207.102.23.115 1 1 807 20101018212403
+67.252.39.123 1 1 807 20101026211100
+99.230.127.225 1 1 807 20101026100738
+99.142.95.0 1 1 807 20101017012316
+68.8.189.45 1 1 807 20101030124602
+72.50.126.146 1 1 807 20101010031519
+173.24.175.7 1 1 807 20101020121647
+68.247.161.170 1 1 807 20101031160130
+98.160.252.150 1 1 807 20101021170018
+190.177.131.169 2 2 1614 20101010085034
+207.46.12.26 1 1 807 20101015110852
+174.116.84.211 1 1 807 20101025064138
+99.186.235.126 1 1 807 20101031160246
+186.85.51.250 1 1 807 20101013212100
+67.220.101.136 6 6 38008 20101030135537
+123.121.15.250 1 1 807 20101020214149
+66.191.226.24 1 1 807 20101029134658
+212.139.236.38 1 1 807 20101031105837
+98.155.150.147 1 1 807 20101030182632
+66.92.185.59 2 2 1614 20101026102531
+59.99.8.79 1 1 807 20101008192416
+66.176.24.89 1 1 807 20101023122257
+70.77.112.59 1 1 807 20101029173224
+68.175.6.102 1 1 807 20101022214850
+75.164.41.27 1 1 807 20101021011308
+99.199.74.17 1 1 807 20101014183640
+207.46.12.121 1 1 807 20101026011341
+67.255.70.49 1 1 807 20101019184110
+174.54.244.173 1 1 807 20101023164402
+99.255.250.106 1 1 807 20101031102709
+86.96.228.88 1 1 807 20101028133322
+74.190.114.2 1 1 807 20101029013239
+205.188.116.142 0 1 8562 
+98.225.90.115 1 1 807 20101017153151
+166.205.14.158 1 1 807 20101031171051
+75.166.232.195 1 1 807 20101007200314
+72.151.39.215 1 1 807 20101022143722
+205.188.116.14 0 1 60967 
+74.171.170.206 1 1 807 20101012231224
+122.60.153.220 1 1 807 20101024023707
+173.3.77.82 2 2 1614 20101022185123
+38.114.82.70 1 1 807 20101018131430
+64.231.89.88 1 1 807 20101030095906
+24.15.74.134 1 1 807 20101011191724
+98.204.20.229 1 1 807 20101017145117
+24.141.43.207 1 1 807 20101009215817
+76.25.163.93 1 1 807 20101025182033
+74.82.64.17 2 2 1614 20101026185031
+67.241.36.206 1 1 807 20101023173057
+67.61.231.36 1 1 807 20101019213618
+147.31.184.40 1 1 807 20101029120829
+66.233.219.247 1 1 807 20101027180923
+201.255.246.192 2 2 1614 20101026143800
+69.65.66.191 1 1 807 20101017090357
+108.20.21.65 2 2 1614 20101028165227
+174.17.135.252 1 1 807 20101019121322
+71.9.58.105 1 1 807 20101019223448
+71.110.132.248 1 1 807 20101010112834
+66.58.221.96 2 2 1614 20101028174543
+174.55.150.226 1 1 807 20101007133953
+75.111.233.54 1 1 807 20101024040314
+74.99.152.188 1 1 807 20101021183258
+98.117.101.71 1 1 807 20101025193228
+76.98.48.58 2 2 1614 20101024211822
+98.202.100.215 1 1 807 20101014215617
+98.212.172.204 1 1 807 20101016141608
+108.6.147.165 1 1 807 20101007225906
+68.198.191.221 7 7 5649 20101031213811
+99.6.33.72 1 1 807 20101028103449
+203.184.49.52 1 1 807 20101027203922
+67.241.33.44 1 1 807 20101015224403
+69.78.133.86 1 1 807 20101023004454
+99.152.200.26 1 1 807 20101022093626
+69.122.217.147 3 10 474159 20101017195830
+98.232.147.31 1 1 807 20101028214648
+174.54.208.66 1 1 807 20101029165628
+143.81.248.53 1 1 807 20101013043922
+88.117.83.195 1 1 807 20101027061928
+65.184.46.37 1 1 807 20101008131324
+98.199.94.41 1 1 807 20101008201052
+72.206.111.36 2 2 1614 20101015085632
+66.57.192.67 1 1 807 20101021194110
+201.208.243.102 1 1 807 20101027145905
+24.0.1.160 1 1 807 20101013155034
+68.107.128.10 1 1 807 20101030224151
+68.92.158.43 1 1 807 20101008200207
+72.129.153.154 1 1 807 20101014124026
+189.252.16.241 1 1 807 20101024115626
+76.102.124.8 1 1 807 20101024173306
+205.188.116.73 1 2 68449 20101020123313
+75.177.176.226 1 1 807 20101018043948
+66.71.28.114 1 1 807 20101007224353
+208.54.45.68 1 1 807 20101014121731
+98.110.161.11 1 1 807 20101026200146
+173.33.81.132 1 1 807 20101018173538
+90.221.184.219 1 1 807 20101020180111
+98.160.103.233 1 1 807 20101015180503
+75.135.76.94 11 24 568000 20101014171839
+72.88.54.136 1 1 807 20101026143127
+184.72.88.11 1 1 807 20101013122553
+90.50.32.174 1 1 807 20101031073256
+67.249.204.99 1 1 807 20101019105135
+98.145.75.200 1 1 807 20101019002142
+68.173.2.22 4 4 3228 20101019230520
+166.137.15.232 1 1 807 20101012215525
+97.122.168.62 1 1 807 20101011221611
+67.54.237.37 1 1 807 20101018102010
+75.134.189.182 1 1 807 20101014080559
+98.200.246.232 1 1 807 20101025180621
+98.141.146.201 1 1 807 20101013215422
+74.110.100.249 1 1 807 20101024162352
+173.25.181.211 1 1 807 20101011215728
+199.8.26.10 2 2 1614 20101022182343
+67.236.55.53 1 1 807 20101031124237
+64.237.95.138 2 2 1614 20101028201626
+24.46.181.222 1 1 807 20101017184411
+76.117.4.162 1 1 807 20101026182047
+99.5.104.239 1 1 807 20101023232251
+174.77.152.18 1 1 807 20101015213441
+170.185.45.19 2 2 1614 20101025131929
+208.54.14.3 1 1 807 20101008200121
+207.46.204.208 2 2 1614 20101017194730
+24.118.1.61 1 1 807 20101022060906
+65.35.204.51 2 2 1614 20101008160001
+69.116.205.61 1 1 807 20101012174102
+109.255.168.82 1 1 807 20101029173335
+71.125.250.155 1 1 807 20101023175607
+70.118.194.11 1 1 807 20101013175926
+96.48.247.105 1 1 807 20101018125040
+98.223.105.45 1 1 807 20101010170559
+173.216.204.149 1 1 807 20101019105606
+96.39.118.97 1 1 807 20101017113243
+69.151.201.30 1 1 807 20101030231120
+68.120.193.100 1 1 807 20101013200213
+174.202.80.86 2 2 1614 20101028134503
+70.45.158.68 1 1 807 20101008171431
+71.235.131.99 1 1 807 20101010225943
+118.0.81.229 1 1 807 20101025074258
+67.174.186.119 1 1 807 20101015135739
+174.253.225.9 2 2 1614 20101028090641
+69.207.208.196 1 1 807 20101024150618
+173.180.159.120 1 1 807 20101016165404
+98.109.37.253 1 1 807 20101011202322
+82.143.238.72 1 1 807 20101031223526
+71.239.57.213 1 1 807 20101028231459
+201.205.143.118 1 1 807 20101026222907
+184.73.24.241 2 2 1614 20101024171322
+69.121.81.187 1 1 807 20101031122632
+24.11.130.51 1 1 807 20101012160846
+74.36.226.154 1 1 807 20101016111705
+206.131.154.9 1 1 807 20101009002108
+76.189.120.161 1 1 807 20101012181819
+78.143.203.126 1 1 807 20101010134635
+122.180.150.18 1 1 807 20101020032229
+76.186.146.89 1 1 807 20101027012530
+76.226.181.250 1 1 807 20101008144954
+216.104.15.138 5 5 22525 20101028205346
+98.148.253.75 2 2 1614 20101017030601
+70.70.237.76 2 2 1614 20101026202111
+122.169.81.194 1 1 807 20101015032818
+70.114.129.99 1 1 807 20101027193557
+67.158.165.236 1 1 807 20101010231605
+71.226.59.5 1 1 807 20101008175217
+24.119.187.120 1 1 807 20101013013538
+71.32.12.169 1 1 807 20101021150128
+153.90.79.109 1 1 807 20101007122654
+69.91.76.70 1 1 807 20101012231645
+98.237.216.29 1 1 807 20101015210633
+66.131.243.73 1 1 807 20101031174057
+68.51.222.206 1 1 807 20101023121435
+96.26.32.40 1 1 807 20101021010111
+64.12.117.18 1 1 807 20101023070913
+68.30.171.189 1 1 807 20101008203326
+70.16.159.195 1 1 807 20101029171417
+98.148.148.212 1 1 807 20101015120932
+187.91.145.60 1 1 807 20101007181611
+216.51.225.160 1 1 807 20101016070717
+213.164.114.178 1 1 807 20101021044622
+207.46.204.213 1 1 807 20101022091449
+122.164.171.108 1 1 807 20101018034147
+212.129.64.223 1 1 807 20101013171038
+80.42.192.158 1 1 807 20101029171724
+75.223.66.93 1 1 807 20101021215303
+76.6.221.197 1 1 807 20101026203734
+69.29.165.110 1 1 807 20101026001650
+206.219.155.114 1 1 807 20101012111815
+76.11.232.171 1 1 807 20101012140219
+72.145.164.43 1 1 807 20101025204537
+76.95.86.234 1 1 807 20101019124951
+68.231.197.141 1 1 807 20101009211010
+207.46.195.206 2 2 1614 20101016081217
+174.54.45.38 1 1 807 20101012160729
+166.137.139.141 1 1 807 20101025185811
+99.187.187.149 1 1 807 20101017210208
+99.183.234.220 1 1 807 20101013153023
+66.87.1.56 1 1 807 20101026074349
+188.156.134.71 3 3 2421 20101023102623
+81.164.123.223 1 1 807 20101016033943
+69.80.155.223 1 1 807 20101031032639
+85.243.70.14 1 1 807 20101007150240
+216.14.248.214 1 1 807 20101021171923
+24.88.238.99 1 1 807 20101011175717
+207.46.193.37 1 1 807 20101010040101
+24.61.200.134 1 1 807 20101012205636
+24.59.197.6 1 1 807 20101026065045
+70.180.55.5 1 1 807 20101007180301
+86.134.1.144 1 1 807 20101025110855
+76.27.240.251 1 1 807 20101026171831
+68.230.118.163 1 1 807 20101027005302
+81.135.0.178 1 1 807 20101014131023
+72.188.40.168 1 1 807 20101027214604
+12.118.38.50 1 1 807 20101019051607
+216.113.168.136 1 1 807 20101020225452
+74.108.160.42 1 1 807 20101029153503
+70.73.160.148 1 1 807 20101026001213
+98.84.138.110 1 1 807 20101017231853
+75.162.142.165 1 1 807 20101012093111
+68.171.234.248 1 1 807 20101016162139
+50.15.207.254 1 1 807 20101017020550
+98.112.60.204 1 1 807 20101010142644
+72.188.26.79 1 1 807 20101012021234
+71.63.154.86 1 1 807 20101021202453
+76.0.74.74 1 1 807 20101018011659
+108.11.41.3 1 1 807 20101029021434
+75.133.58.189 1 1 807 20101021151618
+92.90.21.1 1 1 807 20101010073100
+174.1.132.164 1 1 807 20101028181328
+166.137.9.205 1 1 807 20101021102657
+97.117.165.243 1 1 807 20101028194746
+32.166.31.252 1 1 807 20101019165838
+69.171.176.51 1 1 807 20101016103749
+129.7.17.176 1 1 807 20101022195302
+174.252.176.3 1 1 807 20101024114516
+74.45.36.87 1 1 807 20101025182303
+88.109.25.32 1 1 807 20101009123648
+24.158.187.53 1 1 807 20101008052205
+173.180.153.245 1 1 807 20101017003309
+108.96.146.102 1 1 807 20101023210137
+74.243.245.164 1 1 807 20101013184811
+64.114.203.19 1 1 807 20101031232836
+68.36.75.119 1 1 807 20101026190918
+208.66.176.135 1 1 807 20101017105928
+72.70.117.164 1 1 807 20101027152946
+98.197.85.95 1 1 807 20101023161539
+72.205.1.81 1 1 807 20101012101328
+98.134.235.116 1 1 807 20101018215204
+71.236.36.244 1 1 807 20101026184254
+12.87.163.114 1 1 807 20101025163237
+97.103.34.91 1 1 807 20101031132648
+169.236.160.106 1 1 807 20101013135622
+166.205.9.209 1 1 807 20101027235037
+141.238.221.53 1 1 807 20101014174104
+97.18.85.223 1 1 807 20101016134732
+24.67.155.146 1 1 807 20101016234732
+98.125.136.25 1 1 807 20101010233954
+24.252.28.5 3 3 2421 20101018141657
+166.205.15.233 1 1 807 20101016191908
+76.212.186.95 1 1 807 20101021211543
+67.200.140.178 1 1 807 20101017140338
+24.45.230.243 1 1 807 20101013072129
+98.115.22.230 1 1 807 20101028193254
+94.195.52.170 1 1 807 20101017174959
+74.79.25.33 1 1 807 20101024190144
+67.250.104.237 1 1 807 20101017072923
+70.190.105.128 1 1 807 20101027204618
+24.197.17.152 1 1 807 20101029075002
+65.183.129.78 1 1 807 20101018231343
+72.229.250.39 1 1 807 20101031084859
+76.225.51.20 1 1 807 20101020002555
+174.0.163.208 1 1 807 20101013193500
+93.97.202.145 1 1 807 20101014125047
+70.3.15.222 1 1 807 20101009194841
+206.255.146.84 1 1 807 20101024163027
+98.223.179.233 1 1 807 20101020180802
+70.75.63.74 2 2 1614 20101020092643
+64.12.117.68 1 1 807 20101023152539
+97.44.237.194 1 1 807 20101009003907
+92.237.113.44 1 1 807 20101031015618
+69.205.150.9 1 1 807 20101022083857
+152.65.77.242 1 1 807 20101026143937
+174.116.108.107 3 3 2421 20101019103649
+189.136.19.207 1 1 807 20101020103206
+129.82.207.149 1 1 807 20101017221929
+141.238.169.105 1 1 807 20101010163458
+89.36.94.142 1 1 807 20101029105946
+71.123.6.172 1 1 807 20101010010057
+67.249.240.13 1 1 807 20101017194733
+207.46.12.211 1 1 807 20101029201856
+69.205.17.34 1 1 807 20101011184040
+149.151.246.40 1 1 807 20101031194413
+76.126.17.105 3 3 2421 20101026184446
+72.205.241.112 1 1 807 20101023153248
+72.115.123.191 1 1 807 20101026114904
+98.127.161.150 1 1 807 20101022180118
+97.95.48.225 1 1 807 20101023152922
+75.88.0.204 1 1 807 20101023171528
+66.177.174.149 1 1 807 20101021105946
+94.5.161.18 1 1 807 20101018172850
+216.227.103.231 1 1 807 20101015202943
+96.239.109.146 1 1 807 20101010011447
+94.14.215.113 1 1 807 20101027102211
+69.243.150.195 1 1 807 20101017113057
+75.66.5.144 1 1 807 20101026232105
+98.18.215.112 1 1 807 20101025202323
+71.187.47.11 1 1 807 20101009103900
+74.64.27.190 1 1 807 20101009182322
+66.65.14.67 2 2 1614 20101031130504
+67.142.170.22 1 1 807 20101024205320
+93.173.161.156 1 1 807 20101013053713
+98.110.44.172 1 1 807 20101025081823
+174.28.237.176 1 1 807 20101027063807
+72.200.207.204 1 1 807 20101023235503
+24.208.11.18 1 1 807 20101007173333
+72.177.194.110 1 1 807 20101009162415
+99.74.77.155 1 1 807 20101031103325
+122.162.147.141 1 1 807 20101030010923
+75.13.166.217 1 1 807 20101022200746
+12.10.193.2 1 1 807 20101022092058
+98.94.160.117 1 1 807 20101024003744
+184.36.121.241 1 1 807 20101026211903
+96.18.1.41 1 1 807 20101007165117
+186.220.253.174 1 1 807 20101030160435
+24.193.97.7 1 1 807 20101029230905
+174.124.160.8 1 1 807 20101018173146
+166.137.14.48 1 1 807 20101011122529
+86.137.130.126 1 1 807 20101031063952
+24.166.63.184 1 1 807 20101019094440
+76.109.119.197 1 1 807 20101009015249
+67.80.197.24 1 1 807 20101022121957
+209.121.225.254 1 1 807 20101013133259
+174.19.174.39 1 1 807 20101024182940
+201.205.126.66 2 2 1614 20101021225604
+72.38.205.36 1 1 807 20101007185334
+166.205.10.27 1 1 807 20101026140033
+68.171.234.94 4 4 3228 20101030173700
+166.216.162.92 1 1 807 20101019205052
+67.170.142.26 1 1 807 20101030164338
+75.176.178.186 1 1 807 20101015231041
+64.210.199.231 5 20 867608 20101025101950
+70.176.57.7 1 1 807 20101026162406
+82.132.22.219 1 1 807 20101019195650
+97.158.116.205 1 1 807 20101018011201
+174.28.0.124 1 1 807 20101012102107
+166.205.12.47 1 1 807 20101021091305
+64.113.199.134 2 2 1614 20101017221844
+122.107.184.208 1 1 807 20101028161246
+64.122.55.133 1 1 807 20101031173550
+70.83.233.163 1 1 807 20101026185137
+81.182.152.168 2 2 1614 20101016091254
+173.124.36.247 1 1 807 20101031214835
+75.169.150.5 1 1 807 20101031214037
+184.96.19.175 1 1 807 20101024210339
+70.189.112.7 1 1 807 20101011092902
+76.104.248.107 1 1 807 20101025213301
+66.183.31.238 1 1 807 20101016001445
+98.156.8.89 1 1 807 20101025155851
+79.176.26.136 1 1 807 20101017141212
+69.254.98.60 1 1 807 20101013143111
+24.234.46.21 1 1 807 20101012111956
+173.80.193.63 1 1 807 20101027090800
+69.172.6.90 2 2 1614 20101021135647
+98.221.68.5 1 1 807 20101019201854
+70.21.15.162 1 1 807 20101029142133
+64.131.147.192 1 1 807 20101021181611
+71.196.10.102 1 1 807 20101030120441
+71.231.30.107 1 1 807 20101007223354
+97.115.0.152 1 1 807 20101024212526
+199.82.243.72 1 1 807 20101008084428
+174.65.108.72 2 2 1614 20101010171247
+96.228.59.80 1 1 807 20101024230734
+79.50.238.203 1 1 807 20101007135219
+71.183.180.213 1 1 807 20101031081054
+98.233.112.149 1 1 807 20101030080703
+76.255.142.17 1 1 807 20101009014450
+204.186.68.172 1 1 807 20101010125257
+173.57.82.239 1 1 807 20101010093058
+69.106.179.40 1 1 807 20101021160109
+97.158.78.90 1 1 807 20101016153904
+71.234.92.228 1 1 807 20101022021413
+174.102.46.127 1 1 807 20101008230518
+76.105.34.102 1 1 807 20101014132445
+70.11.141.31 1 1 807 20101007150315
+98.227.91.22 1 1 807 20101013215830
+89.133.25.199 1 1 807 20101016155629
+66.249.85.3 2 2 1614 20101013212407
+92.12.60.58 1 1 807 20101019125421
+72.191.34.93 1 1 807 20101007215207
+96.233.181.3 1 1 807 20101017164308
+76.246.26.204 1 1 807 20101010175006
+70.184.78.237 1 1 807 20101009170052
+206.223.212.102 1 1 807 20101013012629
+68.36.244.229 2 2 1614 20101026182442
+195.229.236.220 1 1 807 20101015184415
+69.161.83.152 1 1 807 20101026200812
+178.83.14.218 1 1 807 20101010164622
+69.150.51.85 1 1 807 20101029235024
+65.95.11.102 1 1 807 20101026212850
+108.12.164.32 1 1 807 20101020183909
+90.9.62.65 1 1 807 20101025032807
+174.49.174.113 1 1 807 20101024004302
+166.137.8.71 1 1 807 20101009201426
+206.53.147.226 4 4 3228 20101008235506
+71.238.160.58 1 1 807 20101007212527
+110.33.65.117 1 1 807 20101026011819
+67.241.47.113 1 1 807 20101022120552
+76.14.115.36 1 1 807 20101010131121
+67.252.99.120 1 1 807 20101015145615
+97.118.136.153 1 1 807 20101009133150
+173.57.50.249 1 1 807 20101010160051
+67.162.112.98 1 1 807 20101026185820
+68.3.199.152 1 1 807 20101023172848
+74.199.31.57 2 2 1614 20101012152535
+115.96.138.204 1 1 807 20101031145033
+35.11.210.68 1 1 807 20101017182904
+68.171.231.23 2 2 1614 20101030174209
+68.118.254.62 1 1 807 20101014050115
+96.54.111.155 1 1 807 20101013014004
+216.226.95.123 1 1 807 20101030122809
+99.252.162.10 1 1 807 20101012011928
+166.137.142.207 1 1 807 20101016160345
+139.147.73.118 1 1 807 20101028170915
+184.8.210.175 1 1 807 20101018100654
+174.16.227.226 1 1 807 20101012213222
+75.62.157.95 1 1 807 20101009170112
+74.54.240.138 1 1 807 20101031223138
+80.212.172.149 1 1 807 20101018203743
+173.217.76.224 1 1 807 20101023140859
+24.72.2.89 1 1 807 20101013172214
+99.151.57.50 1 1 807 20101010211724
+74.73.101.134 4 4 3228 20101017093425
+212.81.223.247 1 1 807 20101014053645
+74.89.40.90 1 1 807 20101014144608
+166.137.137.238 1 1 807 20101028030845
+208.54.83.77 1 1 807 20101010213500
+86.190.32.18 1 1 807 20101007131626
+98.111.7.109 1 1 807 20101020125243
+68.117.198.121 1 1 807 20101024190707
+70.4.235.0 1 1 807 20101030084842
+71.231.27.118 1 1 807 20101020150031
+58.110.123.179 1 1 807 20101008073609
+75.18.248.185 1 1 807 20101025165738
+216.36.19.73 1 1 807 20101026190625
+67.162.162.140 1 1 807 20101021195738
+66.194.108.2 1 1 807 20101014002831
+98.211.15.126 1 1 807 20101012105123
+166.137.139.214 1 1 807 20101014124439
+67.188.220.127 1 1 807 20101012190514
+88.255.106.34 1 1 807 20101021004639
+24.188.157.39 1 1 807 20101013021414
+77.222.190.157 1 1 807 20101021155933
+66.50.226.67 1 1 807 20101031191536
+69.171.178.13 1 1 807 20101010200225
+69.84.207.147 11 13 174238 20101022214823
+99.138.43.243 1 1 807 20101019002816
+212.56.211.50 1 1 807 20101029062231
+173.185.40.63 1 1 807 20101030103639
+71.56.200.121 1 1 807 20101027053406
+64.251.251.29 1 1 807 20101018163925
+72.160.137.55 1 1 807 20101021024118
+74.82.64.16 9 9 7263 20101026185018
+98.244.175.87 1 1 807 20101010121551
+24.180.168.247 1 1 807 20101009045148
+74.132.88.33 1 1 807 20101016211014
+98.92.85.42 1 1 807 20101012155722
+98.82.180.107 1 1 807 20101011200613
+216.235.111.203 1 1 807 20101012162608
+38.114.203.198 1 1 807 20101022075037
+74.127.118.248 1 1 807 20101022153605
+60.51.111.44 1 1 807 20101021050631
+71.136.45.204 1 1 807 20101020153551
+97.93.64.59 1 1 807 20101022014308
+96.10.4.14 1 1 807 20101011080051
+75.85.124.51 1 1 807 20101020130914
+144.62.214.67 1 1 807 20101027142419
+41.34.23.172 1 1 807 20101020090031
+122.168.219.208 1 1 807 20101030133930
+70.166.141.29 1 1 807 20101016130657
+81.23.50.228 1 1 807 20101025135704
+67.189.240.172 1 1 807 20101019193454
+217.155.226.62 1 1 807 20101028190853
+76.100.68.6 1 1 807 20101013172935
+82.39.181.161 1 1 807 20101012191142
+66.174.93.50 1 1 807 20101025180409
+24.236.141.164 1 1 807 20101019165023
+68.191.220.59 1 1 807 20101017081340
+152.26.239.194 1 1 807 20101026125313
+207.161.190.115 1 1 807 20101028062052
+71.233.105.21 1 1 807 20101012171012
+12.74.170.198 1 1 807 20101015095316
+99.71.135.230 1 1 807 20101020091209
+90.214.107.247 1 1 807 20101018131718
+69.112.151.142 1 1 807 20101027145755
+69.255.124.82 2 2 1614 20101025172749
+67.81.52.92 1 1 807 20101015050735
+89.201.210.111 1 1 807 20101013040304
+66.216.236.29 1 1 807 20101010063612
+173.210.100.242 2 2 1614 20101029224046
+208.94.78.65 2 2 1614 20101019225544
+174.34.147.88 1 1 807 20101009193019
+98.232.75.75 1 1 807 20101023232138
+98.111.85.177 1 1 807 20101027012245
+76.87.36.90 1 1 807 20101023230505
+74.96.84.120 1 1 807 20101016224843
+69.124.220.107 1 1 807 20101031103006
+213.114.140.159 1 1 807 20101010085039
+205.188.116.17 0 1 61055 
+205.188.117.74 0 1 237407 
+152.7.7.238 1 1 807 20101008211142
+24.91.9.153 1 1 807 20101008135559
+76.168.254.145 1 1 807 20101013080304
+217.171.129.73 1 1 807 20101026180202
+174.115.129.86 1 1 807 20101024154637
+67.252.19.234 1 1 807 20101024220018
+85.73.85.220 2 2 1614 20101031142735
+68.84.165.10 1 1 807 20101012144408
+70.109.62.193 1 1 807 20101026210438
+69.151.97.172 1 1 807 20101016124630
+99.232.171.171 1 1 807 20101009214615
+92.27.40.49 1 1 807 20101013192327
+75.15.150.184 4 18 856275 20101025235556
+71.94.37.146 1 1 807 20101015122949
+99.245.227.75 2 2 1614 20101019152737
+79.78.22.25 1 1 807 20101009144703
+76.120.147.160 1 1 807 20101008202618
+64.207.230.226 3 16 521597 20101025091628
+199.61.25.254 1 1 807 20101019083506
+24.127.88.109 1 1 807 20101016224422
+68.84.161.132 1 1 807 20101012022612
+24.17.126.251 1 1 807 20101030234444
+110.136.112.79 2 2 1614 20101010210640
+173.172.152.16 1 1 807 20101017021009
+76.15.8.92 1 1 807 20101027191622
+166.205.8.232 1 1 807 20101028151226
+71.237.0.74 1 1 807 20101018221751
+71.139.247.167 1 1 807 20101020234544
+66.214.176.101 1 1 807 20101020182722
+71.81.3.212 1 1 807 20101019233511
+173.52.67.57 1 1 807 20101020163950
+166.205.12.147 1 1 807 20101011211104
+99.229.33.107 1 1 807 20101021152623
+84.0.137.28 1 1 807 20101022070032
+71.59.192.47 1 1 807 20101022011121
+76.203.225.106 1 1 807 20101024161006
+216.105.179.237 1 1 807 20101016044319
+108.8.5.146 2 2 1614 20101007194150
+71.235.179.132 1 1 807 20101027202944
+69.66.198.65 1 1 807 20101027004335
+68.246.7.76 1 1 807 20101009222906
+173.28.97.13 1 1 807 20101008180003
+68.241.219.204 1 1 807 20101024023144
+71.2.129.148 1 1 807 20101018195940
+70.189.0.210 1 1 807 20101018225710
+27.32.137.67 1 1 807 20101008012831
+68.199.171.179 1 1 807 20101010130025
+71.193.33.79 1 1 807 20101017140053
+186.45.170.182 1 1 807 20101025234851
+71.184.135.146 1 1 807 20101011002054
+113.39.88.194 1 1 807 20101029001307
+173.220.14.90 1 1 807 20101017104835
+70.176.169.13 1 1 807 20101027215407
+173.185.138.115 1 1 807 20101028195435
+65.7.177.171 1 1 807 20101011160849
+69.10.98.159 1 1 807 20101030072707
+71.239.54.68 1 1 807 20101028235716
+69.122.232.41 1 1 807 20101020170922
+69.151.102.115 1 1 807 20101013214208
+67.167.117.45 1 1 807 20101017180015
+209.92.27.210 1 1 807 20101028111848
+205.188.116.69 1 1 8868 20101020123637
+184.15.126.214 1 1 807 20101015142509
+98.229.211.12 1 1 807 20101019221940
+74.190.59.12 1 1 807 20101028165543
+63.139.172.113 1 1 807 20101020155218
+67.36.192.234 1 1 807 20101025132555
+72.200.41.17 1 1 807 20101017224745
+99.36.58.40 1 1 807 20101028092423
+82.39.100.169 1 1 807 20101028133558
+69.110.79.110 1 1 807 20101012125756
+64.136.198.200 1 1 807 20101029173038
+139.142.82.105 1 1 807 20101015082139
+64.130.176.131 1 1 807 20101008110728
+76.110.244.148 1 1 807 20101029080138
+166.205.13.125 1 1 807 20101019230640
+75.220.223.96 1 1 807 20101015094550
+72.68.115.189 1 1 807 20101020114235
+74.76.23.27 1 1 807 20101019205839
+123.208.46.161 1 1 807 20101029101903
+199.95.171.5 1 1 807 20101011102122
+75.144.137.73 1 1 807 20101028112929
+78.89.69.86 1 1 807 20101010215606
+68.168.105.58 2 2 5561 20101006195218
+98.252.230.56 1 1 807 20101010100651
+81.151.216.164 1 1 807 20101010125026
+96.245.1.144 3 3 2421 20101018195043
+115.241.139.178 1 1 807 20101028001027
+72.125.93.74 1 1 807 20101012133546
+130.76.32.167 1 1 807 20101013043053
+174.19.75.189 1 1 807 20101025202004
+24.45.91.167 1 1 807 20101021113152
+173.166.61.129 1 1 807 20101026203957
+211.30.253.18 1 1 807 20101018033918
+67.70.11.246 1 1 807 20101009002517
+86.145.70.67 1 1 807 20101018092812
+74.214.54.230 1 1 807 20101029134718
+173.111.232.121 1 1 807 20101027174702
+76.28.205.46 1 1 807 20101029172124
+68.171.234.48 8 8 6456 20101017083013
+72.215.46.204 1 1 807 20101026185032
+186.81.107.50 1 1 807 20101024143600
+128.120.172.187 1 1 807 20101016145615
+96.241.219.61 1 1 807 20101007190145
+68.80.119.102 1 1 807 20101015173451
+99.153.250.166 1 1 807 20101029134938
+98.25.35.35 1 1 807 20101018131058
+93.172.48.117 1 1 807 20101012123816
+97.231.186.44 1 1 807 20101025001724
+74.111.144.140 5 5 4035 20101027160741
+97.227.201.149 1 1 807 20101028042820
+71.92.240.123 1 1 807 20101025153857
+67.166.142.194 1 1 807 20101019172302
+72.219.135.154 2 2 1614 20101014132213
+94.10.124.192 1 1 807 20101025142124
+166.137.143.159 1 1 807 20101017011109
+92.235.56.69 2 2 1614 20101017151505
+24.210.94.117 1 1 807 20101026211345
+75.42.216.143 1 1 807 20101016144458
+38.96.10.10 1 1 807 20101020104250
+67.224.233.42 1 1 807 20101022202251
+166.205.13.72 1 1 807 20101024213043
+74.95.74.42 1 1 807 20101015210628
+64.134.236.113 1 1 807 20101018002522
+68.36.116.227 1 1 807 20101020202409
+74.184.52.119 1 1 807 20101022214757
+70.185.121.191 1 1 807 20101014164428
+70.139.115.129 1 1 807 20101024174435
+72.38.37.25 2 2 1614 20101029092746
+69.236.73.183 1 1 807 20101008021826
+24.13.122.80 1 1 807 20101029102522
+67.67.41.75 1 1 807 20101007130843
+71.111.112.167 1 1 807 20101013074038
+207.161.2.23 1 1 807 20101018195244
+24.184.107.234 1 1 807 20101025205215
+75.69.74.42 1 1 807 20101019184030
+71.124.158.6 1 1 807 20101024215525
+67.160.160.158 1 1 807 20101009093014
+96.50.3.128 1 1 807 20101013225204
+67.65.248.132 6 6 4842 20101030170127
+173.49.240.41 1 1 807 20101015203139
+70.255.140.127 1 1 807 20101008153244
+216.251.200.166 2 2 1614 20101008020330
+67.239.149.154 1 1 807 20101018073834
+173.67.132.130 1 1 807 20101021202238
+69.203.204.29 1 1 807 20101014095148
+76.99.110.101 1 1 807 20101026191616
+70.112.87.116 1 1 807 20101009185619
+99.192.90.85 1 1 807 20101025141645
+192.136.22.4 1 1 807 20101030163217
+94.0.252.141 1 1 807 20101010132526
+166.205.139.84 1 1 807 20101025105541
+173.74.144.66 1 1 807 20101023224213
+76.204.116.24 1 1 807 20101011201710
+68.43.217.18 1 1 807 20101029023456
+60.240.198.226 1 1 807 20101013224510
+192.152.249.253 1 1 807 20101018092134
+173.18.187.189 1 1 807 20101012083101
+71.20.82.145 1 1 807 20101024163316
+98.236.160.100 1 1 807 20101016133343
+66.194.72.10 1 1 807 20101019114802
+76.248.72.145 1 1 807 20101027161344
+67.142.164.30 1 1 807 20101007164656
+108.23.6.227 1 1 807 20101009005620
+108.10.218.106 1 1 807 20101009232427
+67.142.170.26 1 1 807 20101019100232
+24.244.183.38 1 1 807 20101029001150
+76.23.105.30 1 1 807 20101014001752
+69.139.13.149 1 1 807 20101022090237
+99.229.117.133 1 1 807 20101008160942
+178.177.205.34 1 1 807 20101020133545
+175.253.82.206 1 1 807 20101023140927
+74.197.157.121 1 1 807 20101026212010
+189.144.150.114 1 1 807 20101021121303
+68.50.79.174 1 1 807 20101021232143
+67.40.146.27 1 1 807 20101018143509
+68.6.180.160 1 1 807 20101009143539
+24.229.160.45 1 1 807 20101007090013
+97.123.149.55 1 1 807 20101022144119
+96.242.167.17 1 1 807 20101018212254
+184.72.77.98 2 2 21545 20101031124022
+85.159.219.207 1 1 807 20101021111737
+173.16.216.150 1 1 807 20101016130415
+71.63.56.198 1 1 807 20101024215753
+173.76.58.251 1 1 807 20101010190757
+24.73.57.158 1 1 807 20101015112236
+99.50.122.22 1 1 807 20101008013454
+66.169.36.122 1 1 807 20101008192949
+216.57.66.177 1 1 807 20101017190833
+71.232.20.184 1 1 807 20101030144758
+68.201.103.49 1 1 807 20101018172134
+70.249.157.236 8 8 6456 20101012201745
+69.152.205.87 1 1 807 20101011205519
+98.31.4.229 1 1 807 20101007181313
+173.33.21.33 1 1 807 20101024192830
+71.237.93.220 1 1 807 20101021015833
+94.169.235.147 1 1 807 20101018051144
+124.179.19.101 1 1 807 20101010084725
+98.192.24.137 1 1 807 20101019011615
+68.245.203.212 1 1 807 20101007234056
+216.211.181.56 1 1 807 20101012183948
+84.73.205.67 1 1 807 20101011064359
+72.203.167.58 1 1 807 20101015162345
+96.236.33.90 1 1 807 20101031191452
+76.196.13.178 1 1 807 20101027145911
+75.24.202.216 1 1 807 20101031134418
+68.186.21.94 1 1 807 20101030203942
+207.46.12.208 1 1 807 20101009132248
+68.126.29.245 1 1 807 20101022190845
+173.206.235.118 1 1 807 20101007195648
+76.78.31.147 1 1 807 20101028162846
+68.59.40.105 1 1 807 20101017104332
+67.58.184.165 4 4 3228 20101015044809
+75.175.143.151 1 1 807 20101014174632
+64.164.48.94 1 1 807 20101016154119
+71.188.91.53 1 1 807 20101029181226
+140.232.183.240 1 1 807 20101021002708
+196.28.52.1 1 1 807 20101018164038
+208.54.7.131 1 1 807 20101027121913
+190.99.212.224 1 1 807 20101014161817
+98.244.85.19 1 1 807 20101031221845
+98.151.59.52 1 1 807 20101030021125
+96.38.119.175 1 1 807 20101016192541
+65.34.149.33 1 1 807 20101030130040
+150.135.25.36 1 1 807 20101018125944
+75.38.122.56 1 1 807 20101010092202
+67.167.109.68 1 1 807 20101028234659
+75.179.19.133 1 1 807 20101021045454
+98.226.137.209 1 1 807 20101022190336
+153.90.72.247 1 1 807 20101025181210
+166.137.139.246 1 1 807 20101008074406
+95.116.243.57 1 1 807 20101027150127
+166.137.15.219 1 1 807 20101030131325
+68.44.209.194 1 1 807 20101028072728
+72.254.128.202 1 1 807 20101026232146
+69.206.134.91 1 1 807 20101014122119
+71.237.229.189 1 1 807 20101020223637
+173.46.239.105 1 1 807 20101011124821
+69.107.249.222 1 1 807 20101022084714
+96.252.19.249 1 1 807 20101026061312
+209.129.180.252 1 1 807 20101026105218
+108.0.107.209 1 1 807 20101026192117
+132.177.230.207 1 1 807 20101031133001
+128.205.225.19 1 1 807 20101030023059
+98.23.21.13 1 1 807 20101026112207
+12.204.194.66 2 2 1614 20101013213021
+67.159.44.176 1 1 807 20101021081945
+69.58.115.18 1 1 807 20101022020501
+74.202.253.103 1 1 807 20101021153520
+74.32.164.176 1 1 807 20101007122424
+24.213.68.126 1 1 807 20101012123334
+68.83.176.235 2 2 1614 20101029220714
+71.56.59.46 1 1 807 20101012110210
+209.152.123.41 1 1 807 20101019174822
+72.183.116.197 1 1 807 20101009135703
+70.179.128.175 1 1 807 20101020110527
+65.29.61.146 1 1 807 20101026182446
+71.52.73.189 1 1 807 20101019120425
+207.117.33.135 1 1 807 20101008231349
+24.93.97.79 1 1 807 20101020230612
+208.54.7.161 1 1 807 20101019145117
+71.228.110.151 1 1 807 20101008031726
+70.124.107.59 1 1 807 20101023173159
+201.167.85.249 1 1 807 20101007123740
+97.196.254.211 1 1 807 20101021105210
+87.50.105.230 1 1 807 20101021070833
+71.170.74.248 1 1 807 20101015183635
+178.162.147.228 1 1 807 20101026144132
+99.144.65.232 1 1 807 20101016151705
+75.111.20.22 1 1 807 20101026232258
+204.110.112.2 1 1 807 20101023110554
+166.205.8.174 2 2 1614 20101022060832
+24.30.125.227 1 1 807 20101015034055
+208.54.85.79 1 1 807 20101015042219
+74.125.75.4 2 2 1614 20101016122631
+98.221.242.186 3 17 844523 20101026184448
+74.128.157.81 1 1 807 20101025113716
+71.125.245.56 1 1 807 20101010175512
+24.26.195.187 1 1 807 20101024061029
+174.59.123.39 1 1 807 20101011145545
+86.108.4.248 1 1 807 20101010150400
+98.202.183.73 1 1 807 20101020220205
+121.209.98.104 1 1 807 20101012053909
+24.34.193.157 1 1 807 20101031171747
+76.30.83.147 1 1 807 20101022232355
+99.106.112.235 2 2 1614 20101015143759
+164.76.166.94 1 1 807 20101013092513
+66.249.85.65 7 7 5649 20101021222339
+184.96.179.234 1 1 807 20101029223726
+71.87.1.158 1 1 807 20101012185718
+165.24.253.10 2 2 1614 20101025151121
+97.115.21.253 1 1 807 20101009211039
+134.71.249.70 1 1 807 20101020125238
+70.113.114.203 1 1 807 20101024195252
+216.220.216.200 1 1 807 20101013162958
+67.197.89.82 1 1 807 20101019153334
+216.230.150.53 1 1 807 20101018171624
+79.136.61.2 1 1 807 20101026085557
+74.178.24.10 1 1 807 20101029212432
+71.231.30.28 1 1 807 20101022011103
+216.37.227.51 1 1 807 20101019211945
+99.163.222.86 1 1 807 20101024110924
+24.128.198.198 1 1 807 20101007212815
+76.229.150.55 1 1 807 20101009000141
+76.105.57.214 1 1 807 20101010154450
+174.78.67.33 1 1 807 20101008141637
+96.255.137.243 1 1 807 20101009175708
+76.31.207.195 1 1 807 20101015132956
+24.251.111.174 1 1 807 20101029170346
+173.68.242.210 4 4 3228 20101020170232
+69.116.158.233 2 2 1614 20101011094632
+75.136.58.12 1 1 807 20101013211031
+75.147.23.41 1 1 807 20101017205824
+69.113.24.136 1 1 807 20101026032345
+71.237.137.213 1 1 807 20101021194615
+99.178.133.87 1 1 807 20101027150201
+24.8.23.3 1 1 807 20101011200452
+76.192.128.242 1 1 807 20101013141649
+207.200.116.71 1 1 807 20101024010113
+208.54.83.59 1 1 807 20101018233206
+99.119.70.246 1 1 807 20101010154618
+206.53.147.241 5 5 4035 20101024193043
+208.38.36.242 1 1 807 20101009152219
+122.168.67.115 1 1 807 20101014030005
+69.19.14.24 1 1 807 20101009225554
+74.94.91.86 1 1 807 20101017161109
+71.187.51.87 2 2 1614 20101026191113
+24.28.32.241 1 1 807 20101027102239
+99.64.50.253 1 1 807 20101022162807
+75.172.255.184 1 1 807 20101017152307
+207.237.17.217 1 1 807 20101017223614
+75.162.138.133 2 2 1614 20101021123932
+86.130.164.233 1 1 807 20101014201657
+166.217.101.255 1 1 807 20101007111144
+69.234.199.97 1 1 807 20101009204056
+72.71.229.148 1 1 807 20101011044223
+174.101.172.27 1 1 807 20101008103433
+76.99.241.48 1 1 807 20101018213110
+86.150.116.209 1 1 807 20101026112402
+216.170.222.250 1 1 807 20101012101513
+153.42.174.210 2 2 1614 20101015205550
+71.139.33.93 1 1 807 20101011175710
+24.61.157.51 1 1 807 20101016141139
+166.205.142.213 1 1 807 20101008172513
+206.29.188.190 1 1 807 20101029221757
+76.168.26.224 1 1 807 20101010220443
+174.24.186.93 1 1 807 20101022003447
+24.2.108.253 1 1 807 20101011014552
+74.97.178.150 1 1 807 20101013233741
+173.172.197.144 1 1 807 20101007132645
+108.10.16.165 1 1 807 20101020160132
+98.218.129.225 1 1 807 20101029093519
+116.71.30.38 1 1 807 20101030040828
+88.112.217.58 1 1 807 20101031120513
+98.200.3.112 1 1 807 20101008043014
+76.16.68.8 1 1 807 20101008142116
+206.83.48.110 1 1 807 20101011114653
+166.137.139.135 1 1 807 20101009025021
+82.81.136.103 1 1 807 20101024124306
+66.252.214.154 1 1 807 20101022214903
+75.76.76.99 1 1 807 20101031235350
+64.93.226.153 1 1 807 20101020182821
+86.128.61.173 1 1 807 20101012152939
+68.171.235.186 6 6 4842 20101017203446
+76.85.183.109 1 1 807 20101010113109
+68.204.30.65 1 1 807 20101017201117
+95.170.209.138 1 1 807 20101015131645
+86.26.4.135 1 1 807 20101013142858
+71.180.186.27 1 1 807 20101017105123
+70.113.112.210 1 1 807 20101027210823
+166.137.139.242 1 1 807 20101017181844
+209.131.60.67 1 1 807 20101012154418
+208.157.183.240 1 1 807 20101016222509
+205.222.248.18 1 1 807 20101021095408
+67.236.209.115 1 1 807 20101024182049
+67.188.17.131 1 1 807 20101023040656
+216.164.172.67 1 1 807 20101010152150
+201.171.2.42 1 1 807 20101024193537
+108.66.3.246 1 1 807 20101020160813
+71.162.249.51 1 1 807 20101019145356
+99.201.209.162 1 1 807 20101022103101
+204.137.64.112 2 2 1614 20101012104303
+70.124.84.189 1 1 807 20101012225051
+98.151.54.36 1 1 807 20101018222105
+24.117.173.165 1 1 807 20101027155214
+74.103.102.124 1 1 807 20101027094608
+24.168.37.40 1 1 807 20101025174155
+69.137.106.29 1 1 807 20101021172235
+24.100.125.138 1 1 807 20101022110317
+69.51.119.190 1 1 807 20101012233840
+98.192.31.220 1 1 807 20101019185506
+98.160.130.153 1 1 807 20101023163924
+140.182.162.19 1 1 807 20101016200243
+24.15.199.166 1 1 807 20101027120456
+97.237.156.249 1 1 807 20101011151230
+72.193.165.184 1 1 807 20101013184420
+68.57.242.73 2 2 1614 20101013140501
+68.78.134.187 1 1 807 20101018233151
+72.200.64.42 5 5 4035 20101029165305
+200.29.101.103 1 1 807 20101017181517
+75.25.97.161 1 1 807 20101029124351
+24.79.37.245 1 1 807 20101025174250
+24.91.72.52 1 1 807 20101021171637
+216.145.149.87 1 1 807 20101020135905
+208.54.45.79 1 1 807 20101027195357
+24.131.26.200 1 1 807 20101017082249
+77.248.168.205 1 1 807 20101028164413
+68.226.8.104 1 1 807 20101010014325
+92.39.203.34 1 1 807 20101019062750
+213.13.245.51 1 1 807 20101011112410
+71.239.215.190 1 1 807 20101019090247
+95.27.38.64 1 1 807 20101025100134
+142.68.196.231 1 1 807 20101026152951
+110.174.244.195 1 1 807 20101025235323
+64.53.253.13 1 1 807 20101012132813
+115.248.98.83 1 1 807 20101019051659
+208.40.206.202 1 1 807 20101008083120
+24.36.227.141 1 1 807 20101029175154
+68.191.249.255 1 1 807 20101015205718
+99.1.183.18 1 1 807 20101009085759
+68.1.141.244 1 1 807 20101024225202
+69.245.179.147 2 2 1614 20101015114632
+66.172.219.56 1 1 807 20101023030710
+141.158.66.133 1 1 807 20101008010256
+173.178.185.33 2 2 1614 20101025142431
+68.239.9.79 1 1 807 20101021125655
+137.99.130.230 2 9 466583 20101020215428
+24.203.103.106 1 1 807 20101019201915
+208.115.138.254 5 5 4035 20101026185032
+74.132.137.72 1 1 807 20101025003226
+69.199.101.82 1 1 807 20101025110112
+70.78.46.191 1 1 807 20101024082724
+74.125.75.19 5 6 4389 20101031143438
+208.54.45.66 1 1 807 20101025185940
+69.136.8.230 1 1 807 20101014150853
+128.54.230.6 4 4 3228 20101008114632
+72.132.156.90 1 1 807 20101018010332
+69.19.14.19 1 1 807 20101015153436
+98.249.4.131 1 1 807 20101009011624
+208.74.247.249 1 1 807 20101020203613
+97.92.93.12 1 1 807 20101012164025
+173.216.204.193 1 1 807 20101031162956
+70.114.56.36 1 1 807 20101024010748
+173.75.143.135 1 1 807 20101026082332
+207.46.193.50 1 1 807 20101017232737
+24.152.201.210 1 1 807 20101009175440
+72.12.72.127 1 1 807 20101026155506
+114.143.96.127 1 1 807 20101008025059
+207.46.12.161 1 1 807 20101026050311
+70.213.163.32 1 1 807 20101008170917
+173.23.72.245 1 1 807 20101014205148
+75.92.49.231 1 1 807 20101031165332
+50.8.30.141 1 1 807 20101007164904
+98.213.26.232 1 1 807 20101012011129
+173.67.146.16 1 1 807 20101028181024
+98.199.225.146 2 2 1614 20101015144845
+71.181.212.127 1 1 807 20101013121339
+24.180.72.38 1 1 807 20101019211232
+24.231.189.218 1 1 807 20101011184011
+74.235.30.184 1 1 807 20101008002434
+122.162.180.4 1 1 807 20101019024207
+38.97.13.86 1 1 807 20101013165829
+75.43.37.201 1 1 807 20101014134353
+74.195.214.50 1 1 807 20101011225516
+142.167.40.94 1 1 807 20101017080117
+66.27.197.93 1 1 807 20101030175225
+24.173.178.38 1 1 807 20101015123426
+121.96.39.153 1 1 807 20101022165621
+76.121.102.202 1 1 807 20101028230059
+71.174.24.154 1 1 807 20101007100814
+59.94.11.38 1 1 807 20101028134226
+173.60.218.79 1 1 807 20101007183009
+98.210.100.21 1 1 807 20101031084534
+67.248.247.168 1 1 807 20101016113419
+24.228.167.233 1 1 807 20101020225543
+68.122.184.234 1 1 807 20101026164637
+98.215.236.109 1 1 807 20101025160032
+207.46.195.211 1 1 807 20101020084240
+75.145.147.225 3 3 2421 20101011213914
+72.64.54.5 1 1 807 20101030075918
+24.49.50.211 1 1 807 20101020174218
+70.73.116.109 1 1 807 20101029034058
+68.28.115.119 3 3 2421 20101031112955
+67.186.59.184 1 1 807 20101012142607
+166.137.137.248 1 1 807 20101022235454
+208.58.44.197 1 1 807 20101029174306
+62.90.45.107 1 1 807 20101027091438
+70.170.127.70 1 1 807 20101010151139
+75.151.34.212 1 1 807 20101008231845
+74.248.52.70 1 1 807 20101009235007
+97.157.220.209 1 1 807 20101014082518
+76.17.103.186 1 1 807 20101029143912
+24.14.17.177 1 1 807 20101013153110
+86.96.227.101 1 1 807 20101021161305
+62.227.10.245 1 1 807 20101023212413
+137.85.5.158 1 1 807 20101015104746
+153.90.77.24 1 1 807 20101025180507
+206.53.153.56 5 5 4035 20101026224816
+71.93.2.132 1 1 807 20101024213904
+69.10.120.31 1 1 807 20101007182158
+71.21.78.72 1 1 807 20101008223956
+166.205.9.33 1 1 807 20101017110750
+149.119.221.76 1 1 807 20101016200919
+70.44.208.240 1 1 807 20101020120822
+71.79.20.192 1 1 807 20101021190651
+41.136.153.118 1 1 807 20101010120706
+76.90.13.138 1 1 807 20101029173451
+173.3.10.224 1 1 807 20101030233310
+97.34.24.5 1 1 807 20101024234518
+98.140.28.245 1 1 807 20101016110430
+67.187.237.172 1 1 807 20101007233223
+74.62.44.135 1 1 807 20101021121447
+68.251.188.67 1 1 807 20101020141426
+76.221.202.196 1 1 807 20101028024503
+74.249.199.203 2 2 1614 20101017114319
+69.238.167.167 1 1 807 20101008220139
+209.191.2.179 1 1 807 20101019075354
+76.94.207.26 1 1 807 20101007165308
+24.153.190.194 1 1 807 20101023232752
+71.162.33.80 1 1 807 20101014212447
+99.175.70.174 1 1 807 20101014142127
+72.88.215.153 1 1 807 20101011223404
+202.134.153.31 1 1 807 20101028135932
+96.32.146.83 1 1 807 20101028143533
+75.159.100.112 1 1 807 20101026232613
+67.248.9.137 1 1 807 20101029204604
+98.182.56.225 1 1 807 20101015040307
+68.34.172.155 1 1 807 20101008160941
+207.206.239.4 1 1 807 20101013104518
+76.179.59.90 1 1 807 20101022183208
+97.95.44.103 1 1 807 20101029135324
+155.225.149.39 1 1 807 20101019220747
+99.196.192.58 2 2 1614 20101028110257
+78.86.244.47 1 1 807 20101031185543
+24.190.75.32 2 2 1614 20101013160525
+166.205.9.244 1 1 807 20101026123043
+216.171.98.77 1 1 8 20101018221353
+216.195.129.66 1 1 807 20101024111341
+96.233.147.174 1 1 807 20101013213524
+173.63.95.2 1 1 807 20101023200235
+67.187.26.219 1 1 807 20101029010012
+66.152.117.133 1 1 807 20101021175427
+62.78.238.127 1 1 807 20101022174426
+209.89.95.45 1 1 807 20101029161626
+32.174.57.206 1 1 807 20101012191947
+74.233.28.150 1 1 807 20101014165322
+208.20.7.28 1 1 807 20101027120533
+66.249.17.224 1 1 807 20101028140630
+24.176.120.47 1 1 807 20101023232307
+75.166.20.16 1 1 807 20101023003031
+173.34.144.46 1 1 807 20101030151431
+71.192.31.196 1 1 807 20101013140312
+70.182.255.221 1 1 807 20101031213223
+67.142.161.30 2 2 1614 20101028220050
+72.0.145.72 1 1 807 20101022131512
+72.208.37.110 1 1 807 20101027144502
+24.61.87.133 1 1 807 20101024173756
+76.212.159.89 1 1 807 20101031123656
+24.89.245.40 1 1 807 20101013130245
+98.86.148.178 1 1 807 20101027221611
+67.176.176.127 1 1 807 20101026101020
+77.126.79.79 1 1 807 20101019094648
+151.203.226.223 1 1 807 20101011192616
+98.228.38.104 1 1 807 20101017152859
+109.204.178.9 1 1 807 20101018031916
+24.177.28.158 1 1 807 20101014174243
+69.148.17.158 1 1 807 20101014235116
+24.177.55.132 1 1 807 20101028011138
+70.188.46.8 1 1 807 20101025202102
+97.154.11.35 1 1 807 20101017203029
+118.96.95.130 1 1 807 20101024222654
+138.16.16.50 1 1 807 20101027012636
+24.236.79.59 1 1 807 20101019111351
+72.204.200.140 1 1 807 20101011001728
+68.194.71.60 3 3 2421 20101027215900
+166.205.142.188 1 1 807 20101021231730
+71.174.10.214 1 1 807 20101026200121
+99.99.104.254 1 1 807 20101015020738
+166.137.13.244 6 6 4842 20101030141856
+87.64.19.57 1 1 807 20101024182538
+208.96.67.209 1 1 807 20101025204717
+76.121.105.84 1 1 807 20101031033408
+98.230.209.64 1 1 807 20101023163851
+8.21.210.67 1 1 807 20101027191852
+76.117.222.170 1 1 807 20101012192855
+66.99.246.227 5 5 4035 20101028101843
+108.0.198.121 1 1 807 20101021191841
+72.94.249.38 1 1 6396 20101010235307
+121.54.54.37 1 1 807 20101016013142
+69.195.59.39 1 1 807 20101018225904
+72.89.216.51 1 1 807 20101017145409
+69.141.21.118 1 1 807 20101022202514
+99.178.151.197 3 9 467303 20101018062809
+76.179.109.71 1 1 807 20101017054904
+75.145.151.41 1 1 807 20101007123456
+75.118.192.185 1 1 807 20101013001417
+173.75.249.231 1 1 807 20101015072304
+75.83.62.30 1 1 807 20101016171114
+75.67.64.116 1 1 807 20101022162338
+67.173.59.53 2 2 1614 20101021184148
+97.103.193.244 1 1 807 20101022231030
+69.114.17.186 4 4 3228 20101030224432
+24.139.180.115 1 1 807 20101014145908
+98.87.108.177 1 1 807 20101031230851
+72.56.35.204 1 1 807 20101013210412
+173.2.153.108 1 1 807 20101020201552
+98.109.99.144 1 1 807 20101018164547
+67.41.106.72 2 2 1614 20101012175604
+209.51.153.38 1 1 9995 20101029004103
+190.222.138.8 1 1 807 20101020153252
+70.188.254.143 1 1 807 20101026203152
+75.28.131.145 1 1 807 20101011165831
+69.134.81.214 1 1 807 20101010155557
+24.108.38.234 1 1 807 20101008140214
+91.103.40.50 1 1 807 20101015074505
+98.236.92.247 1 1 807 20101019202952
+96.242.219.71 1 1 807 20101007195521
+75.89.189.30 1 1 807 20101008012451
+69.201.142.22 1 1 807 20101017170212
+74.104.54.149 1 1 807 20101015191112
+76.29.220.144 1 1 807 20101015233623
+122.168.181.224 1 1 807 20101014040251
+183.81.56.246 1 1 807 20101009131533
+78.142.8.89 1 1 807 20101011162237
+207.255.62.153 2 2 1614 20101014150514
+66.77.102.10 1 1 807 20101011180114
+24.95.93.176 1 1 807 20101010170632
+71.147.43.140 1 1 807 20101028172445
+98.110.74.51 2 2 1614 20101025172206
+98.225.124.166 1 1 807 20101026111831
+70.138.33.34 1 1 807 20101016000802
+75.197.201.114 1 1 807 20101010152031
+66.162.72.105 1 1 807 20101018232450
+68.188.155.101 1 1 807 20101021223615
+205.188.117.5 0 1 60938 
+68.118.201.149 1 1 807 20101015161500
+83.92.113.35 1 1 807 20101021151220
+129.173.185.234 1 1 807 20101024184847
+70.45.37.166 1 1 807 20101016192003
+12.189.100.90 3 9 467303 20101015074322
+89.216.166.163 1 1 807 20101024151045
+68.156.159.10 1 1 807 20101013052826
+66.19.20.100 1 1 807 20101009203139
+184.19.143.167 1 1 807 20101024114116
+222.154.143.127 1 1 807 20101021030218
+67.180.70.197 1 1 807 20101014151548
+76.104.18.71 1 1 807 20101026101115
+70.227.174.88 1 1 807 20101016212327
+87.226.70.78 1 1 807 20101009064552
+67.55.220.24 1 1 807 20101009222632
+63.249.103.234 1 1 807 20101021193126
+66.177.40.93 1 1 807 20101011201255
+71.253.64.53 1 1 807 20101015065445
+184.78.85.226 1 1 807 20101025231942
+24.36.222.131 1 1 807 20101017202951
+71.123.87.4 3 3 2421 20101019161358
+67.248.252.125 1 1 807 20101025174951
+207.46.199.15 2 2 1614 20101019070741
+67.80.176.10 1 1 807 20101014145802
+166.137.136.213 1 1 807 20101022195311
+68.94.17.202 1 1 807 20101020235724
+72.154.231.82 1 1 807 20101010162116
+88.88.244.223 1 1 807 20101016110413
+67.160.52.80 1 1 807 20101010224432
+97.80.187.196 1 1 807 20101015204442
+206.53.157.210 3 3 2421 20101023214828
+173.16.223.217 1 1 807 20101027211349
+71.170.56.18 2 2 1614 20101028163218
+186.85.108.148 1 1 807 20101010100405
+75.191.205.251 1 1 807 20101023212946
+86.155.63.165 1 1 807 20101009155208
+24.201.111.186 1 1 807 20101017135513
+76.170.78.37 1 1 807 20101022014636
+76.175.115.220 1 1 807 20101025144722
+24.159.180.84 1 1 807 20101015215945
+24.190.13.59 1 1 807 20101015143818
+68.201.102.237 1 1 807 20101024185920
+99.93.53.196 1 1 807 20101009042113
+69.174.137.153 1 1 807 20101007203628
+64.196.241.130 1 1 807 20101014064948
+70.62.10.14 1 1 807 20101025191302
+67.191.239.236 2 2 1614 20101009043927
+86.177.212.249 1 1 807 20101024145200
+75.110.73.13 1 1 807 20101026205203
+75.62.16.230 1 1 807 20101029190957
+119.155.38.126 1 1 807 20101027102106
+24.53.141.157 1 1 807 20101027211312
+24.189.221.178 2 2 1614 20101030103108
+68.92.213.141 1 1 807 20101012083247
+205.188.117.75 0 1 38419 
+166.216.226.59 1 1 807 20101024012256
+24.120.181.42 1 1 807 20101016184135
+98.253.42.202 1 1 807 20101025123114
+98.227.175.215 1 1 807 20101026220533
+207.46.193.36 1 1 807 20101018024104
+69.159.90.224 1 1 807 20101024211331
+173.27.214.245 3 3 2421 20101020132651
+75.206.63.170 1 1 807 20101016071234
+24.126.40.124 1 1 807 20101025101506
+99.64.69.31 1 1 807 20101028054624
+71.207.51.15 1 1 807 20101030145922
+87.235.111.232 1 1 807 20101026064716
+98.217.178.242 1 1 807 20101020191128
+110.164.165.228 1 1 807 20101017215200
+173.13.81.37 1 1 807 20101026185519
+99.139.120.27 1 1 807 20101025193705
+98.88.43.9 1 1 807 20101029170545
+68.59.106.81 1 1 807 20101021193540
+74.232.149.197 1 1 807 20101019210143
+97.247.192.66 1 1 807 20101011102112
+68.194.24.251 1 1 807 20101009001621
+72.4.183.206 1 1 807 20101015180656
+69.142.100.160 2 2 1614 20101024114143
+72.208.87.251 2 2 1614 20101028014416
+64.134.182.45 1 1 807 20101025104953
+65.60.74.114 1 1 807 20101013151622
+187.23.219.114 1 1 807 20101021152910
+137.36.250.155 1 1 807 20101031215534
+125.60.236.94 1 1 807 20101024055749
+68.32.54.173 1 1 807 20101019190612
+76.174.34.159 1 1 807 20101024194744
+76.30.6.211 1 1 807 20101028193138
+68.171.234.178 2 2 1614 20101008150222
+70.245.75.179 1 1 807 20101024164244
+77.18.95.209 1 1 807 20101013153734
+69.244.35.186 1 1 807 20101011222014
+99.167.214.9 1 1 807 20101018115626
+207.46.12.69 2 2 1614 20101025044803
+99.13.113.33 1 1 807 20101031205626
+121.73.42.126 1 1 807 20101030072331
+70.146.212.95 1 1 807 20101008143245
+217.43.69.42 1 1 807 20101018074300
+64.12.117.8 1 1 807 20101028231518
+71.97.70.244 1 1 807 20101012200000
+67.244.28.107 1 1 807 20101009123402
+80.5.222.184 1 1 807 20101030083406
+137.146.179.204 1 1 807 20101014125417
+76.25.129.133 1 1 807 20101030194554
+71.54.36.183 1 1 807 20101009113122
+76.198.134.242 1 1 807 20101024012652
+24.23.40.250 1 1 807 20101009235809
+67.211.88.128 8 8 6456 20101030194002
+205.188.116.145 0 1 171525 
+98.237.116.105 1 1 807 20101007234346
+68.58.194.34 1 1 807 20101015233541
+66.177.61.150 1 1 807 20101024190123
+70.138.111.39 1 1 807 20101020153409
+76.183.137.202 1 1 807 20101016011228
+69.69.199.164 1 1 807 20101007224252
+85.211.166.70 1 1 807 20101010061736
+76.108.243.252 1 1 807 20101012220057
+173.73.148.11 1 1 807 20101010144717
+69.131.65.99 1 1 807 20101015124423
+98.244.124.160 1 1 807 20101019194547
+166.137.140.208 1 1 807 20101018222015
+24.251.94.37 1 1 807 20101023215751
+76.115.129.204 1 1 807 20101008063832
+70.162.45.59 1 1 807 20101008132341
+24.94.183.115 1 1 807 20101019025816
+174.126.233.211 1 1 807 20101015193817
+24.224.205.222 1 1 807 20101012192823
+96.237.18.219 1 1 807 20101016235152
+67.182.69.165 1 1 807 20101025113428
+121.103.253.67 1 1 807 20101012185022
+173.71.222.51 1 1 807 20101022223816
+128.36.168.15 1 1 807 20101011202748
+71.216.42.1 1 1 807 20101018110403
+184.96.240.183 1 1 807 20101010220956
+173.89.242.135 1 1 807 20101028130710
+138.32.46.181 1 1 807 20101020085248
+76.106.224.103 1 1 807 20101020235851
+67.79.73.213 1 1 807 20101010162929
+75.142.85.216 1 1 807 20101013021150
+70.45.1.169 1 1 807 20101010031329
+86.6.51.165 1 1 807 20101017174113
+68.198.206.216 1 1 807 20101026144642
+88.80.205.219 1 1 807 20101025001253
+205.188.116.131 1 1 13062 20101020123351
+206.47.78.150 1 1 807 20101008141950
+115.96.138.138 1 1 807 20101020104056
+71.196.82.103 1 1 807 20101029171158
+76.25.149.241 1 1 807 20101009131250
+74.73.1.83 1 1 807 20101007121057
+131.128.144.220 1 1 807 20101016172432
+166.137.140.136 1 1 807 20101008114419
+98.223.197.48 3 3 2421 20101030124357
+69.251.158.90 1 1 807 20101014211953
+70.44.60.124 1 1 807 20101013052514
+99.153.191.242 1 1 807 20101019212624
+69.228.36.19 1 1 807 20101018151303
+70.116.64.77 1 1 807 20101024180844
+109.93.167.85 1 1 807 20101022114210
+71.21.76.251 1 1 807 20101012205145
+68.5.101.96 1 1 807 20101023015955
+173.160.45.58 1 1 807 20101012173936
+174.91.158.126 1 1 807 20101010201246
+207.46.195.216 1 1 807 20101019205558
+67.177.5.83 1 1 807 20101024114644
+65.9.185.71 2 2 1614 20101025133351
+96.10.57.88 1 1 807 20101017124024
+70.179.123.208 1 1 807 20101020151250
+184.72.66.99 1 1 807 20101013122641
+184.76.67.227 1 1 807 20101011194031
+68.75.179.46 1 1 807 20101009142426
+74.105.147.35 1 1 807 20101027071049
+96.242.88.65 1 1 807 20101014133644
+12.5.62.130 1 1 807 20101026082424
+166.216.130.83 1 1 807 20101009100553
+96.240.94.138 1 1 807 20101012111959
+141.165.134.79 1 1 807 20101019235639
+71.251.24.123 1 1 807 20101021144052
+207.138.120.144 1 1 807 20101013100841
+174.16.22.90 1 1 807 20101018190908
+212.17.134.114 1 1 807 20101020142443
+70.114.156.69 1 1 807 20101013001952
+166.137.8.130 1 1 807 20101027110747
+70.124.33.83 2 2 1614 20101013183636
+68.197.36.116 1 1 807 20101012162355
+69.119.7.118 1 1 807 20101007142833
+1.186.2.30 1 1 807 20101011080352
+85.127.111.84 1 1 807 20101031192236
+69.87.160.2 1 1 807 20101014012810
+67.242.58.97 1 1 807 20101017213900
+208.91.164.254 1 1 807 20101029132117
+206.248.53.177 3 3 2421 20101020132044
+75.111.91.39 1 1 807 20101020171040
+97.77.63.112 1 1 807 20101028162537
+208.54.83.78 1 1 807 20101010184217
+207.112.81.145 1 1 807 20101016073722
+74.248.43.22 1 1 807 20101030120045
+78.110.211.170 1 1 807 20101030050012
+68.152.236.46 1 1 807 20101015121502
+216.237.67.126 1 1 807 20101013131936
+97.215.188.142 1 1 807 20101020074936
+79.50.232.216 1 1 807 20101027140219
+71.243.182.192 1 1 807 20101026140743
+69.112.10.193 1 1 807 20101018133413
+69.62.236.141 1 1 807 20101025005354
+68.41.42.147 1 1 807 20101030132903
+68.32.72.191 1 1 807 20101022232527
+64.53.229.113 1 1 807 20101024003553
+97.92.91.88 1 1 807 20101023234617
+166.205.9.147 1 1 807 20101015163829
+92.26.139.159 1 1 807 20101020163918
+76.226.16.134 7 7 5649 20101025213901
+71.23.224.19 1 1 807 20101027193558
+142.162.253.184 1 1 807 20101021134201
+70.113.49.220 1 1 807 20101030011131
+173.19.69.37 1 1 807 20101016072059
+98.87.53.80 1 1 807 20101016203854
+72.193.78.233 1 1 807 20101029171653
+71.219.130.199 2 2 1614 20101009170500
+66.168.7.169 1 1 807 20101019124502
+72.135.12.163 1 1 807 20101028221544
+98.173.71.197 1 1 807 20101026111031
+174.18.81.70 1 1 807 20101026220710
+208.125.236.102 1 1 807 20101007123434
+70.73.85.242 1 1 807 20101026012808
+96.226.132.253 1 1 807 20101007091819
+98.234.53.139 1 1 807 20101016174834
+89.133.227.150 1 1 807 20101009062730
+64.186.120.31 1 1 807 20101028033537
+74.79.150.222 1 1 807 20101013002223
+75.17.59.104 1 1 807 20101029220557
+24.187.177.102 1 1 807 20101010202906
+92.13.21.73 1 1 807 20101016121438
+207.255.206.105 1 1 807 20101020134429
+24.148.27.59 1 1 807 20101021223047
+68.67.115.72 1 1 807 20101009140443
+74.140.131.67 1 1 807 20101020224957
+24.147.12.216 1 1 807 20101013145639
+74.129.128.122 2 2 1614 20101022182702
+206.188.254.142 1 1 807 20101010225753
+77.46.175.3 1 1 807 20101010221102
+75.111.205.248 1 1 807 20101016174956
+24.114.232.26 1 1 807 20101028160356
+67.142.162.29 1 1 807 20101010130750
+99.70.91.106 1 1 807 20101030235727
+71.254.151.69 1 1 807 20101021225156
+95.26.89.171 1 1 807 20101018011953
+97.49.48.198 1 1 807 20101015213635
+67.9.131.114 1 1 807 20101021134907
+98.237.165.131 1 1 807 20101022003511
+70.251.78.123 1 1 807 20101021203011
+98.214.208.72 1 1 807 20101015053615
+24.24.151.237 1 1 807 20101010222402
+68.15.198.174 1 1 807 20101014160341
+12.213.224.54 2 2 1614 20101018201539
+98.203.197.186 1 1 807 20101007152848
+189.216.160.127 1 1 807 20101021174054
+99.64.64.95 1 1 807 20101021104602
+98.206.169.117 1 1 807 20101010154913
+205.188.116.140 0 1 2608 
+38.98.19.67 1 1 807 20101011233848
+173.57.62.197 1 1 807 20101019185805
+166.205.11.163 1 1 807 20101028235654
+67.247.36.116 1 1 807 20101018191420
+65.78.168.148 1 1 807 20101018020951
+66.188.54.80 1 1 807 20101009153015
+68.185.194.222 1 1 807 20101016203602
+24.252.53.253 2 2 1614 20101031105931
+166.137.139.15 1 1 807 20101030103827
+70.126.16.3 1 1 807 20101013160444
+98.240.49.35 1 1 807 20101025202622
+205.188.117.13 1 1 8509 20101020123434
+68.201.66.190 2 2 1614 20101029015012
+69.159.175.205 1 1 807 20101011193954
+67.70.49.48 1 1 807 20101008201031
+173.180.161.27 1 1 807 20101012170429
+24.7.78.148 1 1 807 20101009125508
+24.15.124.59 1 1 807 20101013182802
+24.15.39.183 1 1 807 20101022144015
+68.111.92.31 1 1 807 20101015031845
+98.26.249.66 1 1 807 20101025220914
+166.216.130.50 1 1 807 20101020181112
+58.160.136.59 1 1 807 20101014030146
+206.53.147.220 1 1 807 20101019225521
+207.190.75.112 1 1 807 20101024070045
+24.228.142.0 1 1 807 20101025190008
+76.111.248.23 1 1 807 20101008201226
+122.169.74.37 1 1 807 20101021054648
+71.190.27.27 1 1 807 20101013224321
+76.233.255.38 1 1 807 20101014002657
+50.15.225.170 1 1 807 20101010001120
+69.206.134.214 1 1 807 20101010153018
+198.160.190.11 1 1 807 20101019133359
+64.134.228.187 1 1 807 20101010113034
+67.234.41.2 1 1 807 20101011204414
+74.60.251.114 1 1 807 20101020191922
+68.6.66.2 1 1 807 20101021133031
+70.144.10.135 1 1 807 20101013163006
+169.234.143.92 1 1 807 20101031041305
+72.185.1.134 1 1 807 20101017160356
+76.179.87.18 1 1 807 20101028125301
+72.82.199.235 1 1 807 20101022204719
+98.232.52.216 1 1 807 20101015113948
+67.186.111.156 1 1 807 20101018201426
+24.139.199.206 1 1 807 20101024194213
+65.110.121.60 1 1 807 20101017181141
+67.187.217.15 1 1 807 20101012051617
+98.192.76.113 1 1 807 20101011071102
+24.113.247.13 1 1 807 20101021224212
+98.113.149.127 1 1 807 20101027130805
+69.171.164.125 1 1 807 20101015164103
+68.189.48.210 1 1 807 20101027021609
+82.25.209.115 1 1 807 20101016160342
+65.30.27.73 1 1 807 20101015154237
+98.164.81.52 1 1 807 20101020190655
+174.100.209.21 1 1 807 20101012154350
+121.213.172.159 1 1 807 20101009032357
+12.213.224.36 1 1 807 20101025143617
+24.127.74.198 1 1 807 20101020144449
+76.230.66.158 1 1 807 20101025195809
+207.200.116.70 1 1 807 20101024194048
+67.160.14.178 1 1 807 20101015013459
+75.118.162.149 1 1 807 20101017214854
+71.199.234.84 1 1 807 20101019154822
+74.232.158.156 1 1 807 20101027170226
+67.81.191.17 1 1 807 20101011185542
+207.46.12.68 1 1 807 20101013085524
+70.184.88.186 1 1 807 20101018165214
+69.193.222.42 8 24 916460 20101026105052
+68.39.238.116 2 2 1614 20101019201257
+109.232.85.28 1 1 807 20101024174949
+173.74.3.202 1 1 807 20101021184928
+99.231.213.55 1 1 807 20101019193656
+67.167.76.27 1 1 807 20101008221856
+69.58.178.30 10 10 126379 20101020094649
+67.197.126.166 1 1 807 20101014145349
+98.200.91.71 1 1 807 20101010220013
+92.8.127.246 1 1 807 20101012180911
+68.163.70.247 1 1 807 20101021124421
+68.46.96.153 10 10 8070 20101029124605
+75.23.175.57 1 1 807 20101022191643
+70.124.96.114 1 1 807 20101030032154
+132.194.70.73 1 1 807 20101026190230
+24.44.131.147 1 1 807 20101020170729
+99.166.178.9 1 1 807 20101011192159
+108.1.255.7 1 1 807 20101020170022
+76.99.168.176 1 1 807 20101009210158
+76.126.36.67 1 1 807 20101014212931
+76.221.98.166 1 1 807 20101027211122
+124.177.179.253 1 1 807 20101026021552
+98.218.192.25 1 1 807 20101022011754
+74.95.162.209 1 1 807 20101008145750
+70.110.221.11 2 2 1614 20101024121909
+76.253.108.156 1 1 807 20101012130412
+68.114.118.94 1 1 807 20101008012600
+24.79.17.116 1 1 807 20101018195107
+94.173.177.154 1 1 807 20101016105317
+75.110.191.215 1 1 807 20101012224424
+99.69.138.92 1 1 807 20101007192105
+166.205.9.203 2 2 1614 20101011223426
+122.167.123.139 1 1 807 20101020071806
+24.124.60.248 1 1 807 20101011155910
+67.58.207.168 2 2 1614 20101008094321
+68.197.252.8 1 1 807 20101018211015
+99.10.205.209 1 1 807 20101022151726
+27.32.228.150 1 1 807 20101031015158
+82.113.121.0 1 1 807 20101016164205
+173.76.126.156 1 1 807 20101028074657
+74.74.112.73 1 1 807 20101007182146
+70.208.165.252 1 1 807 20101027175334
+75.97.200.14 1 1 807 20101027202527
+67.162.98.218 1 1 807 20101014231704
+75.109.47.103 1 1 807 20101020155933
+98.226.184.234 1 1 807 20101019154004
+65.0.147.192 1 1 807 20101019183232
+66.87.0.87 1 1 807 20101014020440
+96.242.7.12 1 1 807 20101026182814
+69.112.142.69 2 2 1614 20101026125807
+137.85.6.135 1 1 807 20101015104847
+98.199.218.5 1 1 807 20101012203138
+184.77.191.38 1 1 807 20101026144721
+24.228.236.212 1 1 807 20101010162952
+68.173.23.67 1 1 807 20101018183413
+69.244.126.72 1 1 807 20101016213458
+130.127.46.209 1 1 807 20101022173343
+96.37.132.178 1 1 807 20101027083714
+96.25.25.116 1 1 807 20101015143150
+72.200.20.189 1 1 807 20101009073323
+64.132.0.250 1 1 807 20101015134642
+88.91.168.174 2 2 1614 20101027063257
+67.197.174.62 1 1 807 20101025011853
+66.205.90.226 1 1 807 20101026151524
+208.65.160.133 1 1 807 20101028200423
+68.174.80.185 1 1 807 20101027010856
+207.46.12.206 1 1 807 20101017002539
+99.23.227.15 1 1 807 20101020220701
+216.163.216.5 1 1 807 20101020062852
+166.205.11.16 1 1 807 20101020165459
+97.182.177.204 1 1 807 20101016154601
+216.104.15.130 8 8 62477 20101022164541
+68.37.218.193 1 1 807 20101030091830
+108.14.219.115 1 1 807 20101014143719
+24.123.28.31 1 1 807 20101010132451
+108.18.223.13 1 1 807 20101024092715
+68.37.14.8 1 1 807 20101020183743
+85.103.119.45 1 1 807 20101007110755
+72.81.7.160 1 1 807 20101028131151
+192.229.17.103 1 1 807 20101018074520
+173.218.25.188 1 1 807 20101024183058
+142.167.108.1 1 1 807 20101015201427
+166.137.8.102 1 1 807 20101015150311
+74.249.214.188 1 1 807 20101024102320
+205.188.116.8 0 1 4038 
+166.137.138.11 1 1 807 20101011203135
+68.225.14.22 1 1 807 20101009223035
+90.227.117.192 1 1 807 20101027083629
+70.23.99.9 1 1 807 20101029172025
+118.116.99.147 1 1 807 20101031200240
+24.26.229.144 1 1 807 20101010172639
+209.191.87.218 2 2 12792 20101018142149
+74.176.193.25 1 1 807 20101026055328
+85.72.48.212 1 1 807 20101008140107
+24.29.206.190 1 1 807 20101008072004
+173.16.233.162 1 1 807 20101008000613
+71.116.38.248 1 1 807 20101013144157
+211.30.29.133 1 1 807 20101028205133
+98.230.213.199 1 1 807 20101026174538
+74.212.168.10 2 2 1614 20101025162813
+76.178.62.34 1 1 807 20101029190836
+68.200.109.170 1 1 807 20101010113812
+66.82.162.11 1 1 807 20101014085045
+74.101.244.237 1 1 807 20101028091848
+174.50.44.238 1 1 807 20101014003946
+66.30.4.215 1 1 807 20101015233929
+66.114.39.244 1 1 807 20101020185815
+72.66.242.214 1 1 807 20101017213500
+67.226.230.244 1 1 807 20101024112024
+69.162.137.132 1 1 807 20101014123238
+69.171.168.16 1 1 807 20101026223702
+72.83.94.157 1 1 807 20101025144018
+74.47.212.213 1 1 807 20101009055737
+68.219.64.57 1 1 807 20101012051712
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20101005 8 48 480562 3
+20101006 80 507 943993 2
+20101007 369 837 2065719 134
+20101008 267 516 1736011 122
+20101009 135 135 108945 124
+20101010 163 163 137130 143
+20101011 174 199 1304165 140
+20101012 176 199 1143732 153
+20101013 159 165 590303 154
+20101014 427 923 7308476 139
+20101015 133 148 1059690 123
+20101016 127 143 608422 116
+20101017 161 193 1637565 127
+20101018 184 265 3507015 132
+20101019 939 1695 18030478 165
+20101020 1052 1980 20644184 168
+20101021 528 1290 5893079 157
+20101022 293 539 6585807 157
+20101023 137 184 507622 108
+20101024 167 213 417746 143
+20101025 314 658 8675110 174
+20101026 403 592 7241945 218
+20101027 200 290 2656264 147
+20101028 194 333 3252276 155
+20101029 161 220 540707 142
+20101030 137 137 127142 100
+20101031 165 168 733835 114
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 20
+5mn-15mn 45
+2mn-5mn 52
+30s-2mn 46
+15mn-30mn 35
+0s-30s 3337
+30mn-1h 25
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 111
+/includes/cookie_control.php 3761 3034328 3362 3370
+//index.php 216 1366312 9 17
+/articles/index.php 195 4353207 1 2
+/store/index.php 189 2382188 9 17
+/ 184 1475252 86 25
+/about/index.php 184 1538875 8 12
+/index.php 168 969228 4 4
+/login.php 161 1164398 0 3
+/faqs/index2.php 159 1437134 3 2
+/articles/article.php 143 1490070 2 2
+/warnings/index.php 122 1094675 4 10
+/store/cart.php 111 1056576 0 8
+/supplement-facts/index.php 110 1211640 4 14
+/admin/index2.php 106 872634 7 15
+/newsletters/index.php 102 926654 6 6
+/directions/index.php 95 831040 3 10
+/faqs/index.php 92 1220863 1 0
+/admin/ 79 290910 34 1
+/admin/content_admin2.php 74 1837916 0 0
+/contact/index.php 73 1570785 3 7
+/store/product.php 70 882237 2 4
+/admin/content_admin2_edit.php 69 1188736 0 0
+/admin/faqs_admin2.php 57 961756 0 0
+/admin/products_admin3.php 54 607820 0 0
+/admin/contact_us_admin.php 40 280926 0 3
+/admin/email_lists_admin.php 1 6087 0 0
+/cgi-sys/defaultwebpage.cgi 4 13332 1 0
+/admin/content_admin7.php 12 208540 0 0
+/admin/retailers_admin14.php 1 13429 0 0
+/admin/reports_admin_r.php 1 8752 0 0
+/includes/login.php 2 2096 0 0
+/admin/products_admin8.php 1 12710 0 0
+/admin/content_admin4.php 3 19113 0 0
+/admin/contact_us_admin5.php 3 20596 0 0
+/admin/index.php 8 30999 1 1
+/admin/products_admin5.php 38 397763 0 0
+/articles/inetekk1.php 1 3611 0 0
+/admin/products_admin10.php 3 26395 0 0
+/about/privacy_security.php 18 268296 1 1
+/store/product_list.php 5 42086 0 0
+/admin/lynkstation_admin.php 1 9231 0 0
+/admin/faqs_admin.php 7 43078 0 0
+/admin/contact_us_admin2.php 18 124418 0 3
+/admin/products_admin7_edit.php 2 26473 0 0
+/admin/hosting_admin.php 4 20003 0 0
+/includes/foot_wc_hard1.php 1 2314 0 0
+/admin/meta_tags_admin.php 1 6267 0 0
+/includes/ 8 72794 3 0
+/store/product_category.php 3 29847 1 1
+/includes/foot_wc2.php 2 3780 0 0
+/includes/reps_head1.php 1 1221 0 0
+/admin/contact_us_admin5_edit.php 2 15360 0 1
+/admin/retailers_admin8.php 2 25993 0 0
+/customer/update_customer.php 14 477516 0 2
+/includes/mysql_connect.php 1 0 0 0
+/admin/retailers_admin.php 34 766069 0 2
+/admin/products_admin2.php 22 324382 0 0
+/store/shipping.php 4 34949 0 0
+/admin/wms_users_admin2_edit.php 2 25136 0 0
+/admin/content_admin.php 31 191598 0 0
+//store/ 1 11518 1 0
+/findretailer/index.php 13 80356 0 0
+/admin/retailers_admin2.php 2 29827 0 0
+/admin/retailers_admin9.php 21 276263 0 7
+/admin/products_admin7.php 6 58590 0 0
+/store/ 14 173154 2 3
+/admin/leads_admin.php 1 19707 0 0
+/admin/shipping_admin2.php 3 30335 0 0
+/admin/content_admin5.php 3 48042 0 0
+/admin/retailers_admin5.php 1 13414 0 0
+/includes/calendar.php 1 7392 0 0
+/articles/ 2 13768 0 0
+/admin/reports_admin.php 1 7270 0 0
+/includes/foot_txt1.php 1 1167 0 0
+//store/index.php 1 12680 0 0
+/newsletters/index2.php 3 23385 0 0
+/admin/products_admin3_edit.php 38 596734 0 0
+/newsletters/thanks.php 2 13248 0 0
+/admin/shipping_admin4.php 12 82325 0 0
+/admin/products_admin2_edit.php 15 174006 0 0
+/includes/main3.php 2 1096 0 0
+/newsletters/unsubscribe.php 5 44444 0 0
+/links/index.php 14 85090 0 0
+/admin/testimonials_admin.php 1 7283 0 0
+/admin/content_admin7_edit.php 1 16439 0 0
+/admin/inventory_admin.php 2 31739 0 0
+/admin/shipping_admin5.php 1 5921 0 0
+/admin/shipping_admin9.php 1 9564 0 1
+/includes/foot_admin1.php 2 0 0 0
+/admin/retailers_admin4.php 10 463243 0 1
+/admin/members_admin.php 7 43961 0 0
+/images/ 15 463841 0 1
+/includes/head_wc_hard1.php 1 2185 0 0
+/admin/faqs_admin4.php 2 19319 0 0
+/admin/faqs_admin3.php 38 311329 0 0
+/contact/thanks.php 4 28560 0 0
+/admin/members_admin2_edit.php 1 37278 0 0
+/admin/members_admin2.php 3 83938 0 0
+/admin/wms_users_admin.php 3 17933 0 0
+/admin/products_admin.php 27 219578 0 0
+/admin/retailers_admin7.php 8 110907 0 0
+/admin/shipping_admin.php 40 475679 1 2
+/customer/customer_history.php 4 34666 1 0
+/c_forget_uandp.php 1 1761 0 0
+/admin/wms_users_admin2.php 3 57050 0 0
+/admin/faqs_admin5.php 4 39644 0 0
+/admin/products_admin4.php 8 107522 0 0
+/includes/retailer1.php 1 524 0 0
+/admin/contact_us_admin2_edit.php 6 45580 0 1
+/admin/retailers_admin3.php 2 103145 0 1
+/admin/faqs_admin2_edit.php 20 217563 0 0
+END_SIDER

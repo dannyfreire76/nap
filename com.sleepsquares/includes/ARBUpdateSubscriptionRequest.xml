@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ARBUpdateSubscriptionRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+    <merchantAuthentication>
+        <name>{merchant_name}</name>
+        <!-- 28YF5q4pFUr -->
+        <transactionKey>{merchant_transactionKey}</transactionKey>
+        <!-- 67qhe99TBP6769rA -->
+    </merchantAuthentication>
+    <refId>{refId}</refId>
+    <subscriptionId>{subscriptionId}</subscriptionId>
+    <subscription>
+        <name>{subscription_name}</name>
+        <paymentSchedule>
+            <startDate>{startDate}</startDate>
+            <!-- 2011-06-25 -->
+            <totalOccurrences>{totalOccurrences}</totalOccurrences>
+            <!--<trialOccurrences>1</trialOccurrences>-->
+        </paymentSchedule>
+        <amount>{amount}</amount>
+        <!-- 1.00 -->
+        <!--<trialAmount>4.95</trialAmount>-->
+        <payment>
+            <creditCard>
+                <cardNumber>{cardNumber}</cardNumber>
+                <!-- 4495012533512520 -->
+                <expirationDate>{expirationDate}</expirationDate>
+                <!-- 2013-09 -->
+            </creditCard>
+        </payment>
+        <billTo>
+            <firstName>{bill_firstName}</firstName>
+            <lastName>{bill_lastName}</lastName>
+            <address>{bill_address}</address>
+            <city>{bill_city}</city>
+            <state>{bill_state}</state>
+            <zip>{bill_zip}</zip>
+            <country>{bill_country}</country>
+        </billTo>
+        <shipTo>
+            <firstName>{ship_firstName}</firstName>
+            <lastName>{ship_lastName}</lastName>
+            <address>{ship_address}</address>
+            <city>{ship_city}</city>
+            <state>{ship_state}</state>
+            <zip>{ship_zip}</zip>
+            <country>{ship_country}</country>
+        </shipTo>
+    </subscription>
+</ARBUpdateSubscriptionRequest>

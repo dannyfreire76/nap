@@ -1,0 +1,27 @@
+--- 
+__version: '2.1'
+sleepsquares.com: 
+  account_count: 5
+  accounts: 
+    info: 
+      disk_mtime: '1299695063'
+      diskquota: 262144000
+      diskused: 244678
+    jeff: 
+      disk_mtime: '1299695063'
+      diskquota: 262144000
+      diskused: 9386840
+    nancy: 
+      disk_mtime: '1299695063'
+      diskquota: 262144000
+      diskused: 5826460
+    sales: 
+      disk_mtime: '1299695063'
+      diskused: 1496352
+    webmaster: 
+      disk_mtime: '1299695063'
+      diskquota: 262144000
+      diskused: 44085
+  disk_mtime: '1299695063'
+  passwd_mtime: '1299695063'
+  quota_mtime: '1299695063'

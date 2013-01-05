@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<createCustomerPaymentProfileRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+    <merchantAuthentication>
+        <name>{merchant_name}</name>
+        <!-- 28YF5q4pFUr -->
+        <transactionKey>{merchant_transactionKey}</transactionKey>
+        <!-- 67qhe99TBP6769rA -->
+    </merchantAuthentication>
+    <customerProfileId></customerProfileId>
+    <paymentProfile>
+        <customerType>individual</customerType>
+        <!-- individual or business -->
+        <billTo>
+            <firstName>{bill_firstName}</firstName>
+            <lastName>{bill_lastName}</lastName>
+            <address>{bill_address}</address>
+            <city>{bill_city}</city>
+            <state>{bill_state}</state>
+            <zip>{bill_zip}</zip>
+            <country>{bill_country}</country>
+            <phoneNumber>{bill_phoneNumber}</phoneNumber>
+        </billTo>
+        <payment>
+            <creditCard>
+                <cardNumber>{cardNumber}</cardNumber>
+                <!-- 4495012533512520 -->
+                <expirationDate>{expirationDate}</expirationDate>
+                <!-- 2013-09 -->
+            </creditCard>
+        </payment>
+    </paymentProfile>
+</createCustomerPaymentProfileRequest>

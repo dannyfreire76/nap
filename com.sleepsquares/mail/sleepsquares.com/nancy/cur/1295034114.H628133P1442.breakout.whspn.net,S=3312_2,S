@@ -1,0 +1,63 @@
+Return-path: <serveradmin@eland.us>
+Envelope-to: nancy@sleepsquares.com
+Delivery-date: Fri, 14 Jan 2011 12:41:54 -0700
+Received: from cl03.gs01.gridserver.com ([64.13.192.12])
+	by breakout.whspn.net with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69)
+	(envelope-from <serveradmin@eland.us>)
+	id 1PdpX0-0000Mj-I5
+	for nancy@sleepsquares.com; Fri, 14 Jan 2011 12:41:54 -0700
+Received: from eland.us by cl03.gs01.gridserver.com with local (Exim 4.63)
+	(envelope-from <serveradmin@eland.us>)
+	id 1PdpWv-0000wd-5B
+	for nancy@sleepsquares.com; Fri, 14 Jan 2011 11:41:49 -0800
+X-MT-MESSAGEID: W2Ti9BLE4vQSxOL0E=
+To: nancy@sleepsquares.com
+Subject: Thank you for your order
+From: Orders <orders@eland.us>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary = HTMLSTUFF4d30a6fd06509
+Message-Id: <E1PdpWv-0000wd-5B@cl03.gs01.gridserver.com>
+Date: Fri, 14 Jan 2011 11:41:49 -0800
+
+--HTMLSTUFF4d30a6fd06509
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: base64
+
+dGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKCWJvcmRlci1zcGFjaW5nOiAwcHg7
+Cn0KdGFibGUgdGR7Cglib3JkZXItYm90dG9tOiAxcHggZG90dGVkICMzMzM7CglwYWRkaW5nLWJv
+dHRvbTogM3B4OwoJYmFja2dyb3VuZC1jb2xvcjogI2Y1ZjVmNTsKfQoKCgoKCkNvbmZpcm1hdGlv
+biAjOiAyNjQyLTM0MDE0NzUzNTUKT3JkZXIgIzogMjE5NwpPcmRlciBkYXRlOiAwMS8xNC8yMDEx
+CgoKCk5hbmN5IE11cnJheQpTbHVtYmVybGFuZCBTbmFja3MKUC5PLiBCb3ggMzgxOAoKSXRoYWNh
+LCBOWSAxNDg1MgoKCgpJdGVtcyBPcmRlcmVkOgoKMSBIYW5kaGVsZCBMZWFkIFNjYW5uZXIgZm9y
+IDIwMTEgSG90ZWwsIE1vdGVsICZhbXA7IFJlc3RhdXJhbnQgU3VwcGx5IFNob3cmIzM2OzE1MC4w
+MAoKCgoKCkFtb3VudCBQYWlkJDE1MC4wMAoKCgoKVGhhbmsgeW91LAoKRWxhbmQgJiBBc3NvY2lh
+dGVzLCBMTEMKOTMgR2xlbndvb2QgUm9hZApQLk8uIEJveCA3MzYKR2xlbndvb2QgTGFuZGluZywg
+TlkgMTE1NDc=
+
+
+--HTMLSTUFF4d30a6fd06509
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: base64
+
+CjxodG1sPgo8Ym9keT4KCjxzdHlsZT4KdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBz
+ZTsKCWJvcmRlci1zcGFjaW5nOiAwcHg7Cn0KdGFibGUgdGR7Cglib3JkZXItYm90dG9tOiAxcHgg
+ZG90dGVkICMzMzM7CglwYWRkaW5nLWJvdHRvbTogM3B4OwoJYmFja2dyb3VuZC1jb2xvcjogI2Y1
+ZjVmNTsKfQo8L3N0eWxlPgoKPGZvbnQgZmFjZT0idmVyZGFuYSwgaGVsdmV0aWNhLCBzYW5zLXNl
+cmlmIiBzaXplPSIyIj4KCjxwPgpDb25maXJtYXRpb24gIzogMjY0Mi0zNDAxNDc1MzU1PGJyLz4K
+T3JkZXIgIzogMjE5Nzxici8+Ck9yZGVyIGRhdGU6IDAxLzE0LzIwMTEKPC9wPgoKPHA+Ck5hbmN5
+IE11cnJheTxici8+ClNsdW1iZXJsYW5kIFNuYWNrczxici8+ClAuTy4gQm94IDM4MTgKPGJyLz4K
+SXRoYWNhLCBOWSAxNDg1MjwvcD4KCjwhLS1ociBub3NoYWRlIHNpemU9IjEiLy0tPgoKPHA+SXRl
+bXMgT3JkZXJlZDo8L3A+Cjx0YWJsZSB3aWR0aD0iODAlIj4KPHRyPjx0ZCBzdHlsZT0iYm9yZGVy
+LWJvdHRvbToxcHggZG90dGVkICMzMzM7cGFkZGluZzozcHggMCAzcHggMCI+MSBIYW5kaGVsZCBM
+ZWFkIFNjYW5uZXIgZm9yIDIwMTEgSG90ZWwsIE1vdGVsICZhbXA7IFJlc3RhdXJhbnQgU3VwcGx5
+IFNob3c8L3RkPjx0ZCBhbGlnbj0icmlnaHQiIHN0eWxlPSJib3JkZXItYm90dG9tOjFweCBkb3R0
+ZWQgIzMzMztwYWRkaW5nOjNweCAwIDNweCAwIj4mIzM2OzE1MC4wMDwvdGQ+PC90cj4KPC90YWJs
+ZT4KCjxici8+Cgo8dGFibGUgd2lkdGg9IjgwJSI+Cjx0cj48dGQgc3R5bGU9ImJvcmRlci1ib3R0
+b206MXB4IGRvdHRlZCAjMzMzO3BhZGRpbmc6M3B4IDAgM3B4IDAiPkFtb3VudCBQYWlkPC90ZD48
+dGQgYWxpZ249InJpZ2h0IiBzdHlsZT0iYm9yZGVyLWJvdHRvbToxcHggZG90dGVkICMzMzM7cGFk
+ZGluZzozcHggMCAzcHggMCI+PGI+JDE1MC4wMDwvYj48L3RkPjwvdHI+CjwvdGFibGU+Cgo8YnIv
+PgoKPHA+VGhhbmsgeW91LDwvcD4KCjxwPkVsYW5kICYgQXNzb2NpYXRlcywgTExDPGJyLz4KOTMg
+R2xlbndvb2QgUm9hZDxici8+ClAuTy4gQm94IDczNjxici8+CkdsZW53b29kIExhbmRpbmcsIE5Z
+IDExNTQ3PC9wPgoKPC9mb250Pgo8L2JvZHk+CjwvaHRtbD4KCg==
+

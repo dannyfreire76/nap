@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<updateCustomerPaymentProfileRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>28YF5q4pFUr</name>
+    <transactionKey>67qhe99TBP6769rA</transactionKey>
+  </merchantAuthentication>
+  <customerProfileId></customerProfileId>
+  <paymentProfile>
+    <customerType>individual</customerType>  <!-- individual or business -->
+    <billTo></billTo>
+    <payment>
+      <creditCard>
+        <cardNumber>4111111111111111</cardNumber>
+        <expirationDate>2009-02</expirationDate>
+      </creditCard>
+    </payment>
+    <customerPaymentProfileId></customerPaymentProfileId>
+  </paymentProfile>
+</updateCustomerPaymentProfileRequest>
